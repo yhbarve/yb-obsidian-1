@@ -157,13 +157,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "095612f718b0b9a3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,9 +183,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9cde6cba1298fb8",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": []
 }

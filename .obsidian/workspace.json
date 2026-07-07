@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "1d843e5cbe99dfa7",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "2a3aedc123f2328c",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "c9cde6cba1298fb8",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -167,6 +167,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "91d8c06f999ae45d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 5
@@ -184,9 +194,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "351d2f5929c8d7ca",
-  "lastOpenFiles": []
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Writings/Writings Base.base",
+    "Writings/AI Dating Platforms.md",
+    "Writings/Untitled.md",
+    "Templates/Daily Note Template.md",
+    "Templates",
+    "Tasks"
+  ]
 }

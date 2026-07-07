@@ -3,7 +3,7 @@ date:
 tags:
   - tasks
 ---
-# To-dos
+# Todos
 
  - - -
 # Notes

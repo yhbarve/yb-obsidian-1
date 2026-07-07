@@ -1,5 +1,7 @@
 ---
 date:
+tags:
+  - tasks
 ---
 # To-dos
 

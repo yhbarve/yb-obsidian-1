@@ -11,12 +11,14 @@
             "id": "663a9792f8c4a8d8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf"
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A1/CS459 Assignment 01.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CS459 Assignment 02 Spec"
+              "icon": "lucide-file",
+              "title": "CS459 Assignment 01"
             }
           }
         ]
@@ -94,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -235,6 +237,9 @@
   },
   "active": "663a9792f8c4a8d8",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf",
+    "Untitled.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
     "Tasks/20260708.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q2/README.md",

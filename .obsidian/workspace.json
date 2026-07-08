@@ -11,10 +11,12 @@
             "id": "663a9792f8c4a8d8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CS459 Assignment 02 Spec"
             }
           }
         ]
@@ -231,20 +233,20 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "351d2f5929c8d7ca",
+  "active": "663a9792f8c4a8d8",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
+    "Tasks/20260708.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q2/README.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q2",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q1/README.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q1",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-kerberos.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/CS459 Assignment 02 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI",
     "Tasks/20260707.md",
-    "Tasks/20260708.md",
     "Templates/Daily Note Template.md",
     "Tasks/20260709.md",
     "Writings/Website Chat with Fable 5.md",

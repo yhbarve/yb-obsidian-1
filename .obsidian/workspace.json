@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "CS459 Assignment 02 - Yash Barve"
             }
+          },
+          {
+            "id": "6beac59457cbb34b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CS459 Assignment 02 Spec"
+            }
           }
         ]
       }

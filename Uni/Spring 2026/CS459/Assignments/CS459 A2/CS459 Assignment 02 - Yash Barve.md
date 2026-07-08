@@ -8,5 +8,5 @@ Name: **Yash Harshal Barve**
 Email: yhbarve@uwaterloo.ca
 Student ID: **20930353**
 - - -
-**Q3.**
-- (a): 
+**Q3 (a): Replay Attack**
+- Countered using sequence numbers.

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f861c5a9a648e8e",
+        "id": "ac9ba30505ba0a03",
         "type": "tabs",
         "children": [
           {
-            "id": "f5646750569ff870",
+            "id": "663a9792f8c4a8d8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -202,20 +202,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/20260707.md",
+                "file": "Tasks/20260708.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "20260707"
+              "title": "20260708"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,12 +234,14 @@
   "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
     "Tasks/20260707.md",
+    "Tasks/20260708.md",
+    "Templates/Daily Note Template.md",
+    "Tasks/20260709.md",
     "Writings/Website Chat with Fable 5.md",
     "README.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02.md",
     "Uni/Spring 2026/Final Exam Planning.md",
-    "Templates/Daily Note Template.md",
     "Writings/Writings Base.base",
     "Writings/AI Dating Platforms.md",
     "Writings/Untitled.md",

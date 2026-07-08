@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dcaa77d3e2ce3631",
+        "id": "4f861c5a9a648e8e",
         "type": "tabs",
         "children": [
           {
-            "id": "dd58b265f1e2cd41",
+            "id": "f5646750569ff870",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -231,14 +231,15 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "dd58b265f1e2cd41",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
     "Tasks/20260707.md",
+    "Writings/Website Chat with Fable 5.md",
+    "README.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02.md",
     "Uni/Spring 2026/Final Exam Planning.md",
     "Templates/Daily Note Template.md",
-    "Writings/fable-5-chat.md",
     "Writings/Writings Base.base",
     "Writings/AI Dating Platforms.md",
     "Writings/Untitled.md",

@@ -1,5 +1,12 @@
 ---
 tags:
   - cs459
+  - uni
+  - s26
 ---
-# CS459 Assignment 02 - Yash Barve
+Name: **Yash Harshal Barve**
+Email: yhbarve@uwaterloo.ca
+Student ID: **20930353**
+- - -
+**Q3.**
+- (a): 

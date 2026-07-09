@@ -8,6 +8,7 @@ Name: **Yash Harshal Barve**
 Email: yhbarve@uwaterloo.ca
 Student ID: **20930353**
 - - -
+### Question 01
 **Q1 (a)**
 - All the four packets are permitted, as described in the following table.
 
@@ -45,3 +46,21 @@ Student ID: **20930353**
 | 5      | In        | 10.1.2.3    | 172.16.3.4  | TCP      | 5150     | 8080      | Deny   | E    |
 | 6      | Out       | 172.16.3.4  | 10.1.2.3    | TCP      | 8080     | 5150      | Deny   | E    |
 - - -
+### Question 02
+**Q2 (a)**
+- The application server verifies the client by decrypting the service ticket using its own secret share key to extract the session key.
+- It then uses the session key to decrypt the client's authenticator, which contains a timestamp and the client ID.
+- If the client ID matches and the timestamp is fresh, authenticity is proven.
+- - -
+**Q2 (b)**
+- The authentication server encrypts TGT using the secret key $K_{TGS}$ of the ticket granting server.
+- The client or any outside adversary does not have access to $K_{TGS}$.
+- Therefore, any alteration to the TGT will corrupt the data, causing decryption to fail at the TGS stage.
+- - -
+**Q2 (c)**
+- The Kerberos protocol uses an authenticator containing the current timestamp.
+- The server checks this timestamp against its local clock, and if the message window is outside an acceptable range, the packet is dropped
+- Additionally, servers maintain a replay cache within that time range to catch duplicate messages.
+- - -
+**Q2 (d)**
+- 

@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "11676e4a4c3923cd",
+        "id": "2895a8be5b516f25",
         "type": "tabs",
         "children": [
           {
-            "id": "6630a2e29f9d01fd",
+            "id": "2af7007467494635",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf"
+                "file": "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CS459 A03 Spec"
+              "icon": "lucide-file",
+              "title": "BU419 Case 03"
             }
           }
         ]
@@ -232,10 +234,12 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "6630a2e29f9d01fd",
+  "active": "2af7007467494635",
   "lastOpenFiles": [
-    "Tasks/20260709.md",
+    "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
+    "Uni/Spring 2026/BU419/BU419 Cases",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
+    "Tasks/20260709.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/CS459 Assignment 02 - Yash Barve.pdf",
@@ -246,7 +250,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/recovered",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/get-artifact",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered.jpeg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-website-fingerprinting.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",

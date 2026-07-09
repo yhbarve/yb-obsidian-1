@@ -11,10 +11,12 @@
             "id": "2f58d59b1de91410",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CS459 Assignment 02 Spec"
             }
           }
         ]
@@ -233,6 +235,9 @@
   },
   "active": "2f58d59b1de91410",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files.zip",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/Unconfirmed 57900.crdownload",
     "Tasks/20260709.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
     "Tasks/20260708.md",
@@ -251,7 +256,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q1",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/CS459 Assignment 02 Spec.pdf",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI",
     "Tasks/20260707.md",
     "Templates/Daily Note Template.md",
     "Writings/Website Chat with Fable 5.md",
@@ -259,7 +263,6 @@
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02.md",
     "Uni/Spring 2026/Final Exam Planning.md",
-    "Writings/Writings Base.base",
     "Writings/AI Dating Platforms.md",
     "Writings/Untitled.md"
   ]

@@ -83,4 +83,9 @@ Student ID: **20930353**
 - This would cause the final session key to mismatch, forcing the target to terminate the connection.
 - - -
 **(b)**
+- Man-in-the-middle attacks are blocked during the TLS handshake via asymmetric authentication using PKI and CAs.
+- The server transmits its digital server certificate and signature directly to the browser. The client passes the certificate chain and verifies that the host name matches the requested URL.
+- The server must also sign all handshake messages using its private key corresponding to the verification key in the certificate.
+- An adversary cannot replicate the signature without having the server's private key. This prevents any man-in-the-middle attacks.
+- - - 
 - 

@@ -17,8 +17,18 @@ from tqdm import tqdm
 def extract(times, sizes):
     features = []
 
-    # Total number of cells in sequence
-    features.append(len(times))
+    total_cells = len(times)
+    outgoing_cells = sum(1 for s in sizes if s == 1)
+    incoming_cells = sum(1 for s in sizes if s == -1)
+    longest_sequence = max(sizes) if sizes else 0
+    shortest_sequence = min(sizes) if sizes else 0
+    average_sequence = sum(sizes) / len(sizes) if sizes else 0
+    trace_duration = times[-1] - times[0]
+
+    # Append features
+    features.append(total_cells)
+    features.append(outgoing_cells)
+    features.append(incoming_cells)
 
     return features
 

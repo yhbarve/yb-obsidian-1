@@ -20,7 +20,13 @@
               "icon": "lucide-file",
               "title": "CS459 Assignment 02 - Yash Barve"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b714f62a76bf0fbe",
+        "type": "tabs",
+        "children": [
           {
             "id": "6beac59457cbb34b",
             "type": "leaf",

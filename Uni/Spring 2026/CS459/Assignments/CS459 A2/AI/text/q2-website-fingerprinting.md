@@ -2,85 +2,77 @@
 
 ### (a) New Features
 
-I improved the closed-world website fingerprinting attack by extending the feature set in `A2 Files/p-q2/code/fextractor.py`. The main goal was to move beyond simple total-cell counts and capture multiple aspects of each Tor trace: overall traffic volume, early-page behavior, timing structure, direction ordering, and burst/run patterns.
+I improved the closed-world website fingerprinting attack by extending the `extract()` function in `A2 Files/p-q2/code/fextractor.py`. The starter code used a single feature (the total number of cells), which only captures coarse page size. My goal was to describe each Tor cell sequence along several independent axes: overall traffic volume, direction balance, behavior in different phases of the page load, the order in which requests and responses appear, timing rhythm, and burst structure.
 
-The strongest improvements came from adding features that describe the beginning of the trace and the temporal structure of the cell sequence. Intuitively, many websites have distinctive startup behavior when loaded through Tor, and that behavior remains partially visible even though the payload contents are encrypted.
+The key intuition is that even though Tor encrypts the content and hides the destination, it preserves the *timing and direction* of cells to keep browsing interactive. Those patterns leak the "shape" of a page load, and different websites have distinctive shapes.
 
-### Feature Categories and Rationale
+I deliberately kept the final feature set small (13 features) and removed features that were strongly correlated with one another, so that each remaining feature contributes distinct information and can be explained on its own.
 
-| Feature category | Example features | Why it helps accuracy |
-| --- | --- | --- |
-| Global traffic size and directionality | `total_cells`, `trace_duration`, `outgoing_fraction`, `normalized_switches` | Different websites generate different total amounts of traffic, finish in different amounts of time, and exhibit different levels of back-and-forth interaction. |
-| Early-window traffic summaries | counts in the first 20, 30, and 50 cells | The beginning of a page load often contains a distinctive request/response pattern. Measuring early outgoing and incoming activity helps distinguish websites before the rest of the trace unfolds. |
-| Mid/late-window summaries | counts in middle and ending windows | Some sites remain active later in the trace while others finish quickly. These features capture how the traffic evolves after the initial startup phase. |
-| Direction-order features | cells before first incoming, cells before first outgoing | These features describe how the trace begins structurally, e.g. whether it starts with a burst of outgoing requests or early incoming responses. |
-| Timing features | `mean_gap`, `max_gap`, `gap_std`, `prefix_duration_ratio` | Even though Tor encrypts content, the pacing of cells still leaks information. Gap statistics capture burstiness and loading rhythm. |
-| Burst/run-length features | longest outgoing run, longest incoming run, run-length ratios | Consecutive streaks of incoming or outgoing cells describe traffic burst structure, which can vary meaningfully across websites. |
+### Final Feature Set and Rationale
 
-### Iterative Feature Development
+| # | Feature | Category | How it helps accuracy |
+| --- | --- | --- | --- |
+| 1 | `total_cells` | Volume | Different sites transfer different total amounts of data, so overall size is a strong first discriminator. |
+| 2 | `trace_duration` | Volume/timing | Some pages finish loading quickly while others take much longer; total elapsed time separates them. |
+| 3 | `outgoing_fraction` | Directionality | Fraction of cells that are outgoing. Captures whether a page is interaction/request-heavy or content-heavy. Kept as a bounded value in [0, 1], which behaves better in the distance-based k-NN than an unbounded outgoing/incoming ratio. |
+| 4 | `normalized_switches` | Directionality | Direction switches divided by total cells. Measures how "chatty" (back-and-forth) the exchange is, independent of trace length. |
+| 5 | `first20_outgoing_cells` | Early window | Size of the initial request burst at the very start of the load, which reflects how a page bootstraps. |
+| 6 | `first50_incoming_cells` | Early window | How much content the server pushes back early in the load. |
+| 7 | `mid_incoming_cells` | Mid window | How much content is still streaming in the middle of the load (cells 30–100), separating quick pages from content-heavy ones. |
+| 8 | `last50_outgoing_cells` | Late window | Whether the client is still issuing requests near the end of the load. |
+| 9 | `outgoing_before_first_incoming` | Direction order | Number of outgoing (request) cells sent before the first incoming (response) cell arrives, describing the page's startup handshake structure. |
+| 10 | `mean_gap` | Timing | Average inter-arrival time between cells, capturing the overall pacing of the load. |
+| 11 | `gap_std` | Timing | Standard deviation of inter-arrival times, capturing burstiness vs. a steady stream. |
+| 12 | `longest_outgoing_run` | Burst | Longest uninterrupted streak of outgoing cells (biggest request burst). |
+| 13 | `longest_incoming_run` | Burst | Longest uninterrupted streak of incoming cells (biggest content burst). |
 
-I developed the feature set incrementally and measured the effect of each change.
+### Removing Redundant Features
 
-1. **Baseline feature set:** total cells only / simple directional counts.  
-   This provided some signal, but the classifier accuracy was limited because these features only captured coarse traffic volume.
+While tuning, I found that several intuitive features were strongly correlated with others and did not add independent signal, so I removed them:
 
-2. **Added global timing and switching features:** trace duration, number of direction switches, directional ratios.  
-   This improved the classifier modestly, showing that coarse timing and interaction structure matter.
+- **`outgoing/incoming` counts alongside `outgoing_fraction`:** the raw counts and the fraction encode the same directional balance, so I kept only the bounded fraction.
+- **Paired direction counts inside a fixed window** (e.g. `first20_incoming_cells` when `first20_outgoing_cells` is present): within a fixed-size window the two are near-complements, so keeping both is redundant.
+- **`incoming_before_first_outgoing`:** Tor traces almost always begin with outgoing request cells, so this was nearly constant and carried little information.
+- **Run-length ratios** (`longest_run / total_cells`): derivable from features already in the set, so I kept only the raw run lengths.
 
-3. **Added early-window and order features:** prefix counts, prefix switching, prefix duration, and counts before the first opposite-direction cell.  
-   This gave a much larger improvement, suggesting that the startup phase of a trace is highly informative.
+### Iterative Development and the Size/Accuracy Trade-off
 
-4. **Added timing-shape and multi-window features:** gap statistics and multiple fixed windows across the trace.  
-   These features captured both pacing and multi-scale temporal structure, and they produced the best results overall.
+I built the feature set incrementally and measured accuracy (closed-world, `k = 5`) at each step. I also explored both larger and smaller sets to understand the trade-off between accuracy and simplicity:
 
-5. **Tested pruning:** I also experimented with a smaller feature set to remove overlap between similar early-window features.  
-   The reduced set was slightly cleaner, but it performed worse than the best larger set, which suggests that the weighted k-NN classifier benefited from keeping multiple scales of early and late traffic summaries.
+| Feature set size | Accuracy (k = 5) |
+| --- | --- |
+| 3 (basic counts) | 0.36 |
+| 8 | 0.40 |
+| 14 | 0.49 |
+| ~20 | 0.52 |
+| 33 | ~0.70 |
+| 24 | 0.68 |
+| 16 | 0.667 |
+| 10 | 0.63 |
+| **13 (final)** | **0.67** |
 
-### Best Feature Set and Accuracy
+A larger 33-feature set reached the highest raw accuracy (~70%), but many of those features overlapped and were hard to justify individually. Aggressively pruning to 10–11 features dropped accuracy to 60–63%. The final 13-feature set recovers essentially all of the accuracy of the larger sets (0.67) while remaining compact and easy to explain, which is why I selected it as my final set.
 
-My best-performing feature set used **33 features** in total. It combined:
+### (b) Best Feature Set and Influence of k
 
-- global size and directionality features
-- early-window traffic summaries
-- mid/late-window traffic summaries
-- direction-order features
-- timing-gap features
-- run-length features
-
-This multi-scale representation gave the best accuracy for the closed-world attack with `k = 5`.
-
-**Best `k = 5` accuracy:** `TODO_INSERT_FINAL_BEST_K5_ACCURACY`
-
-Note: during experimentation, a reduced 24-feature version achieved about `0.6811` accuracy, but the larger 33-feature set performed better and reached approximately `70%` accuracy.
-
-### (b) Influence of the Choice of k
-
-Using the best feature set, I then evaluated the classifier for several values of `k`.
+Using the final 13-feature set, I ran the closed-world attack for several values of `k`:
 
 | k | 1 | 2 | 5 | 10 | 15 |
 | --- | --- | --- | --- | --- | --- |
-| ACC | `TODO` | `TODO` | `TODO` | `TODO` | `TODO` |
+| ACC | 0.875 | 0.79 | 0.67 | 0.54 | 0.45 |
+
+**Best accuracy:** `0.875` at `k = 1`.
 
 ### Trend Analysis
 
-In general, changing `k` affects the balance between sensitivity to local neighbors and robustness to noise:
+Accuracy decreases monotonically as `k` increases, and is highest at `k = 1`. This happens because:
 
-- Smaller values such as `k = 1` usually make the classifier more sensitive to local variation in the data. This can sometimes help when the feature space is highly discriminative, but it can also overfit noisy or atypical traces.
-- Moderate values such as `k = 5` often provide a better balance by smoothing over noisy nearest neighbors while still preserving class structure.
-- Larger values such as `k = 10` or `k = 15` can become too coarse, because the vote includes more distant neighbors that may belong to other websites. This can reduce accuracy when class boundaries are already blurred.
+- With 100 monitored classes and 90 loads each, the feature set is discriminative enough that the *single* nearest neighbor of a test trace is usually another load of the same website. At `k = 1` the classifier simply trusts that closest match, which is correct most of the time.
+- As `k` grows, the majority vote pulls in neighbors that are further away. Because there are many classes and the per-class clusters are relatively tight, those additional neighbors increasingly belong to *other* websites and dilute the correct label. Each extra neighbor is more likely to add noise than to reinforce the right class.
+- By `k = 10` and `k = 15`, the vote is dominated by these more distant, wrong-class neighbors, so accuracy drops substantially (0.54 and 0.45).
 
-For my experiments, the best-performing value of `k` was `TODO_INSERT_BEST_K_VALUE`, with accuracy `TODO_INSERT_BEST_K_ACCURACY`.
-
-Overall, the results suggest that classifier performance depends heavily on the feature set, but once a strong feature set is available, moderate `k` values tend to work better than extremely small or extremely large ones.
+In short, for this closed-world setup the classification benefits from very local decisions, so small `k` performs best and larger `k` over-smooths across class boundaries. (Larger `k` values are typically more useful when classes overlap heavily or when the training data is noisy, which is not the dominant regime here.)
 
 ### Summary
 
-The most important finding from this exercise is that **feature engineering matters much more than the raw classifier choice in this setup**. The provided weighted k-NN classifier improved substantially once the feature set was extended to include:
-
-- traffic volume information
-- early-window traffic behavior
-- timing-gap summaries
-- ordering features
-- burst/run-length structure
-
-These additions increased the closed-world attack accuracy from a weak baseline to a strong final result, demonstrating that Tor still leaks useful traffic-shape information even when content is encrypted.
+The main takeaway is that feature engineering, not classifier complexity, drives performance in this setup. Extending the feature set from a single cell count to a compact set of 13 features spanning volume, directionality, phase-based window counts, direction ordering, timing rhythm, and burst structure raised closed-world accuracy from 0.36 to 0.67 at `k = 5`, and up to 0.875 at `k = 1`. This demonstrates that Tor still leaks substantial traffic-shape information even though it encrypts content and hides the destination.

@@ -110,11 +110,11 @@ Student ID: **20930353**
 ### Programming Question 02
 #### Feature Set Analysis
 
-|     | Feature | How does this feature increase accuracy? |
-| --- | ------- | ---------------------------------------- |
-| 1   | ``      |                                          |
-| 2   |         |                                          |
-| 3   |         |                                          |
-| 4   |         |                                          |
-| 5   |         |                                          |
+|     | Feature                  | How does this feature increase accuracy?                                                                      |
+| --- | ------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| 1   | `trace_duration`         | Some pages finish loading quickly while others take much longer                                               |
+| 2   | `outgoing_fraction`      | Captures whether a page is interaction-heavy or content-heavy.                                                |
+| 3   | `first50_incoming_cells` | How much content the server pushes back early in the load                                                     |
+| 4   | `longest_incoming_cells` | Longest streak of incoming cells indicates larger content bursts, which could indicate content-heavy websites |
+| 5   | `switches`               | Standard deviation of gap between cells. This                                                                 |
 

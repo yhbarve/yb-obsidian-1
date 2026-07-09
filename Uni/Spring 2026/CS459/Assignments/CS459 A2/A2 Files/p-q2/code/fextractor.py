@@ -62,21 +62,21 @@ def extract(times, sizes):
         gap_std = "X"
 
     # Burst and run-length features.
-    longest_outgoing_run = 0
-    longest_incoming_run = 0
-    current_outgoing_run = 0
-    current_incoming_run = 0
+    longest_outgoing_cells = 0
+    longest_incoming_cells = 0
+    current_outgoing_cells = 0
+    current_incoming_cells = 0
     for s in sizes:
         if s == 1:
-            current_outgoing_run += 1
-            current_incoming_run = 0
+            current_outgoing_cells += 1
+            current_incoming_cells = 0
         else:
-            current_incoming_run += 1
-            current_outgoing_run = 0
-        if current_outgoing_run > longest_outgoing_run:
-            longest_outgoing_run = current_outgoing_run
-        if current_incoming_run > longest_incoming_run:
-            longest_incoming_run = current_incoming_run
+            current_incoming_cells += 1
+            current_outgoing_cells = 0
+        if current_outgoing_cells > longest_outgoing_cells:
+            longest_outgoing_cells = current_outgoing_cells
+        if current_incoming_cells > longest_incoming_cells:
+            longest_incoming_cells = current_incoming_cells
 
     features = [
         # Global traffic size and directionality.
@@ -95,8 +95,8 @@ def extract(times, sizes):
         mean_gap,
         gap_std,
         # Burst / run-length features.
-        longest_outgoing_run,
-        longest_incoming_run,
+        longest_outgoing_cells,
+        longest_incoming_cells,
     ]
 
     return features

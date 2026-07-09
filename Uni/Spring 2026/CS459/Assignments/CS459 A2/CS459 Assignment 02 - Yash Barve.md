@@ -118,13 +118,24 @@ Student ID: **20930353**
 1. HTML Hex Color Encoding
 	- This is the primary steganographic technique employed in this case.
 	- After discovering the `/fishy` folder, I also saw GET requests made for 423 web documents named from `file0.html` to `file422.html`.
-	- 
+	- Each file contains exactly 10 styled elements containing hex attributes.
+	- If these hex attributes are concatenated, the resulting string is a raw binary byte stream representing a complete JPEG digital image.
 	- The `todo.txt` file also contains `Brush up on web colors - DONE`, which indicates the use of hex-color encoding.
 - - -
 **(c)**
-- We perform the following function:
-	- Extract the HEX codes from each of the 423 files.
-	- 
+- I performed the following function:
+	- Loop through each of the 423 files
+	- Pull the 10 hex codes in the exact order they appear
+	- Convert the hex characters into raw binary bytes
+		- Eg: `ffd8ff -> ff d8 ff`
+	- Append all the bytes into a single file stream
+- I wrote a script to do this for me. Here's what the script does:
+	- The script filters the packets for the TCP layer, Raw data payload, and 'Columbia Chronicles Draft' in the payload.
+		- The payload text was identified upon inspecting a few packets manually.
+	- To handle out of order arrival, I used a dictionary to order the data in the correct chronological order.
+	- For each file, a regular expression extracts the ten hex attributes, and removes the leading `#` symbol.
+	- The parsed hex characters are converted to binary bytes using the in-built `bytes.fromhex()` function.
+	- After all the packets are read, the script concatenates the bytes into a single stream and writes the final payload to the file `recovered_image.jpeg`.
 - - -
 ### Programming Question 02
 #### New Features

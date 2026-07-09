@@ -25,7 +25,7 @@ def extract(times, sizes):
     # Kept as a bounded (0..1) value, which behaves better than a raw ratio
     # in the distance-based k-NN classifier.
     outgoing_fraction = outgoing_cells / total_cells if total_cells else "X"
-    normalized_switches = direction_switches / total_cells if total_cells else "X"
+    switches = direction_switches / total_cells if total_cells else "X"
 
     # Early / mid / late window features (traffic in different load phases).
     first20_sizes = sizes[:20]
@@ -83,7 +83,7 @@ def extract(times, sizes):
         total_cells,
         trace_duration,
         outgoing_fraction,
-        normalized_switches,
+        switches,
         # Window-based traffic summaries (early / mid / late load phases).
         first20_outgoing_cells,
         first50_incoming_cells,

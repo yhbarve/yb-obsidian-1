@@ -108,7 +108,7 @@ Student ID: **20930353**
 - TLS relies on a TCP connection to send its own handshake messages. Therefore, in this case, TLS is unable to prevent SYN flooding.
 - - -
 ### Programming Question 02
-#### Feature Set Analysis
+#### New Features
 
 |     | Feature                  | How does this feature increase accuracy?                                                                      |
 | --- | ------------------------ | ------------------------------------------------------------------------------------------------------------- |
@@ -116,5 +116,31 @@ Student ID: **20930353**
 | 2   | `outgoing_fraction`      | Captures whether a page is interaction-heavy or content-heavy.                                                |
 | 3   | `first50_incoming_cells` | How much content the server pushes back early in the load                                                     |
 | 4   | `longest_incoming_cells` | Longest streak of incoming cells indicates larger content bursts, which could indicate content-heavy websites |
-| 5   | `switches`               | Standard deviation of gap between cells. This                                                                 |
-
+| 5   | `switches`               | Direction switches divided by total cells. Measures how much back-and-forth the exchange is.                  |
+#### Best Feature Set
+|     | Feature                          |
+| --- | -------------------------------- |
+| 1   | `total_cells`                    |
+| 2   | `trace_duration`                 |
+| 3   | `outgoing_fraction`              |
+| 4   | `switches`                       |
+| 5   | `first20_outgoing_cells`         |
+| 6   | `first50_incoming_cells`         |
+| 7   | `mid_incoming_cells`             |
+| 8   | `last50_outgoing_cells`          |
+| 9   | `outgoing_before_first_incoming` |
+| 10  | `mean_gap`                       |
+| 11  | `gap_std`                        |
+| 12  | `longest_outgoing_cells`         |
+| 13  | `longest_incoming_cells`         |
+The highest classification accuracy achieved ($k = 5$) = 0.67 = 67%
+#### Influence of Neighbours
+| k   | 1     | 2    | 5    | 10   | 15   |
+| --- | ----- | ---- | ---- | ---- | ---- |
+| ACC | 0.875 | 0.79 | 0.67 | 0.54 | 0.45 |
+- Accuracy decreases as $k$ increases.
+- As $k$ increases, the majority vote is affected by neighbours that are further away. These additional neighbours add more noise, diluting the correct label.
+- Therefore, accuracy drops as the number of neighbours increase.
+#### Note
+- `fextractor.py` is included in the submission file.
+- - -

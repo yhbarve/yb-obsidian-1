@@ -107,3 +107,4 @@ Student ID: **20930353**
 - In SYN flooding, the attacker sends a lot of TCP SYN packets but never completes the handshake. Because the TCP handshake is never finished, the connection is never fully established.
 - TLS relies on a TCP connection to send its own handshake messages. Therefore, in this case, TLS is unable to prevent SYN flooding.
 - - -
+### Programming Question 02

@@ -145,7 +145,9 @@ Student ID: **20930353**
 - The conclusive artifact is attached as part of the submission zip file.
 - The script `get-artifact` is also attached as part of the submission zip file. **The script is written in Python3.**
 - To run the script:
-	- ``
+	- `source .venv/bin/activate`
+	- `pip install scapy`
+	- `./get-artifact p-q1-capture.pcap`
 - - -
 ### Programming Question 02
 #### New Features

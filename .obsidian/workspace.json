@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b9946b046a562be0",
+        "id": "7cd028053cfb2ac4",
         "type": "tabs",
         "children": [
           {
-            "id": "2f58d59b1de91410",
+            "id": "d0632cfda5753efb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "7cd028053cfb2ac4",
+        "id": "339eeb1ce62fa1dc",
         "type": "tabs",
         "children": [
           {
-            "id": "d0632cfda5753efb",
+            "id": "13a29cb329e6b802",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 274.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -254,21 +253,23 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "2f58d59b1de91410",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered.jpeg",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/fextractor.py",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/recovered.jpeg",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/recovered",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/get-artifact",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/CS459 Assignment 02 - Yash Barve.pdf",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered.jpeg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-website-fingerprinting.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/res_k15.json",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/res_k10.json",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/res_k2.json",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/res_k1.json",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/data/features/86-82.features",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/data/features/86-81.features",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/data/features/86-80.features",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/data/features/86-79.features",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
@@ -294,7 +295,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-kerberos.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A1/CS459 Assignment 01.md",
-    "Untitled.md"
+    "Uni/Spring 2026/CS459/Assignments/CS459 A1/CS459 Assignment 01.md"
   ]
 }

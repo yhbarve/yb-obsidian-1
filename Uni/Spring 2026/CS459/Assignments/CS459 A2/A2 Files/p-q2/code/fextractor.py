@@ -15,19 +15,19 @@ from tqdm import tqdm
     # please replace its value with "X". It will be replaced later.
 
 def extract(times, sizes):
-    # Global traffic size and directionality.
+
+    # Global traffic size and directionality
     total_cells = len(times)
     outgoing_cells = sum(1 for s in sizes if s == 1)
     incoming_cells = sum(1 for s in sizes if s == -1)
     trace_duration = times[-1] - times[0] if times else "X"
     direction_switches = sum(1 for a, b in zip(sizes, sizes[1:]) if a != b)
-    # Fraction of cells that are outgoing: interaction-heavy vs content-heavy.
-    # Kept as a bounded (0..1) value, which behaves better than a raw ratio
-    # in the distance-based k-NN classifier.
+
+    # Fraction of cells that are outgoing: interaction-heavy vs content-heavy
     outgoing_fraction = outgoing_cells / total_cells if total_cells else "X"
     switches = direction_switches / total_cells if total_cells else "X"
 
-    # Early / mid / late window features (traffic in different load phases).
+    # Early / mid / late window features
     first20_sizes = sizes[:20]
     first50_sizes = sizes[:50]
     mid_sizes = sizes[30:100]
@@ -38,8 +38,7 @@ def extract(times, sizes):
     mid_incoming_cells = sum(1 for s in mid_sizes if s == -1)
     last50_outgoing_cells = sum(1 for s in last50_sizes if s == 1)
 
-    # Direction-order feature: how many outgoing (request) cells are sent
-    # before the first incoming (response) cell arrives.
+    # How many outgoing cells are sent before the first incoming cell arrives
     outgoing_before_first_incoming = "X"
     if sizes:
         seen_incoming = False
@@ -51,7 +50,7 @@ def extract(times, sizes):
             count += 1
         outgoing_before_first_incoming = count if seen_incoming else "X"
 
-    # Inter-arrival timing features.
+    # Timing features
     gaps = [t2 - t1 for t1, t2 in zip(times, times[1:])]
     if gaps:
         mean_gap = sum(gaps) / len(gaps)
@@ -61,7 +60,7 @@ def extract(times, sizes):
         mean_gap = "X"
         gap_std = "X"
 
-    # Burst and run-length features.
+    # Consecutive outgoing / incoming cells features
     longest_outgoing_cells = 0
     longest_incoming_cells = 0
     current_outgoing_cells = 0
@@ -78,23 +77,19 @@ def extract(times, sizes):
         if current_incoming_cells > longest_incoming_cells:
             longest_incoming_cells = current_incoming_cells
 
+    # Feature vector
     features = [
-        # Global traffic size and directionality.
         total_cells,
         trace_duration,
         outgoing_fraction,
         switches,
-        # Window-based traffic summaries (early / mid / late load phases).
         first20_outgoing_cells,
         first50_incoming_cells,
         mid_incoming_cells,
         last50_outgoing_cells,
-        # Direction-order feature.
         outgoing_before_first_incoming,
-        # Timing features.
         mean_gap,
         gap_std,
-        # Burst / run-length features.
         longest_outgoing_cells,
         longest_incoming_cells,
     ]

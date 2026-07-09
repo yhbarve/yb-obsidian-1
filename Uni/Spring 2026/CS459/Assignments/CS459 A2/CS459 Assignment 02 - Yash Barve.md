@@ -110,8 +110,13 @@ Student ID: **20930353**
 ### Programming Question 01
 **(a)**
 - Yes, there is explicit evidence linking Mr. Raccoon to the article.
-- After filtering out the background traffic, I discovered a Python server `SimpleHTTP/0.6 Python/3.8.10` at IP address ``
+- After filtering out the background traffic, I discovered a Python server `SimpleHTTP/0.6 Python/3.8.10` at IP address `4.227.186.176:8000`.
+- A `Wget/1.20.3` machine (belonging to Mr. Raccoon) made multiple GET requests to fetch the contents of a folder named  `/fishy`.
+- Upon inspection, I found a file named `todo.txt`, which contains a checklist about the article.
 - - - 
+**(b)**
+1. HTML Hex Color Encoding
+	- This is the primary steganographic technique employed 
 ### Programming Question 02
 #### New Features
 

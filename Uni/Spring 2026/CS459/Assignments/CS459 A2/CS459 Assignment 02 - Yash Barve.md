@@ -17,23 +17,24 @@ Student ID: **20930353**
 | 2      | Out       | 172.16.1.1  | 192.168.3.4 | TCP      | 1234      | Permit | B    |
 | 3      | Out       | 172.16.1.1  | 192.168.3.4 | TCP      | 443       | Permit | C    |
 | 4      | In        | 192.168.3.4 | 172.16.1.1  | TCP      | 1357      | Permit | D    |
+
 - - -
 
 **Q1 (b) i**
-- The first packet fails but the second packet succeeds.
+- Both the packets succeed.
 
 | Packet | Direction | Src Addr   | Dest Addr  | Protocol | Dest Port | Action | Rule |
 | ------ | --------- | ---------- | ---------- | -------- | --------- | ------ | ---- |
-| 5      | In        | 10.1.2.3   | 172.16.3.4 | TCP      | 8080      | Deny   | E    |
+| 5      | In        | 10.1.2.3   | 172.16.3.4 | TCP      | 8080      | Permit | D    |
 | 6      | Out       | 172.16.3.4 | 10.1.2.3   | TCP      | 5150      | Permit | B    |
-- Note that even though packet 1's details match rule D, the client is attempting to open a connection. Initiation is usually done on port 443 on the server, which is not the case here. Therefore, the packet will be denied.
+- However, note that packet 5 is sent as part of initiating the connection with the server. Ideally, it should be sent to port 443 (standard port for HTTPS). Here, it is sent to port 8080. But because it matches Rule D, the packet will be permitted.
 
 **Q1 (b) ii**
-- No, the attack will not succeed because the connection attempt will be denied.
+- Yes, the attack will succeed. This is because both packets 5 & 6 are permitted, allowing the external attacker to establish a connection to the server on port 8080.
 - - -
 
 **Q1 (c)**
-- Packets 1, 3
+- Packets 1, 2, 3, 4 are permitted while 5 and 6 are denied.
 
 | Packet | Direction | Src Addr    | Dest Addr   | Protocol | Src Port | Dest Port | Action | Rule |
 | ------ | --------- | ----------- | ----------- | -------- | -------- | --------- | ------ | ---- |
@@ -43,3 +44,4 @@ Student ID: **20930353**
 | 4      | In        | 192.168.3.4 | 172.16.1.1  | TCP      | 443      | 1357      | Permit | D    |
 | 5      | In        | 10.1.2.3    | 172.16.3.4  | TCP      | 5150     | 8080      | Deny   | E    |
 | 6      | Out       | 172.16.3.4  | 10.1.2.3    | TCP      | 8080     | 5150      | Deny   | E    |
+- - -

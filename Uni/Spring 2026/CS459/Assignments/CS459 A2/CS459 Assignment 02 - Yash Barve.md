@@ -8,9 +8,15 @@ Name: **Yash Harshal Barve**
 Email: yhbarve@uwaterloo.ca
 Student ID: **20930353**
 - - -
-**Q3 (a): Replay Attack**
-- Countered using nonces during the handshake, and sequence numbers.
-- Nonces:
-	- When a client connects, the exchange requires both endpoints to generate random time-independent parameters (`client-nonce` & `server-nonce`)
-	- If an attacker tries to replay an earlier handshake message, the server generates a new nonce for the new session. A new 
-	- This renders any historical keys obsolete and causes the attacker's handshake confirmation to fail.
+**Q1 (a)**
+- All the four packets are permitted, as described in the following table.
+
+| Packet | Direction | Src Addr    | Dest Addr   | Protocol | Dest Port | Action | Rule |
+| ------ | --------- | ----------- | ----------- | -------- | --------- | ------ | ---- |
+| 1      | In        | 192.168.3.4 | 172.16.1.1  |          | 443       | Permit | A    |
+| 2      | Out       | 172.16.1.1  | 192.168.3.4 |          | 1234      | Permit | B    |
+| 3      | Out       | 172.16.1.1  | 192.168     |          | 443       | Permit | C    |
+| 4      | In        | 192.168.3.4 |             |          | 1357      | Permit | D    |
+
+**Q1 (b)**
+- 

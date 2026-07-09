@@ -21,33 +21,26 @@ def extract(times, sizes):
     incoming_cells = sum(1 for s in sizes if s == -1)
     trace_duration = times[-1] - times[0] if times else "X"
     direction_switches = sum(1 for a, b in zip(sizes, sizes[1:]) if a != b)
-    outgoing_to_incoming_ratio = (
-        outgoing_cells / incoming_cells if incoming_cells else "X"
-    )
+    # Fraction of cells that are outgoing: interaction-heavy vs content-heavy.
+    # Kept as a bounded (0..1) value, which behaves better than a raw ratio
+    # in the distance-based k-NN classifier.
+    outgoing_fraction = outgoing_cells / total_cells if total_cells else "X"
     normalized_switches = direction_switches / total_cells if total_cells else "X"
 
-    # Early and segmented window features.
-    prefix_len = 30
-    prefix_sizes = sizes[:prefix_len]
-    prefix_times = times[:prefix_len]
+    # Early / mid / late window features (traffic in different load phases).
     first20_sizes = sizes[:20]
     first50_sizes = sizes[:50]
     mid_sizes = sizes[30:100]
     last50_sizes = sizes[-50:] if sizes else []
 
     first20_outgoing_cells = sum(1 for s in first20_sizes if s == 1)
-    prefix_direction_switches = sum(
-        1 for a, b in zip(prefix_sizes, prefix_sizes[1:]) if a != b
-    )
-    prefix_duration = prefix_times[-1] - prefix_times[0] if prefix_times else "X"
-    first50_outgoing_cells = sum(1 for s in first50_sizes if s == 1)
-    mid_outgoing_cells = sum(1 for s in mid_sizes if s == 1)
+    first50_incoming_cells = sum(1 for s in first50_sizes if s == -1)
     mid_incoming_cells = sum(1 for s in mid_sizes if s == -1)
     last50_outgoing_cells = sum(1 for s in last50_sizes if s == 1)
 
-    # Direction-order features.
+    # Direction-order feature: how many outgoing (request) cells are sent
+    # before the first incoming (response) cell arrives.
     outgoing_before_first_incoming = "X"
-    incoming_before_first_outgoing = "X"
     if sizes:
         seen_incoming = False
         count = 0
@@ -58,31 +51,15 @@ def extract(times, sizes):
             count += 1
         outgoing_before_first_incoming = count if seen_incoming else "X"
 
-        seen_outgoing = False
-        count = 0
-        for s in sizes:
-            if s == 1:
-                seen_outgoing = True
-                break
-            count += 1
-        incoming_before_first_outgoing = count if seen_outgoing else "X"
-
     # Inter-arrival timing features.
     gaps = [t2 - t1 for t1, t2 in zip(times, times[1:])]
-    mean_gap = sum(gaps) / len(gaps) if gaps else "X"
-    max_gap = max(gaps) if gaps else "X"
     if gaps:
-        mu = mean_gap
-        variance = sum((g - mu) * (g - mu) for g in gaps) / len(gaps)
+        mean_gap = sum(gaps) / len(gaps)
+        variance = sum((g - mean_gap) * (g - mean_gap) for g in gaps) / len(gaps)
         gap_std = variance ** 0.5
     else:
+        mean_gap = "X"
         gap_std = "X"
-
-    prefix_duration_ratio = (
-        prefix_duration / trace_duration
-        if prefix_duration != "X" and trace_duration != "X" and trace_duration != 0
-        else "X"
-    )
 
     # Burst and run-length features.
     longest_outgoing_run = 0
@@ -101,27 +78,23 @@ def extract(times, sizes):
         if current_incoming_run > longest_incoming_run:
             longest_incoming_run = current_incoming_run
 
-    outgoing_run_ratio = longest_outgoing_run / total_cells if total_cells else "X"
-    incoming_run_ratio = longest_incoming_run / total_cells if total_cells else "X"
-
     features = [
         # Global traffic size and directionality.
         total_cells,
         trace_duration,
-        outgoing_to_incoming_ratio,
+        outgoing_fraction,
         normalized_switches,
-        # Window-based traffic summaries.
+        # Window-based traffic summaries (early / mid / late load phases).
         first20_outgoing_cells,
-        first50_outgoing_cells,
+        first50_incoming_cells,
         mid_incoming_cells,
         last50_outgoing_cells,
-        # Direction-order features.
+        # Direction-order feature.
         outgoing_before_first_incoming,
-        incoming_before_first_outgoing,
         # Timing features.
         mean_gap,
         gap_std,
-        # Run-length features.
+        # Burst / run-length features.
         longest_outgoing_run,
         longest_incoming_run,
     ]

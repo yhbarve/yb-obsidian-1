@@ -108,3 +108,13 @@ Student ID: **20930353**
 - TLS relies on a TCP connection to send its own handshake messages. Therefore, in this case, TLS is unable to prevent SYN flooding.
 - - -
 ### Programming Question 02
+#### Feature Set Analysis
+
+|     | Feature | How does this feature increase accuracy? |
+| --- | ------- | ---------------------------------------- |
+| 1   | ``      |                                          |
+| 2   |         |                                          |
+| 3   |         |                                          |
+| 4   |         |                                          |
+| 5   |         |                                          |
+

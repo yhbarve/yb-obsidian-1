@@ -18,9 +18,12 @@ def extract(times, sizes):
     # Global traffic size and directionality.
     total_cells = len(times)
     outgoing_cells = sum(1 for s in sizes if s == 1)
+    incoming_cells = sum(1 for s in sizes if s == -1)
     trace_duration = times[-1] - times[0] if times else "X"
     direction_switches = sum(1 for a, b in zip(sizes, sizes[1:]) if a != b)
-    outgoing_fraction = outgoing_cells / total_cells if total_cells else "X"
+    outgoing_to_incoming_ratio = (
+        outgoing_cells / incoming_cells if incoming_cells else "X"
+    )
     normalized_switches = direction_switches / total_cells if total_cells else "X"
 
     # Early and segmented window features.
@@ -33,17 +36,14 @@ def extract(times, sizes):
     last50_sizes = sizes[-50:] if sizes else []
 
     first20_outgoing_cells = sum(1 for s in first20_sizes if s == 1)
-    first20_incoming_cells = sum(1 for s in first20_sizes if s == -1)
     prefix_direction_switches = sum(
         1 for a, b in zip(prefix_sizes, prefix_sizes[1:]) if a != b
     )
     prefix_duration = prefix_times[-1] - prefix_times[0] if prefix_times else "X"
     first50_outgoing_cells = sum(1 for s in first50_sizes if s == 1)
-    first50_incoming_cells = sum(1 for s in first50_sizes if s == -1)
     mid_outgoing_cells = sum(1 for s in mid_sizes if s == 1)
     mid_incoming_cells = sum(1 for s in mid_sizes if s == -1)
     last50_outgoing_cells = sum(1 for s in last50_sizes if s == 1)
-    last50_incoming_cells = sum(1 for s in last50_sizes if s == -1)
 
     # Direction-order features.
     outgoing_before_first_incoming = "X"
@@ -108,16 +108,22 @@ def extract(times, sizes):
         # Global traffic size and directionality.
         total_cells,
         trace_duration,
-        outgoing_fraction,
+        outgoing_to_incoming_ratio,
         normalized_switches,
         # Window-based traffic summaries.
         first20_outgoing_cells,
-        first50_incoming_cells,
+        first50_outgoing_cells,
         mid_incoming_cells,
         last50_outgoing_cells,
-        # Direction-order and timing features.
+        # Direction-order features.
         outgoing_before_first_incoming,
+        incoming_before_first_outgoing,
+        # Timing features.
+        mean_gap,
         gap_std,
+        # Run-length features.
+        longest_outgoing_run,
+        longest_incoming_run,
     ]
 
     return features

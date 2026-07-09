@@ -116,7 +116,16 @@ Student ID: **20930353**
 - - - 
 **(b)**
 1. HTML Hex Color Encoding
-	- This is the primary steganographic technique employed 
+	- This is the primary steganographic technique employed in this case.
+	- After discovering the `/fishy` folder, I also saw GET requests made for 423 web documents named from `file0.html` to `file422.html`.
+	- 
+	- The `todo.txt` file also contains `Brush up on web colors - DONE`, which indicates the use of hex-color encoding.
+- - -
+**(c)**
+- We perform the following function:
+	- Extract the HEX codes from each of the 423 files.
+	- 
+- - -
 ### Programming Question 02
 #### New Features
 

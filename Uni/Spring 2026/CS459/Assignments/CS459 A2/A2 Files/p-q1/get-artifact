@@ -4,7 +4,6 @@ import re
 from scapy.all import rdpcap, TCP
 
 def extract_artifact(pcap_path, output_path="recovered"):
-    print(f"[*] Reading packets from {pcap_path}...")
     packets = rdpcap(pcap_path)
     
     # Dictionary to ensure files are ordered correctly regardless of packet arrival order
@@ -15,7 +14,6 @@ def extract_artifact(pcap_path, output_path="recovered"):
     title_regex = re.compile(r"Columbia Chronicles Draft (\d+)")
     hex_regex = re.compile(r"#[0-9a-fA-F]{6}")
     
-    print("[*] Processing HTTP packets and extracting hex values...")
     for pkt in packets:
         if pkt.haslayer(TCP) and pkt.haslayer('Raw'):
             payload = pkt['Raw'].load.decode('utf-8', errors='ignore')
@@ -42,10 +40,10 @@ def extract_artifact(pcap_path, output_path="recovered"):
                         file_data_map[file_idx] = byte_chunk
 
     if not file_data_map:
-        print("[-] Error: No matching steganographic artifacts discovered.")
+        print("No matching steganographic artifacts discovered.")
         return
 
-    print(f"[*] Successfully extracted data chunks from {len(file_data_map)} files.")
+    print(f"Successfully extracted data chunks from {len(file_data_map)} files.")
     
     # Reconstruct the full binary sequentially from file_0 onwards
     full_payload = b""
@@ -56,10 +54,10 @@ def extract_artifact(pcap_path, output_path="recovered"):
     with open(output_path, "wb") as f:
         f.write(full_payload)
         
-    print(f"[+] Reconstruction complete. Evidence saved to: '{output_path}'")
+    print(f"Data saved to: '{output_path}'")
 
 if __name__ == "__main__":
-    pcap_input = "p-q1-capture.pcap" # Default fallback
+    pcap_input = "p-q1-capture.pcap"
     if len(sys.argv) > 1:
         pcap_input = sys.argv[1]
         

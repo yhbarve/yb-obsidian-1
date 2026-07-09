@@ -115,12 +115,15 @@ Student ID: **20930353**
 - Upon inspection, I found a file named `todo.txt`, which contains a checklist about the article.
 - - - 
 **(b)**
-1. HTML Hex Color Encoding
+- HTML Hex Color Encoding
 	- This is the primary steganographic technique employed in this case.
 	- After discovering the `/fishy` folder, I also saw GET requests made for 423 web documents named from `file0.html` to `file422.html`.
 	- Each file contains exactly 10 styled elements containing hex attributes.
 	- If these hex attributes are concatenated, the resulting string is a raw binary byte stream representing a complete JPEG digital image.
 	- The `todo.txt` file also contains `Brush up on web colors - DONE`, which indicates the use of hex-color encoding.
+- Other plausible techniques include:
+	1. HTML comment encoding: Hiding bits in comments in the HTML
+	2. HTTP headers: Storing data in custom headers, or cookies.
 - - -
 **(c)**
 - I performed the following function:
@@ -135,7 +138,12 @@ Student ID: **20930353**
 	- To handle out of order arrival, I used a dictionary to order the data in the correct chronological order.
 	- For each file, a regular expression extracts the ten hex attributes, and removes the leading `#` symbol.
 	- The parsed hex characters are converted to binary bytes using the in-built `bytes.fromhex()` function.
-	- After all the packets are read, the script concatenates the bytes into a single stream and writes the final payload to the file `recovered_image.jpeg`.
+	- After all the packets are read, the script concatenates the bytes into a single stream and writes the final payload to the file `recovered`.
+	- After renaming this output file to `recovered.jpeg`, we can see the artifact.
+- - -
+#### Note:
+- The conclusive artifact is attached as part of the submission zip file.
+- The script `get-artifact` is also attached as part of the submission zip file. **The script is written in Python.**
 - - -
 ### Programming Question 02
 #### New Features

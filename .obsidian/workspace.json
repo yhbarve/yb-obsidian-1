@@ -4,73 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ac9ba30505ba0a03",
+        "id": "b9946b046a562be0",
         "type": "tabs",
-        "dimension": 50.62421972534332,
         "children": [
           {
-            "id": "663a9792f8c4a8d8",
+            "id": "2f58d59b1de91410",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CS459 Assignment 02 - Yash Barve"
+              "title": "New tab"
             }
           }
         ]
-      },
-      {
-        "id": "b714f62a76bf0fbe",
-        "type": "tabs",
-        "dimension": 49.37578027465668,
-        "children": [
-          {
-            "id": "6beac59457cbb34b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "CS459 Assignment 02 Spec"
-            }
-          },
-          {
-            "id": "087b2458e9cc6cf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-kerberos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "q2-kerberos"
-            }
-          },
-          {
-            "id": "fc1b58212ed158d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "q3-ssl-threats"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 274.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -256,13 +202,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/20260708.md",
+                "file": "Tasks/20260709.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "20260708"
+              "title": "20260709"
             }
           }
         ]
@@ -285,15 +231,16 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "087b2458e9cc6cf2",
+  "active": "2f58d59b1de91410",
   "lastOpenFiles": [
+    "Tasks/20260709.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
+    "Tasks/20260708.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-kerberos.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Slides/L08 - Authentication Protocols.pdf",
-    "Tasks/20260708.md",
     "Uni/Spring 2026/CS459/Slides/L09 - Security Through The Layers.pdf",
     "Uni/Spring 2026/CS459/Slides",
     "Uni/Spring 2026/CS459/Assignments/CS459 A1/CS459 Assignment 01.md",
@@ -307,7 +254,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI",
     "Tasks/20260707.md",
     "Templates/Daily Note Template.md",
-    "Tasks/20260709.md",
     "Writings/Website Chat with Fable 5.md",
     "README.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03.md",

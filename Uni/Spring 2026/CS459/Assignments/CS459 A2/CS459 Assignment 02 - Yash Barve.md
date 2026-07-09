@@ -20,7 +20,6 @@ Student ID: **20930353**
 | 4      | In        | 192.168.3.4 | 172.16.1.1  | TCP      | 1357      | Permit | D    |
 
 - - -
-
 **(b) i**
 - Both the packets succeed.
 
@@ -29,11 +28,10 @@ Student ID: **20930353**
 | 5      | In        | 10.1.2.3   | 172.16.3.4 | TCP      | 8080      | Permit | D    |
 | 6      | Out       | 172.16.3.4 | 10.1.2.3   | TCP      | 5150      | Permit | B    |
 - However, note that packet 5 is sent as part of initiating the connection with the server. Ideally, it should be sent to port 443 (standard port for HTTPS). Here, it is sent to port 8080. But because it matches Rule D, the packet will be permitted.
-
+- - -
 **(b) ii**
 - Yes, the attack will succeed. This is because both packets 5 & 6 are permitted, allowing the external attacker to establish a connection to the server on port 8080.
 - - -
-
 **(c)**
 - Packets 1, 2, 3, 4 are permitted while 5 and 6 are denied.
 

@@ -42,20 +42,35 @@
             }
           },
           {
-            "id": "22a0f10fbe6737e4",
+            "id": "087b2458e9cc6cf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-kerberos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "q1-https-firewall"
+              "title": "q2-kerberos"
+            }
+          },
+          {
+            "id": "fc1b58212ed158d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "q3-ssl-threats"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -270,12 +285,14 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "663a9792f8c4a8d8",
+  "active": "087b2458e9cc6cf2",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-kerberos.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Slides/L08 - Authentication Protocols.pdf",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q1-https-firewall.md",
     "Tasks/20260708.md",
     "Uni/Spring 2026/CS459/Slides/L09 - Security Through The Layers.pdf",
     "Uni/Spring 2026/CS459/Slides",
@@ -285,8 +302,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q2",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q1/README.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/p-q1",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-kerberos.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/CS459 Assignment 02 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI",

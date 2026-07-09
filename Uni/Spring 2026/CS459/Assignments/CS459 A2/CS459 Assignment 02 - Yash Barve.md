@@ -71,6 +71,9 @@ Student ID: **20930353**
 - - -
 **(e)**
 - The authentication server distributes the session key as two copies:
-	1. The first copy is placed inside the TGT along with the client's identity and ticket lifetime. This ticket is encrypted using the TGS secret key.
-	2. The second copy is placed alongside the encrypted TGT, which is returned back to the client. This is encrypted using the client's secret key.
+	1. The first copy is intended for the TGS. It is wrapped inside the TGT and encrypted under the TGS secret key.
+	2. The second copy is intended for the client. It is placed outside the TGT but encrypted under the client's secret key. The client can decrypt it and read the session key.
+- - -
+### Question 03
+
 

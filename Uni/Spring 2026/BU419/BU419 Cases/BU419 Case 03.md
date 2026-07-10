@@ -1,10 +1,21 @@
+---
+tags:
+  - uni
+  - s26
+  - bu419
+---
+# BU419 Case 03
+### Group 12
+#### Yash Harshal Barve - 211544920
+#### Matt Wakonyo - 169022746
+- - -
 **Q1.**
-- **Internal Risks**
+- Internal Risks
 	- Problems with internal control and corporate governance.
-- **External Corporate Risks
+- External Corporate Risks
 	- Financial risks from the parent company, other subsidies, reinsurers, other related parties (e.g. customers, suppliers, regulators).
 	- Such risks could contagion effect and cripple a well-run insurance company.
-- **Systematic Risks**
+- Systematic Risks
 	- Pandemics, regulatory negligence, global economic downturns, natural disasters.
 - - -
 **Q2.**
@@ -25,7 +36,7 @@
 | -------------- | -------- | -------- |
 | NPW to Surplus | 36.08    | 27.98    |
 | GPW to Surplus | 42.01    | 32.85    |
-Overall, the ratio is quite low , which means Merceds underwriting capacity is sufficient before the camp fire.
+Overall, the ratio is quite low, which means Merced's underwriting capacity is sufficient before the camp fire.
 - - -
 **Q4.**
 
@@ -42,7 +53,7 @@ Overall, the ratio is quite low , which means Merceds underwriting capacity is s
 | Reinsurance Utilization (%) | 14.72        | 15.58        |
 - Merced may not have had sufficient reinsurance coverage. It failed to recognize the growing risk and update its reinsurance programs accordingly.
 - Merced had the lowest reinsurance recoverables - C&S ratio. Other insurers owned by the same parent had ratios that were twice that of Merced.
-- A study of all P&C insurers between 1992 and 2001 showed average reinsurance utilization
+- A study of all P&C insurers between 1992 and 2001 showed average reinsurance utilization $\gt$ 30%. This ratio was expected to increase as insurers faced growing climate risks. 
 - - -
 **Q5.** 
 - Need to monitor risks in response to changes in frequency and severity.

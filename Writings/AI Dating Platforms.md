@@ -1,7 +1,6 @@
 ---
 
 ---
-
 ## Introduction
 Most people are terrible at writing about themselves. Dating profiles are a perfect example — users either undersell themselves with a vague three-liner, or overcorrect with something that sounds like a LinkedIn bio. What if a Large Language Model (LLM) could help bridge that gap?
 
@@ -37,23 +36,23 @@ The instruction to match formatting style turned out to be critical — without 
 We tested GPT-4o, Claude Sonnet 4.0, and Gemini 2.5 Pro on five synthetic user profiles, each varying in tone, input quality, and demographic context. Here's a snapshot of one input and how the models handled it:
 
 **Input:**
-> *"idk what to write here. i'm just vibing, life's weird. talk to me if you want lol"*
-> *Tone: Playful | Interests: Music, memes | Values: Humor | Age: 22 | Male | Toronto*
+> "idk what to write here. i'm just vibing, life's weird. talk to me if you want lol"
+> Tone: Playful | Interests: Music, memes | Values: Humor | Age: 22 | Male | Toronto
 
 **GPT-4o output:**
-> *Somewhere between "figuring it out" and "fully vibing" — that's me. I'm into music that hits different at 2am, memes that make you question reality, and conversations that go nowhere but somehow feel meaningful. Life's weird. Let's be weird together.*
+> Somewhere between "figuring it out" and "fully vibing" — that's me. I'm into music that hits different at 2am, memes that make you question reality, and conversations that go nowhere but somehow feel meaningful. Life's weird. Let's be weird together.
 
 **Claude Sonnet 4.0 output:**
-> *cozy nights in with terrible reality TV 🛋️*
-> *my spotify wrapped is genuinely embarrassing 🎶*
-> *3am conversations about everything and nothing ☕🌙*
-> *let's debate whether pineapple belongs on pizza*
+> cozy nights in with terrible reality TV 🛋️
+> my spotify wrapped is genuinely embarrassing 🎶
+> 3am conversations about everything and nothing ☕🌙
+> let's debate whether pineapple belongs on pizza
 
 **Gemini 2.5 Pro output:**
-> *Connoisseur of cozy nights in 🛋️*
-> *Fueled by strong coffee ☕ and playlists that give you musical whiplash 🎶*
-> *Let's trade weird facts and song recs until we forget what time it is 🌙*
-> *All three are better than the original. But they're better in meaningfully different ways.*
+> Connoisseur of cozy nights in 🛋️
+> Fueled by strong coffee ☕ and playlists that give you musical whiplash 🎶
+> Let's trade weird facts and song recs until we forget what time it is 🌙
+> All three are better than the original. But they're better in meaningfully different ways.
 ## Evaluation: How Did the Models Stack Up?
 We evaluated each model across five criteria: tone alignment, clarity and readability, personalization, creativity and engagement, and authenticity.
 

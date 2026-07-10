@@ -15,20 +15,46 @@
 - - -
 **Q3.**
 
-| X   | 2017 ($000s) | 2016 ($000s) |
-| --- | ------------ | ------------ |
+|         | 2017 ($000s) | 2016 ($000s) |
+| ------- | ------------ | ------------ |
+| NPW     | 6,073        | 4,903        |
+| GPW     | 7,071        | 5,757        |
+| Surplus | 16,832       | 17,526       |
 
-**Q5.** How would climate risk affect future pricing strategy? (What would need to be updated, changed?)
-- Need to monitor risks in response to changes in frequency and severity
+|                | 2017 (%) | 2016 (%) |
+| -------------- | -------- | -------- |
+| NPW to Surplus | 36.08    | 27.98    |
+| GPW to Surplus | 42.01    | 32.85    |
+Overall, the ratio is quite low , which means Merceds underwriting capacity is sufficient before the camp fire.
+- - -
+**Q4.**
+
+|                                    | 2017 ($)   | 2016 ($)   |
+| ---------------------------------- | ---------- | ---------- |
+| Reinsurance Recoverables           | 747,831    | 887,765    |
+| Capital & Surplus                  | 17,526,277 | 16,831,544 |
+| Reinsurance Recoverables / C&S (%) | 5.07%      | 4.44%      |
+
+|                             | 2017 ($000s) | 2016 ($000s) |
+| --------------------------- | ------------ | ------------ |
+| Ceded Premium Written       | 74.85        | 104.10       |
+| Direct Premium Written      | 6,782.00     | 5,477.00     |
+| Reinsurance Utilization (%) | 14.72        | 15.58        |
+- Merced may not have had sufficient reinsurance coverage. It failed to recognize the growing risk and update its reinsurance programs accordingly.
+- Merced had the lowest reinsurance recoverables - C&S ratio. Other insurers owned by the same parent had ratios that were twice that of Merced.
+- A study of all P&C insurers between 1992 and 2001 showed average reinsurance utilization
+- - -
+**Q5.** 
+- Need to monitor risks in response to changes in frequency and severity.
 - Pay attention to particular hazards that were tied to certain geographical locations.
-- Examine concentration of business
+- Examine concentration of business.
 - Examples:
 	- Insurers providing home insurance in Cali should update risk models for wildfires.
-	- Those providing home & auto insurers in Alberta should update models for climate related hazards and modify pricing regulations accordingly to attract more participants.
+	- Those providing home & auto insurers in Alberta should update models for climate-related hazards and modify pricing regulations accordingly to attract more participants.
 - - -
-**Q6.** Given the difficulties CIGA experienced when settling claims during Merced’s liquidation, as a Risk Manager, what suggestions would you give to the insurer who takes over Merced’s homeowner insurance in Butte County?
-- Claims payments were slow and inefficient
-- Could develop InsurTech and parametric insurance in expedite payments
-	- Parametric insurance -> damage caused by wind > 100 kmph
+**Q6.** 
+- Claims payments were slow and inefficient.
+- Could develop InsurTech and parametric insurance in expedite payments.
+	- Parametric insurance pays a pre-determined amount when a specific event occurs, rather than covering the exact cost of physical damage.
+	- Eg: damage caused by wind $\geq$ 100 km/h
 - - -
-When we have Mary Kelly come in next week, I am going to post one article on catastrophe risk financing that you all want to read. I'll go through a little bit. Those of you in my 429 class already saw it. It's really good. It talks about the resilience solution, and that's going to be an important part of Mary's presentation. You know, looking at how to fund these things, what is the option of this government intervention, and that's what Mary is going to talk about too? How do you design that? How do you design a program where the government acts as a re-insurer? My 429, I know that I'm so scared about that, but anyways. If the government isn't insured, next week make sure you're here to at least get the kind of background and instructions from Mary Kelly. On the 23rd, that will be our last class, and it will be the design challenge. We're going to have four industry experts. We're going to be working in groups, and the mark is based on attendance, so no signature no a grade. 

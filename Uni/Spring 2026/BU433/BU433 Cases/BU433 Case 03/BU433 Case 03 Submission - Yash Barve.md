@@ -1,7 +1,13 @@
 ---
-
+tags:
+  - uni
+  - s26
+  - bu433
 ---
-
+# BU433 Case 03 Submission
+#### Name: Yash H. Barve
+#### ID: 211544920
+- - -
 **Q1. What problem is Upstart trying to solve?**
 - Upstart's core mission is to promote financial inclusion by addressing the limitations of the traditional lending system.
 	- Only 45% of Americans have access to bank-quality credit, despite the fact that 83% of Americans have never actually defaulted on a loan.

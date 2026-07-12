@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "39276fb9d35ae0ac",
+        "id": "6f7cc54abaa4137e",
         "type": "tabs",
         "children": [
           {
-            "id": "74207fb912b5dc54",
-            "type": "leaf",
-            "state": {
-              "type": "native-powerpoint-view",
-              "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Questions.pptx"
-              },
-              "icon": "presentation",
-              "title": "BU433 Case 03 Questions"
-            }
-          },
-          {
-            "id": "7e6450c7af48c2f8",
+            "id": "76ce94f3727b8cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission.md",
+                "file": "Uni/Spring 2026/CS398/Notes/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BU433 Case 03 Submission"
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 274.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -249,10 +235,12 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "7e6450c7af48c2f8",
+  "active": "76ce94f3727b8cd2",
   "lastOpenFiles": [
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Questions.pptx",
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission.md",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission - Yash Barve.md",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission - Yash Barve.pdf",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission.pdf",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03.pdf",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/Unconfirmed 800801.crdownload",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03",
@@ -268,8 +256,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/CS459 Assignment 02 - Yash Barve.pdf",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/recovered.jpeg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered.jpeg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-website-fingerprinting.md",

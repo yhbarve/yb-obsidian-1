@@ -1,3 +1,7 @@
+---
+
+---
+
 **Q1. What problem is Upstart trying to solve?**
 - Upstart's core mission is to promote financial inclusion by addressing the limitations of the traditional lending system.
 	- Only 45% of Americans have access to bank-quality credit, despite the fact that 83% of Americans have never actually defaulted on a loan.
@@ -20,4 +24,11 @@
 - - -
 **Q4. Should Alliant partner with Upstart? Why or why not?**
 - Alliant should partner with Upstart, leveraging its recent compliance adjustments. However, they must ensure that Upstart doesn't start dictating terms. The partnership must include continuous, independent fair-lending monitoring to safeguard Alliant's regulatory standing.
-- 
+- Alliant's 2022 strategy explicitly aimed to generate $1 billion in loans via fintech partnerships to grow volume and acquire new members.
+- Partnering with Upstart would allow Alliant to capture low-risk, high-yielding "invisible" borrowers that traditional underwriting would reject.
+- - -
+**Q5. Why does Upstart want to partner with Alliant? Why not fund loans itself?**
+- Upstart primarily operates as an AI-enabled lending platform than a traditional bank. By partnering with Alliant, it shifts the credit default risk.
+- Alliant's massive deposit-taking infrastructure would provide Upstart billions of dollars in funds for lending purposes.
+- Upstart’s primary asset is its predictive AI/ML models. Partnering with broad networks like Alliant allows Upstart to process an immense volume of unique consumer applications.
+- - -

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writings/AI Dating Platforms.md",
+                "file": "Tasks/20260711.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Dating Platforms"
+              "title": "20260711"
             }
           }
         ]
@@ -206,13 +206,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/20260709.md",
+                "file": "Tasks/20260711.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "20260709"
+              "title": "20260711"
             }
           }
         ]
@@ -236,11 +236,12 @@
   },
   "active": "74207fb912b5dc54",
   "lastOpenFiles": [
-    "Writings/The Paradox of Nostalgia.md",
+    "Tasks/20260710.md",
+    "Tasks/20260711.md",
     "Writings/AI Dating Platforms.md",
+    "Writings/The Paradox of Nostalgia.md",
     "Writings/Website Chat with Fable 5.md",
     "Tasks/20260709.md",
-    "Tasks/20260710.md",
     "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
     "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.pdf",
     "Uni/Spring 2026/BU419/BU419 Cases",
@@ -276,7 +277,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy/random/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/narwhals-2.22.1.dist-info/licenses/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered.jpg",
-    "Tasks/20260708.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q3-ssl-threats.md"
+    "Tasks/20260708.md"
   ]
 }

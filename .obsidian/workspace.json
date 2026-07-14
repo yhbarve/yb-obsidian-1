@@ -11,10 +11,14 @@
             "id": "9910e25d3af52d4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Writings/Automating YouTube Metadata with GitHub Actions and Gemini.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Automating YouTube Metadata with GitHub Actions and Gemini"
             }
           }
         ]
@@ -233,6 +237,8 @@
   },
   "active": "9910e25d3af52d4f",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Writings/Automating YouTube Metadata with GitHub Actions and Gemini.md",
     "Tasks/20260711.md",
     "Tasks/20260712.md",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
@@ -269,11 +275,9 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/sklearn/externals/array_api_extra/README.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/sklearn/externals/array_api_compat/README.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/sklearn/datasets/images/flower.jpg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/sklearn/datasets/images/china.jpg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/scipy/ndimage/tests/dots.png",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/scipy/fft/_pocketfft/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered.jpg"
   ]
 }

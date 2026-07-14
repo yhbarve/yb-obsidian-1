@@ -33,7 +33,6 @@
       {
         "id": "0e690075fadfb0cd",
         "type": "tabs",
-        "dimension": 67.55952380952381,
         "children": [
           {
             "id": "351d2f5929c8d7ca",
@@ -73,23 +72,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c110afde61e452e0",
-        "type": "tabs",
-        "dimension": 32.44047619047619,
-        "children": [
-          {
-            "id": "91d8c06f999ae45d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
             }
           }
         ]
@@ -235,10 +217,11 @@
       "pinned-daily-notes:Open today's daily note (Pinned)": false
     }
   },
-  "active": "9910e25d3af52d4f",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Tasks/20260714.md",
     "Writings/Automating YouTube Metadata with GitHub Actions and Gemini.md",
+    "Untitled.md",
     "Tasks/20260711.md",
     "Tasks/20260712.md",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
@@ -274,7 +257,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/pip-26.1.2.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/sklearn/externals/array_api_extra/README.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/sklearn/datasets/images/flower.jpg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/sklearn/datasets/images/china.jpg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/scipy/ndimage/tests/dots.png",

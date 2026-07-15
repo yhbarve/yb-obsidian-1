@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a3bbfd1f7ba3dfb0",
+        "id": "eb3115428019fc2f",
         "type": "tabs",
         "children": [
           {
-            "id": "9910e25d3af52d4f",
+            "id": "2b27e4e10dd30b29",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Spec.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "BU419 Project Spec"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]

@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 232.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -246,7 +246,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "351d2f5929c8d7ca",
+  "active": "9c7058d050524846",
   "lastOpenFiles": [
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",

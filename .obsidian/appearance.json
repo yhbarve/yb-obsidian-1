@@ -1,5 +1,6 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Cupertino",
-  "accentColor": "#14a5ff"
+  "cssTheme": "GitHub Theme",
+  "accentColor": "#238636",
+  "interfaceFontFamily": "Helvetica,AppleGothic,Helvetica Neue,Arial Rounded MT Bold,Inter"
 }

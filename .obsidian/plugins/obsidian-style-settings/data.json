@@ -3,5 +3,17 @@
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-teal",
   "catppuccin-icon-styles@@ctp-icon-hide": true,
   "catppuccin-font-styles@@ctp-bold": "var(--ctp-sky)",
-  "obsidian-transparent@@background-blur": 47
+  "obsidian-transparent@@background-blur": 40,
+  "obsidian-transparent@@ui-blur": 67,
+  "obsidian-transparent@@gradient-from": "#000000",
+  "obsidian-transparent@@gradient-to": "#19005C",
+  "obsidian-transparent@@gradient-angle": 200,
+  "obsidian-transparent@@preset-mode": "preset-default",
+  "obsidian-transparent@@bg-type": "bg-custom",
+  "obsidian-transparent@@bg-custom-url": "url('https://www.chromethemer.com/download/hd-wallpapers/blue-sky-3840x2160.jpg')",
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
+  "Appearance-dark@@card-layout-open-dark": true,
+  "Components@@immersive-canvas": false,
+  "Editor@@line-hover-indicator": false,
+  "Editor@@collapse-icon-restore": true
 }

@@ -6,7 +6,6 @@
       {
         "id": "3f2cb29efbd95655",
         "type": "tabs",
-        "dimension": 49.863760217983646,
         "children": [
           {
             "id": "9c7058d050524846",
@@ -14,31 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
+                "file": "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BU433 Case 04 Submission"
-            }
-          }
-        ]
-      },
-      {
-        "id": "624171efc7c682ba",
-        "type": "tabs",
-        "dimension": 50.13623978201635,
-        "children": [
-          {
-            "id": "5fe76f34893ad6e7",
-            "type": "leaf",
-            "state": {
-              "type": "native-powerpoint-view",
-              "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx"
-              },
-              "icon": "presentation",
-              "title": "BU433 Case 04 Questions"
+              "title": "BU419 Case 03"
             }
           }
         ]
@@ -248,8 +228,8 @@
   },
   "active": "9c7058d050524846",
   "lastOpenFiles": [
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/BU433 Case 02 Questions.pptx",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/Unconfirmed 362917.crdownload",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission - Yash Barve.pdf",

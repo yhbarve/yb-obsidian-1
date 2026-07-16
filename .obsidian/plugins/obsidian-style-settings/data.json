@@ -2,5 +2,9 @@
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-teal",
   "catppuccin-icon-styles@@ctp-icon-hide": true,
-  "catppuccin-font-styles@@ctp-bold": "var(--ctp-sky)"
+  "catppuccin-font-styles@@ctp-bold": "var(--ctp-sky)",
+  "obsidian-transparent@@preset-mode": "preset-true-glass",
+  "obsidian-transparent@@glass-opacity": 0,
+  "obsidian-transparent@@bg-type": "bg-auto",
+  "obsidian-transparent@@background-blur": 80
 }

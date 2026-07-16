@@ -1,8 +1,10 @@
 {
   "theme": "obsidian",
   "cssTheme": "Transparent",
-  "accentColor": "#7ae9ff",
+  "accentColor": "#dbf9ff",
   "interfaceFontFamily": "SF Pro Rounded",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "heading-font"
+  ],
   "textFontFamily": "SF Pro Text"
 }

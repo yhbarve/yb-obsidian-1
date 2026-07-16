@@ -4,17 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "1ac84e1a4ca99051",
+        "id": "3f2cb29efbd95655",
         "type": "tabs",
+        "dimension": 49.863760217983646,
         "children": [
           {
-            "id": "6f6da682554f2b16",
+            "id": "9c7058d050524846",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BU433 Case 04 Submission"
+            }
+          }
+        ]
+      },
+      {
+        "id": "624171efc7c682ba",
+        "type": "tabs",
+        "dimension": 50.13623978201635,
+        "children": [
+          {
+            "id": "5fe76f34893ad6e7",
+            "type": "leaf",
+            "state": {
+              "type": "native-powerpoint-view",
+              "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx"
+              },
+              "icon": "presentation",
+              "title": "BU433 Case 04 Questions"
             }
           }
         ]
@@ -74,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 363.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -222,20 +246,20 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "6f6da682554f2b16",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/BU433 Case 02 Questions.pptx",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/Unconfirmed 362917.crdownload",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission - Yash Barve.pdf",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03.pdf",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01/BU433 Case 01 Submission.pdf",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01/BU433 Case 01.pptx",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01/BU433 Case 01 Questions.pdf",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01/Unconfirmed 974243.crdownload",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01/BU433 Case 01.pdf",
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01/Unconfirmed 672494.crdownload",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/BU433 Case 02 Submission.md",
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01/Unconfirmed 595190.crdownload",
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/BU433 Case 02.pdf",
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 01",
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02",
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
     "Uni/Spring 2026/Final Exam Planning.md",
     "Writings/Automating YouTube Metadata with GitHub Actions and Gemini.md",
     "Tasks/20260714.md",

@@ -1,10 +1,8 @@
 {
-  "theme": "obsidian",
-  "cssTheme": "Border",
-  "accentColor": "#dbf9ff",
+  "theme": "moonstone",
+  "cssTheme": "Primary",
+  "accentColor": "#da9a1b",
   "interfaceFontFamily": "SF Pro Rounded",
-  "enabledCssSnippets": [
-    "heading-font"
-  ],
+  "enabledCssSnippets": [],
   "textFontFamily": "SF Pro Text"
 }

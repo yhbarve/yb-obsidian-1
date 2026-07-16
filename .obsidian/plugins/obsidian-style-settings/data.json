@@ -17,5 +17,7 @@
   "Editor@@collapse-icon-restore": true,
   "catppuccin-interface-styles@@ctp-bold-folder-title": true,
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-blue",
-  "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid"
+  "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid",
+  "id@@colorblind_tritan": false,
+  "id@@colorblind_protan-deutan": false
 }

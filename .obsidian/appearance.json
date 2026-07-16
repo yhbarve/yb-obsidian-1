@@ -2,8 +2,7 @@
   "theme": "obsidian",
   "cssTheme": "GitHub Theme",
   "accentColor": "#238636",
-  "interfaceFontFamily": "Helvetica,AppleGothic,Helvetica Neue,Arial Rounded MT Bold,Inter",
-  "enabledCssSnippets": [
-    "heading-font"
-  ]
+  "interfaceFontFamily": "SF Pro Rounded",
+  "enabledCssSnippets": [],
+  "textFontFamily": "SF Pro Text"
 }

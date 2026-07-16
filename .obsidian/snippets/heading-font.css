@@ -3,5 +3,7 @@
 .cm-header-1, .cm-header-2, .cm-header-3, 
 .cm-header-4, .cm-header-5, .cm-header-6,
 .inline-title {
-    font-family: 'Formula1', sans-serif !important;
+    font-family: 'Formula1 Display-Regular', 'Formula1-Display-Regular', 'Formula1', sans-serif !important;
+    font-weight: normal !important;
+    font-stretch: normal !important;
 }

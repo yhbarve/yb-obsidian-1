@@ -62,16 +62,16 @@
 ---
 ## Deliverables
 ### CS459
-1. [ ] Assignment 02 - **09 Jul 3 pm**
+1. [x] Assignment 02 - **09 Jul 3 pm**
 2. [ ] Assignment 03 - **02 Aug 3 pm**
 ### BU433
-1. [ ] Quiz 03 - **07 Jul 11:59 pm**
-2. [ ] Case 03 - **12 Jul 11:59 pm**
+1. [x] Quiz 03 - **07 Jul 11:59 pm**
+2. [x] Case 03 - **12 Jul 11:59 pm**
 3. [ ] Case 04 - **19 Jul 11:59 pm**
 4. [ ] Quiz 04 - **26 Jul 11:59 pm**
 5. [ ] Assignment - **28 Jul 11:59 pm**
 ### BU419
-1. [ ] Merced Case - **12 Jul 11:59 pm**
+1. [x] Merced Case - **12 Jul 11:59 pm**
 2. [ ] Group Project - **19 Jul 11:59 pm**
 3. [ ] Catastrophe Insurance Design Challenge - **23 Jul (in-class)**
 ---

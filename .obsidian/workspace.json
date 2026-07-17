@@ -6,7 +6,6 @@
       {
         "id": "3f2cb29efbd95655",
         "type": "tabs",
-        "dimension": 54.74732006125574,
         "children": [
           {
             "id": "2b0549167ff1bc04",
@@ -20,25 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "BU433 Case 04 Submission"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f40b826becacd8d0",
-        "type": "tabs",
-        "dimension": 45.25267993874426,
-        "children": [
-          {
-            "id": "9c7058d050524846",
-            "type": "leaf",
-            "state": {
-              "type": "native-powerpoint-view",
-              "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx"
-              },
-              "icon": "presentation",
-              "title": "BU433 Case 04 Questions"
             }
           }
         ]

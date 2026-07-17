@@ -61,4 +61,13 @@ tags:
 	- Creating the BTFP allowed eligible banks to secure one-year loans by pledging high-quality assets at par value instead of market value. This addressed the liquidity lock that broke SVB.
 	- Overall, I think the Fed's reaction was necessary and tactical. However, it also was mostly proactive instead of being reactive.
 - **Key Issues and Assumptions to Re-Examine**
-	- 
+	1. **Inflation/Rate Shocks Occur in Isolation**
+		-  The Fed's historical stress-test scenarios did not adequately simulate an environment where interest rates rose as rapidly as they did simultaneously with a severe liquidity drain in a concentrated sector.
+		- Stress testing parameters must be frequently updated to model highly correlated macroeconomic shocks.
+	2. **Traditional Liquidity and Run Timelines Still Exist**
+		- Supervisory frameworks long assumed bank runs take days or weeks to unfold, governed by historical deposit outflow speeds of 10% or less per day.
+		- The Fed must adjust its liquidity requirements to acknowledge that modern digital banking apps and real-time social media communication have massively reduced the duration of bank runs to just a few hours. This demands the integration of "reverse stress testing" into standard oversight.
+	3. **Tailoring Frameworks Are Sufficient for Regional Banks**
+		- Following the 2018 regulatory rollbacks, the Fed assumed banks with assets between $100 billion and $250 billion posed less systemic risk and could safely be granted extended transition periods for compliance.
+		- The Fed must re-evaluate its tailoring policy, recognizing that a regional bank's failure can carry massive systemic consequences irrespective of asset size if its business model or depositor base is highly concentrated.
+- - -

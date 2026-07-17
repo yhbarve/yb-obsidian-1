@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3f2cb29efbd95655",
+        "id": "4d917f1fb444c192",
         "type": "tabs",
         "children": [
           {
-            "id": "2b0549167ff1bc04",
+            "id": "a5f2d58ab02cf709",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "BU433 Case 04 Submission"
+              "title": "New tab"
             }
           }
         ]
@@ -155,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BU433 Case 04 Submission"
+              "title": "Outline"
             }
           },
           {
@@ -210,10 +205,10 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "2b0549167ff1bc04",
+  "active": "a5f2d58ab02cf709",
   "lastOpenFiles": [
-    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
+    "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04.pdf",
     "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/BU433 Case 02 Questions.pptx",

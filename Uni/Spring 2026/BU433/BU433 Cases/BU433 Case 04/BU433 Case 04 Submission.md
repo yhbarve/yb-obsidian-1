@@ -52,4 +52,6 @@ tags:
 	- Short-term and floating-rate assets mature quickly and automatically adjust to higher yields when interest rates rise. This would have kept the asset portfolio highly liquid and protected its fair-market value from falling.
 - **Establish Continuous Risk Leadership and Enforce Internal Risk Limits**
 	- The board should have immediately filled the Chief Risk Officer (CRO) position and enforced the bank's internal interest rate risk limits and stress-testing mandates.
-	- 
+	- An active CRO and a risk committee would have acted upon the repeated failures of internal interest rate risk stress tests, and would have forced the bank to stop further long-term bond purchases.
+	- Addressing the 31 open supervisory findings would have improved core governance and liquidity vulnerabilities before market conditions deteriorated.
+- - -

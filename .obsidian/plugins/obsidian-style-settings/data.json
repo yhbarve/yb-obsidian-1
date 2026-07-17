@@ -19,5 +19,15 @@
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-blue",
   "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid",
   "id@@colorblind_tritan": false,
-  "id@@colorblind_protan-deutan": false
+  "id@@colorblind_protan-deutan": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-lavender",
+  "anuppuccin-theme-settings@@anp-layout-select": "anp-card-layout",
+  "anuppuccin-theme-settings@@anp-hide-borders": false,
+  "anuppuccin-theme-settings@@anp-bg-fix": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-blue",
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
+  "anuppuccin-theme-settings@@anp-button-metadata-toggle": false,
+  "anuppuccin-theme-settings@@anp-print": false
 }

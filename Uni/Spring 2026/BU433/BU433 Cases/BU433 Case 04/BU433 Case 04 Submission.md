@@ -29,4 +29,8 @@ tags:
 - - -
 **Q4.**
 - **Failure of Board Oversight and Accountability:** SVB's board of directors failed to oversee senior leadership and hold executives accountable for basic interest rate and liquidity risk management.
-- **Absence of a Chief Risk Officer (CRO):** SVB operated without a CRO for a critical nine-month window between Apr 2022 and Jan 2023. This vacancy lef
+- **Absence of a Chief Risk Officer (CRO):** SVB operated without a CRO for a critical nine-month window between Apr 2022 and Jan 2023. This vacancy left the bank without executive-level risk oversight precisely when the Fed was accelerating its historic rate hikes and unrealized losses were accumulating.
+- **Ignoring Internal Risk Metrics and Warnings:** SVB's leadership repeatedly failed its own internal corporate stress testing. At the time of insolvency, SVB had accumulated 31 open supervisory findings from regulators covering core governance flaws, liquidity vulnerabilities, and unhedged interest-rate exposure.
+- **Inadequate Scaling During Rapid Growth:** When SVB crossed the $100 billion asset threshold in 2021, the board failed to proactively scale its risk-management infrastructure and compliance frameworks.
+- - -
+**Q5.**

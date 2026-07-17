@@ -6,8 +6,8 @@ tags:
 ---
 # BU419 Case 03
 ### Group 12
-#### Yash Harshal Barve - 211544920
-#### Matt Wakonyo - 169022746
+1. **Yash Harshal Barve - 211544920**
+2. **Matt Wakonyo - 169022746**
 - - -
 **Q1.**
 - Internal Risks

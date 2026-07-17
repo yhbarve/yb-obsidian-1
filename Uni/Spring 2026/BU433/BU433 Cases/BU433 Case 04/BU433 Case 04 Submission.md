@@ -28,4 +28,5 @@ tags:
 **Q3.**
 - - -
 **Q4.**
-- **Failure of Board Oversight and Accountabi**
+- **Failure of Board Oversight and Accountability:** SVB's board of directors failed to oversee senior leadership and hold executives accountable for basic interest rate and liquidity risk management.
+- **Absence of a Chief Risk Officer (CRO):** SVB operated without a CRO for a critical nine-month window between Apr 2022 and Jan 2023. This vacancy lef

@@ -34,3 +34,8 @@ tags:
 - **Inadequate Scaling During Rapid Growth:** When SVB crossed the $100 billion asset threshold in 2021, the board failed to proactively scale its risk-management infrastructure and compliance frameworks.
 - - -
 **Q5.**
+- **New Risks That Have Emerged**
+	- **Social-Media-Fueled Bank Runs:** Coordinated communication channels and virality on platforms like Twitter allowed panic to spread across an entire ecosystem instantaneously, turning localized anxiety into systemic capital flight in a matter of hours.
+	- **Power of Digital Banking Liquidity Velocity:** With digital banking apps and instant online transfers, depositors can move massive amounts of money with a single tap. Historically, a severe bank run rarely exceeded 10% of total deposits over multiple weeks. However, SVB lost 25% of its total deposits in just 10 hours.
+	- **Socio-Economic Concentration in Client Base:** SVB's depositor base was tightly clustered in one interconnected niche: tech founders and VCs. When a few prominent VC 
+- **The Impact for Financial Institutions**

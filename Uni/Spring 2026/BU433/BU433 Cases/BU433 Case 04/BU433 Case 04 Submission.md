@@ -6,8 +6,8 @@ tags:
   - bu433
 ---
 # BU433 Case 04 Submission
-### Name: Yash H. Barve
-### ID: 211544920
+**Name: Yash H. Barve**
+**ID: 211544920**
 - - -
 **Q1.**
 - **Asset-liability mismatch:** During the tech boom of 2020–2021, SVB's deposits surged from $62 billion to $189 billion.
@@ -39,4 +39,17 @@ tags:
 	- **Power of Digital Banking Liquidity Velocity:** With digital banking apps and instant online transfers, depositors can move massive amounts of money with a single tap. Historically, a severe bank run rarely exceeded 10% of total deposits over multiple weeks. However, SVB lost 25% of its total deposits in just 10 hours.
 	- **Socio-Economic Concentration in Client Base:** SVB's depositor base was tightly clustered in one interconnected niche: tech founders and VCs. When a few prominent VC heads issued warnings, the entire deposit base acted as a single herd.
 - **The Impact for Financial Institutions**
-	- **Adoption of 'Reverse Stress Testing':** Instead of assessing how a hypothetical recession would impact the balance sheet, institutions must now work backward by asking 
+	- **Adoption of 'Reverse Stress Testing':** Instead of assessing how a hypothetical recession would impact the balance sheet, institutions must now work backward by asking "what specific combination of deposit outflows and rate shocks would break the bank?"
+	- **Recalibrating Liquidity Metrics:** Financial institutions can no longer treat uninsured corporate deposits as stable, long-term funding sources. Metrics like Liquidity Coverage Ratio (LCR) need to be re-evaluated.
+	- **Tighter Regulatory Baselines for Regional Banks:** Lawmakers and central banks have pushed for strict regulatory supervision, rigorous standard stress testing, and higher capital buffers to apply uniformly across a much wider tier of institutions.
+- - -
+**Q6.**
+- **Implement a Comprehensive Interest Rate Hedging Program**
+	- SVB should have utilized interest rate swaps and derivatives to hedge its massive portfolio of fixed-rate long-term securities.
+	- This recommendation would have eliminated the massive $1.8 billion after-tax loss when they were forced to liquidate securities.
+- **Match Asset Duration to Liability Liquidity**
+	- Instead of chasing smaller yield premiums by locking liquidity into long-term bonds, SVB should have maintained a short-duration asset strategy. They should have invested excess deposits in short-term Treasury Bills or floating-rate notes.
+	- Short-term and floating-rate assets mature quickly and automatically adjust to higher yields when interest rates rise. This would have kept the asset portfolio highly liquid and protected its fair-market value from falling.
+- **Establish Continuous Risk Leadership and Enforce Internal Risk Limits**
+	- The board should have immediately filled the Chief Risk Officer (CRO) position and enforced the bank's internal interest rate risk limits and stress-testing mandates.
+	- 

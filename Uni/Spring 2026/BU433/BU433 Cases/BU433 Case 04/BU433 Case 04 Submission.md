@@ -16,3 +16,10 @@ tags:
 - **Twitter-Fueled Bank Run:** Worried about losses, prominent VCs instructed their portfolio companies to pull their funds. Depositors withdrew $42 billion in a single day using online banking. This forced regulators to step in and shut down the insolvent bank.
 - **Risk Management Failures:** SVB operated without a Chief Risk Officer for nine months and repeatedly ignored its own internal interest-rate risk limits and warnings.
 - - -
+**Q2.**
+- **Implications of Focussing on the Tech Industry**
+	- **Extreme Covariance:** SVB's liabilities were completely tied to the macroeconomic health of the tech sector. When tech boomed in 2021, deposits increased exponentially. However, in 2022, when VC funding dried up, the entire client base began burning cash and withdrawing capital simultaneously.
+	- **Network Effects:** The VC community acted like an echo chamber. This allowed a handful of VC heads to instruct their entire portfolios to pull funds simultaneously via coordinated communication on social media platforms like Twitter.
+- **Managing and Avoiding the Risk**
+	- **Implement Asset-Liability Management:** SVB should have kept its asset duration short and highly liquid to match its volatile and short-term deposit liabilities.
+	- **Aggressive Interest Rate Hedging:** If SVB's management insisted on holding long-term fixed assets, 

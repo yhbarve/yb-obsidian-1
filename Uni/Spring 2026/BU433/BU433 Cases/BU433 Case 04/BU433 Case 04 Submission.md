@@ -39,4 +39,4 @@ tags:
 	- **Power of Digital Banking Liquidity Velocity:** With digital banking apps and instant online transfers, depositors can move massive amounts of money with a single tap. Historically, a severe bank run rarely exceeded 10% of total deposits over multiple weeks. However, SVB lost 25% of its total deposits in just 10 hours.
 	- **Socio-Economic Concentration in Client Base:** SVB's depositor base was tightly clustered in one interconnected niche: tech founders and VCs. When a few prominent VC heads issued warnings, the entire deposit base acted as a single herd.
 - **The Impact for Financial Institutions**
-	- 
+	- **Adoption of 'Reverse Stress Testing':** Instead of assessing how a hypothetical recession would impact the balance sheet, institutions must now work backward by asking 

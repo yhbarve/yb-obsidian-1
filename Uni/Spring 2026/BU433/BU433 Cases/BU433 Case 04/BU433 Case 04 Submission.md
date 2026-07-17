@@ -22,4 +22,10 @@ tags:
 	- **Network Effects:** The VC community acted like an echo chamber. This allowed a handful of VC heads to instruct their entire portfolios to pull funds simultaneously via coordinated communication on social media platforms like Twitter.
 - **Managing and Avoiding the Risk**
 	- **Implement Asset-Liability Management:** SVB should have kept its asset duration short and highly liquid to match its volatile and short-term deposit liabilities.
-	- **Aggressive Interest Rate Hedging:** If SVB's management insisted on holding long-term fixed assets, 
+	- **Aggressive Interest Rate Hedging:** If SVB's management insisted on holding long-term fixed assets, they should have participated in interest rate swaps to hedge against duration risk.
+	- **Deposit Diversification:** SVB could have diversified their client base to non-tech business lines to build a more uncorrelated portfolio. Even in the tech sector, they could have limited the exposure to single VC ecosystems to minimize damage due network effect.
+- - -
+**Q3.**
+- - -
+**Q4.**
+- **Failure of Board Oversight and Accountabi**

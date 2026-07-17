@@ -6,6 +6,7 @@
       {
         "id": "3f2cb29efbd95655",
         "type": "tabs",
+        "dimension": 54.74732006125574,
         "children": [
           {
             "id": "2b0549167ff1bc04",
@@ -26,6 +27,7 @@
       {
         "id": "f40b826becacd8d0",
         "type": "tabs",
+        "dimension": 45.25267993874426,
         "children": [
           {
             "id": "9c7058d050524846",
@@ -105,7 +107,7 @@
       {
         "id": "d0c2bc12d241dcb8",
         "type": "tabs",
-        "dimension": 35.80952380952381,
+        "dimension": 64.32748538011695,
         "children": [
           {
             "id": "64db9a4ab60d83b0",
@@ -173,12 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of BU433 Case 04 Submission"
             }
           },
           {
@@ -190,7 +193,15 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "e3ffef680228a511",
+        "type": "tabs",
+        "dimension": 35.67251461988304,
+        "children": [
           {
             "id": "a780dd65d061b7b5",
             "type": "leaf",
@@ -201,36 +212,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "2f506e1e6203491d",
-        "type": "tabs",
-        "dimension": 64.19047619047619,
-        "children": [
-          {
-            "id": "d30752b4e255512f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tasks/20260711.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "20260711"
-            }
-          }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
-    "collapsed": true
+    "width": 244.5
   },
   "left-ribbon": {
     "hiddenItems": {

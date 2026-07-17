@@ -55,3 +55,10 @@ tags:
 	- An active CRO and a risk committee would have acted upon the repeated failures of internal interest rate risk stress tests, and would have forced the bank to stop further long-term bond purchases.
 	- Addressing the 31 open supervisory findings would have improved core governance and liquidity vulnerabilities before market conditions deteriorated.
 - - -
+**Q7.**
+- **Analysis of the Fed's Reaction**
+	- Approving the systemic risk exception to guarantee 100% of uninsured deposits at SVB was a critical step. Otherwise, the situation would have triggered massive bank runs at other regional financial institutions.
+	- Creating the BTFP allowed eligible banks to secure one-year loans by pledging high-quality assets at par value instead of market value. This addressed the liquidity lock that broke SVB.
+	- Overall, I think the Fed's reaction was necessary and tactical. However, it also was mostly proactive instead of being reactive.
+- **Key Issues and Assumptions to Re-Examine**
+	- 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "411726925d00ecc0",
+        "id": "90a8777bb10ef269",
         "type": "tabs",
         "children": [
           {
-            "id": "e823ab74f21b9476",
+            "id": "3d9a1c0abab27664",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -205,7 +205,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "e823ab74f21b9476",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials.zip",

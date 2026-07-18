@@ -9,6 +9,11 @@ tags:
 **Name: Yash H. Barve**
 **ID: 211544920**
 - - -
+
+>**Note**
+>I wasn't able to attend the class when the case was discussed. I have however read the case, and attempted to make my answers as detailed as possible.
+
+- - -
 **Q1.**
 - **Asset-liability mismatch:** During the tech boom of 2020–2021, SVB's deposits surged from $62 billion to $189 billion.
 - **The Fed's Rate Hikes:** When the Federal Reserve rapidly hiked interest rates to combat inflation, the market value of SVB’s long-term bonds fell massively.
@@ -35,7 +40,7 @@ tags:
 - **How did SVB respond to those changes?**
 	- SVB bought most fixed-rate / long-duration securities before the March 2022 rate hikes. *(Exhibit 12)*
 	- Hold-To-Maturity (HTM) securities grew from $16,592M in 2020 to $98,195M in 2021. *(Exhibit 11)*
-	- 
+	- SVB sold $21B of Available-For-Sale (AFS) securities at a $1.8B after-tax loss and attempted a $2.25B capital raise. *(Exhibit 15)*
 - **What key risk management issues were faced by SVB?**
 	- No Chief Risk Officer (CRO) from Apr 2022 to Jan 2023.
 	- 31 open supervisory findings at the time of failure.
@@ -44,7 +49,9 @@ tags:
 	- Average director age and background skews toward VC, tech and consulting rather than deep bank risk management. *(Exhibit 16)*
 	- 93.9% of SVB's deposits were uninsured. This was far more than other banks like JPMorgan (52.5%) or B of A (14.1%). *(Exhibit 14)*
 - **What asset-liability issues arose at SVB?**
-	- 
+	- On a book basis, assets were $212B against $213B liabilities+equity, with $13B in equity. *(Exhibit 13)*
+	- On a fair-value basis, assets drop to $197B while deposits stay fixed at $173B, flipping equity to -$5B. *(Exhibit 13)*
+	- SVB funded 82.9% of its balance sheet with deposits vs. 64.5–80.4% at the five largest US banks, with almost no long-term debt or diversified borrowing to cushion outflows. *(Exhibit 10)*
 - - -
 **Q4.**
 - **Failure of Board Oversight and Accountability:** SVB's board of directors failed to oversee senior leadership and hold executives accountable for basic interest rate and liquidity risk management.

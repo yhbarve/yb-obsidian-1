@@ -51,7 +51,8 @@
               "title": "BU433 Case 04"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
+                "file": "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BU433 Case 04 Questions"
+              "title": "Outline of BU433 Case 04 Submission"
             }
           },
           {
@@ -240,7 +241,7 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "c41dae2613fba583",
+  "active": "c5ac133fc2b27d79",
   "lastOpenFiles": [
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04.pdf",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Questions.pptx",
@@ -260,7 +261,6 @@
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Unconfirmed 528803.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Intact/Intact Q4-2025-Stats-Supplement.xlsm",
     "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/BU433 Case 02 Submission.md",
     "Uni/Spring 2026/Final Exam Planning.md",

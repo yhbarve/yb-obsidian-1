@@ -26,6 +26,19 @@ tags:
 	- **Deposit Diversification:** SVB could have diversified their client base to non-tech business lines to build a more uncorrelated portfolio. Even in the tech sector, they could have limited the exposure to single VC ecosystems to minimize damage due network effect.
 - - -
 **Q3.**
+- **What has changed over the past few years?**
+	- Total deposits first grew from $49.9M in 2018 to $189,203M in 2021. Then fell to $173,109M in 2022. (Exhibit 1)
+- **How did SVB respond to those changes?**
+	- 
+- **What key risk management issues were faced by SVB?**
+	- No Chief Risk Officer (CRO) from Apr 2022 to Jan 2023.
+	- 31 open supervisory findings at the time of failure.
+	- Repeatedly failed internal stress tests.
+	- Category IV regulatory requirements hadn't been phased despite crossing $100B in assets in June 2021.
+	- Average director age and background skews toward VC, tech and consulting rather than deep bank risk management. (Exhibit 16)
+	- 93.9% of SVB's deposits were uninsured. This was far more than other banks like JPMorgan (52.5%) or B of A (14.1%). (Exhibit 14)
+- **What asset-liability issues arose at SVB?**
+	- 
 - - -
 **Q4.**
 - **Failure of Board Oversight and Accountability:** SVB's board of directors failed to oversee senior leadership and hold executives accountable for basic interest rate and liquidity risk management.

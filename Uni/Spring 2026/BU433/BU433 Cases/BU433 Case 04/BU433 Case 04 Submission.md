@@ -27,16 +27,22 @@ tags:
 - - -
 **Q3.**
 - **What has changed over the past few years?**
-	- Total deposits first grew from $49.9M in 2018 to $189,203M in 2021. Then fell to $173,109M in 2022. (Exhibit 1)
+	- Total deposits first grew from $49,992M in 2018 to $191,431M in 2021. Then fell to $175,378M in 2022. *(Exhibit 1)*
+	- Total assets nearly quadrupled from $55.2B to $211.8B *(Exhibit 5)*
+	- Fed funds rate grew from 0.1% in 2020 to 4.9% in 2023. It peaked at 9.1%. *(Exhibit 9)*
+	- Long term bond yield rates rose sharply from 0.6% in 2020 to 4% in 2023. This directly eroded the value of SVB's existing fixed-rate bond holdings. *(Exhibit 12)*
+	- ROA fell from 1.9% in 2018 to 0.8% in 2022. ROE fell from 21.1% to 9.8%. *(Exhibit 5)*
 - **How did SVB respond to those changes?**
+	- SVB bought most fixed-rate / long-duration securities before the March 2022 rate hikes. *(Exhibit 12)*
+	- Hold-To-Maturity (HTM) securities grew from $16,592M in 2020 to $98,195M in 2021. *(Exhibit 11)*
 	- 
 - **What key risk management issues were faced by SVB?**
 	- No Chief Risk Officer (CRO) from Apr 2022 to Jan 2023.
 	- 31 open supervisory findings at the time of failure.
 	- Repeatedly failed internal stress tests.
 	- Category IV regulatory requirements hadn't been phased despite crossing $100B in assets in June 2021.
-	- Average director age and background skews toward VC, tech and consulting rather than deep bank risk management. (Exhibit 16)
-	- 93.9% of SVB's deposits were uninsured. This was far more than other banks like JPMorgan (52.5%) or B of A (14.1%). (Exhibit 14)
+	- Average director age and background skews toward VC, tech and consulting rather than deep bank risk management. *(Exhibit 16)*
+	- 93.9% of SVB's deposits were uninsured. This was far more than other banks like JPMorgan (52.5%) or B of A (14.1%). *(Exhibit 14)*
 - **What asset-liability issues arose at SVB?**
 	- 
 - - -

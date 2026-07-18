@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "329d46f8ea01c2f1",
+        "id": "cd3c6d3af576255e",
         "type": "tabs",
         "children": [
           {
-            "id": "1515ed3a27f58aa4",
+            "id": "14524d2ff8a69e98",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CS459 A03 Spec"
             }
           }
         ]
@@ -151,12 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of CS459 A03 Spec"
             }
           },
           {
@@ -205,8 +208,12 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "1515ed3a27f58aa4",
+  "active": "14524d2ff8a69e98",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A1/CS459 Assignment 01.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 Spec.pdf",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2.zip",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.pdf",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04.pdf",
@@ -222,9 +229,7 @@
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Underwriting Income.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Unconfirmed 358108.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Net Underwriting Revenue _ Operating Net Underwriting Revenue.png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Unconfirmed 111411.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Unconfirmed 528803.crdownload",
     "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 02/BU433 Case 02 Submission.md",
     "Uni/Spring 2026/Final Exam Planning.md",
@@ -241,7 +246,6 @@
     "Writings/The Paradox of Nostalgia.md",
     "Writings/Website Chat with Fable 5.md",
     "Tasks/20260709.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 A02 - Yash Barve/recovered.jpeg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q1/recovered.jpeg",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-website-fingerprinting.md",

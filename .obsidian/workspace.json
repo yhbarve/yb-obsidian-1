@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "90a8777bb10ef269",
+        "id": "73d258b25747b2e5",
         "type": "tabs",
         "children": [
           {
-            "id": "3d9a1c0abab27664",
+            "id": "2b7dc5a37dd1843b",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png"
-              },
-              "icon": "lucide-image",
-              "title": "Gross Written Premium _ Operating DPW"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]

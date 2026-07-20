@@ -101,3 +101,41 @@ tags:
 - Average premium per policy shows whether the insurer targets high-value individual risks or high-volume, low-premium retail clients.
 	- $\text{Average Premium per Policy} = \frac{\text{Total Written Premium}}{\text{Policies in Force}}$
 - - -
+### Claims Ratio
+- Claims ratio measures the percentage of earned premiums used to pay out claims and adjusting expenses.
+- A high claims ratio points to poor risk selection, underpricing of policies, or an uptick in catastrophic events like storms or floods.
+- $\text{Claims Ratio} = \frac{\text{Net Claims Incurred}}{\text{Net Underwriting Revenue}}$
+- - -
+### Expense Ratio
+- Expense ratio measures the operational overhead required to acquire and service policies.
+- This reflects the administrative efficiency and scale.
+- $\text{Expense Ratio} = \frac{\text{Underwriting Expenses}}{\text{Net Underwriting Revenue}}$
+- - -
+### Combined Ratio
+- Combined ratio measures the total operational outlays divided by the net premium revenue.
+- It ignores investment income entirely to isolate pure underwriting performance.
+- $\text{Combined Ratio} = \text{Claims Ratio} + \text{Expense Ratio}$
+- If the combined ratio is equal to 95%, it signals efficient operation. The company keeps 5% of premiums as profit before even touching investment returns.
+- If the combined ratio is 105%, it means underwriting loss. The company spent more on claims and overhead than it brought in via premiums, meaning that it relies heavily on its investment returns to turn a profit.
+- - -
+### Expenses
+- Insurance expenses are heavily scrutinized relative to premium volume to evaluate operational efficiency. They fall into two main categories:
+	1. Acquisition costs
+		- These are fees paid to brokers or agents who sell policies.
+		- These also include marketing and distribution costs, such as advertising campaigns and direct sales costs to attract policyholders.
+		- Premium taxes also fall under this category.
+	2. General operating expenses
+		- These are expenses tied to evaluating risk, pricing policies, and setting up reserves.
+		- Also includes technology and infrastructure costs, such as core insurance platforms, policy management systems, and cyber security.
+		- Administrative overhead, such as salaries, legal, executive, and office real estate costs, also fall in this category.
+- - -
+### Claims
+- Claims represent the single largest expense for any insurer.
+- They are the actual payouts made to policyholders to cover losses, alongside the administrative costs required to process and settle those losses.
+- When looking at claims, you can examine the claims across different product lines and also look at the factors driving changes over time.
+- - -
+### Prior Year Claims Development (PYD)
+- It is the difference between prior year-end estimates of ultimate claim costs (excluding the effects of discounting and the risk adjustment for non-financial risk) and the current estimates for the same block of claims.
+- A favourable development represents a reduction in the estimated ultimate claim costs during the period for that block of claims.
+- Refer [[05 Loss Reserving]] To learn more about the ladder method, which is used to calculate and project prior-year claims development.
+- - -

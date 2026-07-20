@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73d258b25747b2e5",
+        "id": "7ae5191720d3b04a",
         "type": "tabs",
         "children": [
           {
-            "id": "2b7dc5a37dd1843b",
+            "id": "4acee125490418db",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission.pdf"
+                "file": "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "BU419 Group 4 Project Submission"
+              "icon": "lucide-file",
+              "title": "08 Financial Analysis"
             }
           }
         ]
@@ -153,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission.pdf",
+                "file": "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BU419 Group 4 Project Submission"
+              "title": "Outline of 08 Financial Analysis"
             }
           },
           {
@@ -173,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "e3ffef680228a511",
@@ -208,11 +210,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "2b7dc5a37dd1843b",
+  "active": "095612f718b0b9a3",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU419/BU419 Notes/07 Strategic Considerations.md",
+    "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
+    "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission.pdf",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission.pdf",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission (1).pdf",
     "Uni/Spring 2026/BU419/BU419 Project/Unconfirmed 138768.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",
@@ -224,7 +228,6 @@
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Prior Year Claims Development Ratio (Personal Auto).png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Unconfirmed 364001.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/MCT Ratio.png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Unconfirmed 801507.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/ROE Ratio.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Net Investment Income.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Combined Ratio.png",
@@ -254,7 +257,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md"
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md"
   ]
 }

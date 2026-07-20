@@ -72,3 +72,32 @@ tags:
 | Only counts pure cash or short-term deposits and investment income due.       | Uses a much broader definition of liquid assets, which includes things like stocks and longer-term bonds that can be sold quickly if needed, even if they aren't cash today. |
 | Only looks at current liabilities, which are obligations due within one year. | Often looks at total insurance liabilities, including long-term claims that might take years to pay out.                                                                     |
 - - -
+### ROE
+- ROE measures how effectively an insurer generates profits from shareholders' capital.
+- $\text{ROE} = \frac{\text{Net Income}}{\text{Shareholders' Equity}}$
+- It basically measures how much profit the insurer generates for every dollar of institutional and shareholder capital invested. 
+- A high ROE is ideal, but it must be cross-referenced with underwriting income. If ROE is high strictly because of volatile investment gains or taking on excessive underwriting risk, it may not be sustainable.
+### Debt-to-Equity Ratio
+- It measures the mix of debt versus equity used to finance the firm's operations and growth.
+- $\text{Debt-to-Equity} = \frac{\text{Total Debt}}{\text{Shareholders' Equity}}$
+- Insurers typically rely less on traditional corporate debt compared to capital-intensive industries because their primary leverage comes from policyholder premiums and reserves.
+- A high corporate debt-to-equity ratio on top of insurance liabilities can signal elevated insolvency risk during a bad claims year.
+- - -
+### Minimum Capital Test (MCT)
+- This is a risk-based solvency framework used by regulators to ensure insurers hold enough capital to absorb unexpected losses and to cover policyholder claims.
+- $\text{MCT Ratio} = \frac{\text{Capital Available}}{\text{Minimum Capital Required}}$
+- Capital available refers to Tier 1 equity, like common shares and retained earnings minus regulatory deductions.
+- Minimum capital required is calculated by assessing the insurer's specific exposure across several risk categories, such as insurance risk, market risk, credit risk, and operational risk.
+- In Canada, insurers must maintain specific thresholds (MCT Ratio):
+	- 100% minimum requirement: Falling below this means potential insolvency or immediate regulatory intervention.
+	- 150% supervisory target: The standard baseline regulators expect insurers to maintain to absorb market volatility without triggering early warning intervention.
+	- Most well-managed companies set their own higher internal targets to ensure that they remain safely above 150% even after severe catastrophic years.
+- - -
+### Policies In Force (PIF)
+- This counts the total number of active insurance contracts an insurer has on its books at a single point in time.
+- If revenue goes up by 10% because the company raised rates by 10%, PIF stays flat.
+- On the other hand, if revenue goes up 10% because they sold 10% more policies, PIF increases by 10%, which indicates real market share growth.
+- Comparing PIF from period to period helps to calculate customer retention, or dropping PIF alongside rising revenues signals that policyholders are fleeing rate hikes. This is a key warning sign for long-term growth.
+- Average premium per policy shows whether the insurer targets high-value individual risks or high-volume, low-premium retail clients.
+	- $\text{Average Premium per Policy} = \frac{\text{Total Written Premium}}{\text{Policies in Force}}$
+- - -

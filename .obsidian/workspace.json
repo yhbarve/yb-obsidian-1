@@ -11,10 +11,12 @@
             "id": "2b7dc5a37dd1843b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "BU433 Assignment Spec"
             }
           }
         ]
@@ -151,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",
+                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gross Written Premium _ Operating DPW"
+              "title": "Outline of BU433 Assignment Spec"
             }
           },
           {
@@ -206,8 +208,13 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "351d2f5929c8d7ca",
+  "active": "2b7dc5a37dd1843b",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.docx",
+    "Uni/Spring 2026/BU433/BU433 Assignment/Unconfirmed 546926.crdownload",
+    "Uni/Spring 2026/BU433/BU433 Assignment",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Prior Year Claims Development Ratio (Personal Property).png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Unconfirmed 294081.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Prior Year Claims Development Ratio (Personal Auto).png",
@@ -220,15 +227,10 @@
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Unconfirmed 899846.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Combined Ratio.png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Unconfirmed 957817.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Expense Ratio.png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Unconfirmed 197610.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Claims Ratio.png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Unconfirmed 609344.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Policies In Force (in thousands).png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Unconfirmed 867152.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Underwriting Income.png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Net Underwriting Revenue _ Operating Net Underwriting Revenue.png",
     "Uni/Spring 2026/Final Exam Planning.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A1/CS459 Assignment 01.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",

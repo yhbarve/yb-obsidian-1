@@ -42,7 +42,7 @@ tags:
 - This is the profit made strictly from the insurance operations.
 - $\text{Underwriting Income} = \text{Net Underwriting Revenue} - \text{Claims} - \text{Operating Expenses}$
 - If this number is negative, it means that the company paid out more in claims and expenses than it kept in premiums.
-- 
+- If the underwriting income is fluctuating, check if specific product lines are driving the losses or gains.
 - - -
 ### Investment Income
 - Insurance companies don't just let premium cash sit around while waiting for claims to be filed.
@@ -54,4 +54,21 @@ tags:
 - It is common to analyze the proportion of underwriting income vs investment income.
 - Some companies are highly efficient insurers, making solid profits from their policies, which is reflected by a high UW income.
 - Other companies can be mediocre insurers that rely entirely on a booming stock market to stay profitable, which is reflected by a high investment income.
+- - -
+### Liquidity Measures
+- Liquidity measures evaluate an insurer's immediate ability to pay out claims and short-term liabilities without needing to liquidate long-term investments at a loss.
+- The two primary metrics are the cash ratio and the liabilities-to-liquid-assets ratio.
+#### Cash Ratio
+- $\text{Cash Ratio} = \frac{\text{Cash}+\text{Investment Income Due}+\text{Short-Term Deposits}}{\text{Net Current Liabilities}}$
+- It basically measures the dollars of pure cash and near-cash assets existing for every dollar of immediate short-term debt and obligations due within a year.
+- A higher cash ratio means higher short-term safety.
+- Investment income due refers to investment income like bond interest or stock dividends that the insurance company has legally earned but has not yet received in cash. It is an accounting receivable.
+#### Liabilities to Liquid Assets Ratio
+- It measures the proportion of total claims and obligations relative to assets that can be easily converted into cash within a short time frame.
+- Lower the ratio, the safer it is, showing that liquid reserves easily cover potential obligations.
+#### Cash Ratio vs Liabilities to Liquid Assets Ratio
+| Cash Ratio                                                                    | Liabilities to Liquid Assets Ratio                                                                                                                                           |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Only counts pure cash or short-term deposits and investment income due.       | Uses a much broader definition of liquid assets, which includes things like stocks and longer-term bonds that can be sold quickly if needed, even if they aren't cash today. |
+| Only looks at current liabilities, which are obligations due within one year. | Often looks at total insurance liabilities, including long-term claims that might take years to pay out.                                                                     |
 - - -

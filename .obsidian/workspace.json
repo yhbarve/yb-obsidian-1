@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -210,10 +211,11 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "095612f718b0b9a3",
+  "active": "4acee125490418db",
   "lastOpenFiles": [
     "Uni/Spring 2026/BU419/BU419 Notes/07 Strategic Considerations.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
+    "Uni/Spring 2026/Final Exam Planning.md",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission.pdf",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
@@ -234,7 +236,6 @@
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Expense Ratio.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Claims Ratio.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Property Line Charts/Policies In Force (in thousands).png",
-    "Uni/Spring 2026/Final Exam Planning.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A1/CS459 Assignment 01.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/CS459 Assignment 02 - Yash Barve.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 04/BU433 Case 04 Submission.md",

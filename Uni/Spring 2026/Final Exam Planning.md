@@ -43,9 +43,11 @@
 3. [x] Insurability, Risk Classification & Pricing
 4. [x] Specialty Lines, Reinsurance & Captive Insurance
 5. [x] Estimating Losses - Reserving
-6. [x] Strategic Considerations & Trends
-7. [ ] Financial Analysis of Insurers
-8. [ ] Catastrophe Insurance & Catastrophe Risk Financing
+6. [x] Market Structure Competition and Trends
+7. [x] Strategic Considerations & Trends
+8. [ ] Financial Analysis of Insurers
+9. [ ] Capital Markets & Regulation
+10. [ ] Catastrophe Insurance & Catastrophe Risk Financing
 ---
 ### BU433
 1. [x] Introduction and Overview of Financial Markets

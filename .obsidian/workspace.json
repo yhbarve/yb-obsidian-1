@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
+                "file": "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 Financial Analysis"
+              "title": "01 - Introduction"
             }
           }
         ]
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
+                "file": "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 08 Financial Analysis"
+              "title": "Outline of 01 - Introduction"
             }
           },
           {
@@ -212,8 +212,10 @@
   },
   "active": "4acee125490418db",
   "lastOpenFiles": [
-    "Uni/Spring 2026/BU419/BU419 Notes/07 Strategic Considerations.md",
+    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
+    "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
+    "Uni/Spring 2026/BU419/BU419 Notes/07 Strategic Considerations.md",
     "Uni/Spring 2026/Final Exam Planning.md",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission.pdf",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Spec.pdf",
@@ -255,8 +257,6 @@
     "Tasks/20260709.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-website-fingerprinting.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md"
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md"
   ]
 }

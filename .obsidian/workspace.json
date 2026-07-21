@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ae5191720d3b04a",
+        "id": "eb679aee9f616408",
         "type": "tabs",
         "children": [
           {
-            "id": "4acee125490418db",
+            "id": "cb0f2585d400f8a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01 - Introduction"
+              "title": "New tab"
             }
           }
         ]
@@ -209,10 +205,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4acee125490418db",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
+    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2024.pdf",
     "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
+    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2025.pdf",
+    "Uni/Spring 2026/BU433/BU433 Assignment/Filings",
+    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
     "Uni/Spring 2026/BU419/BU419 Notes/07 Strategic Considerations.md",
     "Uni/Spring 2026/Final Exam Planning.md",
@@ -224,11 +223,8 @@
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.docx",
     "Uni/Spring 2026/BU433/BU433 Assignment/Unconfirmed 546926.crdownload",
-    "Uni/Spring 2026/BU433/BU433 Assignment",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Prior Year Claims Development Ratio (Personal Property).png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Unconfirmed 294081.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Prior Year Claims Development Ratio (Personal Auto).png",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Unconfirmed 364001.crdownload",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/MCT Ratio.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/ROE Ratio.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Net Investment Income.png",
@@ -255,7 +251,6 @@
     "Writings/Website Chat with Fable 5.md",
     "Tasks/20260709.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-website-fingerprinting.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md"
+    "Uni/Spring 2026/CS459/Assignments/CS459 A2/A2 Files/p-q2/venv/lib/python3.14/site-packages/numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md"
   ]
 }

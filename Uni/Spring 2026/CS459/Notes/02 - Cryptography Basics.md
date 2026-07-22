@@ -56,4 +56,18 @@
 	1. The secret key must be at least as long as the message.
 	2. The key bits must be uniformly random.
 	3. The key must never be reused.
-- Because the secret key must be as long as the message, OTP is not practical in the real world. 
+- Because the secret key must be as long as the message, OTP is not practical in the real world. You first need a secure channel to deliver the key, but if you have that channel, you might as well just send the message itself over that channel.
+- So far, all the cryptographic methods that we have seen are inefficient either computationally or practically. But when we combine these methods, we get something that's the backbone of modern-day cryptography.
+- - -
+## Stream Ciphers
+- Stream cipher encrypts plain text continuously bit by bit by XORing it with a pseudo-random key stream generated from a secret key.
+- **How it works:**
+	- Instead of needing a massive, truly random key, a stream cipher takes a short fixed secret key and feeds it into a pseudo-random key generator.
+	- The generator expands that short key into an arbitrarily long deterministic sequence of pseudo-random bits called a key stream.
+	- The key stream is XORed bit by bit with the plaintext to create ciphertext. Decryption XORs the ciphertext with the same exact key stream to recover the plaintext.
+- Because stream ciphers mimic a one-time pad, reusing a key stream is fatal. If two messages are encrypted with the same key stream, an attacker can XOR the two ciphertexts to eliminate the key stream and expose $M_{1} \oplus M_{2}$.
+	- The fix is to combine the secret key with a nonce, which is a unique number used only once.
+	- $\text{Keystream} = \text{Generator}(\text{Key}\ ||\ \text{Nonce})$ (|| = Concatination)
+	- Every time a new message is sent, a fresh nonce is picked. This ensures that even though the secret key remains the same, the generated key stream is completely different every single time.
+- The nonce is usually smaller than or comparable to the key, depending on the cipher design.
+- Because the nonce is sent alongside the cipher text in plain text, it doesn't need to be kept secret. Its sole job is to guarantee that the input **(Key, Nonce)** passed into the generator never repeats.

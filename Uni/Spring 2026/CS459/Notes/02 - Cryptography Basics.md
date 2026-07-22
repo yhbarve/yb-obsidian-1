@@ -44,4 +44,16 @@
 	- Keys are easy to replace. It is infinitely **easier to change a short-lived key** than it is to replace an entire proprietary encryption algorithm built into your software infrastructure.
 - - -
 ## One-Time Pad
-- 
+- The one-time pad is the only mathematically unconditionally secure cipher.
+- **How it works:**
+	- It works by performing a bitwise XOR between the plaintext and a random key of the exact same length.
+	- Encryption: $Y_{i} = X_{i} \oplus K_{i}$ or $y_{i} = x_{i} + k_{i} (\text{mod}\ 2)$
+	- Decryption: $X_{i} = Y_{i} \oplus K_{i}$ or $x_{i} = y_{i} + k_{i} (\text{mod}\ 2)$
+- Because every key bit $K_{i}$ is generated randomly with a 50% probability of being 0 or 1, every bit of the resulting ciphertext $Y{i}$ also has an exact 50% probability of being 0 or 1.
+- This means the ciphertext is uniformly distributed and completely independent of the plaintext distribution. An attacker with infinite computing power learns zero information about the original message from the ciphertext.
+- Encryption is also deniable. Given any ciphertext, there exists a valid key that can decrypt it into any arbitrary plaintext of the same length.
+- **The three strict rules of OTP:**
+	1. The secret key must be at least as long as the message.
+	2. The key bits must be uniformly random.
+	3. The key must never be reused.
+- Because the secret key must be as long as the message, OTP is not practical in the real world. 

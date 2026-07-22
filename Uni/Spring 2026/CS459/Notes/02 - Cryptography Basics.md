@@ -84,6 +84,11 @@
 	- If the message is shorter than one block, use padding.
 	- If the message is longer than a block, use modes of operation.
 - - -
+## AES - The Current Standard
+- Advanced Encryption Standard (AES) is the industry-standard symmetric block cipher that encrypts data in fixed 128-bit blocks using a secret key through a series of repeating mathematical transformation rounds.
+- AES takes a 128-bit chunk of unencrypted data and arranges it into a 4-by-4 grid of bytes called the state matrix.
+- It then passes this matrix through multiple iterative rounds of transformation using keys derived from your main secret key.
+- - -
 ## Modes of Operation
 - ECB = Electronic Code Block
 - This is the simplest and most insecure mode. Each block of plain text is encrypted independently using the exact same key.
@@ -97,4 +102,12 @@
 	- The first plain text block does not have a previous ciphertext block. Therefore, two different messages that start with the same first block will still output the same first ciphertext block, leaking cross-message patterns.
 - **Final Fix: CBC**
 	- CBC = Cipher Block Chaining
-	- 
+	- Take ECB2's design and introduce a random initialization vector (IV) to act as $C_0$ for the very first block.
+	- Because every new encryption generates a fresh random IV, sending the exact same message twice now yields entirely different ciphertexts from the first block onward.
+	- The initialization vector serves as a nonce. They ensure that encrypting the exact same plaintext multiple times yields completely different ciphertexts.
+	- CBC mode strictly requires IVs to be generated using a cryptographically secure pseudo-random number generator rather than a simple incrementing counter-nonce. The attacker should not be able to predict what the next IV will be.
+- Other modes of operation, like Counter (CTR) and Galois Counter (GCM), exist. Patterns in the plaintext are no longer exposed because these modes involve some kind of feedback among different blocks, but you need an IV.
+- The only question remaining to be answered is: how do Alice and Bob share the secret by the way? Do they meet in person or through a diplomatic courier?
+- This will be answered in the next lecture.
+- - -
+

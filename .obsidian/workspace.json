@@ -11,14 +11,12 @@
             "id": "a5f2cbd462c5cfa7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-file-text",
+              "title": "CS459 A03 Spec"
             }
           }
         ]
@@ -211,6 +209,7 @@
   },
   "active": "a5f2cbd462c5cfa7",
   "lastOpenFiles": [
+    "README.md",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2025.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Synchrony Financial 10K 2024.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Synchrony Financial 10K 2025.pdf",
@@ -226,7 +225,6 @@
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission.pdf",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
-    "Uni/Spring 2026/BU419/BU419 Project/BU419 Group 4 Project Submission (1).pdf",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Prior Year Claims Development Ratio (Personal Property).png",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Ratios Charts/Prior Year Claims Development Ratio (Personal Auto).png",

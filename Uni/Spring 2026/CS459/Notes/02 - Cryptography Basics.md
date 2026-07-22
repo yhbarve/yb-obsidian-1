@@ -71,3 +71,17 @@
 	- Every time a new message is sent, a fresh nonce is picked. This ensures that even though the secret key remains the same, the generated key stream is completely different every single time.
 - The nonce is usually smaller than or comparable to the key, depending on the cipher design.
 - Because the nonce is sent alongside the cipher text in plain text, it doesn't need to be kept secret. Its sole job is to guarantee that the input **(Key, Nonce)** passed into the generator never repeats.
+- **Aside:**
+	- It may feel tempting to protect the nonce also. This would basically generate two breaking points. So an attacker with access to the key would still not be able to decrypt the message because the nonce is also required to generate the key stream.
+	- However, in practical life, this is slightly stupid because if we find a way to pass the secret nouns for each message, we may as well just pass the message over that channel.
+- - -
+## Block Ciphers
+- Blocks are first split plain text into fixed-sized chunks called blocks and encrypted each block individually using round-based operations.
+- To make a block cipher secure against cryptanalysis, it relies on repeating two main operations over multiple rounds:
+	1. Confusion: Obscures the relationship between the key and the ciphertext. Changing a single key bit complexly alters many ciphertext bits.
+	2. Diffusion: Spreads the statistics of the plain text across the entire ciphertext block. Flipping a single plain text bit flips roughly 50% of the output bits.
+- Two catches with block ciphers:
+	- If the message is shorter than one block, use padding.
+	- If the message is longer than a block, use modes of operation.
+- - -
+

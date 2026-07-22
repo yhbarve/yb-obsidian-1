@@ -11,11 +11,11 @@
 - Steganography, on the other hand, protects the existence of the communication. An eavesdropper wouldn't even realize a secret message is being passed.
 - - -
 ## CIA For Cryptography
-1. Confidentiality
+1. **Confidentiality**
 	- Confidentiality ensures that message content remains secret and accessible only to authorized parties, preventing passive adversaries from reading the plain text.
-2. Integrity
+2. **Integrity**
 	- Integrity guarantees that a message has not been altered, tampered with, or corrupted during transit, preventing active adversaries from changing the data undetected.
-3. Authenticity
+3. **Authenticity**
 	- Authenticity verifies the true identity of the sender. It ensures that a message actually originates from the claimed party and prevents adversaries from impersonating someone else.
 - - -
 ## Ciphers
@@ -47,8 +47,8 @@
 - The one-time pad is the only mathematically unconditionally secure cipher.
 - **How it works:**
 	- It works by performing a bitwise XOR between the plaintext and a random key of the exact same length.
-	- Encryption: $Y_{i} = X_{i} \oplus K_{i}$ or $y_{i} = x_{i} + k_{i} (\text{mod}\ 2)$
-	- Decryption: $X_{i} = Y_{i} \oplus K_{i}$ or $x_{i} = y_{i} + k_{i} (\text{mod}\ 2)$
+	- **Encryption:** $Y_{i} = X_{i} \oplus K_{i}$ or $y_{i} = x_{i} + k_{i} (\text{mod}\ 2)$
+	- **Decryption:** $X_{i} = Y_{i} \oplus K_{i}$ or $x_{i} = y_{i} + k_{i} (\text{mod}\ 2)$
 - Because every key bit $K_{i}$ is generated randomly with a 50% probability of being 0 or 1, every bit of the resulting ciphertext $Y{i}$ also has an exact 50% probability of being 0 or 1.
 - This means the ciphertext is uniformly distributed and completely independent of the plaintext distribution. An attacker with infinite computing power learns zero information about the original message from the ciphertext.
 - Encryption is also deniable. Given any ciphertext, there exists a valid key that can decrypt it into any arbitrary plaintext of the same length.
@@ -67,7 +67,7 @@
 	- The key stream is XORed bit by bit with the plaintext to create ciphertext. Decryption XORs the ciphertext with the same exact key stream to recover the plaintext.
 - Because stream ciphers mimic a one-time pad, reusing a key stream is fatal. If two messages are encrypted with the same key stream, an attacker can XOR the two ciphertexts to eliminate the key stream and expose $M_{1} \oplus M_{2}$.
 	- The fix is to combine the secret key with a nonce, which is a unique number used only once.
-	- $\text{Keystream} = \text{Generator}(\text{Key}\ ||\ \text{Nonce})$ (|| = Concatination)
+	- $\text{Keystream} = \text{Generator}(\text{Key}\ ||\ \text{Nonce})$ (|| = Concatenation)
 	- Every time a new message is sent, a fresh nonce is picked. This ensures that even though the secret key remains the same, the generated key stream is completely different every single time.
 - The nonce is usually smaller than or comparable to the key, depending on the cipher design.
 - Because the nonce is sent alongside the cipher text in plain text, it doesn't need to be kept secret. Its sole job is to guarantee that the input **(Key, Nonce)** passed into the generator never repeats.
@@ -78,8 +78,8 @@
 ## Block Ciphers
 - Blocks are first split plain text into fixed-sized chunks called blocks and encrypted each block individually using round-based operations.
 - To make a block cipher secure against cryptanalysis, it relies on repeating two main operations over multiple rounds:
-	1. Confusion: Obscures the relationship between the key and the ciphertext. Changing a single key bit complexly alters many ciphertext bits.
-	2. Diffusion: Spreads the statistics of the plain text across the entire ciphertext block. Flipping a single plain text bit flips roughly 50% of the output bits.
+	1. **Confusion:** Obscures the relationship between the key and the ciphertext. Changing a single key bit complexly alters many ciphertext bits.
+	2. **Diffusion:** Spreads the statistics of the plain text across the entire ciphertext block. Flipping a single plain text bit flips roughly 50% of the output bits.
 - Two catches with block ciphers:
 	- If the message is shorter than one block, use padding.
 	- If the message is longer than a block, use modes of operation.
@@ -88,6 +88,13 @@
 - Advanced Encryption Standard (AES) is the industry-standard symmetric block cipher that encrypts data in fixed 128-bit blocks using a secret key through a series of repeating mathematical transformation rounds.
 - AES takes a 128-bit chunk of unencrypted data and arranges it into a 4-by-4 grid of bytes called the state matrix.
 - It then passes this matrix through multiple iterative rounds of transformation using keys derived from your main secret key.
+- What happens in each round:
+	1. **SubBytes (Substitution):** Every byte in the 4x4 matrix is swapped with a different byte using a lookup table to create **confusion**.
+	2. **ShiftRows (Transposition):** The rows of the matrix are cyclically shifted to the left by different offsets to start spreading the bits around.
+	3. **MixColumns (Mixing):** High-level linear algebra is applied to combine the bytes within each column, spreading single-byte changes across the whole column to create **diffusion**.
+	4. **AddRoundKey (Key Addition):** The current state matrix is XORed with a unique round key derived from the master key.
+- To decrypt the message, the process is simply to run in exact reverse.
+- All the specifications and what happens exactly in each round are publicly available, which aligns directly with Kerckhoff's principle.
 - - -
 ## Modes of Operation
 - ECB = Electronic Code Block
@@ -110,4 +117,7 @@
 - The only question remaining to be answered is: how do Alice and Bob share the secret by the way? Do they meet in person or through a diplomatic courier?
 - This will be answered in the next lecture.
 - - -
-
+## Videos About the Content
+1. AES: https://youtu.be/O4xNJsjtN6E?si=fmW8eW023_pBg-xx
+2. Modes of Operation: https://youtu.be/Rk0NIQfEXBA?si=NaXZxgmtUvjqnhbx
+3. 

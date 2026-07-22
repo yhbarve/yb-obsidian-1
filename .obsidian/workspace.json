@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb679aee9f616408",
+        "id": "1a25e7ff20397fa8",
         "type": "tabs",
         "children": [
           {
-            "id": "cb0f2585d400f8a6",
+            "id": "a5f2cbd462c5cfa7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -205,15 +209,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "351d2f5929c8d7ca",
+  "active": "a5f2cbd462c5cfa7",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2025.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Synchrony Financial 10K 2024.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Synchrony Financial 10K 2025.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/AMEX 10K 2024.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/AMEX 10K 2025.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2024.pdf",
     "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2025.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Filings",
     "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",

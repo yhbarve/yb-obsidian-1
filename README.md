@@ -1,10 +1,7 @@
 # Yash's Obsidian Vault
 
-Hi there! This repo is a back-up of all of Yash's Obsidian files.
-Also on S25 Ultra! This is simply lovely!
+Hi! This is my **private** work vault. If you're able to read this, something is wrong. Please reach out to me (yhbarve@uwaterloo.ca) so that I fix the issue.
 
-Hey, this line is added from S25 Ultra!
+Thanks, and have a good day!
 
-$(a+b)$
-
-Haha!
+Cheers!

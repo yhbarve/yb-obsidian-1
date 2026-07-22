@@ -84,4 +84,17 @@
 	- If the message is shorter than one block, use padding.
 	- If the message is longer than a block, use modes of operation.
 - - -
-
+## Modes of Operation
+- ECB = Electronic Code Block
+- This is the simplest and most insecure mode. Each block of plain text is encrypted independently using the exact same key.
+	- A major flaw is that if two plain text blocks are identical, their ciphertexts are also identical.
+- **ECB1: Fixing ECB**
+	- Try to hide repeating patterns by adding feedback. Instead of leaving ciphertext as is, you XOR the encrypted output of block i with the previous block's ciphertext.
+	- We can undo the XOR if we get all the ciphertexts. This basically does not improve the security compared to ECB.
+- **ECB2: Making it more secure**
+	- Shift the feedback to happen before encryption. XOR the current plain text with the previous cipher text block before running it through $E_{K}$.
+	- This successfully breaks identical plaintext patterns within a single message because every block now depends on $C_{i-1}$.
+	- The first plain text block does not have a previous ciphertext block. Therefore, two different messages that start with the same first block will still output the same first ciphertext block, leaking cross-message patterns.
+- **Final Fix: CBC**
+	- CBC = Cipher Block Chaining
+	- 

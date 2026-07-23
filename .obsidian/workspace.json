@@ -210,59 +210,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "c56cc6eae355c734",
-    "type": "floating",
-    "children": [
-      {
-        "id": "174aef1c034aecda",
-        "type": "window",
-        "children": [
-          {
-            "id": "f260039c173e6168",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b31c020445310fa5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "02 - Cryptography Basics"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1623,
-        "y": 53,
-        "width": 600,
-        "height": 982,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "f2f6e8cd867b987e",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU419/CI Design Challenge/CIDC Reference Sheet.docx",
+    "Uni/Spring 2026/BU419/CI Design Challenge/Unconfirmed 234451.crdownload",
+    "Uni/Spring 2026/BU419/CI Design Challenge/CIDC Slides.pptx",
+    "Uni/Spring 2026/BU419/CI Design Challenge/Unconfirmed 717101.crdownload",
+    "Uni/Spring 2026/BU419/CI Design Challenge/CIDC Spec.pptx",
+    "Uni/Spring 2026/BU419/CI Design Challenge/Unconfirmed 297026.crdownload",
+    "Uni/Spring 2026/BU419/CI Design Challenge",
     "Uni/Spring 2026/CS459/Slides/L02 - Crypography Basics.pdf",
     "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "Uni/Spring 2026/CS459/Slides/L08 - Authentication Protocols.pdf",
     "Uni/Spring 2026/CS459/Slides/L09 - Security Through The Layers.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "README.md",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2025.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Synchrony Financial 10K 2024.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Synchrony Financial 10K 2025.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/AMEX 10K 2024.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/AMEX 10K 2025.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Filings/Capital One 10K 2024.pdf",
     "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
     "Uni/Spring 2026/BU419/BU419 Notes/07 Strategic Considerations.md",

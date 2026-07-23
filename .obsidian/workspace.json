@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a25e7ff20397fa8",
+        "id": "38f0dbfd3a3a5b1c",
         "type": "tabs",
         "children": [
           {
-            "id": "5480cc5805f6e515",
+            "id": "f2f6e8cd867b987e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Slides/L02 - Crypography Basics.pdf"
+                "file": "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "L02 - Crypography Basics"
+              "icon": "lucide-file",
+              "title": "02 - Cryptography Basics"
             }
           }
         ]
@@ -247,10 +249,10 @@
       }
     ]
   },
-  "active": "5480cc5805f6e515",
+  "active": "f2f6e8cd867b987e",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "Uni/Spring 2026/CS459/Slides/L02 - Crypography Basics.pdf",
+    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "Uni/Spring 2026/CS459/Slides/L08 - Authentication Protocols.pdf",
     "Uni/Spring 2026/CS459/Slides/L09 - Security Through The Layers.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",

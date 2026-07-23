@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
+                "file": "Uni/Spring 2026/BU419/CI Design Challenge/CI Design Challenge Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Cryptography Basics"
+              "title": "CI Design Challenge Notes"
             }
           }
         ]
@@ -213,6 +213,8 @@
   "active": "f2f6e8cd867b987e",
   "lastOpenFiles": [
     "Uni/Spring 2026/BU419/CI Design Challenge/CIDC Reference Sheet.docx",
+    "Uni/Spring 2026/BU419/CI Design Challenge/CI Design Challenge Notes.md",
+    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "Uni/Spring 2026/BU419/CI Design Challenge/Unconfirmed 234451.crdownload",
     "Uni/Spring 2026/BU419/CI Design Challenge/CIDC Slides.pptx",
     "Uni/Spring 2026/BU419/CI Design Challenge/Unconfirmed 717101.crdownload",
@@ -220,10 +222,8 @@
     "Uni/Spring 2026/BU419/CI Design Challenge/Unconfirmed 297026.crdownload",
     "Uni/Spring 2026/BU419/CI Design Challenge",
     "Uni/Spring 2026/CS459/Slides/L02 - Crypography Basics.pdf",
-    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "Uni/Spring 2026/CS459/Slides/L08 - Authentication Protocols.pdf",
     "Uni/Spring 2026/CS459/Slides/L09 - Security Through The Layers.pdf",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "README.md",
     "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
@@ -256,7 +256,6 @@
     "Writings/AI Dating Platforms.md",
     "Writings/The Paradox of Nostalgia.md",
     "Writings/Website Chat with Fable 5.md",
-    "Tasks/20260709.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A2/AI/text/q2-website-fingerprinting.md"
+    "Tasks/20260709.md"
   ]
 }

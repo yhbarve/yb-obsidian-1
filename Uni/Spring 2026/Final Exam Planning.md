@@ -3,7 +3,7 @@
 ## First Pass
 ### CS459
 1. [x] Introduction
-2. [ ] Cryptography Basicss
+2. [x] Cryptography Basics
 3. [ ] Public Key Cryptography
 4. [ ] Integrity
 5. [ ] Discrete Logarithm and Diffie-Hellman

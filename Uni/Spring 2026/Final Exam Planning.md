@@ -45,7 +45,7 @@
 5. [x] Estimating Losses - Reserving
 6. [x] Market Structure Competition and Trends
 7. [x] Strategic Considerations & Trends
-8. [ ] Financial Analysis of Insurers
+8. [x] Financial Analysis of Insurers
 9. [ ] Capital Markets & Regulation
 10. [ ] Catastrophe Insurance & Catastrophe Risk Financing
 ---

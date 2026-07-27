@@ -36,6 +36,9 @@ To complement its traditional branches, Capital One operates over 60 full-servic
 
 Outside the US, Capital One maintains credit card underwriting and servicing operations in Canada and the United Kingdom.
 - - -
+# Market Presence
+Capital One is the 6th largest US Bank Holding Company. 
+- - -
 # Competition
 Several universal commercial banks like JPMorgan Chase and Citigroup hold massive market share in consumer lending. However, American Express (AXP) and Synchrony Financial (SYF) are the primary competitors for evaluating Capital One's financial profile.
 

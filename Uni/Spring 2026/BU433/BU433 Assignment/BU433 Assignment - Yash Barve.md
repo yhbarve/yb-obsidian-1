@@ -70,3 +70,14 @@ Benchmarking Capital One against American Express and Synchrony Financial would 
 2. **Regulatory Scrutiny & Interchange Limits:** Enhanced CFPB regulatory limits on late fees and merger compliance oversight.
 - - -
 # Section 3
+## Stock Price Performance Analysis
+Over the two-year window from January 2024 to December 2025, consumer lending institutions experienced substantial market re-valuations. Equity returns across Capital One, American Express, and Synchrony Financial were shaped by shifting Federal Reserve rate policies, credit normalization cycles, and institution-specific corporate events.
+
+| Stock Performance Metric   | COF     | APX     | SYF    |
+| -------------------------- | ------- | ------- | ------ |
+| Start Price (Jan 02, 2024) | $132.11 | $188.31 | $37.96 |
+| End Price (Dec 31, 2024)   | $178.32 | $296.79 | $65.00 |
+| 2024 Annual Return (%)     | 34.98%  | 57.61   |        |
+| End Price (Dec 31, 2025)   |         |         |        |
+| 2025 Annual Return (%)     |         |         |        |
+| 2-Year Total Return (%)    |         |         |        |

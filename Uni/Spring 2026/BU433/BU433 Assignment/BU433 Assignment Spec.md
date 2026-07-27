@@ -16,7 +16,7 @@ Emphasis lies on creative and original thinking, skillful analysis, and professi
     - [x] Where it operates
 - [ ] **(2.5 marks) Competition**
     - [x] Who are the main competitors
-    - [ ] Market presence (relative market size, market share, etc.)
+    - [x] Market presence (relative market size, market share, etc.)
     - [ ] SWOT analysis
 - [ ] **(2.5 marks) Detailed financial (stock price) analysis**
     - [ ] Breakdown of performance compared to competitors named in the report

@@ -37,3 +37,6 @@ To complement its traditional branches, Capital One operates over 60 full-servic
 Outside the US, Capital One maintains credit card underwriting and servicing operations in Canada and the United Kingdom.
 - - -
 # Competition
+American Express (AXP) and Synchrony Financial (SYF) are the primary competitors for evaluating Capital One's financial profile.
+
+AXP operates a closed-loop, spend-centric model tailored toward affluent consumers and corporate accounts, deriving significant top-line revenue from merchant fee volume and annual fees rather than interest charges.

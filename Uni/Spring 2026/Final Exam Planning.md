@@ -32,7 +32,7 @@
 3. [x] Code Generation
 4. [x] Code Summarization
 5. [x] Debugging
-6. [x] Testing
+6. [ ] Testing
 7. [ ] Code Review
 8. [ ] Performance
 9. [ ] Security

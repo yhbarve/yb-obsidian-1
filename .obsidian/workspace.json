@@ -6,6 +6,7 @@
       {
         "id": "2d80e7e024fa4d32",
         "type": "tabs",
+        "dimension": 72.66811279826464,
         "children": [
           {
             "id": "b42854b7eb14ab9d",
@@ -20,21 +21,29 @@
               "icon": "lucide-file",
               "title": "BU433 Assignment - Yash Barve"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "610d93d0697f3390",
+        "type": "tabs",
+        "dimension": 27.331887201735356,
+        "children": [
           {
             "id": "db70b4cee82ee08e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf"
+                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
+              "icon": "lucide-file",
               "title": "BU433 Assignment Spec"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -209,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,10 +233,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db70b4cee82ee08e",
+  "active": "b42854b7eb14ab9d",
   "lastOpenFiles": [
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
     "Uni/Spring 2026/Final Exam Planning.md",
     "Uni/Spring 2026/BU419/CI Design Challenge/CI Design Challenge Notes.md",
     "Uni/Spring 2026/BU419/CI Design Challenge/CIDC Reference Sheet.docx",
@@ -267,7 +279,6 @@
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission - Yash Barve.md",
     "Tasks/20260710.md",
     "Writings/AI Dating Platforms.md",
-    "Writings/The Paradox of Nostalgia.md",
-    "Writings/Website Chat with Fable 5.md"
+    "Writings/The Paradox of Nostalgia.md"
   ]
 }

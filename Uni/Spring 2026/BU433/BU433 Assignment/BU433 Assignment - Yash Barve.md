@@ -36,4 +36,4 @@ To complement its traditional branches, Capital One operates over 60 full-servic
 
 Outside the US, Capital One maintains credit card underwriting and servicing operations in Canada and the United Kingdom.
 - - -
-
+# Competition

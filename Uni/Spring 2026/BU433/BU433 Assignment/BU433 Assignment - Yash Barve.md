@@ -37,6 +37,10 @@ To complement its traditional branches, Capital One operates over 60 full-servic
 Outside the US, Capital One maintains credit card underwriting and servicing operations in Canada and the United Kingdom.
 - - -
 # Competition
-American Express (AXP) and Synchrony Financial (SYF) are the primary competitors for evaluating Capital One's financial profile.
+Several universal commercial banks like JPMorgan Chase and Citigroup hold massive market share in consumer lending. However, American Express (AXP) and Synchrony Financial (SYF) are the primary competitors for evaluating Capital One's financial profile.
 
-AXP operates a closed-loop, spend-centric model tailored toward affluent consumers and corporate accounts, deriving significant top-line revenue from merchant fee volume and annual fees rather than interest charges.
+AXP operates a closed-loop, spend-centric model tailored toward affluent consumers and corporate accounts. They derive significant top-line revenue from merchant fee volume and annual fees rather than interest charges. Conversely, SYF specializes in a revolving-centric, private-label store card model. They acquire accounts through major merchant partnerships like Amazon and Lowe's. They generating high Net Interest Margins by lending across near-prime and subprime credit tiers.
+
+AXP & SYF form the ideal benchmarking group for analyzing Capital One's performance because they isolate the exact structural components that form Capital One’s operational foundation. Capital One lies in the middle ground. It captures high interest yields by underwriting a broad spectrum of credit tiers, just like SYF. However just like APX, it drives direct account acquisition, controls its own deposit-funding engine, and operates a proprietary payment network.
+
+Benchmarking Capital One against AXP and SYF would expose how different underwriting approaches, funding costs, and network capabilities influence risk-adjusted returns and net charge-off sensitivity across economic cycles.

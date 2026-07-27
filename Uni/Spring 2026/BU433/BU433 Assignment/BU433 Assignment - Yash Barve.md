@@ -82,11 +82,14 @@ Over the two-year window from January 2024 to December 2025, consumer lending in
 | 2025 Annual Return (%)     | 35.91%  | 24.65%  | 28.35%  |
 | 2-Year Total Return (%)    | 83.45%  | 96.46%  | 119.78% |
 
-The following chart shows the daily stock price performance of Capital One, American Express, and Synchrony Financial over the 2024-2025 timeline.
+The following chart represents the daily stock price performance of Capital One, American Express, and Synchrony Financial over the 2024-2025 timeline.
 
-![[Screenshot 2026-07-27 at 17.29.51.png]]
+![[Screenshot 2026-07-27 at 17.29.51.png]] 
 
 **Key insights:**
-1. Following the announcement of Capital One's $35.3B acquisition of Discover Financial Services in February 2024, COF experienced brief stock price consolidation. Equity markets initially priced in execution complexity and regulatory scrutiny surrounding bank merger oversight. However, with time COF's valuation steadily re-rated because of the long-term value of the acquisition.
+1. Following the announcement of Capital One's $35.3B acquisition of Discover Financial Services in February 2024, COF experienced brief stock price consolidation. Equity markets initially priced in execution complexity and regulatory scrutiny surrounding bank merger oversight. However with time, COF's valuation steadily re-rated because of the long-term value of the acquisition.
 2. During the second half of 2024, the broader financial sector benefited from Federal Reserve interest rate cuts. This led to the expansion of net interest margins across all three issuers.
-3. In 2025, Capital One’s share price accelerated, outperforming both peers with a 35.91% annual gain. 
+3. In 2025, Capital One’s share price accelerated, outperforming both peers with a 35.91% annual gain. This was primarily because of the official regulatory approvals and the completion of the Discover integration.
+4. The strong correlation in price dips across all the three firms indicates that major dips were driven by industry-wide macro factors and not firm-specific operational issues.
+- - -
+# Section 4

@@ -18,8 +18,8 @@ Emphasis lies on creative and original thinking, skillful analysis, and professi
     - [x] Who are the main competitors
     - [x] Market presence (relative market size, market share, etc.)
     - [x] SWOT analysis
-- [ ] **(2.5 marks) Detailed financial (stock price) analysis**
-    - [ ] Breakdown of performance compared to competitors named in the report
+- [x] **(2.5 marks) Detailed financial (stock price) analysis**
+    - [x] Breakdown of performance compared to competitors named in the report
 - [ ] **(5 marks) Detailed financial performance analysis**
     - [ ] NOT a DCF or valuation
     - [ ] Use capital and other financial/leverage/solvency ratios unique to FI's

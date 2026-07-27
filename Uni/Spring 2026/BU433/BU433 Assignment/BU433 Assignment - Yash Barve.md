@@ -44,3 +44,4 @@ AXP operates a closed-loop, spend-centric model tailored toward affluent consume
 AXP & SYF form the ideal benchmarking group for analyzing Capital One's performance because they isolate the exact structural components that form Capital One’s operational foundation. Capital One lies in the middle ground. It captures high interest yields by underwriting a broad spectrum of credit tiers, just like SYF. However just like APX, it drives direct account acquisition, controls its own deposit-funding engine, and operates a proprietary payment network.
 
 Benchmarking Capital One against AXP and SYF would expose how different underwriting approaches, funding costs, and network capabilities influence risk-adjusted returns and net charge-off sensitivity across economic cycles.
+- - -

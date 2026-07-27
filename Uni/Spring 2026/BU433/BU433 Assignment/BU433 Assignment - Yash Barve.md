@@ -1,0 +1,2 @@
+# Motivation
+The choice of Capital One Financial Corporation (Capital One, COF) was driven its industry-level strategic significance. Capital One is among the few financial institutions that did not evolve from a legacy brick-and-mortar footprint. Instead, it was founded on an "Information-Based Strategy". At Capital One, real-time data analytics, risk-based pricing and software engineering 

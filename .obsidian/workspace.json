@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "BU433 Assignment - Yash Barve"
             }
+          },
+          {
+            "id": "db70b4cee82ee08e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "BU433 Assignment Spec"
+            }
           }
         ]
       }
@@ -225,7 +237,6 @@
     "Uni/Spring 2026/BU419/CI Design Challenge",
     "Uni/Spring 2026/CS459/Slides/L02 - Crypography Basics.pdf",
     "Uni/Spring 2026/CS459/Slides/L08 - Authentication Protocols.pdf",
-    "Uni/Spring 2026/CS459/Slides/L09 - Security Through The Layers.pdf",
     "README.md",
     "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",

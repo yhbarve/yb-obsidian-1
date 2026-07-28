@@ -1,3 +1,7 @@
+**Q1.**
+**(a)**
+- From statistic 2B, the total grades for all male students is $4 \mul 74.5 = $
+- - -
 **Q4.**
 **(a)**
 - Using a Merkle tree allows verification of a specific transaction in $O(\text{log}\ n)$ time and requires only $O(\text{log}\ n)$ sibling nodes to be download onto the client (wallet).

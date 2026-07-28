@@ -176,7 +176,7 @@ Capital One actively manages these identified exposures using three strategic co
 2. **Deposit-Funded Balance Sheet Architecture:** Capital One insulates its funding model from wholesale credit market freezes and interest rate shocks by maintaining an extensive retail deposit base.
 3. **Capital Buffer:** Capital One maintains core capital buffers well above regulatory baselines. This allows them to absorb stress-test scenarios, credit shocks, and Discover integration friction without threatening systemic solvency.
 - - -
-## Quantitative Risk Management Ratios
+## Quantitative Risk Management Metrics
 ### Net Charge-Off Rate
 The Net Charge-Off (NCO) rate is the definitive measure of credit default risk and portfolio quality. It represents the percentage of total loans unlikely to be recovered after all collection efforts have been exhausted. A lower NCO indicates tighter underwriting standards and higher borrower creditworthiness.
 
@@ -188,3 +188,10 @@ The Net Charge-Off (NCO) rate is the definitive measure of credit default risk a
 ![[NCO Rate.png|697]]
 
 - - -
+### Loan-to-Deposit Ratio
+The Loan-to-Deposit Ratio evaluates Asset-Liability Management and liquidity risk by measuring the extent to which a firm's loan portfolio is funded by stable, insured customer deposits versus capital market borrowings. An LTD ratio below 100% indicates that every dollar of loans is fully backed by deposits, shielding the institution from market liquidity shocks.
+
+**Company Analysis:**
+1. **Capital One** maintains the most resilient liquidity profile in the peer group as the only firm with an LTD ratio below 100%. The entire loan portfolio is funded through $475B+ in customer deposits captured via the direct Capital One 360 platform. This completely eliminates reliance on volatile wholesale debt markets for core loan funding.
+2. **American Express** operates at the highest LTD ratio in the group, which reflects a structural imbalance between its rapidly growing credit card loan portfolio and its smaller deposit base. However, the LTD ratio decreased in 2025 as management actively expanded its high-yield consumer deposit product to diversify its funding mix.
+3. **Synchrony Financial** maintains a high LTD ratio between Capital One and American Express. Operating without a traditional physical branch footprint, 

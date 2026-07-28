@@ -6,7 +6,7 @@
       {
         "id": "610d93d0697f3390",
         "type": "tabs",
-        "dimension": 99.99999999999999,
+        "dimension": 50,
         "children": [
           {
             "id": "db70b4cee82ee08e",
@@ -23,6 +23,38 @@
             }
           }
         ]
+      },
+      {
+        "id": "3d910fa3ec960b81",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "d1eedb21ce9cc677",
+            "type": "leaf",
+            "state": {
+              "type": "native-powerpoint-view",
+              "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx"
+              },
+              "icon": "presentation",
+              "title": "Analysis of Performance - Commercial Banks"
+            }
+          },
+          {
+            "id": "ebbf2e6fba05689c",
+            "type": "leaf",
+            "state": {
+              "type": "native-powerpoint-view",
+              "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Risks Incurred by FIs.pptx"
+              },
+              "icon": "presentation",
+              "title": "BU 433 Risks Incurred by FIs"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,14 +243,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db70b4cee82ee08e",
+  "active": "ebbf2e6fba05689c",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Managing Interest Rate & Insolvency Risk.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx",
+    "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Risks Incurred by FIs.pptx",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
+    "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 1012.crdownload",
+    "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 414605.crdownload",
     "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 155333.crdownload",
     "Uni/Spring 2026/BU433/BU433 Slides",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/LTD Ratio.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/NCO Rate.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Unconfirmed 706993.crdownload",
@@ -226,18 +262,13 @@
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Unconfirmed 723086.crdownload",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/CET1 Ratio.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Efficiency Ratio.png",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Unconfirmed 930847.crdownload",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Return on Assets (ROA).png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Net Interest Margin (NIM).png",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Unconfirmed 957286.crdownload",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Charts",
     "Screenshot 2026-07-27 at 17.29.51.png",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/Final Exam Planning.md",
     "Uni/Spring 2026/BU419/CI Design Challenge/CI Design Challenge Notes.md",
-    "Uni/Spring 2026/BU419/CI Design Challenge/CIDC Reference Sheet.docx",
     "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
-    "Uni/Spring 2026/BU419/CI Design Challenge/Unconfirmed 234451.crdownload",
     "README.md",
     "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",

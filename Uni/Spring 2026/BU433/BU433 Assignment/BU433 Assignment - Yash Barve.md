@@ -187,22 +187,22 @@ The following section discusses Capital One's operational and financial short-te
 
 1. **Vertical Integration & Fee Synergy**
 	Capital One has begun transitioning its debit card volumes and select credit card portfolios onto the Discover payment network. This shift off third-party processors will eliminate substantial external payment rail fees paid to the third parties. *(Capital One Financial Corp., 2024)*
-
 	The Discover Financial transition will also circumvent traditional interchange rate caps imposed on large covered banks. This will enable Capital One to directly capture higher merchant discount transaction revenues. *(Capital One Financial Corp., 2024)*
-
 	The transition is projected to yield approximately $1.2B in annual run-rate network synergies and $1.5B in annualized cost reductions as account migration finishes. *(Capital One Financial Corp., 2024)*
 
-2.  **Efficiency Ratio & Cost Structure**
+3.  **Efficiency Ratio & Cost Structure**
 	Operating expenses will continue to remain elevated through late 2026 due to platform migration expenditures, technology consolidation, legal compliance, and account integration friction. Hence, the Efficiency Ratio will continue to be around 56% - 58%.
-
 	However, as the duplicate cloud environments are phased out and customer servicing is unified under Capital One's digital platform, operating leverage will accelerate and drive the efficiency ratio downward to around 52%.
 
-3. **Return on Assets & Earning Power**
+4. **Stock Price**
+	The market will likely wait for tangible synergy realization before assigning further upside. The Efficiency Ratio still elevated in the 56-58% band and ROA below its historical benchmark.
+	If management delivers on the projected $1.2B in network synergies and if the Efficiency Ratio moves to the forecasted 52% zone, the stock price could see a re-rating toward the $230–250 range by late 2026. 
+
+5. **Return on Assets & Earning Power**
 	Capital One’s Return on Assets fell to 0.41% in 2025 due to heavy upfront CECL credit loss provisioning and merger integration costs. As upfront reserve additions normalize and synergy realization accelerates, ROA is forecasted to rebound toward historical benchmark targets of 1.00% - 1.15%. *(FASB, 2016)*
 
-4. **Solvency, Capital Structure & Credit Quality**
+6. **Solvency, Capital Structure & Credit Quality**
 	Capital One's current CET1 ratio is around 14.27%. As the merger integration risks decrease, the management is expected to redeploy excess capital buffer through share repurchases and dividend increases. This will guide the CET1 ratio toward the target operating range of 12% - 12.5%.
-
 	Net Charge-Offs are also expected to stabilize around 3% - 3.3%. Capital One’s real-time machine learning underwriting engines allow management to dynamically adjust credit lines before any credit defaults. This limits their downside credit losses while expanding prime product offerings. *(Capital One Financial Corp., 2025)*
 
 To summarize, Capital One's financial trajectory over the near-term strategic horizon is defined by the integration of Discover Financial Services. This brings some short-term operational friction like heavy upfront technological integration costs and legal reserves. However in the long-term, it will lead to massive efficiencies and cost optimizations, allowing Capital One to transition into being a fully vertically integrated network owner. This positions the company to drive sustained EPS expansion and long-term shareholder value across economic cycles.

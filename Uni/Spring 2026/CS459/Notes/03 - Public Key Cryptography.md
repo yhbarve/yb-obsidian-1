@@ -27,3 +27,22 @@ tags:
 	3. **Message Encryption:** Alice wants to send a plain text message $M$ to Bob. She retrieves Bob's public key $e_k$ from the public directory and passes both $M$ and $e_k$ into an encryption function to create ciphertext $C = \text{Encrypt}(M, e_k)$.
 	4. **Ciphertext Transmission:** Alice transmits $C$ to Bob over an insecure public channel.
 	5. **Message Decryption:** Bob receives $C$ and applies his private key $d_k$ to the decryption algorithm to recover the original message $M = \text{Decrypt}(C, d_k)$.
+- Eavesdroppers cannot decrypt $C$ or derive $d_k$ because deriving $d_k$ from $e_k$ is an intractable computational problem without the secret trapdoor $t$.
+## Steps for PKE
+1. Bob creates a key pair.
+2. Bob gives everyone the public key.
+3. Alice encrypts the message using Bob's public key and sends it.
+4. Bob decrypts the message using his private key.
+5. Eve and Alice cannot decrypt the message because they only have the encryption key.
+## Requirements for PKE
+1. Easy Forward Computation: The encryption function must be easy (computationally efficient) to evaluate for any input.
+2. Hard inversion: Reversing the function without special information must be computationally hard.
+3. Trapdoor Mechanism: A mathematical trapdoor, (in this case the secret key), must exist such that computing the inverse function becomes easy only when the trapdoor is known. 
+- - -
+# Textbook RSA
+- Textbook REC uses modular arithmetic and prime factorization to build a trapdoor one-way function.
+- RSA security relies on the practical impossibility of factoring a large composite number $n$ back into its constituent prime factors $p$ and $q$.
+- It also relies on modular arithmetic, which is math performed on integers that wrap around when reaching a modulus.
+	- If $7\ \text{mod}\ 5 = 2$ and $12\ \text{mod}\ 5 = 2$, then $7 \equiv 12 (\text{mod}\ 5)$
+	- This means 7 and 12 are congruent modulo 5 because they yield the same remainder when divided by 5.
+- To recap, prime numbers are natural numbers greater than one, divisible only by one and itself. Every integer can be written as a unique product of prime numbers.

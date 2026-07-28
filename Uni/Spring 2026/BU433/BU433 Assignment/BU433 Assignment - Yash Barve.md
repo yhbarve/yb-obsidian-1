@@ -92,14 +92,14 @@ The following chart represents the daily stock price performance of Capital One,
 
 **Key insights:**
 1. Following the announcement of Capital One's $35.3B acquisition of Discover Financial Services in February 2024, COF experienced brief stock price consolidation. Equity markets initially priced in the execution complexity and regulatory scrutiny surrounding bank merger oversight. However with time, COF's valuation steadily re-rated because of the long-term value of the acquisition.
-2. During the second half of 2024, the broader financial sector benefited from Federal Reserve interest rate cuts. This led to the expansion of net interest margins across all three issuers.
-3. In 2025, Capital One’s share price accelerated, outperforming both peers with a 35.91% annual gain. This was primarily because of the official regulatory approvals and the completion of the Discover integration.
+2. During the second half of 2024, the broader financial sector benefited from Federal Reserve interest rate cuts. This led to the expansion of net interest margins across all three issuers. *(Board of Governors of the Federal Reserve System, 2024).*
+3. In 2025, Capital One’s share price accelerated, outperforming both peers with a 35.91% annual gain. This was primarily because of the official regulatory approvals and the completion of the Discover integration. *(OCC, 2025)*
 4. The strong correlation in price dips across all the three firms indicates that major dips were driven by industry-wide macro factors and not firm-specific operational issues.
 - - -
 # Financial Profitability & Operational Efficiency Ratios
 A comparative evaluation across the 2024-2025 financial performance highlights how fundamental strategic choices influence core financial metrics. American Express leverages a fee-intensive and spend-centric model to drive superior asset returns. Synchrony Financial relies on high-yield private-label cards to maximize interest spreads. Contrary to both these firms, Capital One prioritizes balance sheet strength and sustainable spread-based revenue. The following section presents multiple metrics and ratios that helps us analyze the three firms.
 ## Net Interest Margin
-Net Interest Margin (NIM) measures the net yield a financial institution earns on its interest-bearing assets like loans, credit card balances, and securities. A higher NIM reflects superior loan yield price or lower funding costs.
+Net Interest Margin (NIM) measures the net yield a financial institution earns on its interest-bearing assets like loans, credit card balances, and securities. A higher NIM reflects a superior loan yield price or lower funding costs.
 
 **Company Analysis:**
 1. **Capital One** maintains the lowest baseline NIM in the peer group because its asset base is diluted by lower-yielding commercial and auto loan portfolios alongside credit cards. However, they also demonstrated the strongest yield expansion, led by the stabilizing deposit costs on its direct retail platform.

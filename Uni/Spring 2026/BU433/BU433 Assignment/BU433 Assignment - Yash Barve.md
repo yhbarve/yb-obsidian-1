@@ -95,7 +95,7 @@ The following chart represents the daily stock price performance of Capital One,
 # Section 4
 A comparative evaluation across the 2024-2025 financial performance highlights how fundamental strategic choices influence core financial metrics. American Express leverages a fee-intensive and spend-centric model to drive superior asset returns. Synchrony Financial relies on high-yield private-label cards to maximize interest spreads. Contrary to both these firms, Capital One prioritizes balance sheet strength and sustainable spread-based revenue. The following section presents multiple metrics and ratios that helps us analyze the three firms.
 
-## Financial Profitability & Operation
+## Financial Profitability & Operational Efficiency Ratios
 ### Net Interest Margin
 Net Interest Margin (NIM) measures the net yield a financial institution earns on its interest-bearing assets like loans, credit card balances, and securities. A higher NIM reflects superior loan yield price or lower funding costs.
 
@@ -152,3 +152,8 @@ Tier 1 Leverage Ratio measures core equity capital directly against total unadju
 ![[Leverage Ratio.png|697]]
 
 - - -
+# Section 5
+## Risk Identification & Assessment Framework
+To evaluate Capital One's resilience, let's take a look at the three core risks that they face.
+### Credit Risk
+Capital One's primary financial threat stems from credit default risk within its revolving credit card and auto loan books. Unlike American Express, Capital One holds a significant concentration of near-prime and middle-income borrowers

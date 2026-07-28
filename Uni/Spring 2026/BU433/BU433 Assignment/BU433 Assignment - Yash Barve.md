@@ -96,10 +96,6 @@ The following chart represents the daily stock price performance of Capital One,
 A comparative evaluation across the 2024-2025 financial performance highlights how fundamental strategic choices influence core financial metrics. American Express leverages a fee-intensive and spend-centric model to drive superior asset returns. Synchrony Financial relies on high-yield private-label cards to maximize interest spreads. Contrary to both these firms, Capital One prioritizes balance sheet strength and sustainable spread-based revenue. The following section presents multiple metrics and ratios that helps us analyze the three firms.
 
 ### Net Interest Margin
-Net Interest Margin (NIM) measures the net yield generated on a firm's interest-earning assets relative to its funding costs.
+Net Interest Margin (NIM) measures the net yield a financial institution earns on its interest-bearing assets like loans, credit card balances, and securities. A higher NIM reflects superior loan yield price or lower funding costs.
 
-Capital One is in the middle of the peer group, with an NIM of 7.84%. This reflects their asset mix - high-yielding credit card receivables and lower-yielding auto and commercial loans.
-
-American Express maintains a significantly lower NIM because over half of its revenue is non-interest-driven rather than purely revolving interest spreads.
-
-Synchrony Financial leads the group by specializing in private-label, store-branded credit cards (e.g., Lowe’s, Amazon). These retail credit lines carry higher baseline annual percentage rates (APRs), driving high interest margins to offset elevated loss risks.
+**Capital One** maintains the lowest baseline NIM in the peer group because its asset base is diluted by lower-yie 

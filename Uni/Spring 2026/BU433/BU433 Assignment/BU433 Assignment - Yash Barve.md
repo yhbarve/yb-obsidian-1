@@ -59,13 +59,18 @@ Benchmarking Capital One against American Express and Synchrony Financial would 
 3. **Deposit-Funded Asset Base:** Retail deposits reduce total Weighted Average Cost of Capital (WACC).
 ## Weaknesses:
 1. **Subprime Credit Exposure:** Higher percentage of subprime borrowers elevates Net Charge-Offs (NCOs) during economic downturns compared to competitors like American Express.
-2. **Capital & Regulatory Burden:** Category III bank status subjects Capital One to rigorous Federal Reserve CCAR stress testing and Category III capital requirements.
+2. **Capital & Regulatory Burden:** Category III bank status subjects Capital One to rigorous Federal Reserve CCAR stress testing and Category III capital requirements *(OCC, 2025) (Basel Committee on Banking Supervision, 2019)*.
 ## Opportunities:
 1. **Debit Rail Migration:** Moving COF debit card volume onto the Discover network reduces payment routing expenses.
 2. **Premium Market Expansion:** Scaling the Venture X ecosystem to challenge American Express in prime spend.
 ## Threats:
 1. **Credit Normalization & Delinquency Spikes:** Macro headwinds hit revolving subprime balances.
 2. **Regulatory Scrutiny & Interchange Limits:** Enhanced CFPB regulatory limits on late fees and merger compliance oversight.
+- - -
+> **Note:**
+>  Financial performance metrics, stock prices, and balance sheet data for Capital One, American Express, and Synchrony Financial across the 2024–2025 period were compiled directly from their respective SEC Form 10-K filings (2024, 2025).
+>  
+>  Daily stock price trends and equity valuation metrics were sourced via the dynamic `=GOOGLEFINANCE()` function in Google Sheets.
 - - -
 # Stock Price Performance Analysis
 Over the two-year window from January 2024 to December 2025, consumer lending institutions experienced substantial market re-valuations. Equity returns across Capital One, American Express, and Synchrony Financial were shaped by shifting Federal Reserve rate policies, credit normalization cycles, and institution-specific corporate events.
@@ -106,7 +111,7 @@ Net Interest Margin (NIM) measures the net yield a financial institution earns o
 Return on Assets (ROA) evaluates managerial efficiency by measuring how effectively a firm generates net earnings from its asset base. A higher ROA indicates greater asset productivity and earnings power.
 
 **Company Analysis:**
-1. **Capital One**'s ROA reduced by 0.58% in 2025. This drop was primarily caused by heavy upfront loan-loss reserve builds required under CECL accounting during portfolio expansion, as well as operational integration expenses linked to the Discover Financial acquisition.
+1. **Capital One**'s ROA reduced by 0.58% in 2025. This drop was primarily caused by heavy upfront loan-loss reserve builds required under CECL accounting during portfolio expansion, as well as operational integration expenses linked to the Discover Financial acquisition. *(FASB, 2016)*
 2. **American Express** dominates asset efficiency across the sector. Its spend-centric model relies heavily on merchant discount fees, annual cardholder membership fees, and international service revenues. This generates a massive net-income without over-inflating total balance sheet assets.
 3. **Synchrony Financial** consistently maintains high asset productivity. They benefit from a lean branchless operating footprint that minimizes total fixed assets.
 
@@ -128,8 +133,8 @@ The Efficiency Ratio assesses operational expense management by measuring the pr
 The Common Equity Tier 1 (CET1) ratio is the fundamental regulatory metric mandated under Basel III standards to measure a bank's common equity against its risk-weighted assets. It measures a firm's ability to absorb credit shocks and macroeconomic downturns.
 
 **Company Analysis:**
-1. **Capital One** increased its CET1 ratio taking the top position among the three firms. They intentionally built this equity defense to ensure compliance with Federal Reserve CCAR stress testing, as well as to absorb potential loan markdowns and regulatory capital needs post-Discover acquisition.
-2. **American Express** operates with a stable CET1 ratio of 10.5%. Regulators assign lower risk weights to their asset portfolio during annual stress testing because of their affluent customer base which reduces credit default volatility.
+1. **Capital One** increased its CET1 ratio taking the top position among the three firms. They intentionally built this equity defense to ensure compliance with Federal Reserve CCAR stress testing, as well as to absorb potential loan markdowns and regulatory capital needs post-Discover acquisition. *(OCC, 2025)*
+2. **American Express** operates with a stable CET1 ratio of 10.5%. Regulators assign lower risk weights to their asset portfolio during annual stress testing because of their affluent customer base which reduces credit default volatility. *(Basel Committee on Banking Supervision, 2019)*
 3. **Synchrony Financial** reduced its CET1 ratio in 2025 as it deployed excess capital into share buybacks. They also maintained a capital buffer adequate to absorb retail card defaults.
 
 ![[CET1 Ratio.png|697]]
@@ -151,7 +156,7 @@ To evaluate Capital One's resilience, let's take a look at the three core risks 
 ## 1. Credit Risk
 Capital One's primary financial threat stems from credit default risk within its revolving credit card and auto loan books. Unlike American Express, Capital One holds a significant concentration of near-prime and middle-income borrowers.
 
-As economic conditions worsen due to inflation and rising unemployment, this group sees an earlier rise in missed payments. Moreover, CECL accounting mandates that Capital One recognize lifetime expected losses upfront upon loan origination. This creates short-term earnings volatility during growth cycles.
+As economic conditions worsen due to inflation and rising unemployment, this group sees an earlier rise in missed payments. Moreover, CECL accounting mandates that Capital One recognize lifetime expected losses upfront upon loan origination. This creates short-term earnings volatility during growth cycles. *(FASB, 2016)*
 - - -
 ## 2. Asset-Liability & Liquidity Risk
 Liquidity risk arises from potential mismatches between long-duration loan assets and short-term funding liabilities.
@@ -161,7 +166,7 @@ Non-bank consumer lenders like Synchrony and American Express rely heavily on wh
 ## 3. Operational & Regulatory Integration Risk
 This risk arises from the execution hazards linked to the $35.5B acquisition of Discover Financial Services.
 
-Transitioning card portfolios onto Discover’s proprietary payment network presents technical, compliance, and cyber-operational risks. Regulators enforce heightened Category III prudential standards, requiring COF to pass rigorous Federal Reserve CCAR stress tests.
+Transitioning card portfolios onto Discover’s proprietary payment network presents technical, compliance, and cyber-operational risks. Regulators enforce heightened Category III prudential standards, requiring COF to pass rigorous Federal Reserve CCAR stress tests. *(OCC, 2025) (Basel Committee on Banking Supervision, 2019)*
 - - -
 # Risk Evaluation
 Capital One actively manages these identified exposures using three strategic controls:
@@ -208,7 +213,7 @@ The final section of this report looks at Capital One's operational and financia
 	However, as the duplicate cloud environments are phased out and customer servicing is unified under Capital One's digital platform, operating leverage will accelerate and drive the efficiency ratio downward to around 52%.
 
 3. **Return on Assets & Earning Power**
-	Capital One’s Return on Assets compressed to 0.41% in 2025 due to heavy upfront CECL credit loss provisioning and merger integration costs. As upfront reserve additions normalize and synergy realization accelerates, ROA is forecasted to rebound toward historical benchmark targets of 1.00% - 1.15%.
+	Capital One’s Return on Assets compressed to 0.41% in 2025 due to heavy upfront CECL credit loss provisioning and merger integration costs. As upfront reserve additions normalize and synergy realization accelerates, ROA is forecasted to rebound toward historical benchmark targets of 1.00% - 1.15%. *(FASB, 2016)*
 
 4. **Solvency, Capital Structure & Credit Quality**
 	Capital One's current CET1 ratio is around 14.27%. As the merger integration risks decrease, the management is expected to redeploy excess capital buffer through share repurchases and dividend increases. This will guide the CET1 ratio toward the target operating range of 12% - 12.5%.

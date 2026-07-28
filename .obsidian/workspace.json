@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ccd301733eeb7137",
+        "id": "81977421474e6cd7",
         "type": "tabs",
         "children": [
           {
-            "id": "f3ff3fb3667e7199",
+            "id": "cc868506bf1e126f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Notes/09 Capital Markets and Regulation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "09 Capital Markets and Regulation"
+              "title": "New tab"
             }
           }
         ]
@@ -210,22 +206,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f3ff3fb3667e7199",
+  "active": "cc868506bf1e126f",
   "lastOpenFiles": [
     "Uni/Spring 2026/BU419/BU419 Slides/BU419 Ch9.pptx",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 CoverPage & Table of Contents.pdf",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.pdf",
+    "Uni/Spring 2026/BU419/BU419 Notes/09 Capital Markets and Regulation.md",
     "Uni/Spring 2026/BU419/BU419 Slides/Unconfirmed 288552.crdownload",
     "Uni/Spring 2026/BU419/BU419 Slides",
-    "Uni/Spring 2026/BU419/BU419 Notes/09 Capital Markets and Regulation.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve/BU433 Assignment Data & Charts.xlsx",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve/BU433 Assignment - Yash Barve.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.zip",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Archive.zip",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 CoverPage & Table of Contents.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Screenshot 2026-07-27 at 17.29.51.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/LTD Ratio.png",

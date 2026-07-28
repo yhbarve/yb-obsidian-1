@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1d68a37f8ea7a53b",
+        "id": "ccd301733eeb7137",
         "type": "tabs",
         "children": [
           {
-            "id": "799f6b87c5eb514b",
+            "id": "f3ff3fb3667e7199",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf"
+                "file": "Uni/Spring 2026/BU419/BU419 Notes/09 Capital Markets and Regulation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CS459 A03 Spec"
+              "icon": "lucide-file",
+              "title": "09 Capital Markets and Regulation"
             }
           }
         ]
@@ -208,8 +210,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "799f6b87c5eb514b",
+  "active": "f3ff3fb3667e7199",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU419/BU419 Slides/BU419 Ch9.pptx",
+    "Uni/Spring 2026/BU419/BU419 Slides/Unconfirmed 288552.crdownload",
+    "Uni/Spring 2026/BU419/BU419 Slides",
+    "Uni/Spring 2026/BU419/BU419 Notes/09 Capital Markets and Regulation.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve/BU433 Assignment Data & Charts.xlsx",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve/BU433 Assignment - Yash Barve.pdf",
@@ -219,9 +226,6 @@
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 CoverPage & Table of Contents.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Data & Charts.xlsx",
-    "Uni/Spring 2026/BU433/BU433 Assignment/Unconfirmed 544039.crdownload",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.pdf",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Screenshot 2026-07-27 at 17.29.51.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/LTD Ratio.png",
@@ -253,7 +257,6 @@
     "Uni/Spring 2026/CS398/Notes/07 Debugging.md",
     "Uni/Spring 2026/BU433/BU433 Cases/BU433 Case 03/BU433 Case 03 Submission - Yash Barve.md",
     "Tasks/20260710.md",
-    "Writings/AI Dating Platforms.md",
-    "Writings/The Paradox of Nostalgia.md"
+    "Writings/AI Dating Platforms.md"
   ]
 }

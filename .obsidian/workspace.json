@@ -11,10 +11,14 @@
             "id": "cc868506bf1e126f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/Notes/03 - Public Key Cryptography.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03 - Public Key Cryptography"
             }
           }
         ]
@@ -208,6 +212,10 @@
   },
   "active": "cc868506bf1e126f",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
+    "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
+    "Uni/Spring 2026/CS459/Notes/03 - Public Key Cryptography.md",
+    "Uni/Spring 2026/CS459/Slides/L03 - Public Key Cryptography.pdf",
     "Uni/Spring 2026/BU419/BU419 Slides/BU419 Ch9.pptx",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 CoverPage & Table of Contents.pdf",
@@ -220,8 +228,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve/BU433 Assignment Data & Charts.xlsx",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve/BU433 Assignment - Yash Barve.pdf",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.zip",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Screenshot 2026-07-27 at 17.29.51.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/LTD Ratio.png",
@@ -233,9 +239,7 @@
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/Net Interest Margin (NIM).png",
     "Uni/Spring 2026/Final Exam Planning.md",
     "Uni/Spring 2026/BU419/CI Design Challenge/CI Design Challenge Notes.md",
-    "Uni/Spring 2026/CS459/Notes/02 - Cryptography Basics.md",
     "README.md",
-    "Uni/Spring 2026/CS459/Notes/01 - Introduction.md",
     "Uni/Spring 2026/BU419/BU419 Notes/08 Financial Analysis.md",
     "Uni/Spring 2026/BU419/BU419 Notes/07 Strategic Considerations.md",
     "Uni/Spring 2026/BU419/BU419 Project/BU419 Project Data/Charts/Gross Written Premium _ Operating DPW.png",

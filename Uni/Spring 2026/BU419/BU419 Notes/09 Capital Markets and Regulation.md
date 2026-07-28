@@ -72,3 +72,18 @@
 	- Counterparty risk
 	- Lower market liquidity compared to mainstream derivatives
 - - -
+# Financial Security & Basis Risk
+- Traditional reinsurance has virtually zero basis risk and pretty high security. However, it is slow to settle and expensive to arrange.
+- ILS and CAD bonds have high financial security with flexible trigger designs. They also have medium to low basis risk, depending on how the ILS is set up.
+- Exchange-traded options have high security but very high basis risk because the index is broad and standardized.
+- - - 
+# Regulation
+- Regulators require strict proof of actual risk transfer before granting capital relief.
+- Regulators scrutinize parametric triggers and derivatives. If there is a significant basis risk, regulatory frameworks will limit or disallow full solvency capital credit because the insurer remains exposed to unhedged tail risk.
+- Insurers must fully disclose SPV structures, collateral accounts, and counterparty exposures in regulatory filings.
+- Regulators require proof that derivatives and swaps are used strictly for hedging existing insurance liabilities and not for speculative investment.
+- - -
+# Key Regulatory and Reporting Requirements for Alternative Risk Transfer (ART)
+- Risk Transfer Requirements
+	- To receive regulatory capital relief, the insurer must prove the ART mechanism transfers both underwriting risk and timing risk.
+	- 

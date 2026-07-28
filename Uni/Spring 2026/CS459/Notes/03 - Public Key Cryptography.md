@@ -54,7 +54,13 @@ tags:
 ## Encryption
 - $C = m^{e}(\text{mod}\ n)$
 - The ciphertext is equal to the message multiplied by itself $e$ times modulo $n$.
-- The public key is $p_k = (e, n)$.
+- The public key is $(e, n)$.
 ## Decryption
 - $m = C^d(\text{mod}\ n) = m^{ed}(\text{mod}\ n)$
+- Decryptions rely on the number $d$ satisfying $ed = 1(\text{mod}\ \phi(n)$), such that $m^{ed}(\text{mod}\ n) = m(\text{mod}\ n) = m$.
+- In other words, $d$ is the multiplicative inverse of $e(\text{mod}\ \phi(n)$.
+- $\phi(n) = (p-1)(q-1)$, where $p$ & $q$ are random primes.
+- The private key is just $d$. Once calculated, other numbers can be discarded.
+## Key Generation
+- Pick two random primes $p$ and $q$ such that $pq = n$.
 - 

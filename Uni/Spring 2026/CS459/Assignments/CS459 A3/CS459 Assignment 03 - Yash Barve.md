@@ -15,3 +15,11 @@
 	- $H_{2, 2} = 6$
 - Finally, we calculate the hash of the root.
 	- $H_{\text{root}} = H(116) = 8$
+
+**(c)**
+- **Head Start:** The selfish miner gets a head start on mining subsequent blocks. Honest miners continue wasting computational power and electricity mining on the publicly known chain, while the selfish miner can move to the next blocks.
+- **Invalidating Honest Work:** Whenever honest miners discover a block and threaten catch up, the selfish miner releases their hidden block. The network follows the longest-chain rule; therefore the network adopts the selfish miner's longer chain and abandons the honest miner's blocks.
+
+**(d)**
+- In Proof-of-Work, mining requires consuming physical energy and computational power. Miners are economically incentivized to concentrate all their hash power on a single long chain, because mining on a losing fork wastes electricity and other resources with zero payout.
+- PoS protocols resolve this by implementing slashing mechanisms. When a validator double-signs, cryptographic evidence of the double vote is submitted to the network. The protocol automatically destroys a portion of the validator's staked collateral and forcibly removes them from the validator set, making the attack economically ruinous.

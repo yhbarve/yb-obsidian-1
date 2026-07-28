@@ -1,5 +1,5 @@
 # Motivation 
-The choice of Capital One Financial Corporation (Capital One, COF) was driven its industry-level strategic significance. Although it is legally and functionally a bank holding company, it operates like a technology company.
+The choice of Capital One Financial Corporation (Capital One, COF) was driven by its industry-level strategic significance. Although it is legally and functionally a bank holding company, it operates like a technology company.
 
 Capital One is among the few financial institutions that did not evolve from a legacy brick-and-mortar footprint. Instead, it was founded on an "Information-Based Strategy". At Capital One, cloud infrastructure, real-time data analytics, risk-based pricing and software engineering directly drive credit underwriting and customer acquisition.
 
@@ -68,9 +68,11 @@ Benchmarking Capital One against American Express and Synchrony Financial would 
 2. **Regulatory Scrutiny & Interchange Limits:** Enhanced CFPB regulatory limits on late fees and merger compliance oversight.
 - - -
 > **Note:**
->  Financial performance metrics, stock prices, and balance sheet data for Capital One, American Express, and Synchrony Financial across the 2024–2025 period were compiled directly from their respective SEC Form 10-K filings (2024, 2025).
+> Financial performance metrics, stock prices, and balance sheet data for Capital One, American Express, and Synchrony Financial across the 2024–2025 period were compiled directly from their respective SEC Form 10-K filings (2024, 2025).
 >  
->  Daily stock price trends and equity valuation metrics were sourced via the dynamic `=GOOGLEFINANCE()` function in Google Sheets.
+> Daily stock price trends and equity valuation metrics were sourced via the dynamic `=GOOGLEFINANCE()` function in Google Sheets.
+>  
+> Financial data, ratio calculations, and stock prices are available in the accompanying spreadsheet (`BU433 Assignment Data.xlsx`).
 - - -
 # Stock Price Performance Analysis
 Over the two-year window from January 2024 to December 2025, consumer lending institutions experienced substantial market re-valuations. Equity returns across Capital One, American Express, and Synchrony Financial were shaped by shifting Federal Reserve rate policies, credit normalization cycles, and institution-specific corporate events.

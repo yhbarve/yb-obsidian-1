@@ -110,4 +110,17 @@ Net Interest Margin (NIM) measures the net yield a financial institution earns o
 Return on Assets (ROA) evaluates managerial efficiency by measuring how effectively a firm generates net earnings from its asset base. A higher ROA indicates greater asset productivity and earnings power.
 
 **Company Analysis:**
-1. **Capital One**'s ROA reduced by 0.58% in 2025. This drop was primarily caused by heavy upfront loan-loss reserve builds required under CECL accounting during portfolio expansion, as well as operational integration expenses linked to t
+1. **Capital One**'s ROA reduced by 0.58% in 2025. This drop was primarily caused by heavy upfront loan-loss reserve builds required under CECL accounting during portfolio expansion, as well as operational integration expenses linked to the Discover Financial acquisition.
+2. **American Express** dominates asset efficiency across the sector. Its spend-centric model relies heavily on merchant discount fees, annual cardholder membership fees, and international service revenues. This generates a massive net-income without over-inflating total balance sheet assets.
+3. **Synchrony Financial** consistently maintains high asset productivity. They benefit from a lean branchless operating footprint that minimizes total fixed assets.
+
+![[Return on Assets (ROA).png|697]]
+
+- - -
+### Efficiency Ratio
+The Efficiency Ratio assesses operational expense management by measuring the proportion of revenue consumed by overhead expenses. A lower efficiency ratio indicates a cost-effective operation.
+
+**Company Analysis:**
+1. **Capital One** operates within a strong range (< 60%). They highly benefit from their digital-first retail banking infrastructure. The increase in 2025 reflects temporary technology, legal, and operational expenditures required to integrate Discover's payment network.
+2. **American Express** carries a high efficiency ratio because of its premium brand strategy. This stems from extensive cardholder loyalty rewards, lounge access networks, direct marketing, and customer acquisition campaigns.
+3. **Synchrony Financial** has an industry-leading cost efficiency. This is mainly because its retail partners handle in-store marketing and co-brand distribution. SYF therefore can avoid major customer acquisition and physical branch expenses.

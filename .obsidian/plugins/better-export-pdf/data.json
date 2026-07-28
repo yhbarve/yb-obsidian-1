@@ -12,5 +12,20 @@
   "isTimestamp": false,
   "enabledCss": false,
   "concurrency": "5",
-  "version": "2"
+  "version": "2",
+  "prevConfig": {
+    "pageSize": "A4",
+    "marginType": "3",
+    "showTitle": false,
+    "open": true,
+    "scale": 100,
+    "landscape": false,
+    "marginTop": "20",
+    "marginBottom": "20",
+    "marginLeft": "5",
+    "marginRight": "5",
+    "displayHeader": false,
+    "displayFooter": true,
+    "cssSnippet": "0"
+  }
 }

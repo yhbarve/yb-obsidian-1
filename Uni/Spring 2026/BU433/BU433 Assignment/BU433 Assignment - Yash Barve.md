@@ -98,4 +98,16 @@ A comparative evaluation across the 2024-2025 financial performance highlights h
 ### Net Interest Margin
 Net Interest Margin (NIM) measures the net yield a financial institution earns on its interest-bearing assets like loans, credit card balances, and securities. A higher NIM reflects superior loan yield price or lower funding costs.
 
-**Capital One** maintains the lowest baseline NIM in the peer group because its asset base is diluted by lower-yie 
+**Company Analysis:**
+1. **Capital One** maintains the lowest baseline NIM in the peer group because its asset base is diluted by lower-yielding commercial and auto loan portfolios alongside credit cards. However, they also demonstrated the strongest yield expansion, led by the stabilizing deposit costs on its direct retail platform.
+2. **American Express** has a solid NIM through interest charged on revolving loan balances. The NIM slightly decreased in 2025, which reflects higher promotional interest expenses and shifting cardholder pay-in-full behaviour.
+3. **Synchrony Financial** leads the sector by a wide margin. Its private-label, store-branded credit cards have a significantly higher baseline annual percentage rates (APRs). This drives the expanding, high-margin interest spreads.
+
+![[Net Interest Margin (NIM).png|697]]
+
+- - -
+### Return on Assets
+Return on Assets (ROA) evaluates managerial efficiency by measuring how effectively a firm generates net earnings from its asset base. A higher ROA indicates greater asset productivity and earnings power.
+
+**Company Analysis:**
+1. **Capital One**'s ROA reduced by 0.58% in 2025. This drop was primarily caused by heavy upfront loan-loss reserve builds required under CECL accounting during portfolio expansion, as well as operational integration expenses linked to t

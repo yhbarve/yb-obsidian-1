@@ -1,14 +1,14 @@
 {
   "showCLICommands": false,
   "addExtensionsToInternalLinks": "html",
-  "injectAppCSS": "light",
+  "injectAppCSS": "dark",
   "injectThemeCSS": false,
   "customCSSFile": null,
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "text",
   "highDPIDiagrams": true,
   "pandoc": "/opt/homebrew/bin/pandoc",
-  "pdflatex": null,
+  "pdflatex": "/Library/TeX/texbin/pdflatex",
   "outputFolder": null,
   "extraArguments": "",
   "exportFrom": "html"

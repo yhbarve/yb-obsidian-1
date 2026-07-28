@@ -1,3 +1,6 @@
+---
+geometry: margin=0.75in
+---
 # Motivation 
 The choice of Capital One Financial Corporation (Capital One, COF) was driven by its industry-level strategic significance. Although it is legally and functionally a bank holding company, it operates like a technology company.
 

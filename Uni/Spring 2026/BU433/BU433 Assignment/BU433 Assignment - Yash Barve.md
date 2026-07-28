@@ -174,4 +174,17 @@ Transitioning card portfolios onto Discover’s proprietary payment network pres
 Capital One actively manages these identified exposures using three strategic controls:
 1. **Machine Learning Underwriting & Dynamic Line Management:** Capital One uses proprietary automated algorithms to continually assess borrower health and to dynamically adjust credit limits before any charge-offs.
 2. **Deposit-Funded Balance Sheet Architecture:** Capital One insulates its funding model from wholesale credit market freezes and interest rate shocks by maintaining an extensive retail deposit base.
-3. **Capital Buffer:** Capital One maintains core 
+3. **Capital Buffer:** Capital One maintains core capital buffers well above regulatory baselines. This allows them to absorb stress-test scenarios, credit shocks, and Discover integration friction without threatening systemic solvency.
+- - -
+## Quantitative Risk Management Ratios
+### Net Charge-Off Rate
+The Net Charge-Off (NCO) rate is the definitive measure of credit default risk and portfolio quality. It represents the percentage of total loans unlikely to be recovered after all collection efforts have been exhausted. A lower NCO indicates tighter underwriting standards and higher borrower creditworthiness.
+
+**Company Analysis:**
+1. **Capital One** occupies a balanced risk position. The NCO rate improved in 2025, which demonstrates stronger risk management controls.
+2. **American Express** maintains the industry's lowest NCO rate. Its strict focus on high-net-worth prime borrowers creates an insulated credit profile with minimal default exposure.
+3. **Synchrony Financial** bears the highest credit risk in the group. Operating in private-label retail store cards, SYF accepts substantial default rates as a cost of doing business.
+
+![[NCO Rate.png|697]]
+
+- - -

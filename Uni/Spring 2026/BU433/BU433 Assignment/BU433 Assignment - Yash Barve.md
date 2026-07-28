@@ -124,3 +124,19 @@ The Efficiency Ratio assesses operational expense management by measuring the pr
 1. **Capital One** operates within a strong range (< 60%). They highly benefit from their digital-first retail banking infrastructure. The increase in 2025 reflects temporary technology, legal, and operational expenditures required to integrate Discover's payment network.
 2. **American Express** carries a high efficiency ratio because of its premium brand strategy. This stems from extensive cardholder loyalty rewards, lounge access networks, direct marketing, and customer acquisition campaigns.
 3. **Synchrony Financial** has an industry-leading cost efficiency. This is mainly because its retail partners handle in-store marketing and co-brand distribution. SYF therefore can avoid major customer acquisition and physical branch expenses.
+
+![[Efficiency Ratio.png|697]]
+
+- - -
+## Solvency & Capital Structure Ratios
+### Common Equity Tier 1 Ratio
+The Common Equity Tier 1 (CET1) ratio is the fundamental regulatory metric mandated under Basel III standards to measure a bank's common equity against its risk-weighted assets. It measures a firm's ability to absorb credit shocks and macroeconomic downturns.
+
+**Company Analysis:**
+1. **Capital One** increased its CET1 ratio taking the top position among the three firms. They intentionally built this equity defense to ensure compliance with Federal Reserve CCAR stress testing, as well as to absorb potential loan markdowns and regulatory capital needs post-Discover acquisition.
+2. **American Express** operates with a stable CET1 ratio of 10.5%. Regulators assign lower risk weights to their asset portfolio during annual stress testing because of their affluent customer base which reduces credit default volatility.
+3. **Synchrony Financial** reduced its CET1 ratio in 2025 as it deployed excess capital into share buybacks. They also maintained a capital buffer adequate to absorb retail card defaults.
+
+![[CET1 Ratio.png|697]]
+
+- - -

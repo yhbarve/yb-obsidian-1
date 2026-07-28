@@ -155,5 +155,23 @@ Tier 1 Leverage Ratio measures core equity capital directly against total unadju
 # Section 5
 ## Risk Identification & Assessment Framework
 To evaluate Capital One's resilience, let's take a look at the three core risks that they face.
-### Credit Risk
-Capital One's primary financial threat stems from credit default risk within its revolving credit card and auto loan books. Unlike American Express, Capital One holds a significant concentration of near-prime and middle-income borrowers
+### 1. Credit Risk
+Capital One's primary financial threat stems from credit default risk within its revolving credit card and auto loan books. Unlike American Express, Capital One holds a significant concentration of near-prime and middle-income borrowers.
+
+As economic conditions worsen due to inflation and rising unemployment, this group sees an earlier rise in missed payments. Moreover, CECL accounting mandates that Capital One recognize lifetime expected losses upfront upon loan origination. This creates short-term earnings volatility during growth cycles.
+- - -
+### 2. Asset-Liability & Liquidity Risk
+Liquidity risk arises from potential mismatches between long-duration loan assets and short-term funding liabilities.
+
+Non-bank consumer lenders like Synchrony and American Express rely heavily on wholesale market paper, brokered CDs, and institutional debt. This leaves them vulnerable to market squeezes. Capital One mitigates this by utilizing its Capital One 360 direct branchless banking engine to capture stable, sticky retail deposits.
+- - -
+### 3. Operational & Regulatory Integration Risk
+This risk arises from the execution hazards linked to the $35.5B acquisition of Discover Financial Services.
+
+Transitioning card portfolios onto Discover’s proprietary payment network presents technical, compliance, and cyber-operational risks. Regulators enforce heightened Category III prudential standards, requiring COF to pass rigorous Federal Reserve CCAR stress tests.
+- - -
+## Risk Evaluation
+Capital One actively manages these identified exposures using three strategic controls:
+1. **Machine Learning Underwriting & Dynamic Line Management:** Capital One uses proprietary automated algorithms to continually assess borrower health and to dynamically adjust credit limits before any charge-offs.
+2. **Deposit-Funded Balance Sheet Architecture:** Capital One insulates its funding model from wholesale credit market freezes and interest rate shocks by maintaining an extensive retail deposit base.
+3. **Capital Buffer:** Capital One maintains core 

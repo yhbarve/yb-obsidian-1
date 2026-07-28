@@ -52,5 +52,23 @@
 ## Insurance Swaps
 - Insurers exchange cash flow exposures to geographically diversify their risk portfolios.
 - For example, Insurer A, who is facing heavy hurricane risk in Florida, swaps a portion of its potential payout stream with Insurer B, who is facing heavy tornado risk in the Midwest. Both offset their localized risk without raising external capital.
-- If a hurricane hits Florida, insurer A will still be responsible for 100% of its policyholder's claims. 
+- If a hurricane hits Florida, insurer A will still be responsible for 100% of its policyholder's claims. However, because of the swap contract, insurer B will send cash to insurer A to cover the agreed-upon portion of the hurricane losses. Therefore, insurer A's net loss is reduced because insurer B absorbed a chunk of the bill. 
 ## Insurance Options
+- This is a specialized type of option that derives its value from insurable losses or an objective index.
+- For example, consider a basement repair contractor who is most profitable during unusually wet summers when cracks in basements are most likely to leak. Therefore, the worst-case weather situation for the contractor is a prolonged summer drought.
+- The contractor determines that for every inch of precipitation shortfall below average for the months of August and September, the firm loses $10,000 in net income.
+- To offset this risk, the repair contractor purchases a weather put option based on the measurement of rainfall during this period at the nearest weather station.
+- The strike price is set at 5 inches. For every inch of precipitation below the strike value, the option increases in value by $10,000.
+- The precipitation cover is written as an insurance policy and has a limit of $40,000. If the cumulative precipitation between August and September is only 3.5 inches, the contractor will receive a payout of $15,000 from the weather insurer to help offset any lost profit from a reduction in the demand for basement repair. 
+- The put option is sold by a financial institution, a specialized broker or an insurance company, often called a weather insurer.
+- They charge the contractor an upfront premium to write the option. They treat it like an underwriting risk - hedging it across a portfolio of weather contracts or taking the gamble that precipitation will stay above 5 inches.
+- Advantages of insurance options:
+	- Cheaper than ILS because there is no SPV to set up
+	- Highly liquid and highly customizable.
+	- Fast Settlement
+- Disadvantages of insurance options:
+	- High basis risk. In other words, the index payout might not perfectly match the actual financial loss.
+		- A hurricane's wind speed at the nearest weather station might reach 130 mph and trigger a $50 million derivative payout. But if your specific insured properties suffered $80 million in flood damage from heavy rain, you are left with an unhedged $30 million loss. That discrepancy is **basis risk**.
+	- Counterparty risk
+	- Lower market liquidity compared to mainstream derivatives
+- - -

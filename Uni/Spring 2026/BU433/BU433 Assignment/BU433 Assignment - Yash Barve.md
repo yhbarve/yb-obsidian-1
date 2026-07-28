@@ -203,6 +203,8 @@ The following section discusses Capital One's operational and financial short-te
 	Net Charge-Offs are also expected to stabilize around 3% - 3.3%. Capital One’s real-time machine learning underwriting engines allow management to dynamically adjust credit lines before any credit defaults. This limits their downside credit losses while expanding prime product offerings. *(Capital One Financial Corp., 2025)*
 
 To summarize, Capital One's financial trajectory over the near-term strategic horizon is defined by the integration of Discover Financial Services. This brings some short-term operational friction like heavy upfront technological integration costs and legal reserves. However in the long-term, it will lead to massive efficiencies and cost optimizations, allowing Capital One to transition into being a fully vertically integrated network owner. This positions the company to drive sustained EPS expansion and long-term shareholder value across economic cycles.
+
+
 # References
 1. **American Express Company.** (2025). _Form 10-K: Annual Report for the fiscal year ended December 31, 2024_. U.S. Securities and Exchange Commission.
 2. **American Express Company.** (2026). _Form 10-K: Annual Report for the fiscal year ended December 31, 2025_. U.S. Securities and Exchange Commission.

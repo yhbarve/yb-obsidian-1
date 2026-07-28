@@ -3,5 +3,7 @@
   "calendar",
   "native-powerpoint-doc-editor",
   "obsidian-style-settings",
-  "better-export-pdf"
+  "better-export-pdf",
+  "obsidian-pandoc",
+  "obsidian-zotero-desktop-connector"
 ]

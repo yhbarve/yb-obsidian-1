@@ -95,6 +95,7 @@ The following chart represents the daily stock price performance of Capital One,
 # Section 4
 A comparative evaluation across the 2024-2025 financial performance highlights how fundamental strategic choices influence core financial metrics. American Express leverages a fee-intensive and spend-centric model to drive superior asset returns. Synchrony Financial relies on high-yield private-label cards to maximize interest spreads. Contrary to both these firms, Capital One prioritizes balance sheet strength and sustainable spread-based revenue. The following section presents multiple metrics and ratios that helps us analyze the three firms.
 
+## Financial Profitability & Operation
 ### Net Interest Margin
 Net Interest Margin (NIM) measures the net yield a financial institution earns on its interest-bearing assets like loans, credit card balances, and securities. A higher NIM reflects superior loan yield price or lower funding costs.
 
@@ -138,5 +139,16 @@ The Common Equity Tier 1 (CET1) ratio is the fundamental regulatory metric manda
 3. **Synchrony Financial** reduced its CET1 ratio in 2025 as it deployed excess capital into share buybacks. They also maintained a capital buffer adequate to absorb retail card defaults.
 
 ![[CET1 Ratio.png|697]]
+
+- - -
+### Tier-1 Leverage Ratio
+Tier 1 Leverage Ratio measures core equity capital directly against total unadjusted balance sheet assets. It acts as a non-risk-weighted safety net to prevent financial institutions from over-leveraging their balance sheets.
+
+**Company Analysis:**
+1. **Capital One** significantly strengthened its leverage position, operating at more than double the standard baseline. This confirms that Capital One's balance sheet growth is heavily backed by equity capital rather than debt issuance.
+2. **American Express** maintains a consistent leverage ratio near 9.1%. This is because of their balanced equity retentions and corporate debt to fund their working capital requirements.
+3. **Synchrony Financial**'s leverage ratio decreased in 2025, which is consistent with the reduction of their CET1 ratio. This confirms the active management of capital distribution while holding a comfortable buffer above the regulatory thresholds.
+
+![[Leverage Ratio.png|697]]
 
 - - -

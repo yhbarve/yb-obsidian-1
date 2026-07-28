@@ -20,9 +20,9 @@ Emphasis lies on creative and original thinking, skillful analysis, and professi
     - [x] SWOT analysis
 - [x] **(2.5 marks) Detailed financial (stock price) analysis**
     - [x] Breakdown of performance compared to competitors named in the report
-- [ ] **(5 marks) Detailed financial performance analysis**
-    - [ ] NOT a DCF or valuation
-    - [ ] Use capital and other financial/leverage/solvency ratios unique to FI's
+- [x] **(5 marks) Detailed financial performance analysis**
+    - [x] NOT a DCF or valuation
+    - [x] Use capital and other financial/leverage/solvency ratios unique to FI's
 - [ ] **(5 marks) Risk identification, assessment and evaluation**
     - [ ] Risk identification
     - [ ] Risk assessment

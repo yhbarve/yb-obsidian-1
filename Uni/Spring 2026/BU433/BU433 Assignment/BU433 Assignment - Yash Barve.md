@@ -194,4 +194,8 @@ The Loan-to-Deposit Ratio evaluates Asset-Liability Management and liquidity ris
 **Company Analysis:**
 1. **Capital One** maintains the most resilient liquidity profile in the peer group as the only firm with an LTD ratio below 100%. The entire loan portfolio is funded through $475B+ in customer deposits captured via the direct Capital One 360 platform. This completely eliminates reliance on volatile wholesale debt markets for core loan funding.
 2. **American Express** operates at the highest LTD ratio in the group, which reflects a structural imbalance between its rapidly growing credit card loan portfolio and its smaller deposit base. However, the LTD ratio decreased in 2025 as management actively expanded its high-yield consumer deposit product to diversify its funding mix.
-3. **Synchrony Financial** maintains a high LTD ratio between Capital One and American Express. Operating without a traditional physical branch footprint, 
+3. **Synchrony Financial** maintains a high LTD ratio between Capital One and American Express. They rely heavily on high-yield online savings accounts and brokered deposits to fund their private-label store cards. The ratio remained essentially flat in 2025 because deposit growth roughly matched loan expansion. Because the ratio is more than 100%, Synchrony Financial must consistently access secondary wholesale debt markets to cover its excess lending balance.
+
+![[LTD Ratio.png|697]]
+
+- - -

@@ -23,10 +23,10 @@ Emphasis lies on creative and original thinking, skillful analysis, and professi
 - [x] **(5 marks) Detailed financial performance analysis**
     - [x] NOT a DCF or valuation
     - [x] Use capital and other financial/leverage/solvency ratios unique to FI's
-- [ ] **(5 marks) Risk identification, assessment and evaluation**
-    - [ ] Risk identification
-    - [ ] Risk assessment
-    - [ ] Evaluation of risk management
+- [x] **(5 marks) Risk identification, assessment and evaluation**
+    - [x] Risk identification
+    - [x] Risk assessment
+    - [x] Evaluation of risk management
 - [ ] **(2.5 marks) Forecast for near-term future performance**
     - [ ] Qualitative forecast
     - [ ] Quantitative forecast

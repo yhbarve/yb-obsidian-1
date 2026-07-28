@@ -124,7 +124,7 @@ The Efficiency Ratio assesses operational expense management by measuring the pr
 ![[Efficiency Ratio.png|697]]
 
 - - -
-### Common Equity Tier 1 Ratio
+## Common Equity Tier 1 Ratio
 The Common Equity Tier 1 (CET1) ratio is the fundamental regulatory metric mandated under Basel III standards to measure a bank's common equity against its risk-weighted assets. It measures a firm's ability to absorb credit shocks and macroeconomic downturns.
 
 **Company Analysis:**
@@ -135,7 +135,7 @@ The Common Equity Tier 1 (CET1) ratio is the fundamental regulatory metric manda
 ![[CET1 Ratio.png|697]]
 
 - - -
-### Tier-1 Leverage Ratio
+## Tier-1 Leverage Ratio
 Tier 1 Leverage Ratio measures core equity capital directly against total unadjusted balance sheet assets. It acts as a non-risk-weighted safety net to prevent financial institutions from over-leveraging their balance sheets.
 
 **Company Analysis:**
@@ -146,31 +146,31 @@ Tier 1 Leverage Ratio measures core equity capital directly against total unadju
 ![[Leverage Ratio.png|697]]
 
 - - -
-## Risk Identification & Assessment Framework
+# Risk Identification & Assessment Framework
 To evaluate Capital One's resilience, let's take a look at the three core risks that they face.
-### 1. Credit Risk
+## 1. Credit Risk
 Capital One's primary financial threat stems from credit default risk within its revolving credit card and auto loan books. Unlike American Express, Capital One holds a significant concentration of near-prime and middle-income borrowers.
 
 As economic conditions worsen due to inflation and rising unemployment, this group sees an earlier rise in missed payments. Moreover, CECL accounting mandates that Capital One recognize lifetime expected losses upfront upon loan origination. This creates short-term earnings volatility during growth cycles.
 - - -
-### 2. Asset-Liability & Liquidity Risk
+## 2. Asset-Liability & Liquidity Risk
 Liquidity risk arises from potential mismatches between long-duration loan assets and short-term funding liabilities.
 
 Non-bank consumer lenders like Synchrony and American Express rely heavily on wholesale market paper, brokered CDs, and institutional debt. This leaves them vulnerable to market squeezes. Capital One mitigates this by utilizing its Capital One 360 direct branchless banking engine to capture stable, sticky retail deposits.
 - - -
-### 3. Operational & Regulatory Integration Risk
+## 3. Operational & Regulatory Integration Risk
 This risk arises from the execution hazards linked to the $35.5B acquisition of Discover Financial Services.
 
 Transitioning card portfolios onto Discover’s proprietary payment network presents technical, compliance, and cyber-operational risks. Regulators enforce heightened Category III prudential standards, requiring COF to pass rigorous Federal Reserve CCAR stress tests.
 - - -
-## Risk Evaluation
+# Risk Evaluation
 Capital One actively manages these identified exposures using three strategic controls:
 1. **Machine Learning Underwriting & Dynamic Line Management:** Capital One uses proprietary automated algorithms to continually assess borrower health and to dynamically adjust credit limits before any charge-offs.
 2. **Deposit-Funded Balance Sheet Architecture:** Capital One insulates its funding model from wholesale credit market freezes and interest rate shocks by maintaining an extensive retail deposit base.
 3. **Capital Buffer:** Capital One maintains core capital buffers well above regulatory baselines. This allows them to absorb stress-test scenarios, credit shocks, and Discover integration friction without threatening systemic solvency.
 - - -
-## Quantitative Risk Management Metrics
-### Net Charge-Off Rate
+# Quantitative Risk Management Metrics
+## Net Charge-Off Rate
 The Net Charge-Off (NCO) rate is the definitive measure of credit default risk and portfolio quality. It represents the percentage of total loans unlikely to be recovered after all collection efforts have been exhausted. A lower NCO indicates tighter underwriting standards and higher borrower creditworthiness.
 
 **Company Analysis:**
@@ -181,7 +181,7 @@ The Net Charge-Off (NCO) rate is the definitive measure of credit default risk a
 ![[NCO Rate.png|697]]
 
 - - -
-### Loan-to-Deposit Ratio
+## Loan-to-Deposit Ratio
 The Loan-to-Deposit Ratio evaluates Asset-Liability Management and liquidity risk by measuring the extent to which a firm's loan portfolio is funded by stable, insured customer deposits versus capital market borrowings. An LTD ratio below 100% indicates that every dollar of loans is fully backed by deposits, shielding the institution from market liquidity shocks.
 
 **Company Analysis:**
@@ -192,7 +192,7 @@ The Loan-to-Deposit Ratio evaluates Asset-Liability Management and liquidity ris
 ![[LTD Ratio.png|697]]
 
 - - -
-## Short-Term Performance Forecasts
+# Short-Term Performance Forecasts
 The final section of this report looks at Capital One's operational and financial short-term performance. The acquisition of Discover Financial Services will play a major role in Capital One's near-term future.
 
 1. **Vertical Integration & Fee Synergy**

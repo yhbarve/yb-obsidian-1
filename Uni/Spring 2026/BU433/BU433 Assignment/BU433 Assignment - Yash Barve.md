@@ -15,7 +15,7 @@ Originally operating solely as a credit card lender, the company pioneered custo
 - ING Direct USA (2012)
 - HSBC's US credit card portfolio (2012)
 
-Most recently, in 2024-2025, Capital One executed a $35.3 billion acquisition of Discover Financial Services, creating one of the largest consumer banking and payments platforms in North America and acquiring its own proprietary payment network.
+Most recently, in 2024-2025, Capital One executed a $35.5 billion acquisition of Discover Financial Services, creating one of the largest consumer banking and payments platforms in North America and acquiring its own proprietary payment network.
 - - -
 # Organizational Structure
 Capital One Financial Corporation is organized as a Bank Holding Company (BHC) and a Financial Holding Company (FHC) under the US Bank Holding Company Act of 1956. It operates through two primary insured depository subsidiaries:
@@ -91,7 +91,7 @@ The following chart represents the daily stock price performance of Capital One,
 ![[Screenshot 2026-07-27 at 17.29.51.png]] 
 
 **Key insights:**
-1. Following the announcement of Capital One's $35.3B acquisition of Discover Financial Services in February 2024, COF experienced brief stock price consolidation. Equity markets initially priced in the execution complexity and regulatory scrutiny surrounding bank merger oversight. However with time, COF's valuation steadily re-rated because of the long-term value of the acquisition.
+1. Following the announcement of Capital One's $35.5B acquisition of Discover Financial Services in February 2024, COF experienced brief stock price consolidation. Equity markets initially priced in the execution complexity and regulatory scrutiny surrounding bank merger oversight. However with time, COF's valuation steadily re-rated because of the long-term value of the acquisition.
 2. During the second half of 2024, the broader financial sector benefited from Federal Reserve interest rate cuts. This led to the expansion of net interest margins across all three issuers. *(Board of Governors of the Federal Reserve System, 2024).*
 3. In 2025, Capital One’s share price accelerated, outperforming both peers with a 35.91% annual gain. This was primarily because of the official regulatory approvals and the completion of the Discover integration. *(OCC, 2025)*
 4. The strong correlation in price dips across all the three firms indicates that major dips were driven by industry-wide macro factors and not firm-specific operational issues.
@@ -172,7 +172,7 @@ Transitioning card portfolios onto Discover’s proprietary payment network pres
 - - -
 # Risk Evaluation
 Capital One actively manages these identified exposures using three strategic controls:
-1. **Machine Learning Underwriting & Dynamic Line Management:** Capital One uses proprietary automated algorithms to continually assess borrower health and to dynamically adjust credit limits before any charge-offs.
+1. **Machine Learning & Dynamic Pricing:** Capital One uses proprietary automated algorithms to continually assess borrower health and to dynamically adjust credit limits before any charge-offs.
 2. **Deposit-Funded Balance Sheet Architecture:** Capital One insulates its funding model from wholesale credit market freezes and interest rate shocks by maintaining an extensive retail deposit base.
 3. **Capital Buffer:** Capital One maintains core capital buffers well above regulatory baselines. This allows them to absorb stress-test scenarios, credit shocks, and Discover integration friction without threatening systemic solvency.
 - - -

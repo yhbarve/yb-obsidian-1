@@ -6,7 +6,7 @@
       {
         "id": "610d93d0697f3390",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 66.54135338345864,
         "children": [
           {
             "id": "db70b4cee82ee08e",
@@ -25,36 +25,25 @@
         ]
       },
       {
-        "id": "3d910fa3ec960b81",
+        "id": "1d68a37f8ea7a53b",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 33.45864661654135,
         "children": [
           {
-            "id": "d1eedb21ce9cc677",
+            "id": "799f6b87c5eb514b",
             "type": "leaf",
             "state": {
-              "type": "native-powerpoint-view",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx"
+                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "presentation",
-              "title": "Analysis of Performance - Commercial Banks"
-            }
-          },
-          {
-            "id": "ebbf2e6fba05689c",
-            "type": "leaf",
-            "state": {
-              "type": "native-powerpoint-view",
-              "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Risks Incurred by FIs.pptx"
-              },
-              "icon": "presentation",
-              "title": "BU 433 Risks Incurred by FIs"
+              "icon": "lucide-file",
+              "title": "BU433 Assignment Spec"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,17 +232,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebbf2e6fba05689c",
+  "active": "db70b4cee82ee08e",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
+    "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Risks Incurred by FIs.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Managing Interest Rate & Insolvency Risk.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx",
-    "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Risks Incurred by FIs.pptx",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.md",
     "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 1012.crdownload",
     "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 414605.crdownload",
     "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 155333.crdownload",
     "Uni/Spring 2026/BU433/BU433 Slides",
-    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.md",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment Spec.pdf",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/LTD Ratio.png",
     "Uni/Spring 2026/BU433/BU433 Assignment/Charts/NCO Rate.png",

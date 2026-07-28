@@ -14,7 +14,7 @@ Emphasis lies on creative and original thinking, skillful analysis, and professi
     - [x] Types of products and services offered
     - [x] Organizational structure
     - [x] Where it operates
-- [ ] **(2.5 marks) Competition**
+- [x] **(2.5 marks) Competition**
     - [x] Who are the main competitors
     - [x] Market presence (relative market size, market share, etc.)
     - [x] SWOT analysis

@@ -27,10 +27,10 @@ Emphasis lies on creative and original thinking, skillful analysis, and professi
     - [x] Risk identification
     - [x] Risk assessment
     - [x] Evaluation of risk management
-- [ ] **(2.5 marks) Forecast for near-term future performance**
-    - [ ] Qualitative forecast
-    - [ ] Quantitative forecast
-    - [ ] (DCF to arrive at stock price NOT required)
+- [x] **(2.5 marks) Forecast for near-term future performance**
+    - [x] Qualitative forecast
+    - [x] Quantitative forecast
+    - [x] (DCF to arrive at stock price NOT required)
 The assignment will be evaluated based on three criteria: (i) the quality and contents of descriptive coverage of corporate background, structure and history of the chosen institution; (ii) the execution, and breadth and depth of financial performance and risk analysis; and (iii) creativity, and the quality of writing, elucidation and overall presentation
 - - -
 **20% Final Course Weight**

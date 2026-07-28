@@ -213,4 +213,13 @@ Operating expenses will continue to remain elevated through late 2026 due to pla
 
 However, as the duplicate cloud environments are phased out and customer servicing is unified under Capital One's digital platform, operating leverage will accelerate and drive the efficiency ratio downward to around 52%.
 - - -
-## Return on Assets
+## Return on Assets & Earning Power
+Capital One’s Return on Assets compressed to 0.41% in 2025 due to heavy upfront CECL credit loss provisioning and merger integration costs. As upfront reserve additions normalize and synergy realization accelerates, ROA is forecasted to rebound toward historical benchmark targets of 1.00% - 1.15%.
+- - -
+## Solvency, Capital Structure & Credit Quality
+Capital One's current CET1 ratio is around 14.27%. As the merger integration risks decrease, the management is expected to redeploy excess capital buffer through share repurchases and dividend increases. This will guide the CET1 ratio toward the target operating range of 12% - 12.5%.
+
+Net Charge-Offs are also expected to stabilize around 3% - 3.3%. Capital One’s real-time machine learning underwriting engines allow management to dynamically adjust credit lines before any credit defaults. This limits their downside credit losses while expanding prime product offerings.
+- - -
+In summary, Capital One's financial trajectory over the near-term strategic horizon is defined by the integration of Discover Financial Services. This brings some short-term operational friction like a heavy up.
+

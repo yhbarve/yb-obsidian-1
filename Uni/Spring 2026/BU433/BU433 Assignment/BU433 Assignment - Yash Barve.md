@@ -15,7 +15,7 @@ Originally operating solely as a credit card lender, the company pioneered custo
 - ING Direct USA (2012)
 - HSBC's US credit card portfolio (2012)
 
-Most recently, in 2024-2025, Capital One executed a $35.5 billion acquisition of Discover Financial Services, creating one of the largest consumer banking and payments platforms in North America and acquiring its own proprietary payment network. *(Capital One Financial Corp., 2025)*
+Most recently, in 2024-2025, Capital One executed a $35.5 billion acquisition of Discover Financial Services, creating one of the largest consumer banking and payments platforms in North America and acquiring its own proprietary payment network. *(Capital One Financial Corp., 2024)*
 - - -
 # Organizational Structure
 Capital One Financial Corporation is organized as a Bank Holding Company (BHC) and a Financial Holding Company (FHC) under the US Bank Holding Company Act of 1956. It operates through two primary insured depository subsidiaries:
@@ -203,11 +203,11 @@ The Loan-to-Deposit Ratio evaluates Asset-Liability Management and liquidity ris
 The following section discusses Capital One's operational and financial short-term performance. The acquisition of Discover Financial Services will play a major role in Capital One's near-term future.
 
 1. **Vertical Integration & Fee Synergy**
-	Capital One has begun transitioning its debit card volumes and select credit card portfolios onto the Discover payment network. This shift off third-party processors will eliminate substantial external payment rail fees paid to the third parties.
+	Capital One has begun transitioning its debit card volumes and select credit card portfolios onto the Discover payment network. This shift off third-party processors will eliminate substantial external payment rail fees paid to the third parties. *(Capital One Financial Corp., 2024)*
 
-	The Discover Financial transition will also circumvent traditional interchange rate caps imposed on large covered banks. This will enable Capital One to directly capture higher merchant discount transaction revenues. *(Capital One Financial Corp., 2025)*
+	The Discover Financial transition will also circumvent traditional interchange rate caps imposed on large covered banks. This will enable Capital One to directly capture higher merchant discount transaction revenues. *(Capital One Financial Corp., 2024)*
 
-	The transition is projected to yield approximately $1.2B in annual run-rate network synergies and $1.5B in annualized cost reductions as account migration finishes.
+	The transition is projected to yield approximately $1.2B in annual run-rate network synergies and $1.5B in annualized cost reductions as account migration finishes. *(Capital One Financial Corp., 2024)*
 
 2.  **Efficiency Ratio & Cost Structure**
 	Operating expenses will continue to remain elevated through late 2026 due to platform migration expenditures, technology consolidation, legal compliance, and account integration friction. Hence, the Efficiency Ratio will continue to be around 56% - 58%.
@@ -215,7 +215,7 @@ The following section discusses Capital One's operational and financial short-te
 	However, as the duplicate cloud environments are phased out and customer servicing is unified under Capital One's digital platform, operating leverage will accelerate and drive the efficiency ratio downward to around 52%.
 
 3. **Return on Assets & Earning Power**
-	Capital One’s Return on Assets compressed to 0.41% in 2025 due to heavy upfront CECL credit loss provisioning and merger integration costs. As upfront reserve additions normalize and synergy realization accelerates, ROA is forecasted to rebound toward historical benchmark targets of 1.00% - 1.15%. *(FASB, 2016)*
+	Capital One’s Return on Assets fell to 0.41% in 2025 due to heavy upfront CECL credit loss provisioning and merger integration costs. As upfront reserve additions normalize and synergy realization accelerates, ROA is forecasted to rebound toward historical benchmark targets of 1.00% - 1.15%. *(FASB, 2016)*
 
 4. **Solvency, Capital Structure & Credit Quality**
 	Capital One's current CET1 ratio is around 14.27%. As the merger integration risks decrease, the management is expected to redeploy excess capital buffer through share repurchases and dividend increases. This will guide the CET1 ratio toward the target operating range of 12% - 12.5%.
@@ -230,11 +230,12 @@ To summarize, Capital One's financial trajectory over the near-term strategic ho
 3. **Basel Committee on Banking Supervision.** (2019). _Basel III: Finalising post-crisis reforms_. Bank for International Settlements (BIS).
 4. **Board of Governors of the Federal Reserve System.** (2024). _Dodd-Frank Act Stress Test 2024: Supervisory Stress Test Results_. Federal Reserve System Publications.
 5. **Board of Governors of the Federal Reserve System.** (2025). _Order Approving the Acquisition of a Bank Holding Company: Capital One Financial Corporation / Discover Financial Services_. Federal Reserve Press Releases.
-6. **Capital One Financial Corporation.** (2025). _Form 10-K: Annual Report for the fiscal year ended December 31, 2024_. U.S. Securities and Exchange Commission.
-7. **Capital One Financial Corporation.** (2026). _Form 10-K: Annual Report for the fiscal year ended December 31, 2025_. U.S. Securities and Exchange Commission.
-8. **Clemons, E. K., & Thatcher, M. E.** (1998). _Capital One: Exploiting an Information-Based Strategy_. Wharton School, University of Pennsylvania.
-9. **Financial Accounting Standards Board (FASB).** (2016). _Accounting Standards Update No. 2016-13: Financial Instruments - Credit Losses (Topic 326): Measurement of Credit Losses on Financial Instruments (CECL)_.
-10. **Office of the Comptroller of the Currency (OCC).** (2025). _Conditional Approval of Capital One, National Association to Acquire Discover Bank_ (News Release 2025-36).
-11. **Synchrony Financial.** (2025). _Form 10-K: Annual Report for the fiscal year ended December 31, 2024_. U.S. Securities and Exchange Commission.
-12. **Synchrony Financial.** (2026). _Form 10-K: Annual Report for the fiscal year ended December 31, 2025_. U.S. Securities and Exchange Commission.
+6. **Capital One Financial Corp.** (2024, February 20). _Capital One to acquire Discover: Investor presentation_. Capital One Investor Relations.
+7. **Capital One Financial Corporation.** (2025). _Form 10-K: Annual Report for the fiscal year ended December 31, 2024_. U.S. Securities and Exchange Commission.
+8. **Capital One Financial Corporation.** (2026). _Form 10-K: Annual Report for the fiscal year ended December 31, 2025_. U.S. Securities and Exchange Commission.
+9. **Clemons, E. K., & Thatcher, M. E.** (1998). _Capital One: Exploiting an Information-Based Strategy_. Wharton School, University of Pennsylvania.
+10. **Financial Accounting Standards Board (FASB).** (2016). _Accounting Standards Update No. 2016-13: Financial Instruments - Credit Losses (Topic 326): Measurement of Credit Losses on Financial Instruments (CECL)_.
+11. **Office of the Comptroller of the Currency (OCC).** (2025). _Conditional Approval of Capital One, National Association to Acquire Discover Bank_ (News Release 2025-36).
+12. **Synchrony Financial.** (2025). _Form 10-K: Annual Report for the fiscal year ended December 31, 2024_. U.S. Securities and Exchange Commission.
+13. **Synchrony Financial.** (2026). _Form 10-K: Annual Report for the fiscal year ended December 31, 2025_. U.S. Securities and Exchange Commission.
 - - -

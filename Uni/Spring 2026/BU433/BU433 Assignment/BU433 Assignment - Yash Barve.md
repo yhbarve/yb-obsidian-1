@@ -199,3 +199,18 @@ The Loan-to-Deposit Ratio evaluates Asset-Liability Management and liquidity ris
 ![[LTD Ratio.png|697]]
 
 - - -
+# Section 6
+The final section of this report looks at Capital One's operational and financial short-term performance. The acquisition of Discover Financial Services will play a major role in Capital One's near-term future.
+## Vertical Integration & Fee Synergy
+Capital One has begun transitioning its debit card volumes and select credit card portfolios onto the Discover payment network. This shift off third-party processors will eliminate substantial external payment rail fees paid to the third parties.
+
+The Discover Financial transition will also circumvent traditional interchange rate caps imposed on large covered banks. This will enable Capital One to directly capture higher merchant discount transaction revenues.
+
+The transition is projected to yield approximately $1.2B in annual run-rate network synergies and $1.5B in annualized cost reductions as account migration finishes.
+- - -
+## Efficiency Ratio & Cost Structure
+Operating expenses will continue to remain elevated through late 2026 due to platform migration expenditures, technology consolidation, legal compliance, and account integration friction. Hence, the Efficiency Ratio will continue to be around 56% - 58%.
+
+However, as the duplicate cloud environments are phased out and customer servicing is unified under Capital One's digital platform, operating leverage will accelerate and drive the efficiency ratio downward to around 52%.
+- - -
+## Return on Assets

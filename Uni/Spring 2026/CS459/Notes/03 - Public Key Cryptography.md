@@ -46,3 +46,15 @@ tags:
 	- If $7\ \text{mod}\ 5 = 2$ and $12\ \text{mod}\ 5 = 2$, then $7 \equiv 12 (\text{mod}\ 5)$
 	- This means 7 and 12 are congruent modulo 5 because they yield the same remainder when divided by 5.
 - To recap, prime numbers are natural numbers greater than one, divisible only by one and itself. Every integer can be written as a unique product of prime numbers.
+- Fast algorithms exist to check if a number is prime without finding its factors. However, finding the prime factors of a composite number is computationally hard for large numbers.
+## The High-Level RSA Concept
+- The goal is to find large integers $e$, $d$, and $n$ such that $m^{ed} \equiv m (\text{mod}\ n)$ for any message $m$.
+- The creator easily selects $e$, $d$, and $n = pq$, where $p$ and $q$ are large primes.
+- An adversary knowing $e$, $n$, and ciphertext $C$ finds it extremely hard to calculate $d$ without factoring $n$.
+## Encryption
+- $C = m^{e}(\text{mod}\ n)$
+- The ciphertext is equal to the message multiplied by itself $e$ times modulo $n$.
+- The public key is $p_k = (e, n)$.
+## Decryption
+- $m = C^d(\text{mod}\ n) = m^{ed}(\text{mod}\ n)$
+- 

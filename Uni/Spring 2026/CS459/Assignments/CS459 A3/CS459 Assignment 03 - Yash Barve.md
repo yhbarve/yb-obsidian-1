@@ -4,6 +4,12 @@ header-includes:
   - \usepackage{amsmath}
   - \usepackage{amssymb}
 ---
+# CS459 Assignment 03
+
+## Yash Harshal Barve (yhbarve) - 20930353
+
+\rule{\textwidth}{0.4pt}
+
 **Q1. Syntactic Notions of Privacy**
 
 **(a)**

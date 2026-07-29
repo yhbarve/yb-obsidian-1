@@ -192,4 +192,9 @@
 - Designing flood insurance requires balancing affordability, availability, risk-based pricing, and protection gap reduction.
 ## Wildfire Risk in Canada
 - Wildfires have become more frequent and severe in recent years.
-- 
+- Risk is concentrated in wildland-urban interfaces where development meets forested land.
+- Wildfire losses are covered under standard property insurance policies.
+- Large correlated events can generate significant accumulation risk for insurers, which is why some insurers have begun restricting new business or increasing premiums in high-risk areas.
+- Wildfire is a natural and ecologically important process, creating policy trade-offs around suppression, mitigation, and development.
+- Designing wildfire insurance requires balancing insurance availability, affordability, and incentives for risk reduction.
+- - -

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Notes/10 Catastrophe Insurance Policy Foundations.md",
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Catastrophe Insurance Policy Foundations"
+              "title": "CS459 Assignment 03 - Yash Barve"
             }
           }
         ]
@@ -211,11 +211,12 @@
   },
   "active": "8950f7da62934637",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.pdf",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
+    "Uni/Spring 2026/BU419/BU419 Notes/10 Catastrophe Insurance Policy Foundations.md",
     "Uni/Spring 2026/BU419/BU419 Slides/BU419 Ch10.pptx",
     "Uni/Spring 2026/BU419/BU419 Slides/Unconfirmed 861463.crdownload",
     "Uni/Spring 2026/BU419/BU419 Notes/09 Capital Markets and Regulation.md",
-    "Uni/Spring 2026/BU419/BU419 Notes/10 Catastrophe Insurance Policy Foundations.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/collision.txt",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/blockchain.txt",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/pandas/tests/scalar/timestamp/methods/__pycache__/test_tz_localize.cpython-314.pyc",
@@ -223,8 +224,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/pandas/tests/scalar/timestamp/methods/__pycache__/test_to_pydatetime.cpython-314.pyc",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/pandas/tests/scalar/timestamp/methods/__pycache__/test_to_julian_date.cpython-314.pyc",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/pandas/tests/scalar/timestamp/methods/__pycache__/test_timestamp_method.cpython-314.pyc",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/pandas/tests/scalar/timestamp/methods/__pycache__/test_round.cpython-314.pyc",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/pandas/tests/scalar/timestamp/methods/__pycache__/test_replace.cpython-314.pyc",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",

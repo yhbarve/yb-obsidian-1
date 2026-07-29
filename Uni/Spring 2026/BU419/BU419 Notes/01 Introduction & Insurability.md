@@ -68,6 +68,7 @@
 - Insurance is based on the law of large numbers.
 	- As the number of observations increases, the difference between the observed relative frequency of an event and the true underlying probability tends toward zero.
 	- The difference between the observed average severity and expected severity also tends to zero as the number of observations increases.
+- **Risk pooling or insurance does not reduce the expected loss for the insurer. Rather, it just reduces the standard deviation, which reduces the number of extreme losses, so the average loss that occurs is going to be much closer to the expected loss.** 
 ---
 ### Insurability
 - It is not a strict formula, but rather a set of criteria, not all of which can be quantified or observed.
@@ -87,6 +88,6 @@
 	- There was a breach of this duty
 	- This breach was the approximate cause of the plaintiff's injury
 	- There was an injury or loss to the plaintiff
-- Insured availability requires that the expected loss for each insured is measurable. This may sometimes be difficult when changes occur in the legal environment.
+- Insurability requires that the expected loss for each insured is measurable. This may sometimes be difficult when changes occur in the legal environment.
 - Insurability also requires an accurate measurement of the probability of the loss, the severity of the loss, and the loading required to cover expenses. If these factors are not predictable in real life, the peril will be uninsurable.
 ---

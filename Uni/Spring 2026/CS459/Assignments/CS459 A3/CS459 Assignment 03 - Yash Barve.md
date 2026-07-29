@@ -19,7 +19,13 @@
 	1. 18 - 21: groups all Bachelor students
 	2. 22 - 24: groups all Master students
 	3. 25 - 27: groups all PhD students
-- Applying these ranges ensures that every equivalence class contains at least 3 records. Therefore, this 
+- Applying these ranges ensures that every equivalence class contains at least 3 records. Therefore, this modification successfully achieves $k = 3$.
+- Another approach is to drop the `Age` column entirely, however it would lead to higher loss of data than generalization.
+
+**(e)**
+- A dataset satisfies $l$-diversity if every equivalence class contains at least $l$ distinct values for each sensitive attribute (salary in this example).
+- After increasing $k$ to 3, the dataset is 3-diverse. $l = 3$.
+- This is because, for every single equivalence class ({18-21, CS, Bachelor}, {22-24, CS, Master}, {25-27, CS, PhD}, etc.) there are 3 distinct values in the `Salary` column (which is a sensitive field).
 - - -
 **Q4.**
 **(a)**

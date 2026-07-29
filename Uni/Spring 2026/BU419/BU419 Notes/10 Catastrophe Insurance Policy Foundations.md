@@ -59,4 +59,20 @@
 	- This defines the exact boundary lines of the insurance program.
 	- The peril scope could be single peril, which focuses on one specific hazard, or multi peril, which bundles multiple natural hazards together.
 	- Programs decide whether to protect only residential homes or include commercial properties and public infrastructure. Expanding property types increases the total exposure but broadens the premium base.
-	- Coverage structure: The policould be either automatically bundled inside standard home and property policies or sold separately as an optional endorsement or add-on. 
+	- **Coverage structure:** The policy could be either automatically bundled inside standard home and property policies or sold separately as an optional endorsement or add-on.
+	- Participation Rules dictate who is required or permitted to operate within a CII program across three distinct levels:
+		1. Insurer participation
+			- If mandatory, all insurers writing standard property coverage in the market must cede risk to or participate in the public catastrophe pool. Ensures broad risk sharing and **avoids adverse selection.**
+			- If voluntary, insurers choose whether to cede risk or use the program. 
+		2. Coverage offer mandate
+			- If mandatory, primary insurers are legally forced to offer catastrophe coverage to policyholders.
+			- If voluntary, insurers can choose whether or not to make catastrophic coverage available. 
+		3. Policy Holder Purchase Mandate
+			- If mandatory property owners are legally required to buy the coverage.
+			- If voluntary property owners decide whether to purchase the endorsement or the policy.
+2. Pricing & Cross Subsidization
+	- 
+3. Capitalization & Funding
+4. Pooling & Governance
+5. Government's Role
+6. Operational Roles

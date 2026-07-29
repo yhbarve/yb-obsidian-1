@@ -67,7 +67,7 @@
 - Opportunities for Canadian insurance companies:
 	- Digital or electronic processing of claims
 	- Predictive analytics
-	- Demutualization (allows )
+	- Demutualization (access to massive funding for adopting new technology)
 ---
 ### Insurance Industry Regulation
 - P&C insurers may be federally or provincially incorporated. Therefore, regulation is shared by the provincial and federal government.

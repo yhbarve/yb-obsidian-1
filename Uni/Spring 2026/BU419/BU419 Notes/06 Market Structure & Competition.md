@@ -60,15 +60,14 @@
 - There is an active threat of new entrants through mergers and acquisitions
 - Opportunities for insurance companies:
 	- Mergers and Acquisitions
-	- Demutualization
+	- Demutualization (***Demutualization is the process by which a customer-owned company, like a mutual insurance company, transforms into a publicly traded investor-owned company.***)
 #### Technology
 - Canadian insurers have been slow to adapt to modern technology.
 - Upgrading technology would increase the efficiency as well as increase the underwriting profit by reducing operational costs.
 - Opportunities for Canadian insurance companies:
 	- Digital or electronic processing of claims
 	- Predictive analytics
-	- Demutualization
-- ***Demutualization is the process by which a customer-owned company, like a mutual insurance company, transforms into a publicly traded investor-owned company.*** 
+	- Demutualization (allows )
 ---
 ### Insurance Industry Regulation
 - P&C insurers may be federally or provincially incorporated. Therefore, regulation is shared by the provincial and federal government.

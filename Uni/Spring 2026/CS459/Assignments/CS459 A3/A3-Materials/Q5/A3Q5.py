@@ -153,10 +153,11 @@ class Blockchain:
         """
         
         nonce = 0
-        while (not self.hash_block(self.create_block(nonce, previous_hash, payload)).startswith('0' * leading_zeroes)):
+        while True:
+            candidate_block = self.create_block(nonce, previous_hash, payload)
+            if (self.hash_block(candidate_block).startswith('0' * leading_zeroes)):
+                return candidate_block
             nonce += 1
-
-        return self.create_block(nonce, previous_hash, payload)
 
     def mine_chain(self, transactions: List[Transaction]) -> None:
         """
@@ -170,15 +171,17 @@ class Blockchain:
         """
         
         current_index = 0
-        for i in range(len(transactions)):
+        blocks = 1
+        while (current_index < len(transactions)):
             payload, current_index = self.pack_block(transactions, current_index)
             previous_hash = self.hash_block(self.get_last_block())
-            block = self.mine_block(payload, previous_hash, i)
-            self.add_block(block, i + 1)
-            print(f"Block {i + 1} mined: {block}")
+            block = self.mine_block(payload, previous_hash, blocks)
+            self.add_block(block, blocks)
+            print(f"Block {blocks} mined: {block}")
             print(f"===========================================================")
-
+            blocks += 1
         self.dump_nonces()
+
 
     # ---- Phase 3: Collision ----
 
@@ -198,17 +201,19 @@ class Blockchain:
         Returns:
         - The collision block dict
         """
-        
-        collision_blocks = []
 
-        for i in range(len(self.chain)):
-            block = self.chain[i]
-            if (block['previous_hash'] == self.hash_block(self.get_last_block()) and not block['nonce'] == self.get_last_block()['nonce']):
-                collision_blocks.append(block)
-        
-        self.dump_collision(collision_blocks)
-        
-        return collision_block
+        real_last_block = self.get_last_block()
+        target_hash = self.hash_block(real_last_block)
+        prev_hash = real_last_block['previous_hash']
+
+        nonce = 0
+        while True:
+            candidate_block = self.create_block(nonce, prev_hash, fraudulent_payload)
+            if (self.hash_block(candidate_block) == target_hash):
+                self.dump_collision(candidate_block)
+                return candidate_block
+            nonce += 1
+        return None
 
     # ---- Dump & Load ----
 

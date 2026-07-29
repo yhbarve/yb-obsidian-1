@@ -96,10 +96,20 @@ $$
 \vec{s} = (\vec{q_1} \cdot A) \oplus (\vec{q_2} \cdot A) \oplus (\vec{q_3} \cdot A)
 \end {aligned}
 $$
-- Now we can substitute $\vec{q_3}$ and use the distributive property of XOR $$
+- Now we can substitute $\vec{q_3}$. Using the distributive property of XOR, we get $$
 \begin {aligned}
+\vec{s} &= (\vec{q_1} \cdot A) \oplus (\vec{q_2} \cdot A) \oplus ((\vec{q_1} \oplus \vec{q_2} \oplus \vec{q}) \cdot A) \\
+\vec{s} &= (\vec{q_1} \cdot A) \oplus (\vec{q_2} \cdot A) \oplus (\vec{q_1} \cdot A) \oplus (\vec{q_2} \cdot A) \oplus (\vec{q} \cdot A) \\
+\vec{s} &= [(\vec{q_1} \cdot A) \oplus (\vec{q_1} \cdot A)] \oplus [(\vec{q_2} \cdot A) \oplus (\vec{q_2} \cdot A)] \oplus (\vec{q} \cdot A) \\
+\vec{s} &= [0] \oplus [0] \oplus (\vec{q} \cdot A) \\
+\vec{s} &= \vec{q} \cdot A = A_c
 \end {aligned}
 $$
+- Therefore, at the end of the protocol, the user obtains row $c$ of matrix $A$.
+
+**(e)**
+- No, the individual servers learn no information about the desired row $c$.
+- To calculate $s = A_c$, you need all $\vec{q_1}$, $\vec{q_2}$, and $\vec{q_3}$. However, we know that the servers do not share the 
 - - -
 **Q4.**
 **(a)**

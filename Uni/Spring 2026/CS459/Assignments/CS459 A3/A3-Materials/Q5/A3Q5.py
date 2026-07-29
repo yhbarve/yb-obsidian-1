@@ -125,10 +125,17 @@ class Blockchain:
         - (payload, next_index): The packed payload and the next unprocessed index
         """
         # TODO: Implement greedy packing
-        
+        payload = []
 
-        # - Return (payload, next unprocessed index)
-        pass
+        current_size = 0
+        index = start_index
+
+        while (index < len(transactions) and current_size + transactions[index].size <= self.block_size_limit):
+            payload.append(transactions[index])
+            current_size += transactions[index].size
+            index += 1
+        
+        return (payload, index)
 
     # ---- Phase 2: Mining ----
 
@@ -144,11 +151,12 @@ class Blockchain:
         Returns:
         - A valid mined block dict
         """
-        # TODO: Implement mining
         
+        nonce = 0
+        while (not self.hash_block(self.create_block(nonce, previous_hash, payload)).startswith('0' * leading_zeroes)):
+            nonce += 1
 
-        # - Return the valid block
-        pass
+        return self.create_block(nonce, previous_hash, payload)
 
     def mine_chain(self, transactions: List[Transaction]) -> None:
         """
@@ -160,10 +168,16 @@ class Blockchain:
         Returns:
         - None (appends blocks to self.chain and dumps nonces to file)
         """
-        # TODO: Implement mining of the entire chain
-
         
-        # This line dumps your proofs to a file. You must submit the dump file
+        current_index = 0
+        for i in range(len(transactions)):
+            payload, current_index = self.pack_block(transactions, current_index)
+            previous_hash = self.hash_block(self.get_last_block())
+            block = self.mine_block(payload, previous_hash, i)
+            self.add_block(block, i + 1)
+            print(f"Block {i + 1} mined: {block}")
+            print(f"===========================================================")
+
         self.dump_nonces()
 
     # ---- Phase 3: Collision ----
@@ -184,11 +198,15 @@ class Blockchain:
         Returns:
         - The collision block dict
         """
-        # TODO: Implement collision search
         
+        collision_blocks = []
+
+        for i in range(len(self.chain)):
+            block = self.chain[i]
+            if (block['previous_hash'] == self.hash_block(self.get_last_block()) and not block['nonce'] == self.get_last_block()['nonce']):
+                collision_blocks.append(block)
         
-        # This line dumps your collision block to a file. You must submit the collision file
-        self.dump_collision(collision_block)
+        self.dump_collision(collision_blocks)
         
         return collision_block
 

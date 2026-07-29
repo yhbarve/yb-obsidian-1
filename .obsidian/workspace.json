@@ -4,18 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "77812409d572bc53",
+        "id": "058892bb345bff76",
         "type": "tabs",
         "children": [
           {
-            "id": "ee69fdcb058ad3f1",
+            "id": "8950f7da62934637",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.pdf"
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
+              "icon": "lucide-file",
               "title": "CS459 Assignment 03 - Yash Barve"
             }
           }
@@ -207,10 +209,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee69fdcb058ad3f1",
+  "active": "8950f7da62934637",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.pdf",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "Uni/Spring 2026/BU419/BU419 Notes/04 Commercial Insurance, Reinsurance, & Captive Insurance.md",
     "Uni/Spring 2026/BU419/BU419 Notes/03 Insurability, Risk Classification, and Pricing.md",

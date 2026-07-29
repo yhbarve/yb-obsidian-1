@@ -11,14 +11,12 @@
             "id": "8950f7da62934637",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
-                "mode": "source",
-                "source": false
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf"
               },
-              "icon": "lucide-file",
-              "title": "CS459 Assignment 03 - Yash Barve"
+              "icon": "lucide-file-text",
+              "title": "CS459 A03 Spec"
             }
           }
         ]

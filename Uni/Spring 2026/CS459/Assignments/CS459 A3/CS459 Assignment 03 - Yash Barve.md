@@ -44,7 +44,16 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 - Therefore, the value of the Laplace scale parameter $b$ using unbounded sensitivity is $4$.
 
 **(d)**
-- We know that $\text{Released Val$
+- We know that $$M(D) = f(D) + y$$
+- We can also calculate $f_1(D) = 8$ (number of spayed cats)
+- Therefore, the value we will release is $$M(D) = f_1(D) + y = 5 + 3.2 = 8.2$$
+
+**(e)**
+- We know that $$Pr[|Y| \gt t] = e^{\frac{-t}{b}}$$
+- From (c), we know that $b = 4$. Therefore $$Pr[|Y| \gt 2] = e^{\frac{-2}{4}} = e^{-0.5} \approx 0.6065$$
+
+**(f)**
+
 - - -
 **Q3.**
 - - -

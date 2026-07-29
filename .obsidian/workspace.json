@@ -196,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,43 +208,6 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
-  },
-  "floating": {
-    "id": "da19b5228cb23be6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9377498f76bf309f",
-        "type": "window",
-        "children": [
-          {
-            "id": "6e4cc34878c10003",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "99e808919f5fff38",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CS459 A03 Spec"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 76,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
   },
   "active": "1c006faf0f9364ff",
   "lastOpenFiles": [

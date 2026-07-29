@@ -28,6 +28,8 @@
 - This is because, for every single equivalence class ({18-21, CS, Bachelor}, {22-24, CS, Master}, {25-27, CS, PhD}, etc.) there are 3 distinct values in the `Salary` column (which is a sensitive field).
 - - -
 **Q2.**
+**(a)**
+- 
 - - -
 **Q3.**
 - - -

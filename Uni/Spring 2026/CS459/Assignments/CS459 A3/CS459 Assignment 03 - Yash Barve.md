@@ -27,6 +27,10 @@
 - After increasing $k$ to 3, the dataset is 3-diverse. $l = 3$.
 - This is because, for every single equivalence class ({18-21, CS, Bachelor}, {22-24, CS, Master}, {25-27, CS, PhD}, etc.) there are 3 distinct values in the `Salary` column (which is a sensitive field).
 - - -
+**Q2.**
+- - -
+**Q3.**
+- - -
 **Q4.**
 **(a)**
 - Using a Merkle tree allows verification of a specific transaction in $O(\text{log}\ n)$ time and requires only $O(\text{log}\ n)$ sibling nodes to be download onto the client (wallet).
@@ -52,3 +56,4 @@
 **(d)**
 - In Proof-of-Work, mining requires consuming physical energy and computational power. Miners are economically incentivized to concentrate all their hash power on a single long chain, because mining on a losing fork wastes electricity and other resources with zero payout.
 - PoS protocols resolve this by implementing slashing mechanisms. When a validator double-signs, cryptographic evidence of the double vote is submitted to the network. The protocol automatically destroys a portion of the validator's staked collateral and forcibly removes them from the validator set, making the attack economically ruinous.
+- - -

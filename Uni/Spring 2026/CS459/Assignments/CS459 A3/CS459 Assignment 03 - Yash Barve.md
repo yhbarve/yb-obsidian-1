@@ -78,7 +78,11 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 	- Therefore, the total number of matrix elements she downloads is $m \times n = mn \ \text{elements}$.
 - Setting (ii): $\frac{n}{2}$ customers at different locations want to obtain the details of one product each.
 	- In this setting, because each customer is at a different location, the server must send the inventory matrix to each user.
-	- Since there are $\frac{n}{2}$ users, the total number of matrix elements download will be $$\frac{n}{2} \times m \times n = \frac{mn^2}{2}\ \text{elements}$$.
+	- Since there are $\frac{n}{2}$ users, the total number of matrix elements download will be $$\frac{n}{2} \times m \times n = \frac{mn^2}{2}\ \text{elements}$$
+- **Setting (i) involves downloading a smaller number of matrix elements.** This is because a user can download the matrix just once and reuse it to retrieve multiple products (rows).
+
+**(d)**
+- 
 - - -
 **Q4.**
 **(a)**

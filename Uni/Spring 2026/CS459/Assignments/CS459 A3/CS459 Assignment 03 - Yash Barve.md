@@ -37,6 +37,14 @@
 - Since every cat's weight lies in the range {0, 10}, the maximum possible weight shift is 10 kg.
 - Under bounded sensitivity, the number of cats does not change.
 - Therefore, the mean weight will shift by $\frac{10}{8} = 1.25\text{kg}$
+
+**(c)**
+- From (a), we know that the unbounded sensitivity $\Delta f_1 = 1$.
+$$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
+- Therefore, the value of the Laplace scale parameter $b$ using unbounded sensitivity is $4$.
+
+**(d)**
+- We know that $\text{Released Val$
 - - -
 **Q3.**
 - - -

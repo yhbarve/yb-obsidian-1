@@ -109,7 +109,13 @@ $$
 
 **(e)**
 - No, the individual servers learn no information about the desired row $c$.
-- To calculate $s = A_c$, you need all $\vec{q_1}$, $\vec{q_2}$, and $\vec{q_3}$. However, we know that the servers do not share the 
+- From (d), we know that to calculate $s = A_c$, you need all $\vec{q_1}$, $\vec{q_2}$, and $\vec{q_3}$.
+- However, we know that the servers do not share the requests they received (non-collusion assumption).
+- Therefore, a single server does not have enough data to calculate $s$. Hence, the servers do not learn any information about the desired row.
+
+**(f)**
+- The user uploads three $(1 \times n)$ vectors $\vec{q_1}$, $\vec{q_2}$, and $\vec{q_3}$ each of $n$ bits. Therefore, **the upload complexity is $3n$ bits.**
+- Each server sends back a single 
 - - -
 **Q4.**
 **(a)**

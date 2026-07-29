@@ -1,6 +1,13 @@
 **Q1.**
 **(a)**
-- From statistic 2B, the total grades for all male students is $4 \mul 74.5 = $
+- From statistic 2B, the total grades for the 4 male students is $4 \times 74.5 = 298$.
+- From statistic 4A, the total grades for the 3 undergrad male students is $3 \times 70 = 210$.
+- Out of the 4 male students, 3 are are undergrad students. This just leaves 1 male grad student.
+- Since there's just one male grad student, their grade is $298 - 210 = 88$.
+
+**(b)**
+- Age, Major, and Degree are the attributes that form a quasi-identifier in the table. These attributes are intrinsic to the user (student), and can be used to match identities in external datasets.
+- Using the same logic, we can argue that `ID` is not a quasi-identifier because it is an identifier just for this dataset. It's not an intrinsic user attribute that exists in external databases to link identities.
 - - -
 **Q4.**
 **(a)**

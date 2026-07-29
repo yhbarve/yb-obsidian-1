@@ -82,7 +82,24 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 - **Setting (i) involves downloading a smaller number of matrix elements.** This is because a user can download the matrix just once and reuse it to retrieve multiple products (rows).
 
 **(d)**
-- 
+- We know $$
+\begin{aligned}
+\vec{q_3} &= \vec{q_1} \oplus \vec{q_2} \oplus \vec{q} \\
+\vec{s_1} &= \vec{q_1} \cdot A \\
+\vec{s_2} &= \vec{q_2} \cdot A \\
+\vec{s_3} &= \vec{q_3} \cdot A \\
+\vec{s} &= \vec{s_1} \oplus \vec{s_2} \oplus \vec{s_3}
+\end {aligned}
+$$
+- Substituting the values of $\vec{s_1}$, $\vec{s_2}$, and $\vec{s_3}$ in the final equation, we get $$
+\begin {aligned}
+\vec{s} = (\vec{q_1} \cdot A) \oplus (\vec{q_2} \cdot A) \oplus (\vec{q_3} \cdot A)
+\end {aligned}
+$$
+- Now we can substitute $\vec{q_3}$ and use the distributive property of XOR $$
+\begin {aligned}
+\end {aligned}
+$$
 - - -
 **Q4.**
 **(a)**

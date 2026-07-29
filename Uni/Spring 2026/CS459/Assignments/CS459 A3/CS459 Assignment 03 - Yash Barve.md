@@ -67,9 +67,18 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 
 **(b)**
 - Because Alice is not sending any data to the server, the **upload complexity is 0.**
-- The server sends the entire inventory matrix to Alice. Therefore, the download complexity is $m \times n$.
-- Therefore, the total complexity is also $m \times n = mn\ \text{bits}$.
-- 
+- The server sends the entire inventory matrix to Alice. Therefore, the download complexity is $m \times n = mn\ \text{bits}$.
+- Therefore, the total complexity is also $mn\ \text{bits}$.
+- Since the server sends the entire inventory matrix, each row in the matrix is likely to be the intended row. Therefore, the probability that the server correctly guesses the intended row is $\frac{1}{n}$.
+
+**(c)**
+- Setting (i): Alice wants to obtain the details on $\frac{n}{2}$ products.
+	- In the trivial scheme, the server sends the entire inventory matrix, and Alice does the $\vec{q} \cdot A$ computations locally.
+	- Even if she wants to obtain the details of $n/2$ products, she needs to download the matrix just once.
+	- Therefore, the total number of matrix elements she downloads is $m \times n = mn \ \text{elements}$.
+- Setting (ii): $\frac{n}{2}$ customers at different locations want to obtain the details of one product each.
+	- In this setting, because each customer is at a different location, the server must send the inventory matrix to each user.
+	- Since there are $\frac{n}{2}$ users, the total number of matrix elements download will be $$\frac{n}{2} \times m \times n = \frac{mn^2}{2}\ \text{elements}$$.
 - - -
 **Q4.**
 **(a)**

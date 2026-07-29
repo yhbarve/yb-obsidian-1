@@ -6,8 +6,20 @@
 - Since there's just one male grad student, their grade is $298 - 210 = 88$.
 
 **(b)**
-- Age, Major, and Degree are the attributes that form a quasi-identifier in the table. These attributes are intrinsic to the user (student), and can be used to match identities in external datasets.
-- Using the same logic, we can argue that `ID` is not a quasi-identifier because it is an identifier just for this dataset. It's not an intrinsic user attribute that exists in external databases to link identities.
+- Age, Major, and Degree are the attributes that form a quasi-identifier in the table. These attributes don't directly reveal an individual's identity. However, they are intrinsic to the student, and can be cross-referenced with external databases to uniquely identify individuals.
+- Using the same logic, we can argue that `ID` is not a quasi-identifier because it is an identifier just for this dataset. It's not an intrinsic attribute that exists in external databases to link identities.
+
+**(c)**
+- Yes, the selected quasi-identifier satisfies k-anonymity.
+- The value of $k$ is 1. This is because the equivalence class (27, EE, PhD) appears only once.
+
+**(d)**
+- The most effective approach for modifying the `Age` is generalizing values into broader intervals.
+- We can create three broad age intervals:
+	1. 18 - 21: groups all Bachelor students
+	2. 22 - 24: groups all Master students
+	3. 25 - 27: groups all PhD students
+- Applying these ranges ensures that every equivalence class contains at least 3 records. Therefore, this 
 - - -
 **Q4.**
 **(a)**

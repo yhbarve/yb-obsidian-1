@@ -53,7 +53,11 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 - From (c), we know that $b = 4$. Therefore $$Pr[|Y| \gt 2] = e^{\frac{-2}{4}} = e^{-0.5} \approx 0.6065$$
 
 **(f)**
-
+- If we set $\epsilon = 0.05$, the Laplace scale parameter $b = \frac{1}{0.05} = 20$.
+- This results in a very large noise scale with standard deviation $\sqrt{2b^2} = 28.28$.
+- Because we reduced $\epsilon$, the privacy will increase by introducing more noise.
+- However, the utility of this data decreases.
+- For example, we know that $f_1(D) = 5$. With $b = 20$, with a noise sample like $y = 22$, the value we would release is $5 + 22 = 27$ which is way off.
 - - -
 **Q3.**
 - - -

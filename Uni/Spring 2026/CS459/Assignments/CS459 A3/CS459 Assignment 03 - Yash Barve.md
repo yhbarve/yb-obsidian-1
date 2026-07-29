@@ -57,7 +57,8 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 - This results in a very large noise scale with standard deviation $\sqrt{2b^2} = 28.28$.
 - Because we reduced $\epsilon$, the privacy will increase by introducing more noise.
 - However, the utility of this data decreases.
-- For example, we know that $f_1(D) = 5$. With $b = 20$, with a noise sample like $y = 22$, the value we would release is $5 + 22 = 27$ which is way off.
+- For example, we know that $f_1(D) = 5$. With $b = 20$, with a noise sample like $y = 22$, the value we would release is $5 + 22 = 27$ which does not make sense because the total number of cats in the dataset is only 8.
+- Therefore, no, the released data will not be very useful.
 - - -
 **Q3.**
 - - -

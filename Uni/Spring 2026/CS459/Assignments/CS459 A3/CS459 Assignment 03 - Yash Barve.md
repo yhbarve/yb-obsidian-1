@@ -1,3 +1,9 @@
+---
+geometry: margin=0.75in
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+---
 **Q1.**
 **(a)**
 - From statistic 2B, the total grades for the 4 male students is $4 \times 74.5 = 298$.
@@ -45,12 +51,12 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 
 **(d)**
 - We know that $$M(D) = f(D) + y$$
-- We can also calculate $f_1(D) = 8$ (number of spayed cats)
+- We can also calculate $f_1(D) = 5$ (number of spayed cats)
 - Therefore, the value we will release is $$M(D) = f_1(D) + y = 5 + 3.2 = 8.2$$
 
 **(e)**
-- We know that $$Pr[|Y| \gt t] = e^{\frac{-t}{b}}$$
-- From (c), we know that $b = 4$. Therefore $$Pr[|Y| \gt 2] = e^{\frac{-2}{4}} = e^{-0.5} \approx 0.6065$$
+- We know that $$Pr[|Y| > t] = e^{\frac{-t}{b}}$$
+- From (c), we know that $b = 4$. Therefore $$Pr[|Y| > 2] = e^{\frac{-2}{4}} = e^{-0.5} \approx 0.6065$$
 
 **(f)**
 - If we set $\epsilon = 0.05$, the Laplace scale parameter $b = \frac{1}{0.05} = 20$.
@@ -114,8 +120,9 @@ $$
 - Therefore, a single server does not have enough data to calculate $s$. Hence, the servers do not learn any information about the desired row.
 
 **(f)**
-- The user uploads three $(1 \times n)$ vectors $\vec{q_1}$, $\vec{q_2}$, and $\vec{q_3}$ each of $n$ bits. Therefore, **the upload complexity is $3n$ bits.**
-- Each server sends back a single 
+- The user uploads three $(1 \times n)$ vectors $\vec{q_1}$, $\vec{q_2}$, and $\vec{q_3}$ each of $n$ bits. Therefore, **the upload complexity is $3n$ elements.**
+- Each server sends back a single $(1 \times m)$ vector of $m$ bits. Therefore, **the download complexity is $3m$ elements.**
+- Therefore, **the total complexity is $3(n + m)$ elements.**
 - - -
 **Q4.**
 **(a)**

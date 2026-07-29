@@ -55,7 +55,7 @@
 - Insurability  Trends
 	- Climate trends may undermine long-term insurability.
 ## Six categories that structure CI programs
-### Coverage Scope, and Participation
+### 1. Coverage Scope, and Participation
 - This defines the exact boundary lines of the insurance program.
 - The peril scope could be single peril, which focuses on one specific hazard, or multi peril, which bundles multiple natural hazards together.
 - Programs decide whether to protect only residential homes or include commercial properties and public infrastructure. Expanding property types increases the total exposure but broadens the premium base.
@@ -70,7 +70,7 @@
 	3. **Policy Holder Purchase Mandate**
 		- If mandatory property owners are legally required to buy the coverage.
 		- If voluntary property owners decide whether to purchase the endorsement or the policy.
-### Pricing & Cross Subsidization
+### 2. Pricing & Cross Subsidization
 - The key decision is to choose between the risk-based pricing versus cross-subsidization.
 - **Risk Based Pricing**
 	- Under risk-based pricing, your premium reflects your exact expected loss plus reinsurance and regulatory capital costs.
@@ -86,7 +86,7 @@
 		3. **Capped Premiums:** Capping maximum rates in high-risk zones so homeowners aren't priced out
 		4. **Explicit government subsidies:** Direct taxpayer cash injected into the pool to lower costs for policyholders
 	- The core problem with cross-subsidies is that they create moral hazard. If living on a dangerous flood plain is heavily subsidized by urban condo owners, people have zero financial incentive to move out or reinforce their homes.
-### Capitalization & Funding
+### 3. Capitalization & Funding
 - Initial Program Capitalization describes how the Catastrophe Insurance Program builds its starting balance sheet on day one.
 	- **Government Capital or Disaster Funds:** Direct government grants, seed loans, or public disaster funds provide immediate capacity.
 	- **Insurer contributions:** Primary insurance companies are required to contribute initial capital or equity to set up the pool.
@@ -103,7 +103,7 @@
 	3. **Hybrid**
 		- A blend of accumulated reserves, private reinsurance, and post-event backstops or borrowing authority.
 		- Balances upfront premium affordability with post-disaster financial resilience.
-### Pooling & Governance
+### 4. Pooling & Governance
 - Market structure and governance outline: who manages the pool and how decisions are made.
 - The primary trade-off is between public/state control and private/market governance.
 	- **State-owned:**
@@ -123,5 +123,38 @@
 - Another important decision is to choose whether catastrophe insurance policies will be designed nationally or regionally.
 	- If it's a **national framework**, it has a common coverage, eligibility, and program rules across the country, which ensures a consistent consumer experience.
 	- If it's a **regional or decentralized framework**, rules vary across jurisdictions or insurers. Coverage and pricing reflect local conditions and regulatory choices, which provide greater flexibility but less consistency.
-### Government's Role
-### Operational Roles
+### 5. Government's Role
+- The government's rules are often the outcome of earlier design choices.
+- Here are some of the roles that the government can play in a catastrophe insurance program.
+	- **Government as insurer**
+		- Assumes the primary insurance obligation
+		- May retain or delegate pricing, underwriting, policy servicing, and claims management
+		- This is the greatest direct government involvement. 
+	- **Government is re-insurer**
+		- Accepts catastrophe risk transferred from primary insurers.
+		- Expands market capacity and supports insurer solvency.
+		- Bears losses within the reinsurance layer
+	- **Government as regulator**
+		- Establishes program rules, coverage requirements, and insurer obligations.
+		- Also sets solvency standards and may influence market behavior.
+	- **Government as backstop**
+		- Provides protection only for extreme losses above a specific threshold.
+		- Supports insurers or reinsurers against catastrophic tail risk and participates only in the most extreme catastrophe losses.
+	- **Government as Liquidity Provider**
+		- Provides immediate financing following catastrophic events.
+		- Usually in the form of a loan, and the funding is expected to be recovered through future assessments or repayments.
+		- Provides immediate claims-paying capacity without necessarily creating permanent public losses.
+### 6. Operational Roles
+- The core question is to decide who performs key insurance functions in the program.
+- Most policies rely on private insurers for selling and servicing.
+- **Pricing:**
+	- Pricing can be set by a public entity or by private insurers.
+	- Public pricing can improve affordability but may weaken risk-based signals.
+- **Underwriting:**
+	- Risks can be underwritten by a public entity or by private insurers, or through a shared arrangement.
+	- Public underwriting can expand coverage but may crowd out private market participation.
+- **Claims Management:**
+	- Again, claims can be handled by a public entity or by private insurers or by a shared arrangement.
+	- Shared claims administration can use existing infrastructure but may lead to coordination problems and coverage disputes.
+- - -
+# Canada's Current Approach

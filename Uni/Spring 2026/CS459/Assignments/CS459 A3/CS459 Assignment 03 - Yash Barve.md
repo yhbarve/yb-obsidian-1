@@ -29,7 +29,14 @@
 - - -
 **Q2.**
 **(a)**
-- 
+- The unbounded sensitivity is **1**. This is because adding or removing a single cat from the dataset changes the total count of spayed cats by at most 1.
+- The bounded sensitivity is also **1**. This is because changing one cat's status alters the total count of spayed cats by at most 1.
+
+**(b)**
+- The bounded sensitivity of this query is **1.25 kg**.
+- Since every cat's weight lies in the range {0, 10}, the maximum possible weight shift is 10 kg.
+- Under bounded sensitivity, the number of cats does not change.
+- Therefore, the mean weight will shift by $\frac{10}{8} = 1.25\text{kg}$
 - - -
 **Q3.**
 - - -

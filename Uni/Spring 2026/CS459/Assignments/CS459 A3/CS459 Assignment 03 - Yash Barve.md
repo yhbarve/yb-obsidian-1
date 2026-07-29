@@ -61,6 +61,15 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 - Therefore, no, the released data will not be very useful.
 - - -
 **Q3.**
+**(a)**
+- The most trivial solution to ensure that BuyNoSpy does not learn about $\vec{q}$ is to download the entire inventory matrix A.
+- Alice can then compute $\vec{q} \cdot A$ locally, without having to send $\vec{q}$ to the server.
+
+**(b)**
+- Because Alice is not sending any data to the server, the **upload complexity is 0.**
+- The server sends the entire inventory matrix to Alice. Therefore, the download complexity is $m \times n$.
+- Therefore, the total complexity is also $m \times n = mn\ \text{bits}$.
+- 
 - - -
 **Q4.**
 **(a)**

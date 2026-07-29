@@ -158,3 +158,38 @@
 	- Shared claims administration can use existing infrastructure but may lead to coordination problems and coverage disputes.
 - - -
 # Canada's Current Approach
+- Canada manages catastrophe risk through a layered system rather than a national catastrophe insurance program.
+- Households retain losses below deductibles, above limits, and uninsured losses. Insurance may be unavailable or limited for some catastrophe risks.
+- Private insurers provide residential property coverage and bear primary underwriting risk.
+- Reinsurers absorb large correlated catastrophe losses. Pricing is influenced by global catastrophe losses.
+- The Federal Disaster Financial Assistance Arrangements (DFAA) Programme provides financial assistance to provinces after major disasters. It's more of a backstop rather than an insurance program.
+## Canadian catastrophe events in 2025
+| Peril                   | Provinces Affected                 | Number of Events |
+| ----------------------- | ---------------------------------- | ---------------- |
+| Flood                   | BC, AB, SK, MC, ON, QC, NB, NS, NL | 6                |
+| Wildfire                | AB, SK, MB, NL                     | 5                |
+| Severe convective storm | AB, QC, SK, MB                     | 3                |
+| Winter weather          | BC, AB, ON, QC, NB, NS, NL         | 3                |
+| Windstorm               | ON, QC                             | 1                |
+- Most losses in Canada are driven by secondary perils.
+- Insured catastrophe losses in Canada have increased significantly over the past two decades.
+- Several recent events have produced multi-billion dollar insured losses, such as severe convective storms, floodings, and wildfires.
+## Earthquake Risk in Canada
+- Earthquakes are low-frequency but potentially catastrophic events that can threaten the solvency of insurers.
+- Earthquake risk is concentrated in British Columbia and Eastern Quebec.
+- Earthquake insurance is purchased as an optional endorsement to homeowners' policies. 
+- Take-up rates vary significantly across regions.
+	- In Quebec, there is a very low take-up rate and limited awareness, which contributes to a large protection gap.
+	- In British Columbia, there is a high take-up rate, which creates a highly concentrated insurance exposure.
+- Even insured households may face significant uninsured losses.
+- Designing earthquake insurance requires balancing tail risk management, affordability, and protection gap reduction.
+## Flood Risk in Canada
+- Flooding is the most frequent and costly natural disaster in Canada.
+- Flood risk arises from river flooding, urban storm water flooding, and coastal flooding.
+- Overland residential flood insurance was introduced in 2015 but remains difficult to obtain for many high-risk properties.
+- Climate change and continued development in flood-prone areas are increasing both the frequency of losses and the value of exposed property.
+- Therefore, many high-risk households remain uninsured or underinsured, creating a significant protection gap. 
+- Designing flood insurance requires balancing affordability, availability, risk-based pricing, and protection gap reduction.
+## Wildfire Risk in Canada
+- Wildfires have become more frequent and severe in recent years.
+- 

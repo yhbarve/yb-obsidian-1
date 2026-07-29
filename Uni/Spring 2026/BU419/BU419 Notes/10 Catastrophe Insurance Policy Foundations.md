@@ -55,7 +55,7 @@
 - Insurability  Trends
 	- Climate trends may undermine long-term insurability.
 ## Six categories that structure CI programs
-1. Coverage Scope, and Participation
+1. **Coverage Scope, and Participation**
 	- This defines the exact boundary lines of the insurance program.
 	- The peril scope could be single peril, which focuses on one specific hazard, or multi peril, which bundles multiple natural hazards together.
 	- Programs decide whether to protect only residential homes or include commercial properties and public infrastructure. Expanding property types increases the total exposure but broadens the premium base.
@@ -70,9 +70,33 @@
 		3. Policy Holder Purchase Mandate
 			- If mandatory property owners are legally required to buy the coverage.
 			- If voluntary property owners decide whether to purchase the endorsement or the policy.
-2. Pricing & Cross Subsidization
-	- 
+2. **Pricing & Cross Subsidization**
+	- The key decision is to choose between the risk-based pricing versus cross-subsidization.
+	- **Risk Based Pricing**
+		- Under risk-based pricing, your premium reflects your exact expected loss plus reinsurance and regulatory capital costs.
+		- A beachfront home or a house in a dense forest interface pays an extremely high premium, while a house on high ground or away from trees pays a low premium.
+		- It sends clear financial warnings to property owners and deters people from building in high-risk flood plains or wildfire zones and awards mitigation.
+		- It also ensures that the pool actually collects enough money to cover expected losses.
+		- A downside is that premiums in extreme hazard zones can become very expensive, forcing people to drop the coverage, widening the protection gap.
+	- **Cross-subsidization**
+		- Under cross-subsidization, low-risk policyholders pay more than their actual risk to help cover the costs of high-risk policyholders.
+		- Governments use four main levers to cross-subsidize:
+			1. **Flat rate premiums:** Everyone pays the exact same flat rate or percentage, regardless of location.
+			2. **Implicit cross-subsidies:** Averaging rates regionally or nationally, so lower-risk zones pad the fund for higher-risk zones
+			3. **Capped Premiums:** Capping maximum rates in high-risk zones so homeowners aren't priced out
+			4. **Explicit government subsidies:** Direct taxpayer cash injected into the pool to lower costs for policyholders
+		- The core problem with cross-subsidies is that they create moral hazard. If living on a dangerous flood plain is heavily subsidized by urban condo owners, people have zero financial incentive to move out or reinforce their homes.
 3. Capitalization & Funding
+	- Initial Program Capitalization describes how the Catastrophe Insurance Program builds its starting balance sheet on day one.
+		- **Government Capital or Disaster Funds:** Direct government grants, seed loans, or public disaster funds provide immediate capacity.
+		- **Insurer contributions:** Primary insurance companies are required to contribute initial capital or equity to set up the pool.
+		- **No initial fund:** The program starts with $0 in reserves and relies entirely on post-disaster borrowing, taxation, or industry assessments if an event occurs.
+	- Program funding discusses how the program continuously finances losses across decades. There are three main funding approaches:
+		1. Pre-funded
+			- Premiums are collected from policyholders continuously and accumulate in our dedicated catastrophe reserve fund before a disaster strikes.
+			- 
+		2. Post Event Funded
+		3. Hybrid 
 4. Pooling & Governance
 5. Government's Role
 6. Operational Roles

@@ -36,7 +36,7 @@
 		- There should be a logical connection to cost
 	5. Minimize discontinuities
 		- Extreme rate jumps between classes must be avoided.
-- **Social:** 5 characteristics related to the acceptance of the variable by the insurance.
+- **Social:** 5 characteristics related to the acceptance of the variable by the insurers.
 	1. Privacy
 		- Insureds must not feel that the variable requires disclosing overly sensitive or invasive personal information.
 	2. Causality

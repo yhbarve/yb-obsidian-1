@@ -1,7 +1,7 @@
 #uni #s26 #bu419
 # Lecture 03: Insurability, Risk Classification, and Pricing
 ---
-### Economics of Risk Classification
+### Economics of Risk Classificationsasdasd
 1. Separating consumers by risk type has the potential to produce large profits in the short run.
 2. An insurer that fails to base premiums on information that is known will lose money due to adverse selection.
 3. In a competitive market, differences in expected claims costs will produce differences in premiums across consumers.

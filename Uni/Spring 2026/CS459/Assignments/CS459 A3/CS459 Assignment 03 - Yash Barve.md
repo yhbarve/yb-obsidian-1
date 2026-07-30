@@ -26,7 +26,7 @@ header-includes:
 
 - Age, Major, and Degree are the attributes that form a quasi-identifier in the table. These attributes don't directly reveal an individual's identity. However, they are intrinsic to the student, and can be cross-referenced with external databases to uniquely identify individuals.
 
-- Using the same logic, we can argue that `ID` is not a quasi-identifier because it is an identifier just for this dataset. It's not an intrinsic attribute that exists in external databases to link identities.
+- `ID` is not a quasi-identifier because it uniquely identifies each student. Therefore, it's an identifier.
 
 **(c)**
 

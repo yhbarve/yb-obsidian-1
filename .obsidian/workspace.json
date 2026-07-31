@@ -11,12 +11,14 @@
             "id": "0087204507b84cfc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU419/BU419 Cases/Merced Case.pdf"
+                "file": "Uni/Spring 2026/BU419/BU419 Notes/10 Catastrophe Insurance Policy Foundations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Merced Case"
+              "icon": "lucide-file",
+              "title": "10 Catastrophe Insurance Policy Foundations"
             }
           }
         ]
@@ -209,9 +211,9 @@
   },
   "active": "0087204507b84cfc",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU419/BU419 Cases/Merced Case.pdf",
     "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.pdf",
     "Uni/Spring 2026/BU419/BU419 Cases/BU419 Case 03.md",
-    "Uni/Spring 2026/BU419/BU419 Cases/Merced Case.pdf",
     "Uni/Spring 2026/BU419/BU419 Cases/AllState Case.pdf",
     "Uni/Spring 2026/BU419/BU419 Notes/02 Purpose and Operation of Insurance.md",
     "Uni/Spring 2026/BU419/BU419 Notes/01 Introduction & Insurability.md",

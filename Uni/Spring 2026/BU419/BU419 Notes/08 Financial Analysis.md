@@ -36,7 +36,7 @@ tags:
 - Net underwriting revenue includes everything related to premiums, even one-off accounting adjustments, oddities from discontinued product lines or unique regulatory payouts.
 - On the other hand, operating net underwriting revenue strips away those one-offs and isolates the premium revenue generated strictly by the company's ongoing daily core insurance operations.
 - Insurance companies treat premium as revenue because it is earned income for providing the service of taking on risk. The claims that may happen later are treated as expenses.
-- ***If net underwriting revenue is significantly lower than GWP, it proves that a massive portion of the premiums and therefore the risk is being passed off to reinsurers.***
+- ***If net underwriting revenue is significantly lower than GEP, it proves that a massive portion of the premiums and therefore the risk is being passed off to reinsurers.***
 - - -
 ### Underwriting Income (UW)
 - This is the profit made strictly from the insurance operations.

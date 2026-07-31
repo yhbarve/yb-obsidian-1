@@ -196,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 581.5
+    "width": 235.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0087204507b84cfc",
+  "active": "095612f718b0b9a3",
   "lastOpenFiles": [
     "Uni/Spring 2026/BU419/BU419 Concepts to Review.md",
     "Uni/Spring 2026/BU419/BU419 Notes/10 Catastrophe Insurance Policy Foundations.md",

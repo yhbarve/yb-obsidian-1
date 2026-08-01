@@ -4,10 +4,16 @@ header-includes:
   - \usepackage{amsmath}
   - \usepackage{amssymb}
 ---
-# CS459 Assignment 03
-
-## Yash Harshal Barve (yhbarve) - 20930353
-
+\newpage
+\null
+\vfill
+\begin{center}
+    {\Huge \textbf{CS459 Assignment 03}} \\[1.5em]
+    {\Large Yash Harshal Barve} \\[0.5em]
+    {\Large 20930353} \\[0.5em]
+    {\Large yhbarve@uwaterloo.ca}
+\end{center}
+\vfill
 \newpage
 
 **Q1. Syntactic Notions of Privacy**

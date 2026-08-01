@@ -110,7 +110,7 @@ def save_outputs(df_sampled, predicted_labels, watiam_id):
 
 
 if __name__ == "__main__":
-    watiam_id = "abcd1234"  # <-- replace with your own ID, do not use capitals
+    watiam_id = "yhbarve"  # <-- replace with your own ID, do not use capitals
 
     # 2. Load model
     model = SimpleCNN()

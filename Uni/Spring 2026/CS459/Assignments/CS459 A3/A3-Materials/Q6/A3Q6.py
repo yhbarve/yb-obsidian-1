@@ -44,8 +44,7 @@ def load_full_dataset(csv_path="final_dataset_membership.csv"):
     Returns a pandas DataFrame.
     """
     
-    # TODO: load and return the DataFrame
-    pass
+    return pd.read_csv(csv_path)
 
 
 def parse_images(df):
@@ -78,7 +77,15 @@ def predict_membership(model, images):
     ** Hint: You can use the model's output probabilities to determine membership. **
 
     """
-    pass
+    model.eval()
+    with torch.no_grad():
+        logits = model(images)
+        probs = F.softmax(logits, dim=1)
+        confidences = probs.max(dim=1).values
+    
+    threshold = 0.95
+    predicted_labels = (confidences > threshold).int().tolist()
+    return predicted_labels, confidences
 
 
 def save_outputs(df_sampled, predicted_labels, watiam_id):
@@ -127,6 +134,11 @@ if __name__ == "__main__":
 
     # 5. Predict membership
     predicted_labels, confidences = predict_membership(model, images_sampled)
+
+    conf = np.array(confidences)  # from predict_membership
+    print(conf.min(), np.median(conf), conf.mean(), conf.max())
+    for t in [0.9, 0.95, 0.99]:
+        print(t, (conf >= t).sum())
 
     # 6. Save outputs
     save_outputs(df_sampled, predicted_labels, watiam_id)

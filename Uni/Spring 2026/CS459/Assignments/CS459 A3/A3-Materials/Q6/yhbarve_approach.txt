@@ -1,0 +1,5 @@
+Membership Inference Report
+WATiam ID: yhbarve
+
+Approach:
+Write your approach here

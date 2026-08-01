@@ -156,8 +156,8 @@ class Blockchain:
         Returns:
         - A valid mined block dict
         """
-        # Initialize the nonce to 0
-        nonce = 0
+        # Initialize the nonce to 1
+        nonce = 1
 
         # Loop until a nonce is found that satisfies PoW
         while True:
@@ -218,17 +218,25 @@ class Blockchain:
         - The collision block dict
         """
 
+        # Get the last block
         real_last_block = self.get_last_block()
+        # Get the target hash
         target_hash = self.hash_block(real_last_block)
         prev_hash = real_last_block['previous_hash']
 
+        # Initialize the nonce to 0
         nonce = 0
+
+        # Loop until a nonce is found that satisfies the conditions
         while True:
+            # Create a candidate block with the current nonce
             candidate_block = self.create_block(nonce, prev_hash, fraudulent_payload)
+            # Return the candidate block if it satisfies the conditions
             if (self.hash_block(candidate_block) == target_hash):
                 self.dump_collision(candidate_block)
                 return candidate_block
             nonce += 1
+        # If no nonce is found that satisfies the conditions, return None
         return None
 
     # ---- Dump & Load ----

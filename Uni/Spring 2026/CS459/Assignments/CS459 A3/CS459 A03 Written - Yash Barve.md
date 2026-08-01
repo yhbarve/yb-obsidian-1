@@ -8,7 +8,7 @@ header-includes:
 
 ## Yash Harshal Barve (yhbarve) - 20930353
 
-\rule{\textwidth}{0.4pt}
+\newpage
 
 **Q1. Syntactic Notions of Privacy**
 

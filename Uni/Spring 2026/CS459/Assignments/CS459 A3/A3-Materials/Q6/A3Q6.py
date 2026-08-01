@@ -77,17 +77,26 @@ def predict_membership(model, images):
     ** Hint: You can use the model's output probabilities to determine membership. **
 
     """
-    model.eval()
+
+    # Disable gradient descent because we are not training
     with torch.no_grad():
+        # Forward pass
         logits = model(images)
+        # Convert logits to probabilities
         probs = F.softmax(logits, dim=1)
+        # Get the maximum probability for each sample
         confidences = probs.max(dim=1).values
-    
+    # Print the confidence statistics
     print(confidences.min(), np.median(confidences), confidences.mean(), confidences.max())
     for t in [0.9, 0.95, 0.99]:
         print(t, (confidences >= t).sum())
+    print("--------------------------------")
+
+    # Threshold for membership inference
     threshold = 0.95
+    # Create the membership labels based on the confidence scores
     predicted_labels = (confidences > threshold).int().tolist()
+
     return predicted_labels, confidences.tolist()
 
 

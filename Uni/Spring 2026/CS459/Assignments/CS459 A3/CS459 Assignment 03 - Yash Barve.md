@@ -109,7 +109,7 @@ $$b = \frac{\Delta f_1}{\epsilon} = \frac{1}{0.25} = 4$$
 
 - For example, we know that $f_1(D) = 5$. With $b = 20$, with a noise sample like $y = 22$, the value we would release is $5 + 22 = 27$ which does not make sense because the total number of cats in the dataset is only 8.
 
-- Therefore, no, the released data will not be very useful.
+- Therefore, even if setting $\epsilon = 0.05$ will increase the privacy, the resulting released data will not be very useful.
 
 \newpage
 
@@ -203,9 +203,9 @@ $$
 
 **(a)**
 
-- Using a Merkle tree allows verification of a specific transaction in $O(\text{log}\ n)$ time and requires only $O(\text{log}\ n)$ sibling nodes to be download onto the client (wallet).
+- Using a Merkle tree allows verification of a specific transaction in $O(\text{log}\ n)$ time and requires only $O(\text{log}\ n)$ sibling nodes to be downloaded onto the client (wallet).
 
-- On the contrary, hashing all transactions as a single concatenated string would require downloading all the transactions and re-hashing all of them again to verify. This takes $O(n)$ time and requires $O(n)$ space.
+- On the contrary, hashing all transactions as a single concatenated string would require downloading all the transactions and re-hashing all of them again to verify. This takes $O(n)$ time and requires $O(n)$ space, which is much more inefficient especially for real world block sizes.
 
 **(b)**
 
@@ -226,12 +226,12 @@ $$
 
 **(c)**
 
-- **Head Start:** The selfish miner gets a head start on mining subsequent blocks. Honest miners continue wasting computational power and electricity mining on the publicly known chain, while the selfish miner can move to the next blocks.
+- The selfish miner gets a head start on mining subsequent blocks. Honest miners continue wasting their computational power and electricity mining on the publicly known chain, while the selfish miner can move to the next blocks.
 
-- **Invalidating Honest Work:** Whenever honest miners discover a block and threaten catch up, the selfish miner releases their hidden block. The network follows the longest-chain rule; therefore the network adopts the selfish miner's longer chain and abandons the honest miner's blocks.
+- Whenever honest miners discover new blocks and threaten to catch up, the selfish miner releases its hidden blocks. Because PoW is based on the longest chain rule, the network adopts the selfish miner's longer chain and abandons the honest miners' blocks.
 
 **(d)**
 
-- In Proof-of-Work, mining requires consuming physical energy and computational power. Miners are economically incentivized to concentrate all their hash power on a single long chain, because mining on a losing fork wastes electricity and other resources with zero payout.
+- In Proof-of-Work, mining requires consuming physical energy and computational power. Miners are financially incentivized to concentrate all their hash power on a single long chain, because mining on a losing fork wastes electricity and other resources with zero payout.
 
-- PoS protocols resolve this by implementing slashing mechanisms. When a validator double-signs, cryptographic evidence of the double vote is submitted to the network. The protocol automatically destroys a portion of the validator's staked collateral and forcibly removes them from the validator set, making the attack economically ruinous.
+- PoS protocols resolve this by implementing slashing mechanisms. When a validator double-signs, the cryptographic evidence of that double vote is submitted to the network. The protocol automatically destroys a portion of the validator's staked collateral and removes them from the validator set. This makes the attack somewhat economically risky.

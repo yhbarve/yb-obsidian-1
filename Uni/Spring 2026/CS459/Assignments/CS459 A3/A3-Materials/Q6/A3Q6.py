@@ -78,7 +78,7 @@ def predict_membership(model, images):
 
     """
 
-    # Disable gradient descent because we are not training
+    # inference only
     with torch.no_grad():
         # Forward pass
         logits = model(images)
@@ -87,7 +87,13 @@ def predict_membership(model, images):
         # Get the maximum probability for each sample
         confidences = probs.max(dim=1).values
     # Print the confidence statistics
-    print(confidences.min(), np.median(confidences), confidences.mean(), confidences.max())
+    print("Confidence Statistics:")
+    print("Min:", confidences.min())
+    print("Median:", np.median(confidences))
+    print("Mean:", confidences.mean())
+    print("Max:", confidences.max())
+    print("--------------------------------")
+    print("Confidence Threshold Statistics:")
     for t in [0.9, 0.95, 0.99]:
         print(t, (confidences >= t).sum())
     print("--------------------------------")
@@ -109,7 +115,7 @@ def save_outputs(df_sampled, predicted_labels, watiam_id):
     out_df = pd.DataFrame({'is_member': predicted_labels}, index=df_sampled.index)
 
     csv_name = f"{watiam_id}_predictions.csv"
-    txt_name = f"{watiam_id}_approach.txt"
+    txt_name = f"{watiam_id}_approach.md"
 
     # Save CSV (retain original index)
     out_df.to_csv(csv_name, index=True)

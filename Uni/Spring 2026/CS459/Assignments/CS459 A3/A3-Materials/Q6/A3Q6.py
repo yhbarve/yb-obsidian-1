@@ -83,9 +83,12 @@ def predict_membership(model, images):
         probs = F.softmax(logits, dim=1)
         confidences = probs.max(dim=1).values
     
+    print(confidences.min(), np.median(confidences), confidences.mean(), confidences.max())
+    for t in [0.9, 0.95, 0.99]:
+        print(t, (confidences >= t).sum())
     threshold = 0.95
     predicted_labels = (confidences > threshold).int().tolist()
-    return predicted_labels, confidences
+    return predicted_labels, confidences.tolist()
 
 
 def save_outputs(df_sampled, predicted_labels, watiam_id):
@@ -134,11 +137,6 @@ if __name__ == "__main__":
 
     # 5. Predict membership
     predicted_labels, confidences = predict_membership(model, images_sampled)
-
-    conf = np.array(confidences)  # from predict_membership
-    print(conf.min(), np.median(conf), conf.mean(), conf.max())
-    for t in [0.9, 0.95, 0.99]:
-        print(t, (conf >= t).sum())
 
     # 6. Save outputs
     save_outputs(df_sampled, predicted_labels, watiam_id)

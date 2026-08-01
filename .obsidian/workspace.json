@@ -12,13 +12,11 @@
             "id": "398b07770fd1c8a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
-                "mode": "source",
-                "source": false
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.pdf"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-file-text",
               "title": "CS459 Assignment 03 - Yash Barve"
             }
           },
@@ -244,6 +242,7 @@
   },
   "active": "398b07770fd1c8a2",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/yhbarve_approach.txt",
@@ -255,7 +254,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_torch_functions.cpp",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_special_functions.cpp",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_sparse_functions.cpp",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_return_types.h",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/README.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",
@@ -279,7 +277,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy/random/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
     "Uni/Spring 2026/BU419/BU419 Notes/10 Catastrophe Insurance Policy Foundations.md",
     "Uni/Spring 2026/BU419/BU419 Concepts to Review.md",
     "Uni/Spring 2026/BU419/BU419 Notes/09 Capital Markets and Regulation.md",

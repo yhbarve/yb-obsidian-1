@@ -11,10 +11,14 @@
             "id": "5fcde2d9b20d7cdc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CS459 Topics to Revisit"
             }
           }
         ]
@@ -206,8 +210,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "351d2f5929c8d7ca",
+  "active": "5fcde2d9b20d7cdc",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
     "Uni/Spring 2026/CS459/Slides/L18 - Privacy Preserving ML.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
@@ -220,7 +225,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q5/A3Q5.py",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q6",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q5",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/A3_written.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/_q6check/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/Q6/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/Submission/Q6/yhbarve_approach.md",

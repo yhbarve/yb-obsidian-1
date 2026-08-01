@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "62401f42ee652f42",
+        "id": "3f17ffc5f7c2d85f",
         "type": "tabs",
-        "dimension": 62.65664160401002,
         "children": [
           {
-            "id": "398b07770fd1c8a2",
+            "id": "a909d5cee6084aaf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.pdf"
+                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CS459 Assignment 03 - Yash Barve"
-            }
-          },
-          {
-            "id": "9cba1ec6ca09a0b5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.pdf"
-              },
-              "icon": "lucide-file-text",
+              "icon": "lucide-file",
               "title": "CS459 Assignment 03 - Yash Barve"
             }
           }
         ]
       },
       {
-        "id": "3f17ffc5f7c2d85f",
+        "id": "f867b3f6ba1557d3",
         "type": "tabs",
-        "dimension": 37.34335839598997,
         "children": [
           {
             "id": "d30a6e01d8062671",
@@ -240,8 +228,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "398b07770fd1c8a2",
+  "active": "a909d5cee6084aaf",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 Assignment 03 - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/yhbarve_approach.md",
@@ -253,7 +242,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_variable_methods.cpp",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_torch_functions.cpp",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_special_functions.cpp",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/templates/python_sparse_functions.cpp",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/torchgen/packaged/autograd/README.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",

@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3f17ffc5f7c2d85f",
+        "id": "080846ce17d49fc2",
         "type": "tabs",
         "children": [
           {
-            "id": "a909d5cee6084aaf",
+            "id": "5fcde2d9b20d7cdc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "CS459 A03 Written - Yash Barve"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -208,8 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a909d5cee6084aaf",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Slides/L18 - Privacy Preserving ML.pdf",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Spec.pdf",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q6/yhbarve_approach.md",
@@ -221,8 +221,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q6",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q5",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/A3_written.pdf",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3.zip",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/_q6check/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/Q6/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/Submission/Q6/yhbarve_approach.md",

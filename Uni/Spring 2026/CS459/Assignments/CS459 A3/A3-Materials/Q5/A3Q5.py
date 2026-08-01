@@ -125,16 +125,21 @@ class Blockchain:
         - (payload, next_index): The packed payload and the next unprocessed index
         """
         # TODO: Implement greedy packing
+
+        # Payload object to store the transactions
         payload = []
 
+        # Initialize variables
         current_size = 0
         index = start_index
 
+        # Loop through the transactions and add them to the payload if they fit within the block size limit
         while (index < len(transactions) and current_size + transactions[index].size <= self.block_size_limit):
             payload.append(transactions[index])
             current_size += transactions[index].size
             index += 1
         
+        # Return the payload and the next index to start packing from
         return (payload, index)
 
     # ---- Phase 2: Mining ----
@@ -151,12 +156,17 @@ class Blockchain:
         Returns:
         - A valid mined block dict
         """
-        
+        # Initialize the nonce to 0
         nonce = 0
+
+        # Loop until a nonce is found that satisfies PoW
         while True:
+            # Create a candidate block with the current nonce
             candidate_block = self.create_block(nonce, previous_hash, payload)
+            # If the candidate block satisfies PoW, return it
             if (self.hash_block(candidate_block).startswith('0' * leading_zeroes)):
                 return candidate_block
+            # Increment the nonce
             nonce += 1
 
     def mine_chain(self, transactions: List[Transaction]) -> None:
@@ -169,17 +179,23 @@ class Blockchain:
         Returns:
         - None (appends blocks to self.chain and dumps nonces to file)
         """
-        
+        # Initialize variables
         current_index = 0
         blocks = 1
         while (current_index < len(transactions)):
+            # Pack the block
             payload, current_index = self.pack_block(transactions, current_index)
+            # Get the previous hash
             previous_hash = self.hash_block(self.get_last_block())
+            # Mine the block
             block = self.mine_block(payload, previous_hash, blocks)
+            # Add the block to the chain
             self.add_block(block, blocks)
+            # Print the block
             print(f"Block {blocks} mined: {block}")
             print(f"===========================================================")
             blocks += 1
+        # Dump the nonces to a file
         self.dump_nonces()
 
 

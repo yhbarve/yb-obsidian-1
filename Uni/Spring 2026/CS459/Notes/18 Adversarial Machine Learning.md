@@ -90,4 +90,16 @@
 	- White box means that the model is known by the way.
 	- Black box means only query access to the model is available.
 	- Transferrable means there is no query access. You craft an adversarial example on a local substitute model you control, and rely on the property that the same trick will **transfer** over to fool the target model as well.
-	- Gray box means the rest.
+	- Gray box means the rest. **Gray-box** sits right between white-box and black-box. The attacker has **partial knowledge** about the target system, but not full access to its internal weights or architecture. The attacker has limited access, such as the model architecture. 
+- Similar to many ML problems, there is no existing defence that can fully prevent adversarial examples.
+- For a potential defense, the following properties are required.
+	- It preserves clean input accuracy.
+	- It correctly classifies adversarial examples.
+- An example of a basic defense is **adversarial training**.
+	- **Concept:** A data-augmentation defense that trains the model on both clean inputs and dynamically generated adversarial inputs during training.
+	- **Mechanism (Batch Level):**
+	    1. Take a standard mini batch of samples: $D_i = \{(x_1, y_1), (x_2, y_2), \dots, (x_b, y_b)\}$.
+	    2. Generate adversarial counterparts using an attack method (e.g., FGSM or PGD): $D_i' = \{(x'_1, y_1), (x'_2, y_2), \dots, (x'_b, y_b)\}$.
+	    3. Update model parameters on the combined dataset: $\overline{D_i} = D_i \cup D_i'$.
+	- Adversary training is simple but effective. It is currently considered one of, if not the best, existing defense against adversarial examples by the research community.
+- - -

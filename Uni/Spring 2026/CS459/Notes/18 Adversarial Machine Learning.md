@@ -16,4 +16,28 @@
 - - -
 # Model Stealing
 - Approximation of the behavior of the model
-	- 
+	- **Objective:** Replicate the functionality of a target model $f(x, \theta)$ without accessing its internal weights or original training data $D$.
+	- **Input Collection:** Gather an unlabeled auxiliary dataset $X'$, which can be significantly smaller or drawn from a similar domain.
+	- **Label Generation:** Query the target model with inputs $X'$ to produce synthetic labels $Y' = f(X')$.
+	- **Surrogate Training:** Train a clone model $f'(x, \theta')$ on the generated dataset $D' = (X', Y')$ to approximate the victim model's decision boundary.
+- Defending against Model Stealing
+	- It's actually very hard. There is no known effective pure ML defense.
+	- A possible solution could be rate limiting, which involves a daily limit for requests. This makes it more time-consuming for a user trying to create a data set using the model API. However, this doesn't solve the problem. It makes it a bit difficult.
+	- The legal system may help prevent this.
+- The Legal System Angle
+	- An ML model can be considered intellectual property if it can prove that someone stole our model. Legal action can be taken against that entity.
+	- To prove ownership, we need a method to identify a model, even if it is a stolen copy. We can also prevent misuse, such as deep fakes, by proving that outputs are from a particular model.
+- Watermarking
+	- DNN watermarking is a method designed to detect surrogate models.
+	- Watermarking embeds a message into a model that is later extractable using a secret key.
+	- This would allow proof of ownership by proving extraction of the embedded message from the stolen model. Legal action can then be taken.
+	- A **watermarking scheme** is composed of two procedures: an embedding and an extraction procedure.
+		- The embedding procedure takes a watermarking key, a message, and a model and outputs a marked model embedded with the message.
+		- Extraction procedure takes a watermarking key, a model, and outputs the message extracted from the model using the key.
+	- The ideal requirements for watermarking are:
+		- Fidelity: The impact on the model's task accuracy is small.
+		- Robustness: Surrogate models retain the watermark.
+		- Integrity: Models trained without access to the source model do not retain the bottom work.
+		- Capacity: The watermark allows encoding large message sizes.
+		- Efficiency: Embedding and extracting the watermark is efficient.
+		- Undetectability: The watermark cannot be detected efficiently without knowledge of the secret watermarking key. 

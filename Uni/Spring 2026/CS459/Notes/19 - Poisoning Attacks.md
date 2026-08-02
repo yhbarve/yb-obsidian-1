@@ -96,7 +96,13 @@
 - A knowledge database is a collection of text passages.
 - When a user asks a query, the retriever searches the knowledge database and returns the most relevant passage.
 - LLM answers with both the question and the retrieved texts as context.
-- Poisoning RAG databases include crafting malicious texts and inserting it inside the knowledge base.
+- Poisoning RAG databases include crafting malicious texts (made up of questions & malicious answers) and inserting it inside the knowledge base.
 - A malicious text must do two things:
 	1. The malicious text must be retrieved for the target question. The attack fails if the text persuades the LLM but is never retrieved.
 	2. The retrieved malicious text must make the LLM output the target answer. The attack fails if the text is retrieved but does not persuade the LLM.
+- In **Blackbox Poisoned RAG**, the attacker does not know the knowledge database contents, the LLM parameters, or the retriever parameters, but the attacker can inject a few malicious texts into the knowledge database.
+- A few malicious texts can be enough.
+	- PoisonedRAG injects five malicious texts per target question.
+	- Reported attack success in the black-box PaLM 2 setting is up to 97% on NQ, up to 99% on HotpotQA, and around 91% on MS-MARCO.
+	- Knowledge databases contain millions of clean texts.
+- - -

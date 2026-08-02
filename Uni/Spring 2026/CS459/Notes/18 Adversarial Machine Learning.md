@@ -27,17 +27,29 @@
 - The Legal System Angle
 	- An ML model can be considered intellectual property if it can prove that someone stole our model. Legal action can be taken against that entity.
 	- To prove ownership, we need a method to identify a model, even if it is a stolen copy. We can also prevent misuse, such as deep fakes, by proving that outputs are from a particular model.
-- Watermarking
-	- DNN watermarking is a method designed to detect surrogate models.
-	- Watermarking embeds a message into a model that is later extractable using a secret key.
-	- This would allow proof of ownership by proving extraction of the embedded message from the stolen model. Legal action can then be taken.
-	- A **watermarking scheme** is composed of two procedures: an embedding and an extraction procedure.
-		- The embedding procedure takes a watermarking key, a message, and a model and outputs a marked model embedded with the message.
-		- Extraction procedure takes a watermarking key, a model, and outputs the message extracted from the model using the key.
-	- The ideal requirements for watermarking are:
-		- Fidelity: The impact on the model's task accuracy is small.
-		- Robustness: Surrogate models retain the watermark.
-		- Integrity: Models trained without access to the source model do not retain the bottom work.
-		- Capacity: The watermark allows encoding large message sizes.
-		- Efficiency: Embedding and extracting the watermark is efficient.
-		- Undetectability: The watermark cannot be detected efficiently without knowledge of the secret watermarking key. 
+# Watermarking
+- DNN watermarking is a method designed to detect surrogate models.
+- Watermarking embeds a message into a model that is later extractable using a secret key.
+- This would allow proof of ownership by proving extraction of the embedded message from the stolen model. Legal action can then be taken.
+- A **watermarking scheme** is composed of two procedures: an embedding and an extraction procedure.
+	- The embedding procedure takes a watermarking key, a message, and a model and outputs a marked model embedded with the message.
+	- Extraction procedure takes a watermarking key, a model, and outputs the message extracted from the model using the key.
+- The ideal requirements for watermarking are:
+	- Fidelity: The impact on the model's task accuracy is small.
+	- Robustness: Surrogate models retain the watermark.
+	- Integrity: Models trained without access to the source model do not retain the bottom work.
+	- Capacity: The watermark allows encoding large message sizes.
+	- Efficiency: Embedding and extracting the watermark is efficient.
+	- Undetectability: The watermark cannot be detected efficiently without knowledge of the secret watermarking key.
+- Watermarking Categories
+	- **During training**
+		- Idea 1: Create a watermark by assigning arbitrary labels to certain inputs (triggers).
+			- Take random images from outside the training distribution, label them randomly, and use these inputs to train the model.
+			- To verify, query a model with the trigger input set and check whether it returns the same labels assigned before.
+			- For example, while training, give an image of an apple the label "Octopus". The image of the apple is the trigger. During verification, query the model with the apple image as the input and check whether it returns "Octopus" as expected.
+		- Idea 2 - IP Guard: Deep neural networks have decision boundaries shaped by their parameters. Different models will, by the way, behave differently for some inputs close to the boundary.
+			- Search for samples close to the decision boundaries (call them "key inputs") and record their labels.
+			- To verify, query a model with the key input set and check how predictions return the same labels assigned before. Verification succeeds if a fraction of predictions (above some threshold) are correct.
+			- **Basic idea:**  
+	- **Post training**
+		- 

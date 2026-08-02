@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
+                "file": "Uni/Spring 2026/CS459/Notes/19 - Poisoning Attacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18 Adversarial Machine Learning"
+              "title": "19 - Poisoning Attacks"
             }
           }
         ]
@@ -209,11 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "095612f718b0b9a3",
+  "active": "5fcde2d9b20d7cdc",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
+    "Uni/Spring 2026/CS459/Notes/19 - Poisoning Attacks.md",
     "Uni/Spring 2026/CS398/Slides/Performance Guidelines 01.pdf",
     "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
-    "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
     "Uni/Spring 2026/CS398/Slides/Code Review Guidelines 02.pdf",
     "Uni/Spring 2026/CS398/Slides/Code Review Guidelines 01.pdf",
     "Uni/Spring 2026/CS398/Slides/Testing Guidelines 02.pdf",
@@ -225,7 +226,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q6/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q6/yhbarve_predictions.csv",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q6/A3Q6.py",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/_q6check/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/Q6/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/Submission/Q6/yhbarve_approach.md",

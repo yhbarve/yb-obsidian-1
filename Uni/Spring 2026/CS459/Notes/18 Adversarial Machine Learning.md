@@ -69,3 +69,25 @@
 - No current watermarking scheme manages to be robust against all watermark removal attacks.
 - At the same time, no current watermark removal attack manages to remove all watermarks.
 - - -
+# Evasion Attacks
+- These are inference-time attacks. The attacker takes a valid input $x$ and adds small, human-imperceptible perturbations $\delta$ to create an adversarial example $x' = x + \delta$.
+- Some examples could be evading a detection system like a facial recognition content filter or fraud detection system.
+- The goal is to lower the target model's performance.
+## Adversarial Examples
+- These are input samples that are crafted for evasion attacks.
+- Adversary examples are inputs to machine learning models that an attacker has intentionally designed to cause the model to make a mistake.
+- Depending on the objective of the attacker, an adversarial example might have different limitations.
+	- **Indistinguishable:** Given a real input, the adversary must generate a visually indistinguishable adversarial input.
+	- **Content preserving:** Given a real input, the adversary must generate a new input where the content is preserved.
+		- For example, re-uploading movies on YouTube with weird resizing and other effects to trick the detection algorithm
+	- **Non-suspicious:** The attacker can produce any input example they wish, as long as it would appear to a human to be a real input.
+		- For example, **Voice Assistant attack:** Unlocking a security system or making an unauthorized purchase via audio that appears to be innocuous, such as a voicemail or a television advertisement
+	- **Content Constrained:** The attacker can produce any input example they wish, as long as it contains some content payload.
+		- Example: email spam
+	- **Unconstrained:** The attacker can produce any input they want in order to induce desired behavior from the machine learning system.
+		- Example: Unlocking a stolen phone by tricking the fingerprint or face recognition system
+- Similar to watermarking, adversarial examples can be considered under different settings.
+	- White box means that the model is known by the way.
+	- Black box means only query access to the model is available.
+	- Transferrable means there is no query access. You craft an adversarial example on a local substitute model you control, and rely on the property that the same trick will **transfer** over to fool the target model as well.
+	- Gray box means the rest.

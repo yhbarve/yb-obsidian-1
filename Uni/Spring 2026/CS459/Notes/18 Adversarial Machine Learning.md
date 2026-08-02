@@ -50,6 +50,22 @@
 		- Idea 2 - IP Guard: Deep neural networks have decision boundaries shaped by their parameters. Different models will, by the way, behave differently for some inputs close to the boundary.
 			- Search for samples close to the decision boundaries (call them "key inputs") and record their labels.
 			- To verify, query a model with the key input set and check how predictions return the same labels assigned before. Verification succeeds if a fraction of predictions (above some threshold) are correct.
-			- **Basic idea:**  
-	- **Post training**
-		- 
+			- **Basic idea:** Data points at or close to the decision boundary are often put as different labels by two models that are trained on the same data. For your model, record the exact labels, and during the verification step, check if at least a certain amount of predictions are correct.  
+	- **Post training:** White Box Watermark
+	- **During inference:** Active Watermark
+- Watermarking Example: DAWN
+	- DAWN is an active multi-bit watermarking scheme. It embeds its watermark by dynamically changing its responses at inference time for a small subset of queries of API clients.
+	- A small random subset of the inputs provided by API clients are tagged and purposefully misclassified at inference time.
+	- The defender memorizes these misclassifications for future verifications. 
+	- When given an API to a potential stolen model, the verification procedure queries the API with the saved tagged inputs.
+	- During verification, for some model M and all data points or data pairs in the set of tagged inputs, we compute the likelihood of the model reproducing the intentional mistakes. If that likelihood is greater than some threshold, we can conclude that the model was stolen.
+- - -
+# Can an attacker remove watermarks?
+- The goal is for the watermark to be removed while retaining a similar test accuracy.
+- Fine-tuning and pruning are two examples of basic watermark removal.
+- Fine-tuning is the process of further training a pre-trained network on a set of new inputs in the same domain.
+- Pruning is the process of removing model parameter values according to some heuristic.
+- Watermarking deep neural networks is a very active area of research.
+- No current watermarking scheme manages to be robust against all watermark removal attacks.
+- At the same time, no current watermark removal attack manages to remove all watermarks.
+- - -

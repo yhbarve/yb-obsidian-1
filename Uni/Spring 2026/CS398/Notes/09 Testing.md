@@ -6,9 +6,6 @@ tags:
 ---
 # Week 09 - Testing
 - - -
-### Key Terms
-1. X
-- - -
 ### Guideline 01: Anchor Assertions to the Specification, Not to the Code
 - When prompting an AI assistant to generate test assertions, supply the specification as the basis for expected values.
 - Never let the model derive expected values solely by reading the implementation under test.

@@ -44,4 +44,49 @@
 - Decline in underwriting and brokerage income for large investment banks has also been met by more active and aggressive trading in securities, derivatives, and other assets.
 - FIs are concerned about fluctuations in the value of their trading account assets and liabilities for periods as short as one day, especially if such fluctuations pose a threat to their solvency.
 - - -
-# Off-balance sheet Risk
+# Off-Balance Sheet Risk
+- OBS Risk is the risk incurred by an FI as the result of activities related to contingent assets and liabilities.
+- OBS activities do not appear on an FI's current balance sheet since it does not involve holding an asset or the issuance of a liability.
+- OBS activities involve the creation of contingent assets and liabilities that give rise to their potential placement in the future on the balance sheet.
+- Contingent assets and liabilities are assets and liabilities of the balance sheet that potentially can produce positive or negative future cash flows for an FI.
+- Issuing a letter of credit (LC) is an OBS activity.
+	- LC is a credit guarantee issued by an FI for a fee, on which payment is contingent on some future event occurring.
+- Other examples of OBS activities are:
+	- collateralized mortgage obligations
+	- loan commitments by banks
+	- mortgage servicing contracts by depository institutions
+	- positions in forwards, futures, swaps, and other derivative securities by almost all large FIs
+- - -
+# Foreign Exchange Risk
+- FX risk is the risk that exchange rate changes can affect the value of an FI's assets and liabilities denominated in foreign currencies.
+- FIs expand globally through acquiring foreign firms or opening new branches in foreign countries, as well as investing in foreign financial assets.
+- A net long position in a foreign currency involves an FI holding more foreign assets than liabilities.
+	- FI loses when foreign currency falls relative to the home currency.
+	- FI gains when foreign currency appreciates relative to the home currency.
+- A net short position in a foreign currency involves an FI holding fewer foreign assets than liabilities.
+	- FII loses when foreign currency appreciates and gains when foreign currency falls.
+- FI is fully hedged only if we assume that it holds foreign assets and liabilities of exactly the same maturity.
+- - -
+# Sovereign Risk
+- Country or sovereign risk is the risk that repayments from foreign borrowers may be interrupted because of interference from foreign governments.
+- It differs from the type of credit risk that is faced by an FI that purchases domestic assets.
+- Foreign corporations may be unable to pay principal and interest, even if they desire to do so. Foreign governments may limit or prohibit debt repayment due to foreign currency shortages or adverse political events.
+- In the event of restrictions or prohibitions on the repayment of debt obligations, the FI claim holder has little, if any, recourse to local bankruptcy courts or an international civil claims court.
+- - -
+# Technology and Operational Risk
+- Technology risk is the risk incurred by an FI when its technological investments do not produce anticipated cost savings.
+- Major objectives of technological expansion are to lower operating costs, increase profits, and capture new markets.
+- Operational risk is the risk that existing technology or support systems may malfunction or break down.
+- - -
+# Digital Disruption and Fintech Risk
+- Digital disruption and fintech risk is the risk that fintech firms could disrupt the business of financial service firms in the form of lost customers and lost revenue.
+- Broader and wider ranging than technology risk.
+- Fintech firms such as cryptocurrencies and blockchain provide a system that supports the exchange of value between two parties in a swift and effective way without the need for financial intermediaries. 
+- - -
+# Insolvency Risk
+- Insolvency risk is the risk that an FI may not have enough capital to offset a sudden decline in the value of its assets relative to its liabilities.
+- It is a consequence of one or more of the risks previously described.
+- Generally, the more equity capital to borrowed funds an FI has, the better able it is to withstand losses due to risk exposures.
+- The lower the leverage, the better it is.
+- Both regulators and managers focus on capital adequacy as a key measure of an FI's ability to remain solvent and grow in the face of a multitude of risk exposures.
+- - -

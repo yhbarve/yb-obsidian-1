@@ -103,5 +103,38 @@
 - - -
 # Off Balance Sheet Assets and Liabilities
 - Off-balance sheet items are contingent assets and liabilities that may affect the future status of an FI's balance sheet.
-- Loan commitments are contractual commitments to loan to a firm a certain maximum amount at given interest rate terms.
-- 
+- **Loan commitments** are contractual commitments to loan to a firm a certain maximum amount at given interest rate terms.
+- **Letters of Credit (LCs):**
+	- **Commercial LCs** are contingent guarantees sold by an FI to underwrite the trade or commercial performance of the buyers of the guarantees.
+	- **Standby LCs** cover contingencies that are potentially more severe than contingencies covered under trade or commercial LCs.
+- **Loans sold** are loans originated by the bank and then sold to other investors that can be returned to the originating institution.
+	- **Recourse** is the ability to put an asset or loan back to the seller should the credit quality of that asset deteriorate.
+- **Derivative securities** include futures, forward, swap, and option positions taken by the FI for hedging or other purposes.
+- - -
+# Other fee-generating activities
+- **Trust Services**
+	- Trust departments of commercial banks hold and manage assets for individuals or corporations.
+- **Processing services**
+	- Commercial banks have traditionally provided financial data processing services for their business customers.
+	- Bank cash management services include the provision of lock box services.
+- **Correspondent Banking**
+	- Provision of banking services to other banks that do not have the staff resources to perform the service themselves.
+- - -
+# Income Statement
+- Income statement identifies:
+	- the interest income and expenses
+	- net interest income
+	- provision for loan losses
+	- non-interest income and expenses
+	- income before taxes and extraordinary items
+	- and net income from on- and off-balance-sheet activities
+- **Interest income** is taxable, except for that on municipal securities and tax-exempt income from direct lease financing.
+- **Interest expense** is the second major category, and items listed here come directly from the liability section of the balance sheet.
+- $\text{Net Interest Income} = \text{Interest Income} - \text{Interest Expense}$
+- **Provision for Loan Losses** is a non-cash tax-deductible expense, and it is the current period's allocation to the allowance for loan losses listed on the balance sheet.
+- **Non-interest income** includes all other income received by the bank as a result of its on- and off-balance-sheet activities.
+- $\text{Total Operating Income} = \text{Interest Income} + \text{Non-Interest Income}$
+- **Non-interest expense** consists mainly of personnel expenses that are generally large relative to non-interest income.
+	- Items in this category include salaries and employee benefits, expenses of premises and fixed assets and other operating expenses.
+	- For almost all banks, **non-interest expense is greater than non-interest income.**
+- $$\text{Income Before Taxes \& Extraordinary Items} = \text{Net Interest Income} - \text{Provisions for Loan Losses} + \text{Non-Interest Income} - \text{Non-Interest Expenses}$$

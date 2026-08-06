@@ -71,4 +71,34 @@ $$ I = \sum_{i = 1}^{N}[(w_i)(\frac{P_i}{P^{*}_i})]$$
 - - -
 # Deposit Insurance
 - FDIC was created in 1933 in the wake of the banking panics when some 10,000 commercial banks failed.
-- 
+- Deposit Insurance was first introduced with a coverage of up to $2,500.
+- Coverage was increased to $100,000 in 1980 and to $250,000 in October.
+- Individuals can achieve many times the $250,000 coverage cap on deposits by structuring their deposits in a particular fashion.
+- The primary intention of deposit insurance is to deter DI runs and panics, but a secondary and related objective has been to protect the smaller and less informed saver against the reduction in wealth that would occur if that person were last in line if a DI was to fail.
+- - -
+# Discount window 
+- The Fed also provides a discount window lending facility, serving as a lender of last resort.
+- Interest rate at which securities are discounted is called the **discount rate** and is set by the central bank.
+- - -
+# Liquidity Risk and Insurance Companies
+- Life insurance companies hold cash reserves and other liquid assets for the following reasons:
+	- Make Policy Payments
+	- Meet cancellation or surrender payments.
+		- Surrender value of a life insurance policy is the amount that the insurance policy holder receives when cashing in a policy early.
+	- Other working capital needs
+- Property and casualty insurance companies' claims are relatively short-term and unpredictable, because of which they have a greater need for liquidity.
+- - -
+# Guarantee programs
+- Both life and property and casualty insurance companies are regulated at the state level.
+- Most states began to sponsor state guarantee funds for firms selling insurance in that state.
+- It differs from Deposit Insurance in several important ways:
+	- These programs are run and administered by the private insurance companies themselves.
+	- No permanent guarantee fund exists for the insurance industry, with the sole exception of the state of New York.
+	- Size of required contributions that surviving injurers make may vary widely from state to state.
+	- Delay usually occurs before cash surrender values or other payment obligations are received from the Guarantee Fund. (**waiting period**)
+- - -
+# Liquidity risk and investment funds
+- Investment funds, such as mutual funds and hedge funds, sell shares as liabilities to investors and invest the proceeds in assets such as bonds and equities.
+- They face similar liquidity problems as DIs when the number of withdrawals rises to abnormally high or unexpected levels.
+- There is a fundamental difference in the way investment fund contracts are valued compared to the valuation of DI deposit contracts. This reduces the incentives for investment fund shareholders to engage in deposit-like runs.
+- - -

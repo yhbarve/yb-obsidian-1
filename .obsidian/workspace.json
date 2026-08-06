@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Notes/22 Managing Liquidity Risk.md",
+                "file": "Uni/Spring 2026/BU433/BU433 Notes/23 Managing Interest Rate & Insolvency Risks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "22 Managing Liquidity Risk"
+              "title": "23 Managing Interest Rate & Insolvency Risks"
             }
           }
         ]
@@ -212,8 +212,9 @@
   },
   "active": "5fcde2d9b20d7cdc",
   "lastOpenFiles": [
-    "Uni/Spring 2026/BU433/BU433 Notes/21 Managing Credit Risk.md",
     "Uni/Spring 2026/BU433/BU433 Notes/22 Managing Liquidity Risk.md",
+    "Uni/Spring 2026/BU433/BU433 Notes/23 Managing Interest Rate & Insolvency Risks.md",
+    "Uni/Spring 2026/BU433/BU433 Notes/21 Managing Credit Risk.md",
     "Uni/Spring 2026/BU433/BU433 Notes/20 Types of Risks Incurred by FIs.md",
     "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",
     "Uni/Spring 2026/BU433/Review Before Exam.md",
@@ -256,7 +257,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/LICENSE.md"
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md"
   ]
 }

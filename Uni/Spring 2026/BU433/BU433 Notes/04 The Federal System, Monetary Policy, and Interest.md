@@ -8,16 +8,61 @@
 		3. Maintaining the stability of the financial system
 		4. Providing payment and other financial services to the U.S. government, the public, financial institutions, and foreign official institutions
 ## Structure of the Federal Reserve System
-- There are 12 Federal Reserve Banks in cities throughout the U.S.
+- There are 12 **Federal Reserve Banks** in cities throughout the U.S.
 	- Each acts as a depository institution for the banks in its district.
 	- Each has its own nine-member board of directors.
 	- They operate under general supervision of the Board of Governors.
 	- Nationally chartered banks are required to become members of the FRS.
+	- Core functions include:
+		- Assistance in the conduct of monetary policy
+		- Supervision and regulation
+		- Consumer Protection and Community Affairs
+		- Government Services
+		- New Currency Issue
+		- Check clearing
+		- Wire Transfer Services
+		- Research Services
 - Seven-member board of governors in Washington, DC
 	- Each member is appointed by the President of the US and must be confirmed by the Senate.
 	- Members serve a non-renewable 14-year term.
 	- Primary responsibilities are the formulation and conduct of the monetary policy and the supervision and regulation of banks.
-## Federal Open Market Committee
+## Federal Open Market Committee (FOMC)
 - FOMC is the major monetary policy-making body of the Federal Reserve System.
 - It is required to meet at least four times each year in Washington, DC, but typically meet more often.
-- 
+- The main responsibilities are to formulate policies to promote full employment, economic growth, price stability, and a sustainable pattern of international trade.
+- They set guidelines regarding open market operations, the purchase and sale of U.S. government and federal agency securities, as the main policy tool to achieve monetary targets.
+## Balance sheet of the Federal Reserve
+- Major liabilities are currency in circulation and reserves, the sum of which is referred to as the Fed's monetary base or money base.
+- Total reserves can be classified into two categories.
+	- **Required reserves** are those the Fed requires banks to hold by law.
+	- **Excess reserves** are additional over and above required reserves. 
+- Major assets are Treasury and government agency securities, treasury currency and gold, and foreign exchange.
+- Interbank loans are a small portion of total assets, but they play an important role in implementing monetary policy.
+- - -
+# Monetary Policy Tools
+- Federal Reserve uses the following to implement monetary policy:
+	- Open market operations
+	- Discount rate
+	- Reserve requirements
+- Federal reserve monetary policy seeks to influence either the demand for or supply of excess reserves at depository institutions, and in turn the money supply and level of interest rates.
+- Depository institutions trade excess reserves held at their local Federal Reserve banks among themselves.
+	- The rate of interest on these interbank transactions is a benchmark interest rate called the **Fed Funds Rate**.
+- Federal Reserve can take one of two basic approaches to affect the market for banks' excess reserves.
+	1. Target the quantity of reserves in the market.
+	2. Target the interest rate on those reserves. (fed funds rate)
+## Open Market Operations
+- When a targeted monetary aggregate or interest rate level is determined by the FOMC, it is forwarded to the Federal Reserve Board Trading Desk at the Federal Reserve Bank of New York through a statement called the policy directive.
+- Manager of trading desk uses policy directive to instruct traders on daily amount of open market purchases or sales to transact.
+- Open market operations are the primary determinant of changes in bank excess reserves in the banking system.
+- Open market operations are primarily conducted using treasury securities, but others can be used as well.
+## Discount rate
+- The discount rate is the rate of interest that the Federal Reserve Banks charge on loans to financial institutions in their district.
+- Raising the discount rate signals a desire to see a tightening of monetary conditions and higher interest rates in general.
+- Lowering the discount rate signals a desire to see more expansionary monetary conditions and lower interest rates in general.
+- The Fed has rarely used discount rate as a monetary policy tool for the following reasons:
+	- It is difficult for the Fed to predict changes in bank discount window borrowing when the discount rate changes.
+	- Because of its "signalling" importance, a discount rate change often has great effects on the financial markets.
+- In 2003, the Fed restructured the system to reduce the stigma associated with borrowing. They made the loans slightly more expensive but significantly easier to qualify for.
+	- Primary credit: fast over-net cash for financially healthy banks to cover temporary daily shortfall
+	- 
+## Reserve Requirements

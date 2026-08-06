@@ -61,4 +61,43 @@ $$ D = - \frac{\% \Delta \text{ in the market value of a security}}{\Delta R /(1
 - - -
 # Insolvency risk management
 - Insolvency risk is the result or an outcome of excessive amounts of one or more of the risks taken by a financial institution. 
-- 
+- To ensure survival, a financial institution manager must protect the institution against the risk of insolvency.
+- The primary means of protection against the risk of insolvency and failure is an FI's equity capital.
+- FI managers often prefer low levels of capital in order to generate a higher return on equity for stockholders.
+- Capital Purchase Program was designed to encourage US FIs to build capital to increase the flow of financing to US businesses and consumers and to support the US economy.
+- - -
+# Capital
+- The economic meaning of capital is net worth, which is the difference between the market value of an FI's assets and the market value of its liabilities.
+- The market value or mark-to-market value basis uses balance sheet values that reflect current rather than historical prices.
+- Regulatory and accounting defined capital and required leverage ratios are based in whole or in part on historical or book values accounting concepts.
+## Market Value of Capital
+- Decreases in current and expected future cash flows on assets lower the market value of the FI's asset portfolio.
+- Decreases in the market values of assets are charged directly against the equity owner's capital or net worth.
+- Liability holders are only hurt when losses on the asset portfolio exceed FI's net worth.
+- Capital acts as insurance, protecting liability holders against insolvency risk.
+- Rising interest rates reduce the market value of the FI's long-term securities and loans, while floating-rate instruments find their market values largely unaffected if interest rates on such securities are instantaneously reset.
+## Book value of capital
+- Book value of capital is the difference between the book value of assets and the book value of liabilities.
+- A book value of capital usually comprises of the following three components:
+	1. **Par value of shares:** The face value of the common shares issued by the FI times the number of shares outstanding
+	2. **Surplus value of shares:** The difference between the price the public paid for common shares when originally offered and their par values, times the number of shares outstanding
+	3. **Returned Earnings:** The accumulated value of past profits not yet paid in dividends to shareholders
+- Book Value of Capital and Credit Risk:
+	- Managers of FIs may resist writing down the values of bad assets as long as possible to try to present a more favourable picture to depositors, shareholders, and regulators.
+	- FI managers can selectively sell assets to inflate their reported capital.
+	- Only pressure from auditors and regulators may force loss recognition and write-downs of the values of problem assets.
+- Book Value of Capital and Interest Rate Risk:
+	- Failure of book value accounting systems to recognize the impact of interest rate risk is extremely relative to their partial and lagged recognition of credit risk problems.
+## Discrepancy between the market and book values of equity
+- Interest Rate Volatility: The higher the interest rate volatility, the greater the discrepancy.
+- Examination and Enforcement: The more frequent are on-set and off-set examinations, and the stiffer the standards regarding charging off problem loans, the smaller the discrepancy.
+- Asset trading: The more assets that are traded, the easier it is to access the true market value of the asset portfolio.
+- **Market-to-book ratio** shows the discrepancy between the stock market value of a financial institution's equity and the book value of its equity.
+- - -
+# Arguments against Market Value Accounting
+- Difficult to implement
+	- Especially true for small commercial banks with large amounts of non-traded assets, such as small loans, in their balance sheets
+	- When market prices or values for assets cannot be determined accurately, marking to market may be done only with error.
+- Introduces unnecessary degree of variability into FI's reported earnings and thus net worth. This is because paper capital gains and losses on assets are passed through the income statement.
+- FIs are less willing to accept longer-term asset exposures if these assets must be continually marked to market to reflect changing credit quality and interest rates.
+- - -

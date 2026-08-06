@@ -63,6 +63,30 @@
 	- It is difficult for the Fed to predict changes in bank discount window borrowing when the discount rate changes.
 	- Because of its "signalling" importance, a discount rate change often has great effects on the financial markets.
 - In 2003, the Fed restructured the system to reduce the stigma associated with borrowing. They made the loans slightly more expensive but significantly easier to qualify for.
-	- Primary credit: fast over-net cash for financially healthy banks to cover temporary daily shortfall
-	- 
+	- **Primary credit:** fast over-net cash for financially healthy banks to cover temporary daily shortfall
+	- **Secondary credit:** Backup funding for banks facing operational or financial difficulties, designed to keep them stable while they resolve their underlying issues.
+	- **Seasonal Credit:** Reliable funding for banks that experience predictable yearly fluctuations in cash demand.
 ## Reserve Requirements
+- Reserve requirements determine the minimum amount of reserve assets that DIs must maintain by law to back transaction deposit accounts held as liabilities on their balance sheets.
+	- Requirement is usually set as a ratio of transaction accounts.
+	- Very rarely used by the Fed as a monetary policy tool.
+- A decrease or increase in the reserve requirement ratio means that DIs may hold fewer or more reserves against their transaction accounts.
+- This allows them to either lend out a greater or smaller percentage of their deposits and increase or decrease credit availability in the economy.
+- Decrease in the reserve requirement results in a multiplier increase in the supply of bank deposits and thus the money supply.
+- An increase in the reserve requirement results in a multiple contraction, it deposits, and a decrease in the money supply. $$\text{Change in Bank Deposits} = \frac{1}{\text{New Reserve Requirement}}\times \text{Change In Reserves}$$
+- - -
+# Effects of Monetary Tools on Various Economic Variables
+## Expansionary Activities
+- Open market **purchases** of securities (Central Bank purchases).
+- Discount Rate **decreases**.
+- Reserve requirement ratio **decreases**.
+## Contractionary Activities
+- Open market **sales** of securities (Central Bank sells).
+- Discount rate **increases**.
+- Resolver count ratio **increases**. 
+- - -
+# Money Supply vs Interest Rate Targeting
+- The Fed can successfully target only one of these variables at any one moment.
+- If the money supply is the target variable used to implement monetary policy, interest rates must be allowed to fluctuate relatively freely.
+- If an interest rate is the target, bank reserves and the money supply must be allowed to fluctuate relatively freely.
+- Fed announced that it would use interest rates as the main target variable to conduct monetary policy in 1993. 

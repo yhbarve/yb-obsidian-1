@@ -89,4 +89,19 @@
 - The Fed can successfully target only one of these variables at any one moment.
 - If the money supply is the target variable used to implement monetary policy, interest rates must be allowed to fluctuate relatively freely.
 - If an interest rate is the target, bank reserves and the money supply must be allowed to fluctuate relatively freely.
-- Fed announced that it would use interest rates as the main target variable to conduct monetary policy in 1993. 
+- Fed announced that it would use interest rates as the main target variable to conduct monetary policy in 1993.
+- Under the current regime, the Fed simply announces whether the federal funds rate has been increased, decreased, or left unchanged after every monthly FOMC meeting.
+- **An Example:**
+	- Imagine the Federal Reserve sets a strict target to keep interest rates at exactly 4%.
+	- Suddenly, the economy booms. Businesses rush to banks for loans to build new factories and hire workers. This massive increase in the demand for money naturally puts upward pressure on interest rates, threatening to push them up to 6%.
+	- To prevent the interest rate from rising above the 4% target, the Fed must step in and pump more cash into the banking system to satisfy this new demand. By successfully defending its 4% interest rate target, the Fed was forced to expand the money supply. They controlled the rate, but they had to sacrifice control of the supply to do so.
+- - -
+# International Monetary Policies and Strategies
+- Central banks guide the monetary policy in virtually all countries.
+- Independence of a central bank generally means that the bank is free from pressure from politicians who may attempt to enhance economic activity in the short term at the expense of long-term economic growth.
+## System-wide rescue programs employed during the financial crisis
+- Expansion of retail deposit insurance was widely used during the crisis to ensure continued access to deposit funding.
+- Capital injections by central governments were the main mechanism used to directly support bank balance sheets.
+- Debt guarantees allowed banks to maintain access to reasonably priced medium-term funding.
+- Asset purchases and guarantees removed distressed assets from bank balance sheets.
+- - -

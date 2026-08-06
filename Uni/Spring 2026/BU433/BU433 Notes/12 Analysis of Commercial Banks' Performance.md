@@ -137,4 +137,32 @@
 - **Non-interest expense** consists mainly of personnel expenses that are generally large relative to non-interest income.
 	- Items in this category include salaries and employee benefits, expenses of premises and fixed assets and other operating expenses.
 	- For almost all banks, **non-interest expense is greater than non-interest income.**
-- $$\text{Income Before Taxes \& Extraordinary Items} = \text{Net Interest Income} - \text{Provisions for Loan Losses} + \text{Non-Interest Income} - \text{Non-Interest Expenses}$$
+- **Income before taxes and extraordinary items** is also called operating profit.
+- **Operating profit** is calculated as net interest income minus provisions for loan losses, plus non-interest income minus non-interest expense. $\text{Operating Profit} = \text{Net Interest Income} - \text{Provisions for Loan Losses} + \text{Non-Interest Income} - \text{Non-Interest Expenses}$
+- **Income taxes** include federal, state, local, and foreign income taxes due from the bank.
+- **Extraordinary items and other adjustments** are events or transactions that are both unusual and infrequent.
+- **Net income** is calculated as income before taxes and extraordinary items minus income taxes plus extraordinary items. $\text{Net Income} = \text{Operating Profit} - \text{Income Taxes} + \text{Extraordinary Items}$
+- - -
+# Relationship between Income Statement and Balance Sheet
+$$ NI = \sum_{n=1}^{N}r_nA_n - \sum_{m=1}^{M}r_mL_m - P + NII - NIE - T $$
+- where:
+	- $NI =$ Bank's Net Income
+	- $A_n=$ Dollar value of the bank's $n$th asset
+	- $L_m=$ Dollar value of bank's $m$th liability
+	- $r_n=$ Rate earned on bank's $n$th asset
+	- $r_m=$ Rate paid on bank's $m$th liability
+	- $P=$ Provision for loan losses
+	- $NII=$ Non-interest income earned by the bank (Including income from all balance sheet activities)
+	- $NIE=$ Non-interest expenses incurred by the bank
+	- $T=$ Bank's taxes and extraordinary items
+	- $N=$ Number of assets the bank holds
+	- $M=$ Number of liabilities the bank holds
+- - -
+# Ratio Analysis
+- Ratio analysis allows a bank manager to evaluate:
+	- the bank's current performance,
+	- the change in its performance over time,
+	- its performance relative to that of competitor banks.
+## Return on Equity (ROE) Framework
+- Return on Equity framework starts with ROE and then breaks it down to identify strengths and weaknesses in a bank's performance.
+- ROE measures the amount of net income after taxes earned for each dollar of equity capital contributed by the bank's stockholders. $$

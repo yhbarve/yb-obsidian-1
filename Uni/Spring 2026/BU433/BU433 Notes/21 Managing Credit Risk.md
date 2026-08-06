@@ -81,4 +81,45 @@
 # Large Commercial and Industrial Lending
 - Financial institutions' bargaining strength is severely diminished when it deals with large credit-worthy corporate customers.
 - Large corporations are characterized by the following:
-	- 
+	- Able to issue debt and equity directly in the capital markets
+	- Typically maintain credit relationships with several FIs and have significant in-house financial expertise
+	- Manage their cash position through the money markets by issuing their own commercial paper to meet fund shortfalls.
+	- Not seriously restricted by international borders
+	- Very attractive to financial institutions.
+- A financial institution's relationship goes beyond lending and may include the role of broker, dealer, or an advisor. However, credit management remains an important issue.
+- - -
+# Altman's Z-Score
+- E.I. Altman developed a Z-score model for analyzing publicly traded manufacturing firms in the US.
+- Z is an overall measure of the borrower's default risk classification.
+$$Z = 1.2X_1 + 1.4X_2 + 3.3X_3 + 0.6X_4 + 1.0X_5$$
+- where
+	- $X_1= \frac{\text{Working capital}}{\text{Total Assets}}$
+	- $X_2= \frac{\text{Retained earnings}}{\text{Total Assets}}$
+	- $X_3 = \frac{\text{Earnings before interest and taxes}}{\text{Fatal Assets}}$
+	- $X_4 = \frac{\text{Market Value of Equity }}{\text{Book value of total liabilities}}$
+	- $X_5 = \frac{\text{Sales}}{\text{Total Assets}}$
+- $Z < 1.81$: High Default Risk Firm
+- $1.81 < Z < 2.99$: Indeterminate default risk firm
+- $Z > 2.99$: Low Default Risk Firm
+- There were some problems associated with the Z-score model.
+	- It usually discriminates only among three cases of borrower behavior - high, indeterminate, and low default risk.
+	- No obvious economic reason to expect the weights in the z-score model will be constant over any but very short periods
+	- Ignore's hard to quantify factors that may play a crucial role in the default or no default decision.
+	- Accounting variables are updated infrequently.
+- - -
+# Moody's Analytics Credit Monitor Model
+- In recent years, we now recognize that when a firm raises funds either by issuing bonds or by increasing its bank loans, it holds a very valuable default or repayment option.
+	- If a borrower's investments fail so that it cannot repay its bondholders or loan to the FI, it has the option to default on its debt and turn any remaining assets over to the debt holder.
+	- If things go well, the borrower can keep most of the upside returns on asset investments after the promised principal and interest on the debt have been paid.
+- KMV Corporation turned this relatively simple idea into a credit monitoring model used by many of the largest US banks to determine **Expected Default Frequency (EDF).**
+- EDF is the probability that the market value of the firm's assets will fall below the promised repayments on debt liability in one year.
+- - -
+
+# Calculating the return on a loan
+- Factors that impact the promised return that an FI achieves on any given dollar loan amount include:
+	- Interest rate on the loan
+	- Any fees relating to the loan
+	- Credit risk premium on the loan
+	- Collateral backing the loan
+	- Other non-price terms
+- 

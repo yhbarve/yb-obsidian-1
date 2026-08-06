@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",
+                "file": "Uni/Spring 2026/BU433/BU433 Notes/20 Types of Risks Incurred by FIs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 Analysis of Commercial Banks' Performance"
+              "title": "20 Types of Risks Incurred by FIs"
             }
           }
         ]
@@ -212,8 +212,9 @@
   },
   "active": "5fcde2d9b20d7cdc",
   "lastOpenFiles": [
-    "Uni/Spring 2026/BU433/Review Before Exam.md",
     "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",
+    "Uni/Spring 2026/BU433/BU433 Notes/20 Types of Risks Incurred by FIs.md",
+    "Uni/Spring 2026/BU433/Review Before Exam.md",
     "Uni/Spring 2026/BU433/BU433 Notes/04 The Federal System, Monetary Policy, and Interest.md",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
     "Uni/Spring 2026/CS398/Slides/Debugging Guidelines 02.pdf",
@@ -256,7 +257,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/LICENSE.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy/random/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/pip/_vendor/idna/LICENSE.md"
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/pip-26.1.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md"
   ]
 }

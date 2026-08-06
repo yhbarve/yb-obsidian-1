@@ -186,4 +186,5 @@ $$ \text{ROA} = \frac{\text{Net Income}}{\text{Total Operating Income (or Revenu
 - Large banks generally operate with lower amounts of equity capital than small banks.
 - Large banks generally use more purchased funds and fewer core deposits than small banks do.
 - Large banks tend to put more into salaries, premises, and other expenses than small banks do.
-- 
+- Large banks tend to diversify their operations and services more than small banks, and they also generate more non-interest income.
+- - -

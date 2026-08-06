@@ -78,4 +78,30 @@
 	- Generally a small part of the bank's overall assets
 - - -
 # Liabilities
+- Liabilities consist of various types of deposit accounts and other borrowings used to fund the investments and loans on the asset side of the balance sheet.
+1. **Deposits**
+	- Demand deposits are transaction accounts that generally pay no explicit interest.
+	- **Negotiable order of withdrawal accounts (NOW)** pay interest when a minimum balance is maintained.
+	- **Money market deposit accounts (MMDA)** have retail savings accounts and some limited checking account features.
+	- Other savings deposits include all savings accounts other than MMDAs.
+	- Deposits in foreign offices are generally large and held by corporations with a high level of international transactions and activities.
+	- **Retail Certificates of Deposit (CDs)** are time deposits with a face value below $100,000.
+	- **Wholesale certificates of deposit (CDs)** are time deposits with a face value of $100,000 or more. They are negotiable instruments, meaning that they can be resold by title assignment in a secondary market to other investors.
+2. **Borrowed funds**
+	- Federal funds
+	- Repurchase Agreements
+	- Other borrowing, such as Bankers' Acceptances, Commercial Paper, or Medium-Term Notes
+3. **Other liabilities**
+	- These do not require interest to be paid, such as:
+		- accrued interest
+		- default taxes
+		- dividends payable
+4. **Equity Capital**
+	- Preferred and common stock
+	- Surplus and additional paid-in capital
+	- Retained Earnings
+- - -
+# Off Balance Sheet Assets and Liabilities
+- Off-balance sheet items are contingent assets and liabilities that may affect the future status of an FI's balance sheet.
+- Loan commitments are contractual commitments to loan to a firm a certain maximum amount at given interest rate terms.
 - 

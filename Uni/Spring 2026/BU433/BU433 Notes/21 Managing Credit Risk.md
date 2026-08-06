@@ -115,11 +115,24 @@ $$Z = 1.2X_1 + 1.4X_2 + 3.3X_3 + 0.6X_4 + 1.0X_5$$
 - EDF is the probability that the market value of the firm's assets will fall below the promised repayments on debt liability in one year.
 - - -
 
-# Calculating the return on a loan
+# Calculating the return on a loan: ROA Model
 - Factors that impact the promised return that an FI achieves on any given dollar loan amount include:
 	- Interest rate on the loan
 	- Any fees relating to the loan
 	- Credit risk premium on the loan
 	- Collateral backing the loan
 	- Other non-price terms
-- 
+- Direct and indirect fees and charges relating to a loan fall into three categories:
+	1. **Loan origination fee (f)** charged to borrower for application processing.
+	2. **Compensating balance requirement (b)** to be held as generally non-interest-bearing demand deposits.
+	3. **Reserve requirement charge (RR)** imposed by the Fed on the bank's demand deposits, including any compensating balances.
+- ROA Approach shows the contractually promised gross return on a loan per dollar lent (or ROA per dollar lent) will equal: $$ 1+k=1+\frac{f + (BR + m)}{1 - b(1-RR)}$$
+- The numerator of the formula is the promised gross cash inflow to the FI per dollar of loans, reflecting direct fees plus the loan interest rate.
+- The denominator indicates the net outflow by the FI per dollar of loans.
+- - -
+# Calculating the return on a loan: RAROC Model
+- The essential idea behind the RAROC is that, rather than evaluating the actual or promised annual cash flow on a loan as a percentage of the amount lent, the lending officer balances the loan's expected income against the loan's expected risk.
+$$ \text{RAROC} = \frac{\text{One-Year Income on a Loan}}{\text{Loan (Asset) Risk or Value at Risk}} $$
+- Loan is approved by FI only if RAROC is sufficiently high relative to benchmark return on equity capital.
+- RAROC serves as a credit risk measure and a loan pricing tool.
+- - -

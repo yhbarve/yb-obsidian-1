@@ -165,4 +165,25 @@ $$ NI = \sum_{n=1}^{N}r_nA_n - \sum_{m=1}^{M}r_mL_m - P + NII - NIE - T $$
 	- its performance relative to that of competitor banks.
 ## Return on Equity (ROE) Framework
 - Return on Equity framework starts with ROE and then breaks it down to identify strengths and weaknesses in a bank's performance.
-- ROE measures the amount of net income after taxes earned for each dollar of equity capital contributed by the bank's stockholders. $$
+- **ROE** measures the amount of net income after taxes earned for each dollar of equity capital contributed by the bank's stockholders. $$ \text{ROE} = \frac{\text{Net Income}}{\text{Total Equity Capital}} $$
+- ROE can be decomposed into two component parts: $$ \text{ROE} = \frac{\text{Net Income}}{\text{Total Assets}} \times \frac{\text{Total Assets}}{\text{Total Equity Capital}} = ROA \times EM $$
+- **Return on Assets (ROA)** determines the net income produced per dollar of assets.
+- **Equity multiplier (EM)** measures the dollar value of assets funded with each dollar of equity capital.
+	- The higher this ratio, the more leverage or debt the bank is using to fund its assets.
+- ROA can be further broken down into two components.
+## ROA and its components
+$$ \text{ROA} = \frac{\text{Net Income}}{\text{Total Operating Income (or Revenue)}} \times \frac{\text{Total Operating Income (or Revenue)}}{\text{Total Assets}} = \text{PM} \times \text{AU}$$
+- **Profit margin (PM)** measures a bank's ability to control expenses and thus its ability to produce net income from its operating income (or revenue).
+- **Asset utilization (AU)** measures the extent to which the bank's assets generate revenue. $$ \text{AU} = \frac{\text{Total Operating Income}}{\text{Total Assets}} = \text{Interest Income Ratio} + \text{Non-Interest Income Ratio}$$
+## Other ratios
+- **Net Interest Margin (NIM)** measures the net return on a bank's earning assets. $$ \text{NIM} = \frac{\text{NII}}{\text{Earning Assets}} = \frac{\text{Interest Income} - \text{Interest Expense}}{\text{Investment Securities} + \text{Net Loans and Leases}}$$
+- **Spread** measures the difference between the average yield on earning assets and average cost of interest-bearing liabilities. $$\text{Spread} = \frac{\text{Interest Income}}{\text{Earning Assets}} - \frac{\text{Interest Expense}}{\text{Interest-Bearing Liabilities}}$$
+- **Overhead efficiency** measures the bank's ability to generate non-interest income to cover non-interest expenses. $$ \text{Overhead Efficiency} = \frac{\text{Non-Interest Income}}{\text{Non-Interest Expense}} $$
+- - -
+# The Impact of Market Niche and Bank Size on Financial Statement Analysis
+- Retail, wholesale, and community banks operate in different market niches that should be noted when performing financial statement analysis.
+- Large banks have greater access to purchased funds and capital markets compared to small banks.
+- Large banks generally operate with lower amounts of equity capital than small banks.
+- Large banks generally use more purchased funds and fewer core deposits than small banks do.
+- Large banks tend to put more into salaries, premises, and other expenses than small banks do.
+- 

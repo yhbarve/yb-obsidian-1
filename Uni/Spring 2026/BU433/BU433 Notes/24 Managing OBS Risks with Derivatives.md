@@ -70,12 +70,16 @@
 - - -
 # Hedging with interest rate swaps
 - Consider two financial institutions.
-	- The first is a money center bank that has raised $100 million of its funds by issuing four-year medium-term notes with 10% annual fixed coupons rather than relying on short-term deposits to raise funds.
-	- Second party of the swap is a savings bank that has invested $100 million in fixed-rate residential mortgages of long duration.
-	- These two institutions can exchange their interest rates and enter a **fixed-floating rate swap**.
+	- The first is a money center bank that has raised $100 million of its funds by issuing four-year medium-term notes with 10% annual fixed coupons rather than relying on short-term deposits to raise funds. This creates a risk where falling interest rates reduce asset income while liability costs stay fixed.
+	- Second party of the swap is a savings bank that has invested $100 million in fixed-rate residential mortgages of long duration. This creates a risk where rising interest rates increase funding costs while asset returns remain locked.
+	- By entering an interest rate swap, the money center bank (paying fixed, receiving floating) and the savings bank (paying floating, receiving fixed) can hedge their respective balance sheet vulnerabilities.
 - - -
 # Hedging with currency swaps
 - Currency swaps are used to hedge against foreign exchange rate risk from mismatched currencies on assets and liabilities.
+- Consider the two financial institutions (FIs) with opposing currency risks presented in the slide:
+	- A U.S. FI holds $80 million in fixed-rate assets denominated in dollars, but finances part of that portfolio with a 50 million British pound issue of four-year, medium-term notes carrying a 10% fixed annual coupon. This creates an exposure to the risk that the dollar will depreciate against the pound.
+	- A U.K. FI holds 50 million pounds in assets denominated in pounds, but funds those assets with an $80 million issue of four-year, medium-term dollar notes carrying a 10% fixed annual coupon. This creates an exposure to the risk that the dollar will appreciate against the pound.
+- Because these two institutions face exact mirror-image risks, they can enter into a currency swap to eliminate their foreign exchange exposure without altering their domestic asset-liability structures.
 - - -
 # Credit swaps
 - Credit default swaps allow financial institutions to better hedge credit risk.
@@ -91,4 +95,6 @@
 		- Generally, each party calculates the net difference between the fixed and floating payment due, and one party makes a single payment for the net difference to the other on each payment date.
 	2. **Payment flows are interest, not principal**
 		- Default risk on interest rate swaps is less than on a regular loan because interest rate swaps involve swaps of interest payments only, while loans have both interest and principal payments exposed to credit risk.
-	3. Stand by letters of credit. 
+	3. Stand by letters of credit
+		- Should default occur, the standby letter of credit party would provide swap payments in lieu of default party.
+- - -

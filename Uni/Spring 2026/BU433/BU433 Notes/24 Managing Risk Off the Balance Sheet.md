@@ -33,9 +33,62 @@
 	- Options embedded in securities
 	- Caps, collars, and floors
 - Four basic option strategies that FIs might employ to hedge interest rate risk:
-	1. Buying a call option on a bond
+	1. **Buying a call option on a bond** (CAN buy for a fixed price in the future)
 		- Buying a call option is a strategy to take when interest rates are expected to fall.
-		- 
-	2. Writing a call option on a bond
-	3. Buying a put option on a bond
-	4. Writing a put option on a bond
+		- As interest rates fall, bond prices rise, and the call option buyer has a large profit potential.
+		- As interest rates rise, bond prices fall, and the potential for a negative payoff for the buyer of the call option increases.
+	2. **Writing a call option on a bond** (MAY have to buy for a fixed price in the future)
+		- Writing a call option is a strategy to take when interest rates are expected to rise, but it is an unacceptable strategy when hedging interest rate risk.
+		- When interest rates rise and bond prices fall, the potential for the writer of the call to receive a positive payoff or profit increases.
+		- When interest rates fall and bond prices rise, the probability that the writer will take a loss increases.
+	3. **Buying a put option on a bond** (CAN sell for a fixed price in the future)
+		- Buying a put option is a strategy to take when interest rates are expected to rise.
+		- When interest rates rise and bond prices fall, the probability that the buyer of the put will make a profit from exercising the option increases.
+		- When interest rates fall and bond prices rise, the probability that the buyer of a put will lose increases.
+	4. **Writing a put option on a bond** (MAY have to sell for a fixed price in the future)
+		- Writing a put option is a strategy to take when interest rates are expected to fall.
+		- When interest rates rise and bond prices fall, the writer of the put is exposed to a potentially large loss.
+		- As interest rates fall and bond prices rise, there is an enhanced probability of making a profit.
+- - -
+# Caps, Floors and Collars
+- Buying a cap means buying a call option or a succession of call options on interest rates.
+	- Buying an interest rate cap is like buying insurance against an increase in interest rates.
+	- In general, FIs purchase interest rate caps if they are exposed to losses when interest rates rise.
+- Buying a floor is similar to buying a put option on interest rates.
+	- If interest rates fall below the floor rate, the seller of the floor compensates the buyer in return for an upfront premium.
+	- Like caps, floors can have one or many exercise dates.
+	- FI's purchase floors when they have fixed costs of debt and have variable rates on assets, or they are net short in bonds.
+- A collar occurs when an FI takes a simultaneous position in a cap and a floor, such as buying a cap and setting a floor.
+	- Purchased by FIs when they are concerned about excessive volatility of interest rates, or more commonly to finance cap or floor positions
+- - -
+# Risks associated with futures, forwards, and options
+- Contingent credit risk is likely to be present when FIs expand their positions in forward futures and options contracts.
+- **Contingent credit risk** relates to the fact that the counterparty to one of these contracts may default on payment obligations, leaving the FI unhedged and having to replace the contract at today's interest rates, prices, or exchange rates.
+- Futures are essentially default risk-free unless a systemic financial market collapse threatens the exchange itself.
+- Default risk is much more serious for forward contracts because forwards are essentially OTC arrangements.
+- Standardized options are virtually default risk-free, but specialized options purchased OTC have some element of default risk.
+- - -
+# Hedging with interest rate swaps
+- Consider two financial institutions.
+	- The first is a money center bank that has raised $100 million of its funds by issuing four-year medium-term notes with 10% annual fixed coupons rather than relying on short-term deposits to raise funds.
+	- Second party of the swap is a savings bank that has invested $100 million in fixed-rate residential mortgages of long duration.
+	- These two institutions can exchange their interest rates and enter a **fixed-floating rate swap**.
+- - -
+# Hedging with currency swaps
+- Currency swaps are used to hedge against foreign exchange rate risk from mismatched currencies on assets and liabilities.
+- - -
+# Credit swaps
+- Credit default swaps allow financial institutions to better hedge credit risk.
+- Buyer of CDS makes periodic payments to seller until the end of the life of the swap or until the credit event specified in the contract occurs.
+- Settlement of the Swap in the event of a default: It involves either physical delivery of the bonds or a cash payment.
+- They are important for two reasons:
+	- Credit risk is still more likely to cause an FI to fail than either interest rate risk or FX risk.
+	- Credit default swaps allow FIS to maintain long-term customer lending relationships without bearing the full credit risk exposure from those relationships.
+- **Total Return Swap** involves an obligation to pay interest at a specified fixed or floating rate for payments representing the total return on a specified amount.
+- **Pure Credit Swap** is a swap in which an FI receives the par value of the loan on default in return for paying a periodic swap fee.
+- Credit risk on swaps and loans differ in three major ways:
+	1. **Netting and Swaps**
+		- Generally, each party calculates the net difference between the fixed and floating payment due, and one party makes a single payment for the net difference to the other on each payment date.
+	2. **Payment flows are interest, not principal**
+		- Default risk on interest rate swaps is less than on a regular loan because interest rate swaps involve swaps of interest payments only, while loans have both interest and principal payments exposed to credit risk.
+	3. Stand by letters of credit. 

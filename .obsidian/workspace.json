@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "080846ce17d49fc2",
+        "id": "368350d9fbd0d4e0",
         "type": "tabs",
         "children": [
           {
-            "id": "5fcde2d9b20d7cdc",
+            "id": "4d12497cbf51d8a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Notes/25 Managing OBS Risks with Loan Sales and Securitization.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "25 Managing OBS Risks with Loan Sales and Securitization"
+              "title": "New tab"
             }
           }
         ]
@@ -209,12 +205,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5fcde2d9b20d7cdc",
+  "active": "4d12497cbf51d8a3",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+    "Uni/Spring 2026/BU433/BU433 Notes/25 Managing OBS Risks with Loan Sales and Securitization.md",
     "Uni/Spring 2026/BU433/BU433 Slides/Hedging Off Bal Sheet Risk - Loan Sales_Securitization.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 876205.crdownload",
     "Uni/Spring 2026/BU433/BU433 Notes/24 Managing OBS Risks with Derivatives.md",
-    "Uni/Spring 2026/BU433/BU433 Notes/25 Managing OBS Risks with Loan Sales and Securitization.md",
     "Uni/Spring 2026/BU433/BU433 Notes/23 Managing Interest Rate & Insolvency Risks.md",
     "Uni/Spring 2026/BU433/BU433 Notes/22 Managing Liquidity Risk.md",
     "Uni/Spring 2026/BU433/BU433 Notes/21 Managing Credit Risk.md",
@@ -231,7 +228,6 @@
     "Uni/Spring 2026/CS398/Slides/Code Summarization Guidelines 01.pdf",
     "Uni/Spring 2026/CS398/Slides/Code Generation Guidelines 02.pdf",
     "Uni/Spring 2026/CS398/Slides/Unconfirmed 335562.crdownload",
-    "Uni/Spring 2026/CS398/Slides/Code Generation Guidelines 01.pdf",
     "Uni/Spring 2026/CS459/Notes/19 - Poisoning Attacks.md",
     "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
     "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",

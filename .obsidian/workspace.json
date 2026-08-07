@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Notes/04 The Federal System, Monetary Policy, and Interest.md",
+                "file": "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 The Federal System, Monetary Policy, and Interest"
+              "title": "12 Analysis of Commercial Banks' Performance"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5,
-    "collapsed": true
+    "width": 232.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -213,6 +212,7 @@
   },
   "active": "4d12497cbf51d8a3",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Notes/04 The Federal System, Monetary Policy, and Interest.md",
     "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 725488.crdownload",
     "Uni/Spring 2026/BU433/BU433 Slides/Role of Central Banks.pptx",
@@ -231,10 +231,8 @@
     "Uni/Spring 2026/BU433/BU433 Notes/20 Types of Risks Incurred by FIs.md",
     "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",
     "Uni/Spring 2026/BU433/Review Before Exam.md",
-    "Uni/Spring 2026/BU433/BU433 Notes/04 The Federal System, Monetary Policy, and Interest.md",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
     "Uni/Spring 2026/CS398/Slides/Debugging Guidelines 02.pdf",
-    "Uni/Spring 2026/CS398/Slides/Unconfirmed 931784.crdownload",
     "Uni/Spring 2026/CS459/Notes/19 - Poisoning Attacks.md",
     "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
     "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",

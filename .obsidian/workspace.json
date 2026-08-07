@@ -11,10 +11,14 @@
             "id": "4d12497cbf51d8a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Spring 2026/BU433/BU433 Notes/04 The Federal System, Monetary Policy, and Interest.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "04 The Federal System, Monetary Policy, and Interest"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -192,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,6 +213,8 @@
   },
   "active": "4d12497cbf51d8a3",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Slides/Role of Central Banks.pptx",
+    "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 394639.crdownload",
     "Uni/Spring 2026/CS398/Test Solutions/CS398 Test 2 Solutions.pdf",
     "Uni/Spring 2026/CS398/Test Solutions/Unconfirmed 281975.crdownload",
     "Uni/Spring 2026/CS398/Test Solutions",
@@ -227,8 +235,6 @@
     "Uni/Spring 2026/CS398/Slides/Unconfirmed 931784.crdownload",
     "Uni/Spring 2026/CS398/Slides/Debugging Guidelines 01.pdf",
     "Uni/Spring 2026/CS398/Slides/Code Summarization Guidelines 02.pdf",
-    "Uni/Spring 2026/CS398/Slides/Unconfirmed 359976.crdownload",
-    "Uni/Spring 2026/CS398/Slides/Code Summarization Guidelines 01.pdf",
     "Uni/Spring 2026/CS459/Notes/19 - Poisoning Attacks.md",
     "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
     "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",

@@ -23,7 +23,28 @@
 - Syntactic notions of privacy define certain properties that the released dataset must satisfy.
 - In a relational database / table, the rows are **SAMPLES**, and the columns are **ATTRIBUTES**.
 - Attributes can be:
-	- Identifiers: Uniquely identify an i
-	- Quasi-identifiers: 
-	- Confidential: Contain privacy-sensitive information
-	- Non-confidential: Are not considered sensitive
+	- **Identifiers:** Uniquely identify an individual
+	- **Quasi-identifiers:** In combination with external data, can identify an individual
+	- **Confidential:** Contain privacy-sensitive information
+	- **Non-confidential:** Are not considered sensitive
+- We will always remove identifiers and focus on confidential attributes.
+- - -
+# System Model
+- Each user contributes to a row in the database.
+- A data curator releases a sanitized / cleaned version of the database.
+- The attacker / adversary sees this sanitized database.
+- The properties that we want to enforce:
+	- k-anonymity
+	- l-diversity
+	- t-closeness
+- - -
+# k-Anonymity
+- **Definition: For each published record, there exists at least $k-1$ other records with the same quasi-identifiers.**
+- To compute:
+	- Group the rows with the same quasi-identifiers. Each group forms an **equivalence class** or **equi-class.**
+	- Count the smallest size of a group. That's the k-anonymity.
+- To provide k-anonymity:
+	- **Remove** a quasi-identifier.
+	- **Reduce the granularity** or a quasi-identifier (eg: hiding last character of the ZIP code)
+	- **Group** quasi-identifiers (eg: report age as a range instead of actual numbers)
+- - -

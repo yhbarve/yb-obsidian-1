@@ -55,4 +55,17 @@
 		- Occur during the _training phase_, where an attacker injects malicious or tampered data into the training set to manipulate the model's behavior or create backdoors.
 	3. **Evasion Attacks**
 		- Occur during the _testing/inference phase_, where an attacker subtly modifies inputs (like adding imperceptible noise to an image) to trick a fully trained model into making a wrong classification.
-- - -
+- **Federated learning** is a technique where a centralized server builds a model, and a set of clients send gradient updates using their local data sets.
+## Membership Inference Attacks
+- Given a sample and a model trained with the dataset, guess whether the sample was part of the training dataset.
+- These attacks are performed using **threshold attacks**. 
+	- The idea behind threshold attacks is that a model will be more confident on samples it has seen during the training process.
+	- The attack queries the model on a sample and measures the confidence score assigned to its true label.
+	- If the confidence score is above some threshold, then the attack decides the sample is a member of the training data set.
+## Shokri et al.'s Attack
+1. **Generate shadow training data sets:** The attacker creates synthetic training sets that mimic the statistical distribution of the victim's private training data.
+2. **Train K shadow models:** The attacker trains multiple replica models to perform the exact same classification task as the target model.
+3. **Generate shadow test data:** The attacker creates separate test datasets containing data points that the shadow models did not see during training.
+4. **Collect shadow model outputs:** By running known training data and test data through the shadow models, the attacker gathers a dataset mapping.
+5. **Train the attack model:** The attacker trains a secondary binary classifier to recognize the subtle patterns and confidence scores that distinguish whether a data point was inside a model's training set.
+6. **Query the target model:** 

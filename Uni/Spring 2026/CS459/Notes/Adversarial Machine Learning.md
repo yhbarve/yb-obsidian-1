@@ -55,7 +55,9 @@
 			- To verify, query a model with the key input set and check how predictions return the same labels assigned before. Verification succeeds if a fraction of predictions (above some threshold) are correct.
 			- **Basic idea:** Data points at or close to the decision boundary are often put as different labels by two models that are trained on the same data. For your model, record the exact labels, and during the verification step, check if at least a certain amount of predictions are correct.  
 	- **Post training:** White Box Watermark
+		- When training a neural network, you add a regularizer penalty to the loss function that forces certain weight values to follow a specific pattern. So to detect it, you open up the suspect module's weight file, extract those exact weight parameters, and run a statistical test to see if that artificial pattern exists.
 	- **During inference:** Active Watermark
+		- 
 - Watermarking Example: DAWN
 	- DAWN is an active multi-bit watermarking scheme. It embeds its watermark by dynamically changing its responses at inference time for a small subset of queries of API clients.
 	- A small random subset of the inputs provided by API clients are tagged and purposefully misclassified at inference time.

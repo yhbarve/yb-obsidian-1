@@ -47,4 +47,18 @@
 	- **Remove** a quasi-identifier.
 	- **Reduce the granularity** or a quasi-identifier (eg: hiding last character of the ZIP code)
 	- **Group** quasi-identifiers (eg: report age as a range instead of actual numbers)
+- k-Anonymity is not enough on its own
+	- It fails to protect the actual sensitive information attached to an equi-class.
+	- If you know that an individual belongs to a particular equity class, you can still learn more about that individual.
+	- If all $k$ individuals in a group share the exact same sensitive attribute, your privacy is compromised even if your specific record isn't singled out.
 - - -
+# l-Diversity
+- **Definition: For each quasi-identifier value, there should be at least $l$ distinct values of the sensitive attributes.**
+- To compute:
+	- Group the rows by the quasi-identifiers to form equi-classes.
+	- For each equi-class, count the number of distinct sensitive values.
+	- The smallest number of distinct sensitive values is the level of l-diversity.
+- To provide l-diversity:
+	- Try to make the **equi-classes as large as possible.**
+	- Simultaneously, make sure there is **enough variety of sensitive attributes** per class.
+- 

@@ -11,9 +11,21 @@
 - - -
 # Differential Privacy
 - We want to capture the contribution of an individual to the database and its statistics.
-	- Assume D includes an individual, Lily, and D' does not.
-	- M is a mechanism or a function applied to the data sets to inject some noise to protect individual privacy.
-	- If an analyst learns similar things about Lilly from both D and D', then the mechanism M does not provide enough privacy.
+	- Assume **D** includes an individual, Lily, and **D'** does not.
+	- **M** is a mechanism or a function applied to the data sets to inject some noise to protect individual privacy.
+	- If an analyst learns similar things about Lilly from both **D** and **D'**, then the mechanism M does not provide enough privacy.
 	- Given $R = M(D)$, the adversary should be unable to distinguish whether Lilly was in the data set.
 	- This means that $M(D)$ has to be randomized, which can be done by adding some noise. But how much noise do we add?
-- A database **x** is a collection of records from a universe **X**.  
+- A database **x** is a collection of records from a universe **X**. A convenient way to represent databases is by their histograms, in which each entry represents the number of elements of that type.
+- The **L1 distance** or **L1 norm** of a database is defined as: $$||x||_1 = \sum_{i=1}^{|X|}|x_i|$$
+- L1 distance between two databases represents the sum of the absolute differences in frequencies across corresponding elements. $$||x-y||_1 = \sum_{i=1}^{|X| (or |Y|)}|x_i-y_i|$$
+- We define neighbouring data sets as those that differ on one single record. The L1 distances between such data sets could be 1 or 2, depending on how the difference is created.
+	- If the data sets differ because of **one missing value, the L1 distance is 1.**
+	- If the data sets differ because of **one changed value, the L1 distance is 2.**
+- Our goal is to have the mechanism **M** behave nearly identically for both these data sets. If this happens, an attacker cannot tell whether **D** or **D'** was used.
+## p-Privacy
+- A mechanism **M** is defined as **p-private** if for every possible output $R$ and all neighbouring datasets $D$ and $D'$:
+$$\text{Pr}(M(D') = R) - p < \text{Pr}(M(D) = R) < \text{Pr}(M(D') = R) + p$$
+- In simple terms, **p-privacy** means that no matter what output your algorithm gives, an observer shouldn't be able to tell whether a specific person's data was in the dataset or not, because the odds of getting that output only change by a tiny amount **p** either way.
+- A smaller **p** means stronger privacy because the allowed difference between the two distributions is tighter.
+- 

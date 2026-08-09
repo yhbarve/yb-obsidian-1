@@ -100,6 +100,9 @@
 - A malicious text must do two things:
 	1. The malicious text must be retrieved for the target question. The attack fails if the text persuades the LLM but is never retrieved.
 	2. The retrieved malicious text must make the LLM output the target answer. The attack fails if the text is retrieved but does not persuade the LLM.
+- A 5-year old version of this:
+	- **Retrieval condition:** The bad note must get picked up when someone asks a question. If it stays hidden on the shelf, the trick fails.
+	- **Generation condition:** Once the AI reads the bad note, it has to be fooled into repeating the lie. If the AI reads it but says "nah, this is wrong," the trick fails.
 - In **Blackbox Poisoned RAG**, the attacker does not know the knowledge database contents, the LLM parameters, or the retriever parameters, but the attacker can inject a few malicious texts into the knowledge database.
 - A few malicious texts can be enough.
 	- PoisonedRAG injects five malicious texts per target question.

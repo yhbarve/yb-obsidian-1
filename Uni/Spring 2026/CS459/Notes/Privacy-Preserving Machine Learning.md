@@ -40,4 +40,19 @@
 	- We define a loss function that we want to minimize: $l(\theta, x, y)$, where $\theta$ are the parameters $w$ and $b$.
 	- In a classification task, the model assigns probabilities for each class.
 	- A model is said to have **low cross-entropy** when it assigns a high probability to the true class. Otherwise, the model is considered to have a **higher cross-entropy.**
-- Since we have the training set, it makes sense to minimize the empirical loss in the training set. In practice, the minimization is done using **Stochastic Gradient Descent (SGD)**. 
+- Since we have the training set, it makes sense to minimize the empirical loss in the training set. In practice, the minimization is done using **Stochastic Gradient Descent (SGD)**.
+	- The gradient of the loss evaluated at a particular sample is the derivative with respect to each parameter.
+	- It tells us the direction in which $\theta$ should go to minimize the loss for that sample.
+- We can minimize the loss by running several steps or **epochs** of gradient descent.
+- However, this is expensive, so we usually do the iterations over a subset of the training sets called **batches**.
+- - -
+# Inference Attacks in ML
+- There are many types of attacks against machine learning.
+- The three main types of attacks are:
+	1. **Inference Attacks**
+		- Occur during the _deployment phase_, where an adversary queries a trained model to extract sensitive information about whether specific individuals were part of the private training dataset.
+	2. **Poisoning Attacks**
+		- Occur during the _training phase_, where an attacker injects malicious or tampered data into the training set to manipulate the model's behavior or create backdoors.
+	3. **Evasion Attacks**
+		- Occur during the _testing/inference phase_, where an attacker subtly modifies inputs (like adding imperceptible noise to an image) to trick a fully trained model into making a wrong classification.
+- - -

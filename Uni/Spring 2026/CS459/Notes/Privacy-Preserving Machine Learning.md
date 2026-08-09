@@ -80,3 +80,20 @@
     - The true missing attribute is guessed to be the one that yields the **highest confidence score** for the true class $y$, calculated as $\hat{i} = \arg\max_i f((x, a_i))_y$.
 - - -
 # Defenses Against Inference Attacks
+- Add noise to the inputs and generate synthetic training data. 
+- During training, add noise to the gradients or the loss function.
+- In the final model, add noise to the model weights.
+- And the output phase adds noise to the outputs of the model. Only works in a black box setting
+## Differentially Private Stochastic Gradient Descent (DP-SGD)
+- This modification to stochastic gradient descent is called **Differentially Private Stochastic Gradient Descent** (DP-SGD).
+- We clip the gradients to ensure that the L2 norm is under a threshold $C$.
+- The threshold $C$ could be large enough to avoid significantly impeding the learning process, but small enough to ensure that the gradients are not too sensitive to individual data points.
+- In multiple training steps, there will be some sequential composition involved, so we need to keep track of $\epsilon$ and $\delta$.
+- For a fixed amount of noise, if we do not keep track of $\epsilon$ and $\delta$, we can end up with a very large $\epsilon$, which is bad.
+- First, we choose a value for $\delta$. Recall that this should be smaller than $1/N$.
+- Finally, given the values for $\delta$, $\sigma$, $C$, and $T$, and assuming each sample in the data set is used just once per training step, we can calculate the total epsilon using the naive composition formula.
+- An issue with DP-SGD is that the $\epsilon$ value that we need to choose is quite high.
+- At that point, we might as well use defenses that do not provide DP, since the DP guarantee already becomes meaningless at that point. 
+## More Defenses
+- Synthetic Data Generation: 
+- - -

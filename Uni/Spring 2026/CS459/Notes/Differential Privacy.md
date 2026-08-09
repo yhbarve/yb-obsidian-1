@@ -45,7 +45,15 @@ $$\frac{\Pr(M(D') = R)}{p} < \Pr(M(D) = R) < \Pr(M(D') = R) \cdot p$$
 # DP Mechanisms
 - Multiple mechanisms provide differential privacy and can be applied to various systems.
 - A few examples are:
-	- The Laplace Mechanism
-	- The Randomized Response Mechanism
-	- The Exponential Mechanism
-	- 
+	- The Laplace Mechanism (DP, continuous outputs)
+	- The Randomized Response Mechanism (DP, binary inputs/outputs)
+	- The Exponential Mechanism (DP, discrete outputs)
+	- The Gaussian Mechanism (approximate DP, continuous outputs)
+- - -
+# The Laplace Mechanism
+- Laplace Probability Density Function: $$p(x) = \frac{1}{2b} e^{-\frac{\vert{}x-\mu\vert{}}{b}}$$
+- Variance Formula: $$\text{Var} = 2b^2$$
+- Given any function f and its L1 sensitivity, we can turn it into a DP mechanism if we add Laplacian noise to its output.
+- **The core mechanism:** $$M(D) = f(D) + (Y_1, Y_2, \dots, Y_k), \text{where } Y_1, Y_2,...Y_k \text{ where} \quad Y \sim \text{Lap}(0, b)$$
+- Each $Y_i$ is independently drawn from a Laplace distribution $Y \sim \text{Lap}(b)$ where the scale parameter is: $$b = \frac{\Delta_1}{\epsilon}$$
+- 

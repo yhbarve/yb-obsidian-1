@@ -20,8 +20,8 @@
 - The **L1 distance** or **L1 norm** of a database is defined as: $$||x||_1 = \sum_{i=1}^{|X|}|x_i|$$
 - L1 distance between two databases represents the sum of the absolute differences in frequencies across corresponding elements. $$||x-y||_1 = \sum_{i=1}^{|X| (or |Y|)}|x_i-y_i|$$
 - We define neighbouring data sets as those that differ on one single record. The L1 distances between such data sets could be 1 or 2, depending on how the difference is created.
-	- If the data sets differ because of **one missing value, the L1 distance is 1.**
-	- If the data sets differ because of **one changed value, the L1 distance is 2.**
+	- If the data sets differ because of **one missing value, the L1 distance is 1.** This is called **unbounded DP**.
+	- If the data sets differ because of **one changed value, the L1 distance is 2.** This is called **bounded DP**.
 - Our goal is to have the mechanism **M** behave nearly identically for both these data sets. If this happens, an attacker cannot tell whether **D** or **D'** was used.
 ## p-Privacy
 - A mechanism **M** is defined as **p-private** if for every possible output $R$ and all neighbouring datasets $D$ and $D'$:
@@ -56,4 +56,32 @@ $$\frac{\Pr(M(D') = R)}{p} < \Pr(M(D) = R) < \Pr(M(D') = R) \cdot p$$
 - Given any function f and its L1 sensitivity, we can turn it into a DP mechanism if we add Laplacian noise to its output.
 - **The core mechanism:** $$M(D) = f(D) + (Y_1, Y_2, \dots, Y_k), \text{where } Y_1, Y_2,...Y_k \text{ where} \quad Y \sim \text{Lap}(0, b)$$
 - Each $Y_i$ is independently drawn from a Laplace distribution $Y \sim \text{Lap}(b)$ where the scale parameter is: $$b = \frac{\Delta_1}{\epsilon}$$
-- 
+## Compositional Privacy
+- **Given Mechanisms:** $$M_1: D \to R_1 \text{ is } \epsilon_1\text{-DP}$$ and
+$$M_2: D \to R_2 \text{ is } \epsilon_2\text{-DP}$$
+    
+- **Combined Mechanism:** $$M: D \to R_1 \times R_2 \quad \text{where} \quad M(D) = (M_1(D), M_2(D))$$
+- **Composition Theorem Result:** $$M \text{ is } (\epsilon_1 + \epsilon_2)\text{-DP}$$
+- **Total Privacy Loss Budget Formula:** $$\epsilon = \epsilon_1 + \epsilon_2 + \dots + \epsilon_n$$
+## Group Privacy
+- Suppose mechanism $M: \mathcal{D} \to \mathcal{R}$ is $\epsilon$-differentially private, and datasets $D, D' \in \mathcal{D}$ differ in exactly $k$ positions. Then:
+$$\Pr(M(D) = R) \le \Pr(M(D') = R) e^{k\epsilon}$$
+- The privacy guarantee drops linearly with the size of the group.
+## Approximate DP
+- Differential privacy is very strict. Pure differential privacy requires the inequality to hold strictly for every single possible output. This makes it extremely brittle against tiny implementation changes like truncating noise.
+- So we add an extra variable $\delta$ to allow rare catastrophic edge cases where the privacy bounds might technically be broken.
+- A mechanism $M: \mathcal{D} \to \mathcal{R}$ is $(\epsilon, \delta)$-differentially private if for all sets of possible outputs $S \subset \mathcal{R}$ and all pairs of neighbouring datasets $D, D' \in \mathcal{D}$:
+$$\Pr(M(D) \in S) \le \Pr(M(D') \in S) e^\epsilon + \delta$$
+- When $\delta = 0$, it becomes standard $\epsilon$-DP (also called pure DP).
+- This definition allows us to add less noise ($\epsilon$) if we are comfortable with the probability of bad outcomes ($\delta$).
+- - -
+# Differential Privacy Settings
+- Depending on who runs the mechanism, there are two broad models for differential privacy.
+- Central DP uses a trusted aggregator who collects raw data into a database before adding the noise.
+	- A mechanism $M: \mathcal{D} \to \mathcal{R}$ is $\epsilon$-differentially private if for all possible sets of outputs $R \subset \mathcal{R}$ and all pairs of neighbouring **datasets** $D, D' \in \mathcal{D}$:
+$$\Pr(M(D) \in R) \le \Pr(M(D') \in R) e^\epsilon$$
+- Local DP has each user add noise to their own data locally before sending it to an untrusted analyst.
+	- A mechanism $M: \mathcal{D} \to \mathcal{R}$ is $\epsilon$-differentially private if for all possible sets of outputs $R \subset \mathcal{R}$ and all pairs of neighbouring **inputs** $x, x' \in \mathcal{D}$:
+$$\Pr(M(x) \in R) \le \Pr(M(x') \in R) e^\epsilon$$
+- They use the exact same mathematical structure, but Central DP protects entire datasets against changes in a single record. Local DP protects individual user inputs because the data is randomized right on the user's device before anyone else sees it.
+- - -

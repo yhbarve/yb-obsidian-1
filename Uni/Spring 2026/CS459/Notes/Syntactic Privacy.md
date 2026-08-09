@@ -61,4 +61,23 @@
 - To provide l-diversity:
 	- Try to make the **equi-classes as large as possible.**
 	- Simultaneously, make sure there is **enough variety of sensitive attributes** per class.
-- 
+- Issues still exist:
+	- The data in each equivalence class can be unexpectedly skewed.
+	- For example, in an equivalence class with l-diversity of 2, you could still have 99 samples with sensitive attributes equal to **1** and just one sample with sensitive attribute equal to **0**.
+	- Technically, you still have two different values for the sensitive attribute.
+	- However, the attacker can still create a probability distribution from this data. 
+	- Because 99 samples have the sensitive attribute equal to **1**, the overall probability of the sensitive attribute being **1** for that equivalence class is almost 100%.
+- - -
+# t-Closeness
+- **Definition: The distribution of sensitive values in each equi-class is no further than a threshold $t$ from the overall distribution of the sensitive values in the whole dataset.**
+- To compute:
+	- Organize rows by equi-class.
+	- Compute the distribution of sensitive attributes per equi-class and for the whole table.
+	- Compute the maximum difference between a class distribution and the whole table on a sensitive attribute. That's the value of $t$.
+		- To compute the difference between distributions, we will use variational distance.
+		- For two distributions over $m$ values $P = (p_1, p_2, ..., p_m)$ and $Q = (q_1, q_2, ..., q_m)$, $$D[P, Q] = \frac{1}{2}\times \sum_{i=1}^m|p_i - q_i|$$ 
+- To provide t-closeness:
+	- Try to make each equi-class as large as possible.
+	- Try to maintain a uniform distribution of sensitive attributes within an equi-class.
+	- We can add dummy records to help smoothen the distribution.
+

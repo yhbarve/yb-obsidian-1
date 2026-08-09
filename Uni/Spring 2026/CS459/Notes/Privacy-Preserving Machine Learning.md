@@ -68,4 +68,15 @@
 3. **Generate shadow test data:** The attacker creates separate test datasets containing data points that the shadow models did not see during training.
 4. **Collect shadow model outputs:** By running known training data and test data through the shadow models, the attacker gathers a dataset mapping.
 5. **Train the attack model:** The attacker trains a secondary binary classifier to recognize the subtle patterns and confidence scores that distinguish whether a data point was inside a model's training set.
-6. **Query the target model:** 
+6. **Query the target model:** The attacker sends a target data point of interest into the real black box target model to capture its prediction output and confidence scores.
+7. **Evaluate membership:** The attacker feeds those target confidence scores into the trained attack model to output the final prediction of whether that specific record was a member of the secret training dataset.
+- - -
+## Attribute Inference Attacks
+- An attribute inference attack is a privacy breach where an adversary uses a trained model to guess a missing sensitive feature of a target individual given their known features and label.
+- **The Setup:** Each data sample is represented as $z = (x, a, y)$, where $x$ is known features, $a$ is a privacy-sensitive attribute (like a medical condition), and $y$ is the label.
+- **The Goal:** The attacker has a partial record $z = (x, ?, y)$ and wants to figure out the hidden value of $a$.
+- **How a Simple Attack Works:**
+	- The attacker tests all possible values of the sensitive attribute ($\mathcal{A} = \{a_1, a_2, ..., a_m\}$) by querying the model with variations like $(x, a_1), ..., (x, a_m)$.    
+    - The true missing attribute is guessed to be the one that yields the **highest confidence score** for the true class $y$, calculated as $\hat{i} = \arg\max_i f((x, a_i))_y$.
+- - -
+# Defenses Against Inference Attacks

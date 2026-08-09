@@ -75,9 +75,19 @@
 	- Compute the distribution of sensitive attributes per equi-class and for the whole table.
 	- Compute the maximum difference between a class distribution and the whole table on a sensitive attribute. That's the value of $t$.
 		- To compute the difference between distributions, we will use variational distance.
-		- For two distributions over $m$ values $P = (p_1, p_2, ..., p_m)$ and $Q = (q_1, q_2, ..., q_m)$, $$D[P, Q] = \frac{1}{2}\times \sum_{i=1}^m|p_i - q_i|$$ 
+		- For two distributions over $m$ values $P = (p_1, p_2, ..., p_m)$ and $Q = (q_1, q_2, ..., q_m)$, $$D[P, Q] = \frac{1}{2}\times \sum_{i=1}^m|p_i - q_i|$$
+		- If you have **k** equi-classes, you would have to compute **k** distances and take the maximum of those as the value of **t**.
+		- If you have **m** distinct sensitive values, you would have to add **m** absolute value terms to compute each distance. 
 - To provide t-closeness:
 	- Try to make each equi-class as large as possible.
 	- Try to maintain a uniform distribution of sensitive attributes within an equi-class.
 	- We can add dummy records to help smoothen the distribution.
+- - -
+# Limitations
+- t-Closeness is overall a reasonable syntactic notion of privacy. It prevents the attacks that we have seen.
+- However, these privacy notions require a clear distinction between quasi-identifiers and sensitive values, which is not always possible.
+- Computing the optimal k-anonymous dataset is NP-hard.
+- These notions of privacy do not provide guarantees against an adversary with background knowledge.
+- We need a privacy notion that is adversary-agnostic. A **semantic notion of privacy** that only depends on the mechanism.
+- - -
 

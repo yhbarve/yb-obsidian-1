@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Notes/Differential Privacy.md",
+                "file": "Uni/Spring 2026/CS459/Notes/Homomorphic Encryption.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Differential Privacy"
-            }
-          },
-          {
-            "id": "5ef3594dba73f2d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Notes/Privacy-Preserving Machine Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Privacy-Preserving Machine Learning"
+              "title": "Homomorphic Encryption"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,9 +210,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ef3594dba73f2d6",
+  "active": "8ad9f5ed0d79d8e1",
   "lastOpenFiles": [
     "Uni/Spring 2026/CS459/Notes/Differential Privacy.md",
+    "Uni/Spring 2026/CS459/Notes/Homomorphic Encryption.md",
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.pdf",
     "Uni/Spring 2026/CS459/Notes/Privacy-Preserving Machine Learning.md",
     "Uni/Spring 2026/CS459/Notes/Poisoning Attacks.md",
     "Uni/Spring 2026/CS459/Notes/Adversarial Machine Learning.md",
@@ -247,7 +234,6 @@
     "Uni/Spring 2026/BU433/BU433 Slides/Unconfirmed 394639.crdownload",
     "Uni/Spring 2026/CS398/Test Solutions/CS398 Test 2 Solutions.pdf",
     "Uni/Spring 2026/CS398/Test Solutions/Unconfirmed 281975.crdownload",
-    "Uni/Spring 2026/CS398/Test Solutions",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
     "Uni/Spring 2026/BU433/BU433 Notes/25 Managing OBS Risks with Loan Sales and Securitization.md",
     "Uni/Spring 2026/BU433/BU433 Notes/24 Managing OBS Risks with Derivatives.md",
@@ -262,7 +248,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/_q6check/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3/Q6/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/Submission/Q6/yhbarve_approach.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/yhbarve_approach.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_labels_and_colors.png",

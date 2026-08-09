@@ -85,3 +85,13 @@ $$\Pr(M(D) \in R) \le \Pr(M(D') \in R) e^\epsilon$$
 $$\Pr(M(x) \in R) \le \Pr(M(x') \in R) e^\epsilon$$
 - They use the exact same mathematical structure, but Central DP protects entire datasets against changes in a single record. Local DP protects individual user inputs because the data is randomized right on the user's device before anyone else sees it.
 - - -
+1. HAMILTON
+2. SCHUMACHER
+3. VERSTAPPEN
+4. SENNA
+5. VETTEL
+6. PROST
+7. ROSBERG
+8. HAMILTON
+9. HAKKINNEN
+10. FANGIO

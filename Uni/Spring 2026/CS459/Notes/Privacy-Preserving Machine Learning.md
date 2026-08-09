@@ -25,4 +25,19 @@
 - The Gaussian mechanism is very similar to the Laplace mechanism. The key difference is that the Gaussian mechanism uses L2 sensitivity instead of L1 sensitivity.
 - $f: \mathcal{D} \to \mathbb{R}^k$ with $\ell_2$-sensitivity $\Delta_2$, the **Gaussian mechanism** is defined as $$M(D) = f(D) + (Y_1, Y_2, ..., Y_k)$$
 - Each $Y_i$ is random noise independently distributed as $$Y_i \sim N(0, \sigma^2),\text{ with } \sigma^2 = 2 \ln\left(\frac{1.25}{\delta}\right) \Delta_2^2 / \epsilon^2$$
-- 
+- The Gaussian mechanism provides $(\epsilon,\delta)$-DP, whereas the Laplace mechanism only provides $\epsilon$-DP.
+- $\sigma^2$ represents the noise variance. To provide more privacy, we need more noise (achieved by lowering $\epsilon$.
+- - -
+# Primer on Machine Learning
+- For simplicity, we will focus on a classification problem with supervised learning.
+	- The other types of machine learning are unsupervised and reinforcement learning.
+- We have a training set with $n$ samples. Given a sample $(x_i, y_i)$, $x_i$ are the features and $y_i$ is the label.
+- We want to produce a function that can predict a sample's label from its features.
+- We use a training set to train such a function. Ideally, it should correctly predict labels for unseen samples.
+- A model **generalizes** well if it has a high accuracy on unseen samples.
+- A model **overfits** if it works perfectly for samples in the training set but does not generalize well.
+- There are many architectures for machine learning models. One of the most popular ones is a **neural network**.
+	- We define a loss function that we want to minimize: $l(\theta, x, y)$, where $\theta$ are the parameters $w$ and $b$.
+	- In a classification task, the model assigns probabilities for each class.
+	- A model is said to have **low cross-entropy** when it assigns a high probability to the true class. Otherwise, the model is considered to have a **higher cross-entropy.**
+- Since we have the training set, it makes sense to minimize the empirical loss in the training set. In practice, the minimization is done using **Stochastic Gradient Descent (SGD)**. 

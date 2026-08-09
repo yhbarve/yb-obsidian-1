@@ -212,7 +212,12 @@
   },
   "active": "5ef3594dba73f2d6",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS459/Notes/19 - Poisoning Attacks.md",
+    "Uni/Spring 2026/CS459/Notes/Poisoning Attacks.md",
+    "Uni/Spring 2026/CS459/Notes/Public Key Cryptography.md",
+    "Uni/Spring 2026/CS459/Notes/Cryptography Basics.md",
+    "Uni/Spring 2026/CS459/Notes/Introduction.md",
+    "Uni/Spring 2026/CS459/Notes/Syntactic Privacy.md",
+    "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
     "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",
     "Uni/Spring 2026/BU433/BU433 Final Cheatsheet v2.pdf",
     "Uni/Spring 2026/BU433/Unconfirmed 521525.crdownload",
@@ -234,7 +239,6 @@
     "Uni/Spring 2026/BU433/BU433 Notes/20 Types of Risks Incurred by FIs.md",
     "Uni/Spring 2026/BU433/Review Before Exam.md",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
-    "Uni/Spring 2026/CS459/Notes/18 Adversarial Machine Learning.md",
     "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/yhbarve_A3 2/Q6/yhbarve_approach.md",
@@ -253,9 +257,6 @@
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/sympy/plotting/tests/test_region_or.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/sympy/plotting/tests/test_region_not.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/sympy/plotting/tests/test_region_and.png",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md"
+    "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md"
   ]
 }

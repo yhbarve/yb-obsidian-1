@@ -13,6 +13,9 @@
 - It requires significant computing capabilities to provide accessible service.
 - If frequent queries are necessary, it can become quite expensive for the user.
 - Leads to issues related to model theft.
+- The main motivation behind stealing models is:
+	- The actual data gathering and training process is extremely complex, expensive, and time-consuming.
+	- You can use models offered by companies using their API services, but frequent queries become quite expensive for the user.
 - - -
 # Model Stealing
 - Approximation of the behavior of the model

@@ -1,5 +1,5 @@
 # Poisoning Attacks
-## Background & Informal Defination
+## Background & Informal Definition
 - A poisoning attack is an attack where someone corrupts the information a system learns from so that the system behaves badly later.
 - Poisoning is like secretly editing a textbook or an answer key that a student refers to while studying.
 - A pausing attack is an attack on the learning process.

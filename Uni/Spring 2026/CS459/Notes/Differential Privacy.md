@@ -28,4 +28,24 @@
 $$\text{Pr}(M(D') = R) - p < \text{Pr}(M(D) = R) < \text{Pr}(M(D') = R) + p$$
 - In simple terms, **p-privacy** means that no matter what output your algorithm gives, an observer shouldn't be able to tell whether a specific person's data was in the dataset or not, because the odds of getting that output only change by a tiny amount **p** either way.
 - A smaller **p** means stronger privacy because the allowed difference between the two distributions is tighter.
-- 
+- An additive difference fails when the probability is close to zero. A tiny absolute change can completely break privacy.
+- Therefore, we use a multiplicative factor which scales naturally with probability. This ensures that the privacy guarantees hold uniformly across rare and common outputs alike.
+
+$$\frac{\Pr(M(D') = R)}{p} < \Pr(M(D) = R) < \Pr(M(D') = R) \cdot p$$
+- Okay, so the final change we make is we switch to $e^\epsilon$ instead of a raw parameter. This is because exponential scaling makes mathematical proofs much cleaner and easier to handle. 
+- **Formal Definition:** A mechanism $M: \mathcal{D} \to \mathcal{R}$ is $\epsilon$-differentially private if for all possible outputs $R \in \mathcal{R}$ and all pairs of neighbouring datasets $D, D' \in \mathcal{D}$, the inequality holds. $$\Pr(M(D) = R) \le \Pr(M(D') = R) e^\epsilon$$
+- Smaller $\epsilon$ means more privacy, and larger means less privacy.
+- - -
+# Sensitivity
+- M needs to be a randomized algorithm. M also adds noise to the true output value to provide differential privacy.
+- But how much noise to add? This is calculated by measuring the **sensitivity**.
+- L1 sensitivity (L1 norm), which is the maximum change that replacing **D** for **D'** can cause in the output. $$\Delta_1 \doteq \max_{D, D'} \vert{}\vert{}f(D) - f(D')\vert{}\vert{}_1$$
+- The L1 norm captures the magnitude by which a single individual's data can change the function **f** in the worst case.
+- - -
+# DP Mechanisms
+- Multiple mechanisms provide differential privacy and can be applied to various systems.
+- A few examples are:
+	- The Laplace Mechanism
+	- The Randomized Response Mechanism
+	- The Exponential Mechanism
+	- 

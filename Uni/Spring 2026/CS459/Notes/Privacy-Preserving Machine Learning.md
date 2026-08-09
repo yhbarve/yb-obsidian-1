@@ -95,5 +95,12 @@
 - An issue with DP-SGD is that the $\epsilon$ value that we need to choose is quite high.
 - At that point, we might as well use defenses that do not provide DP, since the DP guarantee already becomes meaningless at that point. 
 ## More Defenses
-- Synthetic Data Generation: 
+- **Synthetic Data Generation:**
+	- We can use a GAN to generate real-looking synthetic examples.
+	- If we train the GAN using privacy-preserving training algorithms, we can use it to generate a privacy-preserving synthetic data set.
+- There are defenses that add noise to the confidence scores but are not very effective.
+- Sometimes generalization is a good defense by itself.
+	- A well-generalized model will perform similarly in members of the training set and non-members.
+	- Therefore, it will be harder for an adversary to decide whether a sample is a member or a non-member.
+	- Generalization is also good for utility, so it's a win-win.
 - - -

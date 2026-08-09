@@ -9,4 +9,21 @@
 - Consider two cipher texts that use the same key. $$c = E_K(x), d = E_K(y)$$
 - Let $f$ be a function that operates over plain text $x$ and $y$.
 - We need to find a function $g$ such that $$g(c, d) = E_K(f(x, y))$$
-- This function g is a homomorphic function on the ciphertexts $c$ and $d$
+- This function $g$ is a homomorphic function on the ciphertexts $c$ and $d$.
+- Four types of homomorphic encryptions:
+	1. **Partial:**
+		- Supports **only one type** of algebraic operation on ciphertexts: either unlimited additions or unlimited multiplications.
+		- Used in RSA.
+	2. **Somewhat:**
+		- The **number of operations** that can be performed is **bounded**, and the **accuracy** of the computation may **degrade** as more operations are performed.
+		- Used in BGN.
+	3. **Levelled Fully:**
+		- Can perform an arbitrary number of computations on encrypted data if it has a pre-defined set of computations specified ahead of time.
+		- Used in BFV, CKKS
+	4. **Fully:**
+		- Enables any number of computations to be performed on encrypted data without a predefined sequence or limit.
+		- Computationally expensive.
+		- Used in BGV, DGHV
+- **Fully homomorphic encryption** supports **both addition and multiplication simultaneously**, allowing you to evaluate arbitrary complex functions on encrypted data without ever decrypting it.
+- In **somewhat homomorphic encryption**, the **number of operations** that can be performed is **bounded**, and the **accuracy** of the computation may **degrade** as more operations are performed.
+- - -

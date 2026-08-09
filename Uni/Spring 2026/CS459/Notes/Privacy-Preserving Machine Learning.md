@@ -15,4 +15,14 @@
 - If your system's total failure probability ($k\delta + \delta'$) is smaller than $1/N$, it means the algorithm itself isn't adding any meaningful risk beyond what an attacker could already achieve by blindly guessing.
 - Because $\delta'$ is a knob you control, you can increase it slightly to make $\epsilon$ smaller (giving you better data accuracy/utility), as long as it stays below that $1/N$ safety ceiling.
 ## Parallel Composition
+- Let $M = (M_1, M_2, ..., M_k)$ be sequence of mechanisms, where $M_i$ is $\epsilon_i$-DP. Let $D_1, D_2, ..., D_k$ be a deterministic partition of $D$. Publishing $M_1(D_1), M_2(D_2), ..., M_k(D_k)$ satisfies $\left(\max_{i \in [1,...,k]} \epsilon_i\right)$-DP.
+- In parallel composition, you run separate queries on disjoint parts of the data set at the same time.
+- The total privacy loss is simply the maximum $\epsilon$ of the individual queries.
+- - -
+# Gaussian Mechanism: A Noise Mechanism for $(\epsilon, \delta)$-DP
+- The L2 sensitivity can be defined as $$\Delta_2 \doteq \max_{D, D'} \vert{}\vert{}f(D) - f(D')\vert{}\vert{}_2$$
+- The formula for $\ell_2 \text{ norm is: } \vert{}\vert{}x\vert{}\vert{}_2 = \sqrt{x_1^2 + x_2^2 + \dots + x_n^2}$
+- The Gaussian mechanism is very similar to the Laplace mechanism. The key difference is that the Gaussian mechanism uses L2 sensitivity instead of L1 sensitivity.
+- $f: \mathcal{D} \to \mathbb{R}^k$ with $\ell_2$-sensitivity $\Delta_2$, the **Gaussian mechanism** is defined as $$M(D) = f(D) + (Y_1, Y_2, ..., Y_k)$$
+- Each $Y_i$ is random noise independently distributed as $$Y_i \sim N(0, \sigma^2),\text{ with } \sigma^2 = 2 \ln\left(\frac{1.25}{\delta}\right) \Delta_2^2 / \epsilon^2$$
 - 

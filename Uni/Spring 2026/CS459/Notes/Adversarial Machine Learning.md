@@ -46,19 +46,21 @@
 	- Undetectability: The watermark cannot be detected efficiently without knowledge of the secret watermarking key.
 - Watermarking Categories
 	- **During training**
-		- Idea 1: Create a watermark by assigning arbitrary labels to certain inputs (triggers).
+		- **Idea 1:** Create a watermark by assigning arbitrary labels to certain inputs (triggers).
 			- Take random images from outside the training distribution, label them randomly, and use these inputs to train the model.
 			- To verify, query a model with the trigger input set and check whether it returns the same labels assigned before.
 			- For example, while training, give an image of an apple the label "Octopus". The image of the apple is the trigger. During verification, query the model with the apple image as the input and check whether it returns "Octopus" as expected.
-		- Idea 2 - IP Guard: Deep neural networks have decision boundaries shaped by their parameters. Different models will, by the way, behave differently for some inputs close to the boundary.
+		- **Idea 2 - IP Guard:** Deep neural networks have decision boundaries shaped by their parameters. Different models will, by the way, behave differently for some inputs close to the boundary.
 			- Search for samples close to the decision boundaries (call them "key inputs") and record their labels.
 			- To verify, query a model with the key input set and check how predictions return the same labels assigned before. Verification succeeds if a fraction of predictions (above some threshold) are correct.
 			- **Basic idea:** Data points at or close to the decision boundary are often put as different labels by two models that are trained on the same data. For your model, record the exact labels, and during the verification step, check if at least a certain amount of predictions are correct.  
 	- **Post training:** White Box Watermark
-		- When training a neural network, you add a regularizer penalty to the loss function that forces certain weight values to follow a specific pattern. So to detect it, you open up the suspect module's weight file, extract those exact weight parameters, and run a statistical test to see if that artificial pattern exists.
+		- When training a neural network, you add a regularizer penalty to the loss function that forces certain weight values to follow a specific pattern.
+		- To detect it, you open up the suspect module's weight file, extract those exact weight parameters, and run a statistical test to see if that artificial pattern exists.
 	- **During inference:** Active Watermark
-		- 
-- Watermarking Example: DAWN
+		- You embed a trigger by taking a thousand weird random images and forcing the model to classify them all as stop signs.
+		- To detect it, you query the suspect model via its API with those exact 1,000 images. If it flags them all as stop signs, you mathematically prove that it inherited your poisoned training data.
+- **Watermarking Example: DAWN**
 	- DAWN is an active multi-bit watermarking scheme. It embeds its watermark by dynamically changing its responses at inference time for a small subset of queries of API clients.
 	- A small random subset of the inputs provided by API clients are tagged and purposefully misclassified at inference time.
 	- The defender memorizes these misclassifications for future verifications. 
@@ -68,8 +70,12 @@
 # Can an attacker remove watermarks?
 - The goal is for the watermark to be removed while retaining a similar test accuracy.
 - Fine-tuning and pruning are two examples of basic watermark removal.
-- Fine-tuning is the process of further training a pre-trained network on a set of new inputs in the same domain.
-- Pruning is the process of removing model parameter values according to some heuristic.
+- **Fine-tuning** is the process of further training a pre-trained network on a set of new inputs in the same domain.
+	- Because this new training data doesn't contain the secret trigger inputs, the network undergoes forgetting, and it updates its weights to prioritize the new task.
+	- This effectively erases the forced behavior of the water mark.
+- **Pruning** is the process of removing model parameter values according to some heuristic.
+	- Pruning uses heuristics to delete low-impact weights or zero out sensitive neurons. 
+	- This can disrupt or destroy the specific structural pathways the model relies on to recognize watermark inputs.
 - Watermarking deep neural networks is a very active area of research.
 - No current watermarking scheme manages to be robust against all watermark removal attacks.
 - At the same time, no current watermark removal attack manages to remove all watermarks.
@@ -95,7 +101,7 @@
 	- White box means that the model is known by the way.
 	- Black box means only query access to the model is available.
 	- Transferrable means there is no query access. You craft an adversarial example on a local substitute model you control, and rely on the property that the same trick will **transfer** over to fool the target model as well.
-	- Gray box means the rest. **Gray-box** sits right between white-box and black-box. The attacker has **partial knowledge** about the target system, but not full access to its internal weights or architecture. The attacker has limited access, such as the model architecture. 
+	- Grey box means the rest. **Grey-box** sits right between white-box and black-box. The attacker has **partial knowledge** about the target system, but not full access to its internal weights or architecture. The attacker has limited access, such as the model architecture. 
 - Similar to many ML problems, there is no existing defence that can fully prevent adversarial examples.
 - For a potential defense, the following properties are required.
 	- It preserves clean input accuracy.

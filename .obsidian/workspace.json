@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "aecdbe0d9aa3020b",
+        "id": "b740f0ebc8be4749",
         "type": "tabs",
         "children": [
           {
-            "id": "8ad9f5ed0d79d8e1",
+            "id": "c261bb1992e4fade",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
-                "mode": "source",
-                "source": false
+                "file": "Uni/Spring 2026/CS459/Slides/Final Exam/01 Information Hiding.pdf"
               },
-              "icon": "lucide-file",
-              "title": "05 Differential Privacy"
+              "icon": "lucide-file-text",
+              "title": "01 Information Hiding"
             }
           }
         ]
@@ -209,8 +207,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "351d2f5929c8d7ca",
+  "active": "c261bb1992e4fade",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
     "Uni/Spring 2026/CS459/Slides/Final Exam/09 Multi-Party Computation.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/03 Inference Attacks.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/01 Information Hiding.pdf",
@@ -224,7 +223,6 @@
     "Uni/Spring 2026/CS459/Notes/Final Exam/08 Poisoning Attacks.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/06 Privacy-Preserving Machine Learning.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/04 Syntactic Notions of Privacy.md",
-    "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/07 Adversarial Machine Learning.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/09 Multi-Party Computation.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
@@ -238,7 +236,6 @@
     "Uni/Spring 2026/CS459/Notes/02 Cryptography Basics.md",
     "Uni/Spring 2026/CS459/Notes/01 Introduction.md",
     "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",
-    "Uni/Spring 2026/BU433/BU433 Final Cheatsheet v2.pdf",
     "Uni/Spring 2026/BU433/BU433 Notes/04 The Federal System, Monetary Policy, and Interest.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q5/venv/lib/python3.14/site-packages/numpy-2.5.1.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
     "Uni/Spring 2026/BU433/BU433 Notes/25 Managing OBS Risks with Loan Sales and Securitization.md",

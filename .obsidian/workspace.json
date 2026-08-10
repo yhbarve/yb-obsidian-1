@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
+                "file": "Uni/Spring 2026/CS459/Notes/Final Exam/01 Network Steganography & Information Hiding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS459 Topics to Revisit"
+              "title": "01 Network Steganography & Information Hiding"
             }
           }
         ]
@@ -210,9 +210,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "351d2f5929c8d7ca",
+  "active": "8ad9f5ed0d79d8e1",
   "lastOpenFiles": [
     "Uni/Spring 2026/CS459/Notes/Final Exam/03 Inference Attacks.md",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/01 Network Steganography & Information Hiding.md",
+    "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/10 Multi-Party Computation.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/09 Homomorphic Encryption.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/08 Poisoning Attacks.md",
@@ -223,7 +225,6 @@
     "Uni/Spring 2026/CS459/Notes/Final Exam",
     "Uni/Spring 2026/CS459/Notes/03 Public Key Cryptography.md",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.pdf",
-    "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
     "Uni/Spring 2026/CS459/Notes/02 Cryptography Basics.md",
     "Uni/Spring 2026/CS459/Notes/01 Introduction.md",
     "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",

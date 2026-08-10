@@ -39,4 +39,10 @@
 	1. A transaction is created and signed by a client.
 	2. The transaction is sent to one or multiple nodes. The nodes validate the transaction and broadcast it to other nodes.
 	3. If all the nodes agree, the block is added right away.
-	4. 
+	4. Two nodes may propose a competing block N. Both nodes broadcast their computing versions across the network.
+	5. Because network propagation takes time, the network temporarily splits or forks.
+	6. If a fork happens, they should choose which block to pick wisely, regardless of their choice.
+	7. To resolve this fork, conscientious rules dictate that nodes must eventually follow the longest chain. Whichever branch grows longer first becomes the canonical history, and the shorter branch gets discarded.
+- - -
+# Proof of Work (PoW)
+

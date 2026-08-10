@@ -57,3 +57,47 @@
 	- OpenBSD toggles the most significant bit of the IP ID every 3 minutes, so the most significant bit can be examined to check if it matches this pattern.
 	- Within a rekey interval, the open BSD IP ID is non-repeating.
 - Several constraints make steganography through TCP/IP packets easily detectable.
+- **Timing attack:** Propagating covert information by crafting delays between certain events. For example, modifying the usual inter-packet delay by introducing losses by skipping sequence numbers
+- We may also have **hybrids of storage and timing**. For example, replace encrypted packet contents with covered data and use delays for signalling the receiver about specific packets.
+## Covert Channels at the Application Level
+- **DNS Tunneling**
+	- DNS tunneling is based on encoding the data of other programs and protocols in DNS queries and responses.
+- **Games:**
+	- We can create covert channels by encoding information in games' virtual worlds, which are shared by multiple users.
+## Detecting or Preventing Network Covert Channels
+- A warden inspects or manipulates traffic to detect and break covert channels.
+- Storage channels can be detected by **analyzing transmitted data for anomalies** and **normalizing data in header fields.**
+- Timing channels can be detected or prevented by **analyzing packet timing for inconsistencies** and **shaping the traffic** (constant rate of transmission).
+- - -
+# File Formats
+- A file format is a standard way that information is encoded for storage in a computer file.
+- There are two broad file format families:
+	- Text files: Essential to determine the text encoding scheme and structure
+	- Binary files: Essential to determine the file format
+## Text Files
+- Text files can have some structure on their own.
+- Examples: HTML, XML, JSON
+- Some of the elements in text files may be used to store covert data as part of a covert storage channel.
+## Binary Files
+- In binary files, bytes represent custom data.
+- Binary file formats may include multiple types of data in the same file, such as image, video, and audio data.
+- This data can be interpreted by supporting programs but will show up as garbled text in a text editor.
+- To inspect a file's raw bytes, we can use a hex editor to read file contents. We can also use the file utility to match a file's signature.
+- When in doubt, look for **magic numbers**. These are numerical or text values used to identify a file or protocol.
+- An adversary may be able to use magic numbers to make sense of what's being transmitted in a network channel.
+- - -
+# Traffic Obfuscation
+- Timing and content anomalies may be an effective way to detect covert channels. But there are better ways to hide the existence of covert data transmissions.
+- **Traffic obfuscation** hides the characteristics of a covert data transmission by shaping the look of data exchanges.
+- Some techniques for traffic obfuscation include:
+	- Randomized Traffic
+		- The idea is to evade inspection by generating traffic that does not conform to any known protocol specification.
+		- Randomize packet sizes, timings, and contents.
+		- Examples: Shadowsocks, V2Ray, OutlineVPN
+		- A potential issue is that it "looks-like-nothing" might be a signature in itself.
+		- This may not work if wardens have protocol allow lists in place.
+		- And it can still be detected via cryptographic flaws and entropy tests.
+	- Mimic Traffic
+		- The idea is to hide a protocol's execution by mimicking another innocuous protocol's characteristics.
+		- 
+	- Tunnel Traffic

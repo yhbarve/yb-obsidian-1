@@ -30,5 +30,30 @@
 ## Utility vs Privacy
 - Utility is the benefit that users and the provider get from using the system.
 - For example, in a communications system, the utility for users is to be able to communicate with each other from the comforts of their house.
+	- To quantify, we could think about:
+		- the number of packets dropped
+		- the network bandwidth or throughput
+		- the network latency or delay
 - In a machine learning setting, the utility for the data owner could be that it can sell access to the trained model for revenue.
+	- To quantify, we could think about:
+		- test accuracy
+		- biasedness of the model
+		- computational requirements to build the model
+		- the training time required for the model
+- When designing a system, you always have to face the **privacy-utility trade-off**. How do you design a system that provides maximum utility while providing maximum privacy?
+- Designing a system that provides a good privacy utility trade-off is hard.
+- - -
+# Inference Attack Examples
+## Census Reconstruction
+- A census reconstruction attack uses published aggregate statistics and auxiliary background data to infer individual-level private records.
+- A census involves collecting lots of privacy-sensitive data. Some useful aggregate statistics are released.
+## SQL Inference Attacks
+- A data collector creates a relational database with data from different clients.
+- An adversary can issue SQL queries to gather data from the table.
+- Even if the result of a query is harmless, the combination of two or more queries can be very dangerous.
+- Placing restrictions on individual queries while still reporting exact values does not work.
+## Database Reconstruction Attacks
 - 
+## Statistical Inference Attacks
+## ML Inference Attacks
+## Linking Attacks

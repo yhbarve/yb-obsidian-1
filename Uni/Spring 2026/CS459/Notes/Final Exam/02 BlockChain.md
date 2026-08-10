@@ -62,4 +62,26 @@
 	    - **If you have $< 50\%$ of the network power:** Your branch will grow slower on average than the main chain. The probability of your shorter branch ever catching up and overtaking the main chain approaches zero as the depth increases.
 	    - **If you have $> 50\%$ of the network power:** You compute nonces faster than the rest of the network combined. You can eventually build a longer secret branch, broadcast it, and force all honest nodes to reorg to your chain.
 - It is always advisable to consider transactions from blocks that reside on the longest branch of a fork and have been further confirmed by additional blocks.
-- 
+- Mining relies on randomness. A miner with very little hash power can simply get lucky and solve a block first. If an attacker tries to double spend, they might temporarily get lucky and mine a competing block, even without the majority hash power.
+- Due to network delays, different parts of the world might see different blocks first. If hash power is spread out, small competing branches happen naturally.
+- Therefore, waiting for several subsequent blocks ensures that your transaction is buried under cumulative work, that a competing short-lived fork won't overtake it.
+- Example:
+	- When Alice pays Bob, her transaction is placed into a block on the blockchain.
+	- However, if Bob hands over his goods immediately upon seeing that single block, he risks being scammed.
+	- Because mining relies on randomness and network delays can split the chain, an attacker could simultaneously mine a competing block that sends those same funds back to themselves instead.
+	- If the network picks up and continues building on the attacker's competing branch, that branch becomes the longer valid chain, and Bob's original block gets completely erased from history.
+	- To prevent this, Bob waits for several additional blocks to be mined on top of the block containing his payment. **These additional blocks are called confirmation levels.**
+	- Since every node on the network automatically follows whichever valid chain is the longest, each new block stacked on top of Bob's transaction buries it deeper into history.
+	- For an attacker to reverse a buried payment, they would have to outpace the rest of the entire network to build an even longer chain from scratch, which becomes virtually impossible as the confirmation count grows.
+- Triggering of Fork:
+	- Send two transactions to two different nodes in a short time window.
+	- Send two transactions to two nodes located in separate sectors of the network.
+	- **Selfish Mining:** If you mine a block faster than others, keep it and build on top of it, and only publish it after another block is published by someone else.
+### How Networks Protect Against a 51% Attack
+Because math alone cannot stop a majority hash-power attack, blockchains rely on economic game theory, social consensus, and higher confirmation thresholds to defend themselves:
+
+- **Massive Economic Cost:** Acquiring over $51\%$ of the hardware and energy for major networks like Bitcoin requires tens of billions of dollars. If an attacker spends that money to double-spend a transaction, they simultaneously destroy public trust in the network—causing the native coin's value to crash to near zero. The attacker burns billions in hardware and electricity just to steal a fraction of that value.
+    
+- **Social Reorgs (Hard Forks):** If an attacker attempts to continuously rewrite history, the honest community and node operators can manually flag the attacker's chain as malicious via a software update (a hard fork). The community simply invalidates the attacker's blocks and migrates the honest ledger to a new branch, rendering the attacker's massive ASIC hardware investment completely useless.
+    
+- **Extreme Confirmation Levels:** For ultra-high-value transfers (e.g., millions of dollars between exchanges), businesses don't just wait 6 blocks—they might demand 60 or 100+ confirmations, making even a short-lived majority attack too expensive to maintain over time.

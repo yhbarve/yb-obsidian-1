@@ -79,9 +79,15 @@
 	- **Selfish Mining:** If you mine a block faster than others, keep it and build on top of it, and only publish it after another block is published by someone else.
 ### How Networks Protect Against a 51% Attack
 Because math alone cannot stop a majority hash-power attack, blockchains rely on economic game theory, social consensus, and higher confirmation thresholds to defend themselves:
-
 - **Massive Economic Cost:** Acquiring over $51\%$ of the hardware and energy for major networks like Bitcoin requires tens of billions of dollars. If an attacker spends that money to double-spend a transaction, they simultaneously destroy public trust in the network—causing the native coin's value to crash to near zero. The attacker burns billions in hardware and electricity just to steal a fraction of that value.
-    
 - **Social Reorgs (Hard Forks):** If an attacker attempts to continuously rewrite history, the honest community and node operators can manually flag the attacker's chain as malicious via a software update (a hard fork). The community simply invalidates the attacker's blocks and migrates the honest ledger to a new branch, rendering the attacker's massive ASIC hardware investment completely useless.
-    
 - **Extreme Confirmation Levels:** For ultra-high-value transfers (e.g., millions of dollars between exchanges), businesses don't just wait 6 blocks—they might demand 60 or 100+ confirmations, making even a short-lived majority attack too expensive to maintain over time.
+- - -
+### Drawbacks of PoW
+- Speed of confirmation is very slow. A Bitcoin transaction takes on average 10 minutes to confirm. Even worse, it is advised to wait for 6 confirmations (confirmation levels), which takes about an hour.
+- Vulnerable to 51% attacks.
+- Proof of work is a race of power, relying on the assumption that the collective power of the honest network surpasses a malicious node.
+- Proof of work burns energy and negatively impacts the environment.
+- - -
+# Proof of Stake
+

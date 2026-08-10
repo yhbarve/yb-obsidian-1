@@ -3,4 +3,3 @@
 - [ ] DP-SGD Part (Slides 70-77)
 # Syntactic Privacy
 - [ ] Do the practice problems for k-anonymity
-- [ ] 

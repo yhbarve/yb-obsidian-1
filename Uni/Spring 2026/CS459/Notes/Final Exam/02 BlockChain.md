@@ -45,4 +45,21 @@
 	7. To resolve this fork, conscientious rules dictate that nodes must eventually follow the longest chain. Whichever branch grows longer first becomes the canonical history, and the shorter branch gets discarded.
 - - -
 # Proof of Work (PoW)
-
+- Proof of work forces miners to solve a computational puzzle, making history modification prohibitively expensive.
+- Without proof of work, altering past transactions requires negligible computational effort.
+- To fix this, a rule is added where the block header hash must start with **k** leading zero bits.
+- Miners iterate over a nonce value **N** inside the header to continuously change the resulting hash until the target difficulty is met: $\text{Hash}(H \parallel N \parallel \dots \parallel R) = 0x00.._k...$
+- **Probability:** For an $m$-bit hash, the probability of finding a valid nonce on a single attempt is $\frac{2^{m-k}}{2^m} = \frac{1}{2^k}$.
+- **Expected Work:** A miner expects to perform $2^k$ hash operations to find a single valid block.
+- **Bitcoin Implementation:** Uses double SHA-256 ($\text{SHA-256}(\text{SHA-256}(\text{header}))$, adjusting $k$ roughly every 2016 blocks to maintain a 10-minute block time.
+- **Incentives:** Miners are compensated via block rewards and transaction fees.
+- To construct a valid block, the previous block's header hash and the current block's payload hash remain fixed, while finding the right nonce value takes all the actual computational effort. You combine these three elements, run them through a hash function, and iterate through different nonce values until you successfully generate a final hash that meets the network's requirement of starting with a specific number of zeros.
+- How does this protect the changing of history?
+	- To rewrite history from 10 blocks ago, an attacker must re-mine that block plus every block after it, racing against the combined power of the rest of the network. Unless they control more than half of the total network hashing power, they will never catch up.
+	- You cannot just re-mine a random block N with a new nonce such that the resulting header hash matches the existing header stored in block N + 1. This is prevented by hash function pre-image and second pre-image resistance.
+	- **The Catch-Up Race:** If you go back 10 blocks, you must calculate 10 sequential valid nonces. While you are trying to compute those 10 blocks on your local copy, the honest network is working on top of the tip of the existing chain, constantly adding new blocks.
+	- **The Hash Power Requirement (51% Attack):** Because block discovery is a probabilistic game based on total hash rate, your speed relative to the rest of the network depends entirely on your percentage of total computational power:
+	    - **If you have $< 50\%$ of the network power:** Your branch will grow slower on average than the main chain. The probability of your shorter branch ever catching up and overtaking the main chain approaches zero as the depth increases.
+	    - **If you have $> 50\%$ of the network power:** You compute nonces faster than the rest of the network combined. You can eventually build a longer secret branch, broadcast it, and force all honest nodes to reorg to your chain.
+- It is always advisable to consider transactions from blocks that reside on the longest branch of a fork and have been further confirmed by additional blocks.
+- 

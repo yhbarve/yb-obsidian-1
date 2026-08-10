@@ -37,4 +37,28 @@
 	2. **Active Security:** Each party may arbitrarily deviate from the protocol. Either the protocol computes **f** or the protocol is aborted.
 - Passive Security is a prerequisite for Active Security.
 	- A protocol can be secure against passive adversaries but not active ones.
-	- 
+	- A protocol secure against active adversaries is also secure against passive ones.
+- Any protocol secure against passive adversaries can be turned into a protocol secure for active adversaries by adding protocol steps, proving the correct computation of each message.
+	- **Cryptographic Commitments:** Can we detect when a participant deviates from the protocol?
+	- **Validations:** Are parameters within expected bounds?
+- - -
+# Private Information Retrieval (PIR)
+- The main question is, can we query a database while remaining completely private?
+- If a client has index $i$ and server has a database $d_1, d_2, ..., d_n$,
+	- The client should learn about $d_i$.
+	- The server should not learn about the index $i$.
+- **A blatant non-private protocol:**
+	- The user send the index $i$ to the server.
+	- The server can then send back $X_i$. However, the server learns about $i$.
+- **A trivially private protocol:**
+	- The user simply sends a request to the server without mentioning any index.
+	- The server sends back all or the entire data set back to the user, and the user can select whichever element it wants to access.
+	- This ensures complete privacy.
+	- However, if the data set is huge, the server will have to send all the entire data set to every single user making a request, which makes it highly impractical.
+## Information-Theoretic PIR
+- **Setup & Query Generation:** The user wants to retrieve bit $X_i$. They pick a random subset of indices $Q_1$ that specifically **excludes** $i$, and send $Q_1$ to Server 1.
+- **Server 1 Response:** Server 1 computes the XOR sum of all bits indexed in $Q_1$ ($R_1 = \bigoplus_{k \in Q_1} X_k$) and sends the single bit $R_1$ back to the user.
+- **Query to Server 2:** The user creates a second query $Q_2$ by adding their desired index $i$ into the first query ($Q_2 = Q_1 \cup \{i\}$), and sends $Q_2$ to Server 2.
+- **Server 2 Response:** Server 2 computes the XOR sum of the bits in $Q_2$ ($R_2 = \bigoplus_{k \in Q_2} X_k$) and sends $R_2$ back.
+- **Reconstruction:** The user recovers their target bit by XORing the two responses together ($X_i = R_1 \oplus R_2$), because all the overlapping random bits cancel out.
+- - -

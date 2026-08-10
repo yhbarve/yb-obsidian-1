@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Notes/Final Exam/02 BlockChain.md",
+                "file": "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 BlockChain"
+              "title": "05 Differential Privacy"
             }
           }
         ]
@@ -212,6 +212,7 @@
   },
   "active": "8ad9f5ed0d79d8e1",
   "lastOpenFiles": [
+    "Uni/Spring 2026/CS459/Notes/Final Exam/02 BlockChain.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/09 Homomorphic Encryption.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/08 Poisoning Attacks.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/06 Privacy-Preserving Machine Learning.md",
@@ -220,7 +221,6 @@
     "Uni/Spring 2026/CS459/Notes/Final Exam/07 Adversarial Machine Learning.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/10 Multi-Party Computation.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
-    "Uni/Spring 2026/CS459/Notes/Final Exam/02 BlockChain.md",
     "Untitled.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/01 Network Steganography & Information Hiding.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/03 Inference Attacks.md",

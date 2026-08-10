@@ -90,4 +90,13 @@
 - **Generate():** Sets up the environment and returns public parameters $pp$.
 - **Share(pp, x, n, t):** Takes a secret $x$ and splits it into $n$ distinct shares ($x_1, x_2, \dots, x_n$), distributing one to each party ($P_1$ through $P_n$).
 - **Reconstruct(pp, $\{x_1, \dots, x_t\}$):** Combines any threshold group of $t$ or more shares to successfully recover the original secret $x$.
-- We generally split a secret x into n shares, but for some use cases we might want to retrieve x by combining only t shares. These are called t-out-of-n secret sharing schemes.
+- We generally split a secret x into n shares, but for some use cases we might want to retrieve x by combining only t shares. These are called **t-out-of-n** secret sharing schemes.
+## N-Out-Of-N Secret Sharing Scheme
+- **Share Generation ($Share(x, n, p)$):**
+    - Randomly select $n-1$ shares ($s_1, s_2, \dots, s_{n-1}$) from the group field $\mathbb{Z}_p$.
+    - Compute the final share as: $s_n = (x - \sum_{i=1}^{n-1} s_i) \pmod p$.
+    - Distribute each share $s_i$ to party $P_i$.
+- **Secret Reconstruction ($Reconstruct(\{s_1, s_2, \dots, s_n\}, p)$):**
+    - Collect all $n$ shares because every single share is required.
+    - Sum them up and apply modulo $p$: $x = (\sum_{i=1}^{n} s_i) \pmod p$.
+- - -

@@ -21,3 +21,22 @@
 # Blockchain
 - A blockchain is a chain of blocks.
 - Each block contains a cryptographic hash of the total body of the previous block. Therefore, each block cryptographically depends on the previous blocks.
+- In version one, the previous blocks hash covers both the header and the payload. To verify, you are forced to fetch the entire prior block, including the payload.
+- Version to fix that by dividing the block into a header and a payload.
+	- The header contains two critical values:
+		- **H**: A cryptographic hash of the previous block's header.
+		- **R**: A cryptographic hash of the current block's payload.
+	- Now, to verify a previous block, you only fetch the small headers and verify that the value in the current block's **H** matches the hash of the previous block's header. You never touch the payloads.
+- Anything can go into the payload. From our previous examples, the chest results could be stored as lines in the payload.
+- - -
+# Consensus
+- Conscious is the answer to how data gets into the block.
+- A block is simply a digital container or a batch that stores data and seals them together with cryptographic metadata.
+- Instead of writing transactions one by one to a ledger across a distributed network, the network bundles them into a single block to process them as a single step.
+- Once the nodes agree via consensus that a block is valid, it gets permanently appended to the shared chain, making its history immutable.
+- Nodes are hosting the blockchain. Clients are not necessarily nodes, but they have access to the blockchain.
+- Steps involved in adding data to a block:
+	1. A transaction is created and signed by a client.
+	2. The transaction is sent to one or multiple nodes. The nodes validate the transaction and broadcast it to other nodes.
+	3. If all the nodes agree, the block is added right away.
+	4. 

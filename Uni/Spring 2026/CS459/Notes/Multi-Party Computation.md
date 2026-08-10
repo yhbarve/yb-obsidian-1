@@ -62,3 +62,32 @@
 - **Server 2 Response:** Server 2 computes the XOR sum of the bits in $Q_2$ ($R_2 = \bigoplus_{k \in Q_2} X_k$) and sends $R_2$ back.
 - **Reconstruction:** The user recovers their target bit by XORing the two responses together ($X_i = R_1 \oplus R_2$), because all the overlapping random bits cancel out.
 - - -
+## Quadratic Residues
+- A quadratic residue is a number that has a square root modulo m. Basically, it leaves a specific remainder when some integer is squared and divided by m.
+- A number $a$ is a quadratic residue modulo $m$ if you can find an integer $x$ such that $x^2 \equiv a \pmod m$.
+- **Example with $m = 7$:**
+- Squaring integers gives the remainders: $1^2=1$, $2^2=4$, and $3^2=2$ (and they repeat).
+- Because $1, 2,$ and $4$ can be reached by squaring an integer modulo $7$, they are **Quadratic Residues**.
+- The numbers $3, 5,$ and $6$ can never be produced as a square modulo $7$, so they are **Quadratic Non-Residues**.
+## Computational PIR
+- **Setup & Query Generation:** To retrieve bit $X_i$ from an $n$-bit database, the user picks a large random number $m$ and creates a sequence of numbers. For every database index _except_ $i$, they generate a random quadratic residue (QR). For the target index $i$, they insert a quadratic non-residue (QNR) $b_i$.
+- **Sending the Request:** The user sends this full mixed sequence of numbers to the server. Because the server cannot computationally distinguish between QRs and QNRs mod $m$, it just sees a sequence of random numbers ($u_1, u_2, \dots, u_n$) and has no idea which position is being targeted.
+- **Server Computation:** The server multiplies the query elements raised to the power of their corresponding database bits ($R = u_1^{X_1} \cdot u_2^{X_2} \cdot \dots \cdot u_n^{X_n}$) and sends the result $R$ back to the user.
+- **Decoding the Result:** The user checks whether $R$ is a quadratic residue mod $m$. If it is a QR, the target bit $X_i = 0$; if it is a QNR, the target bit $X_i = 1$.
+- - -
+# CPIR vs IT-PIR
+| CPIR                                                   | IT-PIR                                                       |
+| ------------------------------------------------------ | ------------------------------------------------------------ |
+| Possible with single server.                           | Only possible with more than one servers.                    |
+| Server needs to perform intensive computations.        | Server may need lightweight computations only.               |
+| To break it, the server needs to solve a hard problem. | To break it, the server needs to collude with other servers. |
+- - -
+# Secret Sharing
+- Could we share a piece of information between several parties so that the individual parties learn nothing about it but can work together to recover this information?
+- Example: nuclear launch codes
+## Secret Sharing Schemes
+- Secret sharing splits a secret X among N parties into individual pieces called shares, such that any group of at least T shares can rebuild the secret, while fewer than T shares reveal nothing.
+- **Generate():** Sets up the environment and returns public parameters $pp$.
+- **Share(pp, x, n, t):** Takes a secret $x$ and splits it into $n$ distinct shares ($x_1, x_2, \dots, x_n$), distributing one to each party ($P_1$ through $P_n$).
+- **Reconstruct(pp, $\{x_1, \dots, x_t\}$):** Combines any threshold group of $t$ or more shares to successfully recover the original secret $x$.
+- We generally split a secret x into n shares, but for some use cases we might want to retrieve x by combining only t shares. These are called t-out-of-n secret sharing schemes.

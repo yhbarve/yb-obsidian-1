@@ -98,4 +98,5 @@ Because math alone cannot stop a majority hash-power attack, blockchains rely on
 - Misbehaviours are mostly automatically detected and enforced by the blockchain.
 	- In some proof-of-stake blockchains, specialized nodes called fishermen can report bad behavior.
 	- In rare cases, some blockchains with on-chain governance can make governance-driven slashing, where stakeholders often, via a token-weighted voting system, decide if a node should be punished for behavior that is harder to detect automatically.
-- 
+## 51% Attack in PoS
+- An attacker holding 51% of the stake can exploit the network because leader selection in proof of stake is proportional to the stake. If you own over half the total stake, you get chosen as the elected leader for more than 51% of all block proposals.

@@ -90,14 +90,25 @@
 - Timing and content anomalies may be an effective way to detect covert channels. But there are better ways to hide the existence of covert data transmissions.
 - **Traffic obfuscation** hides the characteristics of a covert data transmission by shaping the look of data exchanges.
 - Some techniques for traffic obfuscation include:
-	- Randomized Traffic
+	- **Randomized Traffic**
 		- The idea is to evade inspection by generating traffic that does not conform to any known protocol specification.
 		- Randomize packet sizes, timings, and contents.
 		- Examples: Shadowsocks, V2Ray, OutlineVPN
 		- A potential issue is that it "looks-like-nothing" might be a signature in itself.
 		- This may not work if wardens have protocol allow lists in place.
 		- And it can still be detected via cryptographic flaws and entropy tests.
-	- Mimic Traffic
+	- **Mimic Traffic**
 		- The idea is to hide a protocol's execution by mimicking another innocuous protocol's characteristics.
-		- 
-	- Tunnel Traffic
+		- Leverage steganography or encrypted carrier protocols
+		- Mimic how an encrypted cover protocol sends its traffic.
+		- Some issues include the difficulty to build a perfect imitation.
+		- Now it is believed to be a fundamentally flawed approach.
+	- **Tunnel Traffic**
+		- The idea is to piggy back covert data on the execution of a protocol.
+		- Send covert data as the protocol's application messages help avoid mimicking issues.
+		- Still needs to ensure the cover protocol does not generate weird traffic patterns.
+		- Eg: Meek & Decoy Routing (HTTPS), Dolphin (Cellphones), SWEET & Camoufler (Email)
+		- Often times, there is a disconnect between the usage patterns of the cover protocol and the covert protocol. Covert data embedding mechanisms may slow down the cover activity, leading to noticeable changes in traffic patterns.
+- Covered channels allow for the surreptitious transfer of information, both within processes of a given machine or across machines.
+- Network covert channels are increasingly hard to detect but can also be used for commendable purposes.
+- - -

@@ -100,3 +100,22 @@ Because math alone cannot stop a majority hash-power attack, blockchains rely on
 	- In rare cases, some blockchains with on-chain governance can make governance-driven slashing, where stakeholders often, via a token-weighted voting system, decide if a node should be punished for behavior that is harder to detect automatically.
 ## 51% Attack in PoS
 - An attacker holding 51% of the stake can exploit the network because leader selection in proof of stake is proportional to the stake. If you own over half the total stake, you get chosen as the elected leader for more than 51% of all block proposals.
+- When it is the attacker's turn to propose a block, they simply choose to leave out transactions from specific users or addresses. Because they are the leader for most slots, those transactions get continuously delayed or blocked entirely.
+- As the leader, the attacker decides the exact sequence of transactions within a block, allowing them to front-run or back-run users to extract financial value systematically.
+- However, an attacker cannot sign a transaction from your private key or create coins out of thin air. They can only manipulate block proposal ordering, inclusion, and chain history.
+## PoS Problems
+1. **Bootstrapping**
+	- A past validator who owned a lot of stake previously goes back in history to the genesis block and secretly signs an entirely new alternative history all the way to the present.
+	- Signing blocks requires zero real-world power and electricity, so an attacker can generate millions of fake blocks in seconds.
+	- When a brand new user spins up a fresh node for the first time, he receives two valid-looking chains of equal length starting from genesis.
+	- Because both chains are properly signed by valid stakeholders at those historical times, Bob has no mathematical way to know which chain is real.
+	- In POV, Bob simply measures cumulative heavy computation. Recreating ten years of POP blocks takes ten real years of physical energy, making long-range fake chains impossible to generate instantly.
+	- There are no simple solutions to prevent bootstrapping. In some protocols, trusted nodes broadcast the correct block hash or the correct legitimate chain's hash on a daily basis.
+	- **A centralized point of trust is by the way the very principles of decentralization.**
+2. **The Nothing-At-Stake problem**
+	- **How It Starts:** Alice (an attacker with even a small stake, e.g., 1%) gets elected leader and creates a fork by publishing two conflicting blocks ($A \rightarrow B$ and $A \rightarrow D$).
+	- **The Incentive Loophole:** In Proof of Work (PoW), splitting your computational hash power across two chains cuts your chances of winning in half. In Proof of Stake (PoS), building on a block costs zero electricity—it is just a digital signature.
+	- **The Consequence:** The next honest leader has no financial downside to proposing on **both** forks. By building on all branches simultaneously, the validator guarantees they will get paid no matter which branch eventually wins.
+	- **The Exploit (1% Attack):** Because honest validators keep both chains alive for free, Alice can wait until her desired chain gets ahead, append her block there, and kill the opposing chain—allowing her to double-spend.
+	- **Solution:** Protocols introduce **Slashing**. If a validator gets caught double-signing (voting/signing on two conflicting blocks at the same height), their locked stake is automatically burned or confiscated.
+- - -

@@ -90,4 +90,12 @@ Because math alone cannot stop a majority hash-power attack, blockchains rely on
 - Proof of work burns energy and negatively impacts the environment.
 - - -
 # Proof of Stake
-
+- In a proof of stake scheme, collisions are not allowed by design. Only the elected leader proposes a block.
+- A node becomes a leader through a weighted random selection process. The probability of being chosen as the leader for a given time slot is directly proportional to the size of the staked financial collateral.
+- The network sends valid transactions to the elected leader so that it can construct and publish the block.
+- If Node 3 acts dishonestly by proposing a block containing a fraudulent or double-spending transaction, it is considered to be a misbehaviour.
+- A node can be punished for its behavior. Its stake can get slashed.
+- Misbehaviours are mostly automatically detected and enforced by the blockchain.
+	- In some proof-of-stake blockchains, specialized nodes called fishermen can report bad behavior.
+	- In rare cases, some blockchains with on-chain governance can make governance-driven slashing, where stakeholders often, via a token-weighted voting system, decide if a node should be punished for behavior that is harder to detect automatically.
+- 

@@ -13,10 +13,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Uni/Spring 2026/CS459/Slides/Final Exam/01 Information Hiding.pdf"
+                "file": "Uni/Spring 2026/CS459/Slides/Final Exam/09 Multi-Party Computation.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "01 Information Hiding"
+              "title": "09 Multi-Party Computation"
+            }
+          },
+          {
+            "id": "1c3b8b71861fccc1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Uni/Spring 2026/CS459/Slides/Final Exam/05 Differential Privacy.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "05 Differential Privacy"
             }
           }
         ]
@@ -209,13 +221,16 @@
   },
   "active": "c261bb1992e4fade",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
-    "Uni/Spring 2026/CS459/Slides/Final Exam/09 Multi-Party Computation.pdf",
-    "Uni/Spring 2026/CS459/Slides/Final Exam/03 Inference Attacks.pdf",
-    "Uni/Spring 2026/CS459/Slides/Final Exam/01 Information Hiding.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/08 Poisoning Attacks.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/07 Adversarial Machine Learning.pdf",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/06 Privacy Preserving ML.pdf",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/05 Differential Privacy.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/04 Syntactic Notions of Privacy.pdf",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/03 Inference Attacks.pdf",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/02 Blockchain.pdf",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/01 Information Hiding.pdf",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/09 Multi-Party Computation.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/10 Homomorphic Encryption.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam",
     "Uni/Spring 2026/CS459/Notes/Final Exam/02 BlockChain.md",
@@ -230,9 +245,7 @@
     "Uni/Spring 2026/CS459/Notes/Final Exam/01 Network Steganography & Information Hiding.md",
     "Uni/Spring 2026/CS459/Notes/Final Exam/03 Inference Attacks.md",
     "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
-    "Uni/Spring 2026/CS459/Notes/Final Exam",
     "Uni/Spring 2026/CS459/Notes/03 Public Key Cryptography.md",
-    "Uni/Spring 2026/CS459/Assignments/CS459 A3/CS459 A03 Written - Yash Barve.pdf",
     "Uni/Spring 2026/CS459/Notes/02 Cryptography Basics.md",
     "Uni/Spring 2026/CS459/Notes/01 Introduction.md",
     "Uni/Spring 2026/BU433/BU433 Notes/12 Analysis of Commercial Banks' Performance.md",

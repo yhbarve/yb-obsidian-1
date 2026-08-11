@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b740f0ebc8be4749",
+        "id": "6ce966bd6d8c7875",
         "type": "tabs",
         "children": [
           {
-            "id": "c261bb1992e4fade",
+            "id": "f7a49e628df8ab5e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Slides/Final Exam/09 Multi-Party Computation.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "09 Multi-Party Computation"
-            }
-          },
-          {
-            "id": "1c3b8b71861fccc1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/CS459/Slides/Final Exam/05 Differential Privacy.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "05 Differential Privacy"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -219,14 +205,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c261bb1992e4fade",
+  "active": "f7a49e628df8ab5e",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS459/Slides/Final Exam/10 Homomorphic Encryption.pdf",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/05 Differential Privacy.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/09 Multi-Party Computation.pdf",
+    "Uni/Spring 2026/CS459/Slides/Final Exam/10 Homomorphic Encryption.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/08 Poisoning Attacks.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/07 Adversarial Machine Learning.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/06 Privacy Preserving ML.pdf",
-    "Uni/Spring 2026/CS459/Slides/Final Exam/05 Differential Privacy.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/04 Syntactic Notions of Privacy.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/03 Inference Attacks.pdf",
     "Uni/Spring 2026/CS459/Slides/Final Exam/02 Blockchain.pdf",

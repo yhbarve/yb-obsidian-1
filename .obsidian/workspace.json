@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4a2624a52426a927",
+        "id": "f50b5fb657da9d93",
         "type": "tabs",
         "children": [
           {
-            "id": "9518b23f0a35b451",
+            "id": "c204740edd5c8a77",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/CS398/Cheat Sheets/CS398 Final Exam Cheat Sheet.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "CS398 Final Exam Cheat Sheet"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -76,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 204.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -194,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 251.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,10 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9518b23f0a35b451",
+  "active": "351d2f5929c8d7ca",
   "lastOpenFiles": [
-    "Uni/Spring 2026/CS398/Cheat Sheets/CS398 Test 02 Cheat Sheet.pdf",
     "Uni/Spring 2026/CS398/Cheat Sheets/CS398 Final Exam Cheat Sheet.pdf",
+    "Uni/Spring 2026/CS398/Cheat Sheets/CS398 Test 02 Cheat Sheet.pdf",
     "Uni/Spring 2026/CS398/Cheat Sheets/CS398 Final Exam Cheat Sheet v3.pdf",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
     "Uni/Spring 2026/CS398/Cheat Sheets",

@@ -11,12 +11,14 @@
             "id": "5b4ed91b4038dff7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Final Cheatsheet.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "BU433 Final Cheatsheet"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -207,11 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "095612f718b0b9a3",
+  "active": "5b4ed91b4038dff7",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Final Cheatsheet.pdf",
     "Uni/Spring 2026/BU433/Review Before Exam.md",
     "Uni/Spring 2026/BU433/BU433 Final Cheatsheet v2.pdf",
-    "Uni/Spring 2026/BU433/BU433 Final Cheatsheet.pdf",
     "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Managing Interest Rate & Insolvency Risk.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Hedging Off Bal Sheet Risk - Loan Sales_Securitization.pptx",
@@ -244,7 +246,6 @@
     "Uni/Spring 2026/CS398/Slides/03 Code Comprehension Without LLMs/Code Comprehension Examples 02.md",
     "Uni/Spring 2026/CS398/Slides/03 Code Comprehension Without LLMs/Code Comprehension Examples 01.md",
     "Uni/Spring 2026/CS459/CS459 Topics to Revisit.md",
-    "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",

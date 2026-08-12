@@ -20,13 +20,26 @@ Cheers!
 11. 2015 - Rosberg
 12. 2014 - Rosberg
 - - -
-1. Verstappen
-2. Norris
-3. Perez
-4. Leclerc
-5. Hamilton
-6. Bottas
-7. Vettel
-8. Rosberg
-9. Alonso
-10. Button
+1. Verstappen (YES)
+2. Hamilton (YES)
+3. Sainz (YES)
+4. Tsunoda (YES)
+5. Gasly (YES)
+6. Norris (YES)
+7. Leclerc (YES)
+8. Ocon (YES)
+9. Alonso (YES)
+10. Bottas (YES)
+- - -
+0. MONACO
+1. JAPAN
+2. SPA
+3. MIAMI
+4. CHINA
+5. HUNGARY
+6. SPAIN
+7. SILVERSTONE
+8. AUSTRIA
+9. AUSTRALIA
+10. CANADA
+- - -

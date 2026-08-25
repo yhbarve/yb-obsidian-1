@@ -8,19 +8,19 @@
 - [ ] 7. Pakistan (472)
 - [ ] 8. Sri Lanka (331)
 - [ ] 9. Bangladesh (161)
-- [ ] 10. Zimbabwe ()
+- [ ] 10. Zimbabwe (130)
 - - -
 # 2. Most test wins (country)
-- [ ] 1. Australia
-- [ ] 2. England
-- [ ] 3. South Africa
-- [ ] 4. India
-- [ ] 5. West Indies
-- [ ] 6. Pakistan
-- [ ] 7. New Zealand
-- [ ] 8. Sri Lanka
-- [ ] 9. Bangladesh
-- [ ] 10. Zimbabwe
+- [ ] 1. Australia (427)
+- [ ] 2. England (406)
+- [ ] 3. South Africa (191)
+- [ ] 4. India (187)
+- [ ] 5. West Indies (187)
+- [ ] 6. Pakistan (153)
+- [ ] 7. New Zealand (126)
+- [ ] 8. Sri Lanka (107)
+- [ ] 9. Bangladesh (28)
+- [ ] 10. Zimbabwe (16)
 - - -
 # 3. Most test runs
 - [ ] 1. Sachin Tendulkar (15921)
@@ -35,16 +35,16 @@
 - [ ] 10. Mahela Jayawardane (11814)
 - - -
 # 4. Most test wickets
-- [ ] 1. Mutthiah Muralitharan
-- [ ] 2. Shane Warne
-- [ ] 3. James Anderson
-- [ ] 4. Anil Kumble
-- [ ] 5. Stuart Broad
-- [ ] 6. Nathan Lyon
-- [ ] 7. Glenn McGrath
-- [ ] 8. Ravichandran Ashwin
-- [ ] 9. Courtney Walsh
-- [ ] 10. Mitchell Starc
+- [ ] 1. Mutthiah Muralitharan (800)
+- [ ] 2. Shane Warne (708)
+- [ ] 3. James Anderson (704)
+- [ ] 4. Anil Kumble (619)
+- [ ] 5. Stuart Broad (604)
+- [ ] 6. Nathan Lyon (571)
+- [ ] 7. Glenn McGrath (563)
+- [ ] 8. Ravichandran Ashwin (537)
+- [ ] 9. Courtney Walsh (519)
+- [ ] 10. Mitchell Starc (445)
 - - -
 # 5. Most test 100s
 - [ ] 1. Sachin Tendulkar (51)
@@ -59,16 +59,16 @@
 - [ ] 10. Younis Khan (34)
 - - -
 # 6. Most test 5-fers
-- [ ] 1. Muttiah Muralitharan
-- [ ] 2. Ravichandran Ashwin
-- [ ] 3. Shane Warne
-- [ ] 4. Sir Richard Hadlee
-- [ ] 5. Anil Kumble
-- [ ] 6. Rangana Herath
-- [ ] 7. James Anderson
-- [ ] 8. Glenn McGrath
-- [ ] 9. Sir Ian Botham
-- [ ] 10. Dale Steyn
+- [ ] 1. Muttiah Muralitharan (67)
+- [ ] 2. Ravichandran Ashwin (37)
+- [ ] 3. Shane Warne (37)
+- [ ] 4. Sir Richard Hadlee (36)
+- [ ] 5. Anil Kumble (35)
+- [ ] 6. Rangana Herath (34)
+- [ ] 7. James Anderson (32)
+- [ ] 8. Glenn McGrath (29)
+- [ ] 9. Sir Ian Botham (27)
+- [ ] 10. Dale Steyn (26)
 - - -
 # 7. Most tests at a venue
 - [ ] 1. Lord's (150)

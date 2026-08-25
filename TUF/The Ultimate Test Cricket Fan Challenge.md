@@ -94,3 +94,39 @@
 - [ ] 9. Alastair Cook
 - [ ] 10. Allan Border
 - - -
+# 9. Highest Individual Innings Score
+- [ ] 1. Brian Lara (400*)
+- [ ] 2. Matthew Hayden (380)
+- [ ] 3. Brian Lara (375)
+- [ ] 4. Mahela Jayawardene (374)
+- [ ] 5. Sir Garfield Sobers (365*)
+- [ ] 6. Sir Len Hutton ()
+- [ ] 7. Sanath Jayasuriya
+- [ ] 8. Hanif Mohammed
+- [ ] 9. Wally Hammond
+- [ ] 10. Mark Taylor
+- - -
+# 10. Most wickets in a calendar year
+- [ ] 1. Shane Warne (96)
+- [ ] 2. Muttiah Muralitharan (90)
+- [ ] 3. Dennis Lillee (85)
+- [ ] 4. Allan Donald (80)
+- [ ] 5. Muttiah Muralitharan (80)
+- [ ] 6. Joel Garner (79)
+- [ ] 7. Muttiah Muralitharan (75)
+- [ ] 8. Kapil Dev (75)
+- [ ] 9. Dale Steyn (74)
+- [ ] 10. Anil Kumble (74)
+- - -
+# 11. Most runs in a calendar year
+- [ ] 1. Mohammed Yousuf (1788)
+- [ ] 2. Sir Viv Richards (1710)
+- [ ] 3. Joe Root (1708)
+- [ ] 4. Graeme Smith (1656)
+- [ ] 5. Michael Clarke (1595)
+- [ ] 6. Sachin Tendulkar (1562)
+- [ ] 7. Joe Root (1556)
+- [ ] 8. Sunil Gavaskar (1555)
+- [ ] 9. Ricky Ponting (1544)
+- [ ] 10. Ricky Ponting (1503)
+- - -

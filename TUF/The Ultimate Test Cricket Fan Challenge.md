@@ -1,14 +1,14 @@
 # 1. Most test matches (country)
-- [ ] 1. England
-- [ ] 2. Australia
-- [ ] 3. India
-- [ ] 4. West Indies
-- [ ] 5. New Zealand
-- [ ] 6. South Africa
-- [ ] 7. Pakistan
-- [ ] 8. Sri Lanka
-- [ ] 9. Bangladesh
-- [ ] 10. Zimbabwe
+- [ ] 1. England (1098)
+- [ ] 2. Australia (884)
+- [ ] 3. India (601)
+- [ ] 4. West Indies (596)
+- [ ] 5. New Zealand (487)
+- [ ] 6. South Africa (479)
+- [ ] 7. Pakistan (472)
+- [ ] 8. Sri Lanka (331)
+- [ ] 9. Bangladesh (161)
+- [ ] 10. Zimbabwe ()
 - - -
 # 2. Most test wins (country)
 - [ ] 1. Australia
@@ -23,16 +23,16 @@
 - [ ] 10. Zimbabwe
 - - -
 # 3. Most test runs
-- [ ] 1. Sachin Tendulkar
-- [ ] 2. Joe Root
-- [ ] 3. Ricky Ponting
-- [ ] 4. Jacques Kallis
-- [ ] 5. Rahul Dravid
-- [ ] 6. Alastair Cook
-- [ ] 7. Kumar Sangakkara
-- [ ] 8. Brian Lara
-- [ ] 9. Shivnarine Chanderpaul
-- [ ] 10. Mahela Jayawardane
+- [ ] 1. Sachin Tendulkar (15921)
+- [ ] 2. Joe Root (14180)
+- [ ] 3. Ricky Ponting (13378)
+- [ ] 4. Jacques Kallis (13289)
+- [ ] 5. Rahul Dravid (13288)
+- [ ] 6. Alastair Cook (12472)
+- [ ] 7. Kumar Sangakkara (12400)
+- [ ] 8. Brian Lara (11953)
+- [ ] 9. Shivnarine Chanderpaul (11867)
+- [ ] 10. Mahela Jayawardane (11814)
 - - -
 # 4. Most test wickets
 - [ ] 1. Mutthiah Muralitharan
@@ -47,16 +47,16 @@
 - [ ] 10. Mitchell Starc
 - - -
 # 5. Most test 100s
-- [ ] 1. Sachin Tendulkar
-- [ ] 2. Jacques Kallis
-- [ ] 3. Ricky Ponting
-- [ ] 4. Joe Root
-- [ ] 5. Kumar Sangakkara
-- [ ] 6. Steven Smith
-- [ ] 7. Rahul Dravid
-- [ ] 8. Sunil Gavaskar
-- [ ] 9. Brian Lara
-- [ ] 10. Younis Khan
+- [ ] 1. Sachin Tendulkar (51)
+- [ ] 2. Jacques Kallis (45)
+- [ ] 3. Ricky Ponting (41)
+- [ ] 4. Joe Root (41)
+- [ ] 5. Kumar Sangakkara (38)
+- [ ] 6. Steven Smith (37)
+- [ ] 7. Rahul Dravid (36)
+- [ ] 8. Sunil Gavaskar (34)
+- [ ] 9. Brian Lara (34)
+- [ ] 10. Younis Khan (34)
 - - -
 # 6. Most test 5-fers
 - [ ] 1. Muttiah Muralitharan
@@ -71,40 +71,40 @@
 - [ ] 10. Dale Steyn
 - - -
 # 7. Most tests at a venue
-- [ ] 1. Lord's
-- [ ] 2. MCG
-- [ ] 3. SCG
-- [ ] 4. Kennington Oval
-- [ ] 5. Old Trafford
-- [ ] 6. Adelaide Oval
-- [ ] 7. Headingley
-- [ ] 8. Basin Reserve
-- [ ] 9. The Gabba
-- [ ] 10. Trent Bridge
+- [ ] 1. Lord's (150)
+- [ ] 2. MCG (118)
+- [ ] 3. SCG (114)
+- [ ] 4. Kennington Oval (109)
+- [ ] 5. Old Trafford (86)
+- [ ] 6. Adelaide Oval (84)
+- [ ] 7. Headingley (83)
+- [ ] 8. Basin Reserve (70)
+- [ ] 9. The Gabba (68)
+- [ ] 10. Trent Bridge (68)
 - - -
 # 8. Most test caps
-- [ ] 1. Sachin Tendulkar
-- [ ] 2. James Anderson
-- [ ] 3. Ricky Ponting
-- [ ] 4. Steve Waugh
-- [ ] 5. Joe Root
-- [ ] 6. Jacques Kallis
-- [ ] 7. Rahul Dravid
-- [ ] 8. Shivnarine Chanderpaul
-- [ ] 9. Alastair Cook
-- [ ] 10. Allan Border
+- [ ] 1. Sachin Tendulkar (200)
+- [ ] 2. James Anderson (188)
+- [ ] 3. Ricky Ponting (168)
+- [ ] 4. Steve Waugh (168)
+- [ ] 5. Stuart Broad (167)
+- [ ] 6. Joe Root (167)
+- [ ] 7. Jacques Kallis (166)
+- [ ] 8. Shivnarine Chanderpaul (164)
+- [ ] 9. Rahul Dravid (164)
+- [ ] 10. Alastair Cook (161)
 - - -
 # 9. Highest Individual Innings Score
 - [ ] 1. Brian Lara (400*)
 - [ ] 2. Matthew Hayden (380)
 - [ ] 3. Brian Lara (375)
 - [ ] 4. Mahela Jayawardene (374)
-- [ ] 5. Sir Garfield Sobers (365*)
-- [ ] 6. Sir Len Hutton ()
-- [ ] 7. Sanath Jayasuriya
-- [ ] 8. Hanif Mohammed
-- [ ] 9. Wally Hammond
-- [ ] 10. Mark Taylor
+- [ ] 5. Wiaan Mulder (367*)
+- [ ] 6. Sir Garfield Sobers (365*)
+- [ ] 7. Sir Len Hutton (364)
+- [ ] 8. Sanath Jayasuriya
+- [ ] 9. Hanif Mohammed
+- [ ] 10. Wally Hammond
 - - -
 # 10. Most wickets in a calendar year
 - [ ] 1. Shane Warne (96)
@@ -126,7 +126,7 @@
 - [ ] 5. Michael Clarke (1595)
 - [ ] 6. Sachin Tendulkar (1562)
 - [ ] 7. Joe Root (1556)
-- [ ] 8. Sunil Gavaskar (1555)
-- [ ] 9. Ricky Ponting (1544)
-- [ ] 10. Ricky Ponting (1503)
+- [ ] 8. Ricky Ponting (1544)
+- [ ] 9. Ricky Ponting (1503)
+- [ ] 10. Michael Vaughan (1481)
 - - -

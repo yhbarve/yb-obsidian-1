@@ -9,6 +9,7 @@
 - [ ] 8. Sri Lanka
 - [ ] 9. Bangladesh
 - [ ] 10. Zimbabwe
+- - -
 # 2. Most test wins (country)
 - [ ] 1. Australia
 - [ ] 2. England
@@ -20,6 +21,7 @@
 - [ ] 8. Sri Lanka
 - [ ] 9. Bangladesh
 - [ ] 10. Zimbabwe
+- - -
 # 3. Most test runs
 - [ ] 1. Sachin Tendulkar
 - [ ] 2. Joe Root
@@ -31,9 +33,64 @@
 - [ ] 8. Brian Lara
 - [ ] 9. Shivnarine Chanderpaul
 - [ ] 10. Mahela Jayawardane
+- - -
 # 4. Most test wickets
-- [ ] 
+- [ ] 1. Mutthiah Muralitharan
+- [ ] 2. Shane Warne
+- [ ] 3. James Anderson
+- [ ] 4. Anil Kumble
+- [ ] 5. Stuart Broad
+- [ ] 6. Nathan Lyon
+- [ ] 7. Glenn McGrath
+- [ ] 8. Ravichandran Ashwin
+- [ ] 9. Courtney Walsh
+- [ ] 10. Mitchell Starc
+- - -
 # 5. Most test 100s
+- [ ] 1. Sachin Tendulkar
+- [ ] 2. Jacques Kallis
+- [ ] 3. Ricky Ponting
+- [ ] 4. Joe Root
+- [ ] 5. Kumar Sangakkara
+- [ ] 6. Steven Smith
+- [ ] 7. Rahul Dravid
+- [ ] 8. Sunil Gavaskar
+- [ ] 9. Brian Lara
+- [ ] 10. Younis Khan
+- - -
 # 6. Most test 5-fers
+- [ ] 1. Muttiah Muralitharan
+- [ ] 2. Ravichandran Ashwin
+- [ ] 3. Shane Warne
+- [ ] 4. Sir Richard Hadlee
+- [ ] 5. Anil Kumble
+- [ ] 6. Rangana Herath
+- [ ] 7. James Anderson
+- [ ] 8. Glenn McGrath
+- [ ] 9. Sir Ian Botham
+- [ ] 10. Dale Steyn
+- - -
 # 7. Most tests at a venue
+- [ ] 1. Lord's
+- [ ] 2. MCG
+- [ ] 3. SCG
+- [ ] 4. Kennington Oval
+- [ ] 5. Old Trafford
+- [ ] 6. Adelaide Oval
+- [ ] 7. Headingley
+- [ ] 8. Basin Reserve
+- [ ] 9. The Gabba
+- [ ] 10. Trent Bridge
+- - -
 # 8. Most test caps
+- [ ] 1. Sachin Tendulkar
+- [ ] 2. James Anderson
+- [ ] 3. Ricky Ponting
+- [ ] 4. Steve Waugh
+- [ ] 5. Joe Root
+- [ ] 6. Jacques Kallis
+- [ ] 7. Rahul Dravid
+- [ ] 8. Shivnarine Chanderpaul
+- [ ] 9. Alastair Cook
+- [ ] 10. Allan Border
+- - -

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TUF/The Ultimate Test Cricket Fan Challenge.md",
+                "file": "TUF/The Kohli Fan Challenge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Ultimate Test Cricket Fan Challenge"
+              "title": "The Kohli Fan Challenge"
             }
           }
         ]
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 251.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,8 +215,9 @@
   },
   "active": "5b4ed91b4038dff7",
   "lastOpenFiles": [
-    "README.md",
     "TUF/The Ultimate Test Cricket Fan Challenge.md",
+    "TUF/The Kohli Fan Challenge.md",
+    "README.md",
     "TUF",
     "Uni/Spring 2026/BU433/BU433 Final Cheatsheet.pdf",
     "Uni/Spring 2026/BU433/Review Before Exam.md",
@@ -249,7 +251,6 @@
     "Uni/Spring 2026/CS398/Slides/04 Requirements/Requirements Examples 02.md",
     "Uni/Spring 2026/CS398/Slides/04 Requirements/Requirements Examples 01.md",
     "Uni/Spring 2026/CS398/Slides/03 Code Comprehension Without LLMs/Code Comprehension Examples 02.md",
-    "Uni/Spring 2026/CS398/Slides/03 Code Comprehension Without LLMs/Code Comprehension Examples 01.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",

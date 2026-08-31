@@ -1,4 +1,4 @@
-# Most international runs in a year
+# 1. Most international runs in a year
 - [ ] 1. 2017 (2818)
 - [ ] 2. 2018 (2735)
 - [ ] 3. 2016 (2595)
@@ -10,7 +10,7 @@
 - [ ] 9. 2013 (1307)
 - [ ] 10. 2022 (1348)
 - - -
-# Most international 100s in a year
+# 2. Most international 100s in a year
 - [ ] 1. 2017 (11)
 - [ ] 2. 2018 (11)
 - [ ] 3. 2014 (8)
@@ -22,7 +22,7 @@
 - [ ] 9. 2011 (4)
 - [ ] 10. 2015 (4)
 - - -
-# Most runs in a IPL season
+# 3. Most runs in a IPL season
 - [ ] 1. 2016 (973)
 - [ ] 2. 2024 (741)
 - [ ] 3. 2026 (675)
@@ -34,5 +34,29 @@
 - [ ] 9. 2015 (505)
 - [ ] 10. 2020 (471)
 - - -
-# Most test runs at a single venue
-- [ ] 
+# 4. Most test runs at a single venue
+- [ ] 1. Delhi (531)
+- [ ] 2. Adelaide (527)
+- [ ] 3. Wankhede (474)
+- [ ] 4. Hyderabad (379)
+- [ ] 5. Nagpur (366)
+- [ ] 6. MCG (357)
+- [ ] 7. Centurion (325)
+- [ ] 8. Kolkata (323)
+- [ ] 9. Wanderers (310)
+- [ ] 10. Vizag (299)
+- - -
+# 5. Bowlers to have dismissed Kohli the most
+- [ ] 1. Josh Hazlewood (11)
+- [ ] 2. Adil Rashid (11)
+- [ ] 3. Tim Southee (11)
+- [ ] 4. James Anderson (10)
+- [ ] 5. Moeen Ali (10)
+- [ ] 6. Adam Zampa (9)
+- [ ] 7. Kagiso Rabada (9)
+- [ ] 8. Ben Stokes (9)
+- [ ] 9. Nathan Lyon (8)
+- [ ] 10. Grame Swann (8)
+- - -
+# 6. 
+

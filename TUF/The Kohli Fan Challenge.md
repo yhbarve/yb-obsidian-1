@@ -58,5 +58,23 @@
 - [ ] 9. Nathan Lyon (8)
 - [ ] 10. Grame Swann (8)
 - - -
-# 6. 
+# 6. Partners with Most 100 run partnerships (including IPL)
+- [ ] 1. Rohit Sharma (27)
+- [ ] 2. Cheteshwar Pujara (17)
+- [ ] 3. Shikhar Dhawan (15)
+- [ ] 4. Ajinkya Rahane (10)
+- [ ] 5. AB de Villiers (10)
+- [ ] 6. Chris Gayle (9)
+- [ ] 7. MS Dhoni (7)
+- [ ] 8. KL Rahul (6)
+- [ ] 9. Gautam Gambhir (5)
+- [ ] 10. Faf du Plessis (5)
+- - -
+# 7. Most Int'l runs in a country other than India
+- [ ] 1. Australia (5551)
+- [ ] 2. England (4180)
+- [ ] 3. Sri Lanka (4076)
+- [ ] 4. West Indies (3850)
+- [ ] 5. South Africa (3608)
+- [ ] 6. New 
 

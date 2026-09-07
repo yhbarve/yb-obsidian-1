@@ -76,5 +76,10 @@
 - [ ] 3. Sri Lanka (4076)
 - [ ] 4. West Indies (3850)
 - [ ] 5. South Africa (3608)
-- [ ] 6. New 
+- [ ] 6. New Zealand (3173)
+- [ ] 7. Bangladesh (1698)
+- [ ] 8. Pakistan (1270)
+- [ ] 9. Afghanistan (347)
+- [ ] 10. Zimbabwe (305)
+- - -
 

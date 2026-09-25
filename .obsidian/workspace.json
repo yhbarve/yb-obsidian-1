@@ -11,14 +11,12 @@
             "id": "5b4ed91b4038dff7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "TUF/The Kohli Fan Challenge.md",
-                "mode": "source",
-                "source": false
+                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.pdf"
               },
-              "icon": "lucide-file",
-              "title": "The Kohli Fan Challenge"
+              "icon": "lucide-file-text",
+              "title": "BU433 Assignment - Yash Barve"
             }
           }
         ]
@@ -214,8 +212,8 @@
   },
   "active": "5b4ed91b4038dff7",
   "lastOpenFiles": [
-    "TUF/The Ultimate Test Cricket Fan Challenge.md",
     "TUF/The Kohli Fan Challenge.md",
+    "TUF/The Ultimate Test Cricket Fan Challenge.md",
     "README.md",
     "TUF",
     "Uni/Spring 2026/BU433/BU433 Final Cheatsheet.pdf",

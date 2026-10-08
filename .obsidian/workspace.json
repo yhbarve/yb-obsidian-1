@@ -11,10 +11,14 @@
             "id": "9804d59ecf05d06a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026/Backend From First Principles/What is a Backend.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "What is a Backend"
             }
           }
         ]
@@ -76,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5,
-    "collapsed": true
+    "width": 372.5
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -211,6 +214,9 @@
   },
   "active": "9804d59ecf05d06a",
   "lastOpenFiles": [
+    "2026/Backend From First Principles/What is a Backend.md",
+    "2026/Backend From First Principles",
+    "2026",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.pdf",
     "TUF/The Kohli Fan Challenge.md",
     "TUF/The Ultimate Test Cricket Fan Challenge.md",
@@ -223,9 +229,6 @@
     "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Hedging Off Bal Sheet Risk - Loan Sales_Securitization.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Unconfirmed 482749.crdownload",
-    "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Hedging Off Bal Sheet Risk - Derivatives.pptx",
-    "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Unconfirmed 582735.crdownload",
-    "Uni/Spring 2026/BU433/BU433 Slides/Week 10/Ch 19 Risks Incurred by FIs Canadian Content Notes.docx",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
     "Uni/Spring 2026/CS398/Notes/07 Debugging.md",
     "Uni/Spring 2026/CS398/Notes/06 Code Summarization.md",

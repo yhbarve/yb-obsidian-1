@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f50b5fb657da9d93",
+        "id": "a5d9fc2f721c0c1e",
         "type": "tabs",
         "children": [
           {
-            "id": "5b4ed91b4038dff7",
+            "id": "9804d59ecf05d06a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "BU433 Assignment - Yash Barve"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 372.5,
+    "collapsed": true
   },
   "right": {
     "id": "05ccd336703bd3ad",
@@ -210,8 +209,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b4ed91b4038dff7",
+  "active": "9804d59ecf05d06a",
   "lastOpenFiles": [
+    "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.pdf",
     "TUF/The Kohli Fan Challenge.md",
     "TUF/The Ultimate Test Cricket Fan Challenge.md",
     "README.md",
@@ -247,7 +247,6 @@
     "Uni/Spring 2026/CS398/Slides/05 Code Generation/Code Generation Examples 01.md",
     "Uni/Spring 2026/CS398/Slides/04 Requirements/Requirements Examples 02.md",
     "Uni/Spring 2026/CS398/Slides/04 Requirements/Requirements Examples 01.md",
-    "Uni/Spring 2026/CS398/Slides/03 Code Comprehension Without LLMs/Code Comprehension Examples 02.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",

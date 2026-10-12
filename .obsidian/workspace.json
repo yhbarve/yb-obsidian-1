@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/Backend From First Principles/What is a Backend.md",
+                "file": "Reading/Substack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is a Backend"
+              "title": "Substack"
             }
           }
         ]
@@ -215,6 +215,8 @@
   "active": "9804d59ecf05d06a",
   "lastOpenFiles": [
     "2026/Backend From First Principles/What is a Backend.md",
+    "Reading/Substack.md",
+    "Reading",
     "2026/Backend From First Principles",
     "2026",
     "Uni/Spring 2026/BU433/BU433 Assignment/BU433 Assignment - Yash Barve.pdf",
@@ -228,7 +230,6 @@
     "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Managing Interest Rate & Insolvency Risk.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx",
     "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Hedging Off Bal Sheet Risk - Loan Sales_Securitization.pptx",
-    "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Unconfirmed 482749.crdownload",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
     "Uni/Spring 2026/CS398/Notes/07 Debugging.md",
     "Uni/Spring 2026/CS398/Notes/06 Code Summarization.md",
@@ -249,7 +250,6 @@
     "Uni/Spring 2026/CS398/Slides/05 Code Generation/Code Generation Examples 02.md",
     "Uni/Spring 2026/CS398/Slides/05 Code Generation/Code Generation Examples 01.md",
     "Uni/Spring 2026/CS398/Slides/04 Requirements/Requirements Examples 02.md",
-    "Uni/Spring 2026/CS398/Slides/04 Requirements/Requirements Examples 01.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",

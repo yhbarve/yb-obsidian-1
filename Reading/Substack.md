@@ -1,2 +1,4 @@
-1. The Art of Being Unreachable https://themuseandthemelody.substack.com/p/the-art-of-being-unreachable
-2. 
+| Sr  | Name                                                      | Date Read  | Link                                                                                                                            |
+| --- | --------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | The Art of Being Unreachable                              | 2026-10-11 | [The Art of Being Unreachable](https://themuseandthemelody.substack.com/p/the-art-of-being-unreachable)                         |
+| 2   | the paradox of craving to be seen but fearing being known | 2026-10-12 | [the paradox of craving to be seen but fearing being known](https://harlsrana.substack.com/p/the-paradox-of-craving-to-be-seen) |

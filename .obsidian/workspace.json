@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a5d9fc2f721c0c1e",
+        "id": "0bb528aa3057315d",
         "type": "tabs",
         "children": [
           {
-            "id": "9804d59ecf05d06a",
+            "id": "0b6b1c05113dd33d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading/Substack.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Substack"
+              "title": "New tab"
             }
           }
         ]
@@ -211,10 +207,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9804d59ecf05d06a",
+  "active": "0b6b1c05113dd33d",
   "lastOpenFiles": [
-    "2026/Backend From First Principles/What is a Backend.md",
+    "Uni/Spring 2026/CS398/Cheat Sheets/CS398 Final Exam Cheat Sheet.pdf",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/07 Adversarial Machine Learning.md",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/06 Privacy-Preserving Machine Learning.md",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/05 Differential Privacy.md",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/04 Syntactic Notions of Privacy.md",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/03 Inference Attacks.md",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/02 BlockChain.md",
+    "Uni/Spring 2026/CS459/Notes/Final Exam/01 Network Steganography & Information Hiding.md",
+    "Uni/Spring 2026/BU419/BU419 Notes PDF/01 Introduction & Insurability.pdf",
+    "Uni/Spring 2026/BU419/BU419 Notes PDF/06 Market Structure & Competition.pdf",
+    "Uni/Spring 2026/BU419/BU419 Notes PDF/05 Loss Reserving.pdf",
+    "Uni/Spring 2026/BU419/BU419 Notes PDF/04 Commercial Insurance, Reinsurance, & Captive Insurance.pdf",
     "Reading/Substack.md",
+    "2026/Backend From First Principles/What is a Backend.md",
     "Reading",
     "2026/Backend From First Principles",
     "2026",
@@ -225,10 +233,6 @@
     "TUF",
     "Uni/Spring 2026/BU433/BU433 Final Cheatsheet.pdf",
     "Uni/Spring 2026/BU433/Review Before Exam.md",
-    "Uni/Spring 2026/BU433/BU433 Final Cheatsheet v2.pdf",
-    "Uni/Spring 2026/BU433/BU433 Slides/BU 433 Managing Interest Rate & Insolvency Risk.pptx",
-    "Uni/Spring 2026/BU433/BU433 Slides/Analysis of Performance - Commercial Banks.pptx",
-    "Uni/Spring 2026/BU433/BU433 Slides/Week 11/Hedging Off Bal Sheet Risk - Loan Sales_Securitization.pptx",
     "Uni/Spring 2026/CS398/Notes/09 Testing.md",
     "Uni/Spring 2026/CS398/Notes/07 Debugging.md",
     "Uni/Spring 2026/CS398/Notes/06 Code Summarization.md",
@@ -241,14 +245,6 @@
     "Uni/Spring 2026/CS398/Slides/10 Code Review/Code Review Examples 02.md",
     "Uni/Spring 2026/CS398/Slides/10 Code Review/Code Review Examples 01.md",
     "Uni/Spring 2026/CS398/Slides/09 Testing/Testing Examples 01.md",
-    "Uni/Spring 2026/CS398/Slides/09 Testing/Testing Examples 02.md",
-    "Uni/Spring 2026/CS398/Slides/07 Debugging/Debugging Examples 02.md",
-    "Uni/Spring 2026/CS398/Slides/07 Debugging/Debugging Examples 01.md",
-    "Uni/Spring 2026/CS398/Slides/06 Code Summarization/Code Summarization Examples 02.md",
-    "Uni/Spring 2026/CS398/Slides/06 Code Summarization/Code Summarization Examples 01.md",
-    "Uni/Spring 2026/CS398/Slides/05 Code Generation/Code Generation Examples 02.md",
-    "Uni/Spring 2026/CS398/Slides/05 Code Generation/Code Generation Examples 01.md",
-    "Uni/Spring 2026/CS398/Slides/04 Requirements/Requirements Examples 02.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",

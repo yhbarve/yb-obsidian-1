@@ -5,3 +5,5 @@
 | 3   | DECEMBERISTAN                                                      | 2026-10-12 | [DECEMBERISTAN](https://socraticmonologues.substack.com/p/decemberistan)                                                                   |
 | 4   | grief is the second law of thermodynamics                          | 2026-10-12 | [grief is the second law of thermodynamics](https://nanoheart.substack.com/p/grief-is-the-second-law-of-thermodynamics)                    |
 | 5   | How To Make Life Interesting Again And Escape The Dopamine Economy | 2026-10-12 | [How To Make Life Interesting Again And Escape The Dopamine Economy](https://themicrophilosopher.com/p/how-to-make-life-interesting-again) |
+| 6   | discomfort is the price you pay for a fulfilling life              | 2026-10-12 | [discomfort is the price you pay for a fulfilling life](https://shoesandshots.substack.com/p/discomfort-is-the-price-you-pay-for)          |
+| 7   | unrot your brain                                                   | 2025-10-12 | https://plumpits.substack.com/p/unrot-your-brain                                                                                           |

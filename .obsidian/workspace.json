@@ -15,7 +15,7 @@
               "state": {
                 "file": "Reading/Substack.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Substack"

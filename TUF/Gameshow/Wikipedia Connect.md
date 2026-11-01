@@ -1,14 +1,16 @@
 # 2 People
 1. Rohit Sharma -> Charles Leclerc
 2. Amitabh Bachchan -> Christopher Nolan
-3. MKBHD -> Sameer Choughule
+3. Marques Brownlee (MKBHD) -> Samir Choughule
 # 2 Cities
-1. New York -> Mumbai
-2. Canberra -> Konya (Turkey)
-3. 
-# 2 Objects
+1. Toronto -> Pune
+2. Minneapolis -> Abu Dhabi
+3. Manchester -> Konya (Turkey)
+# Misc
 1. iPhone -> Playstation 5
-2. Perfume -> Monitor
-3. 
+2. Mumbai Indians -> FC Barcelona
+3. Diet Coke -> Honda Activa
 # 2 Foods
-1. 
+1. Café Coffee Day -> Vada Pav
+2. Ras Malai -> Parle G
+3. 

@@ -20,11 +20,16 @@
 17. LinkedIn: https://www.linkedin.com/blog/engineering
 18. Netflix: https://netflixtechblog.medium.com/
 19. Turbopuffer: https://turbopuffer.com/docs
-# Individual Blogs
+20. Capital One: https://www.capitalone.com/tech/blog/
+# Leaders' Blogs
 1. Andrej Karpathy: https://karpathy.github.io/
 2. Dario Amodei: https://darioamodei.com/
 3. Sundar Pichai: https://blog.google/authors/sundar-pichai/
 4. Sam Altman: https://blog.samaltman.com/archive
+# Developer Blogs
+1. The Pragmatic Engineer: https://blog.pragmaticengineer.com/
+2. Dan Luu: https://danluu.com/
+3. Joel on Software: https://www.joelonsoftware.com/
 # Docs
 1. LiteLLM: https://docs.litellm.ai/
 # Learn
@@ -33,4 +38,3 @@
 3. UI: https://learn-ui.com/
 4. Making Software: https://www.makingsoftware.com/
 5. AI Futures Project: https://www.aifutures.org/?mode=cdf
-6. 

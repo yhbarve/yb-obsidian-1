@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TUF/Gameshow/Wikipedia Connect.md",
+                "file": "Reading/Technical/Tech Blogs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wikipedia Connect"
+              "title": "Tech Blogs"
             }
           }
         ]
@@ -213,8 +213,11 @@
   },
   "active": "0b6b1c05113dd33d",
   "lastOpenFiles": [
-    "Reading/Substack.md",
     "TUF/Gameshow/Wikipedia Connect.md",
+    "Reading/Technical/Tech Blogs.md",
+    "Reading/Non-Technical",
+    "Reading/Technical",
+    "Reading/Substack.md",
     "TUF/Gameshow",
     "TUF/Tenables",
     "Uni/Spring 2026/CS398/Cheat Sheets/CS398 Final Exam Cheat Sheet.pdf",
@@ -231,8 +234,6 @@
     "Uni/Spring 2026/BU419/BU419 Notes PDF/04 Commercial Insurance, Reinsurance, & Captive Insurance.pdf",
     "2026/Backend From First Principles/What is a Backend.md",
     "Reading",
-    "2026/Backend From First Principles",
-    "2026",
     "TUF/Tenables/The Kohli Fan Challenge.md",
     "TUF/Tenables/The Ultimate Test Cricket Fan Challenge.md",
     "README.md",
@@ -248,7 +249,6 @@
     "Uni/Spring 2026/CS398/Slides/11 Performance/Performance Examples 01.md",
     "Uni/Spring 2026/CS398/Slides/10 Code Review/Code Review Examples 02.md",
     "Uni/Spring 2026/CS398/Slides/10 Code Review/Code Review Examples 01.md",
-    "Uni/Spring 2026/CS398/Slides/09 Testing/Testing Examples 01.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",

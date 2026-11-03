@@ -31,7 +31,6 @@
 4. Sam Altman: https://blog.samaltman.com/archive
 5. Andrew Bosworth (CTO, Meta): https://boz.com/
 6. Satya Nadella: https://snscratchpad.com/
-7. 
 # Developer Blogs
 1. The Pragmatic Engineer: https://blog.pragmaticengineer.com/
 2. Dan Luu: https://danluu.com/

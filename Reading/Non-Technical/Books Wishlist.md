@@ -1,1 +1,4 @@
-- [ ] The Palace of Illusions by Chitra Banerjee Divakaruni
+- [ ] **The Palace of Illusions** by Chitra Banerjee Divakaruni
+- [ ] **Anathem** by Neal Stephenson
+- [ ] **The Last Jet-Engine Laugh** by Ruchir Joshi
+- [ ] **Red Rising** by Pierce Brown

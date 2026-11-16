@@ -1,3 +1,4 @@
+- [ ] **Wool, Shift, Dust** by Hugh Howey
 - [ ] **The Trial** by Franz Kafka
 - [ ] **The Last Jet-Engine Laugh** by Ruchir Joshi
 - [ ] **The Palace of Illusions** by Chitra Banerjee Divakaruni
@@ -6,5 +7,3 @@
 - [ ] **A Nation of Idiots** by Daksh Tyagi
 - [ ] **The Burnout Society** by Byung-Chul Han
 - [ ] **1984** by George Orwell
-- [ ] Wool by Hugh Howey
-- [ ] Shift 

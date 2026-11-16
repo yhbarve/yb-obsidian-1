@@ -1,5 +1,6 @@
+- [ ] **The Trial** by Franz Kafka
+- [ ] **The Last Jet-Engine Laugh** by Ruchir Joshi
 - [ ] **The Palace of Illusions** by Chitra Banerjee Divakaruni
 - [ ] **Anathem** by Neal Stephenson
-- [ ] **The Last Jet-Engine Laugh** by Ruchir Joshi
 - [ ] **Red Rising** by Pierce Brown
 - [ ] **A Nation of Idiots** by Daksh Tyagi

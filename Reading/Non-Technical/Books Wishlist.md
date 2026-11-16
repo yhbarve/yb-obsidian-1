@@ -4,3 +4,7 @@
 - [ ] **Anathem** by Neal Stephenson
 - [ ] **Red Rising** by Pierce Brown
 - [ ] **A Nation of Idiots** by Daksh Tyagi
+- [ ] **The Burnout Society** by Byung-Chul Han
+- [ ] **1984** by George Orwell
+- [ ] Wool by Hugh Howey
+- [ ] Shift 

@@ -1,4 +1,4 @@
-- [ ] **Wool, Shift, Dust** by Hugh Howey
+- [x] **Wool, Shift, Dust** by Hugh Howey
 - [ ] **The Trial** by Franz Kafka
 - [ ] **The Last Jet-Engine Laugh** by Ruchir Joshi
 - [ ] **The Palace of Illusions** by Chitra Banerjee Divakaruni

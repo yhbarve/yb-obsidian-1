@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading/Non-Technical/Books Wishlist.md",
+                "file": "Notes/Misc/Ved Dec 2026 Flight Details.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Books Wishlist"
+              "title": "Ved Dec 2026 Flight Details"
             }
           }
         ]
@@ -214,8 +214,10 @@
   },
   "active": "0b6b1c05113dd33d",
   "lastOpenFiles": [
-    "Reading/Technical/Tech Blogs.md",
     "Reading/Non-Technical/Books Wishlist.md",
+    "Notes/Misc/Ved Dec 2026 Flight Details.md",
+    "Notes/Misc",
+    "Reading/Technical/Tech Blogs.md",
     "TUF/Gameshow/Wikipedia Connect.md",
     "Reading/Non-Technical",
     "Reading/Technical",
@@ -235,7 +237,6 @@
     "Uni/Spring 2026/BU419/BU419 Notes PDF/05 Loss Reserving.pdf",
     "Uni/Spring 2026/BU419/BU419 Notes PDF/04 Commercial Insurance, Reinsurance, & Captive Insurance.pdf",
     "2026/Backend From First Principles/What is a Backend.md",
-    "Reading",
     "TUF/Tenables/The Kohli Fan Challenge.md",
     "TUF/Tenables/The Ultimate Test Cricket Fan Challenge.md",
     "README.md",
@@ -249,7 +250,6 @@
     "Uni/Spring 2026/CS398/Slides/12 Security/Security Examples 01.md",
     "Uni/Spring 2026/CS398/Slides/11 Performance/Performance Examples 02.md",
     "Uni/Spring 2026/CS398/Slides/11 Performance/Performance Examples 01.md",
-    "Uni/Spring 2026/CS398/Slides/10 Code Review/Code Review Examples 02.md",
     "Screenshot 2026-07-27 at 17.11.32.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png",
     "Uni/Spring 2026/CS459/Assignments/CS459 A3/A3-Materials/Q6/venv/lib/python3.14/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png",
